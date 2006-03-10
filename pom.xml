@@ -81,10 +81,11 @@
       <id>jvanzyl</id>
       <name>Jason van Zyl</name>
       <email>jason@maven.org</email>
-      <organization>Maven</organization>
+      <organization>ASF</organization>
       <roles>
         <role>PMC Chair</role>
       </roles>
+      <timezone>-5</timezone>
     </developer>
     <developer>
       <id>brett</id>
@@ -163,6 +164,36 @@
         <role>Committer</role>
       </roles>
       <timezone>-6</timezone>
+    </developer>
+    <developer>
+      <id>jdcasey</id>
+      <name>John Casey</name>
+      <email>jdcasey@apache.org</email>
+      <organization>ASF</organization>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>-5</timezone>
+    </developer>
+    <developer>
+      <id>trygvis</id>
+      <name>Trygve Laugstol</name>
+      <email>trygvis@apache.org</email>
+      <organization>ASF</organization>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>
+    <developer>
+      <id>vsiveton</id>
+      <name>Vincent Siveton</name>
+      <email>vsiveton@apache.org</email>
+      <organization>ASF</organization>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>-5</timezone>
     </developer>
   </developers>
 </project>
