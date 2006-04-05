@@ -105,6 +105,7 @@
       <roles>
         <role>PMC Member</role>
       </roles>
+      <timezone>+1</timezone>
     </developer>
     <developer>
       <id>kenney</id>
