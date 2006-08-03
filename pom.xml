@@ -160,9 +160,9 @@
       <id>mperham</id>
       <name>Mike Perham</name>
       <email>mperham@gmail.com</email>
-      <organization>Webify Solutions</organization>
+      <organization>IBM</organization>
       <roles>
-        <role>Committer</role>
+        <role>PMC Member</role>
       </roles>
       <timezone>-6</timezone>
     </developer>
