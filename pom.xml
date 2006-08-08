@@ -215,6 +215,7 @@
     </site>
   </distributionManagement>
 
+<!-- Disabled until projects have been made to comply
   <build>
     <plugins>
       <plugin>
@@ -230,6 +231,7 @@
       </plugin>
     </plugins>
   </build>
+-->
 
   <reporting>
     <plugins>
