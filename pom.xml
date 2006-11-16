@@ -216,6 +216,16 @@
       </roles>
       <timezone>+1</timezone>
     </developer>
+    <developer>
+      <id>aheritier</id>
+      <name>Arnaud Heritier</name>
+      <email>aheritier@apache.org</email>
+      <organization>ASF</organization>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>
   </developers>
 
   <distributionManagement>
