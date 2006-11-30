@@ -226,6 +226,15 @@
       </roles>
       <timezone>+1</timezone>
     </developer>
+    <developer>
+      <id>handyande</id>
+      <name>Andrew Williams</name>
+      <email>handyande@apache.org</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>0</timezone>
+    </developer>
   </developers>
 
   <distributionManagement>
