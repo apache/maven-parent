@@ -235,6 +235,16 @@
       </roles>
       <timezone>0</timezone>
     </developer>
+    <developer>
+      <id>jtolentino</id>
+      <name>Ernesto Tolentino Jr.</name>
+      <email>jtolentino@apache.org</email>
+      <organization>ASF</organization>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>+8</timezone>
+    </developer>
   </developers>
 
   <distributionManagement>
