@@ -340,15 +340,9 @@ under the License.
           </plugin>
         </plugins>
       </reporting>
-    </profile>
-
+    </profile>    
     <profile>
-      <id>release-profile</id>
-      <activation>
-        <property>
-          <name>performRelease</name>
-        </property>
-      </activation>
+      <id>release</id>
       <build>
         <plugins>
           <!-- We want to sign the artifact, the POM, and all attached artifacts -->
@@ -365,6 +359,16 @@ under the License.
                 </goals>
               </execution>
             </executions>
+          </plugin>
+          <!-- We want to deploy the artifact to a staging location for perusal -->
+          <plugin>
+            <inherited>true</inherited>
+            <artifactId>maven-deploy-plugin</artifactId>
+            <version>2.3</version>
+            <configuration>
+              <altDeploymentRepository>${deploy.altRepository}</altDeploymentRepository>
+              <updateReleaseInfo>true</updateReleaseInfo>
+            </configuration>
           </plugin>
           <!-- We want to package up license resources in the JARs produced -->
           <plugin>
@@ -383,9 +387,35 @@ under the License.
               </execution>
             </executions>
           </plugin>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-source-plugin</artifactId>
+            <version>2.0.2</version>
+            <executions>
+              <execution>
+                <id>attach-sources</id>
+                <goals>
+                  <goal>jar</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-javadoc-plugin</artifactId>
+            <version>2.2</version>
+            <executions>
+              <execution>
+                <id>attach-javadocs</id>
+                <goals>
+                  <goal>jar</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>          
         </plugins>
       </build>
-    </profile>    
+    </profile>                     
   </profiles>
 
   <scm>
