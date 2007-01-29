@@ -258,6 +258,17 @@ under the License.
       </roles>
       <timezone>-5</timezone>
     </developer>
+    <developer>
+      <id>jmcconnell</id>
+      <name>Jesse McConnell</name>
+      <email>jmcconnell@apache.org</email>
+      <organization>ASF</organization>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>-6</timezone>
+    </developer>
+ 
   </developers>
 
   <distributionManagement>
