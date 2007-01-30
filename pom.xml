@@ -268,7 +268,16 @@ under the License.
       </roles>
       <timezone>-6</timezone>
     </developer>
- 
+    <developer>
+      <id>wsmoak</id>
+      <name>Wendy Smoak</name>
+      <email>wsmoak@apache.org</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>-7</timezone>
+    </developer>
+
   </developers>
 
   <distributionManagement>
