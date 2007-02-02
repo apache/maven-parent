@@ -287,6 +287,19 @@ under the License.
     </site>
   </distributionManagement>
 
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <artifactId>maven-release-plugin</artifactId>
+          <configuration>
+            <tagBase>https://svn.apache.org/repos/asf/maven/pom/tags</tagBase>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+
   <profiles>
     <profile>
       <id>ci</id>
@@ -440,6 +453,7 @@ under the License.
             <configuration>
               <useReleaseProfile>false</useReleaseProfile>
               <goals>site site-deploy</goals>
+              <arguments>-Prelease</arguments>
             </configuration>
           </plugin>          
         </plugins>
