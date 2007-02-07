@@ -286,7 +286,8 @@ under the License.
       <url>scp://people.apache.org/www/maven.apache.org</url>
     </site>
   </distributionManagement>
-
+   
+  <!-- START SNIPPET: release-plugin-configuration -->
   <build>
     <pluginManagement>
       <plugins>
@@ -305,6 +306,8 @@ under the License.
       </plugins>
     </pluginManagement>
   </build>
+  <!-- END SNIPPET: release-plugin-configuration -->
+
 
   <profiles>
     <profile>
@@ -379,7 +382,8 @@ under the License.
           </plugin>
         </plugins>
       </reporting>
-    </profile>    
+    </profile>   
+    <!-- START SNIPPET: release-profile --> 
     <profile>
       <id>release</id>
       <build>
@@ -454,7 +458,8 @@ under the License.
           </plugin>          
         </plugins>
       </build>
-    </profile>                     
+    </profile>
+    <!-- END SNIPPET: release-profile -->                      
   </profiles>
 
   <scm>
