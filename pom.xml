@@ -24,7 +24,7 @@ under the License.
   <parent>
     <groupId>org.apache</groupId>
     <artifactId>apache</artifactId>
-    <version>3</version>
+    <version>4</version>
     <relativePath>../asf/pom.xml</relativePath>
   </parent>
   <groupId>org.apache.maven</groupId>
