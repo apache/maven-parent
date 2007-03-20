@@ -281,7 +281,17 @@ under the License.
       <id>brianf</id>
       <name>Brian Fox</name>
       <email>brianf@apache.org</email>
-	  <organization>STC</organization>
+      <organization>STC</organization>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>-5</timezone>
+    </developer>
+    <developer>
+      <id>dkulp</id>
+      <name>Daniel Kulp</name>
+      <email>dkulp@apache.org</email>
+      <organization>IONA</organization>
       <roles>
         <role>Committer</role>
       </roles>
