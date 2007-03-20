@@ -277,7 +277,16 @@ under the License.
       </roles>
       <timezone>-7</timezone>
     </developer>
-
+    <developer>
+      <id>brianf</id>
+      <name>Brian Fox</name>
+      <email>brianf@apache.org</email>
+	  <organization>STC</organization>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>-5</timezone>
+    </developer>
   </developers>
 
   <distributionManagement>
