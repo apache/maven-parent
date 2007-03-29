@@ -1,7 +1,9 @@
 
 
 Edit this file in SVN at https://svn.apache.org/repos/asf/maven/project/KEYS
-then update in /www/www.apache.org/dist/maven/KEYS
+then update in /www/www.apache.org/dist/maven/KEYS using
+
+svn export https://svn.apache.org/repos/asf/maven/project/KEYS /www/www.apache.org/dist/maven/KEYS
 
 
 
