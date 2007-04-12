@@ -609,6 +609,15 @@ under the License.
       </roles>
       <timezone>-7</timezone>
     </developer>
+    <developer>
+      <id>pschneider</id>
+      <name>Patrick Schneider</name>
+      <email>pschneider@gmail.com</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>-6</timezone>
+    </developer>
     <!--End Committers-->
   </developers>
 </project>
