@@ -271,7 +271,8 @@ under the License.
       <id>aheritier</id>
       <name>Arnaud Heritier</name>
       <email>aheritier@apache.org</email>
-      <organization>ASF</organization>
+      <organization>OCTO Technology</organization>
+      <organizationUrl>http://www.octo.com</organizationUrl>
       <roles>
         <role>PMC Member</role>
       </roles>
