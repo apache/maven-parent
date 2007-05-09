@@ -398,9 +398,12 @@ under the License.
     <developer>
       <id>ltheussl</id>
       <name>Lukas Theussl</name>
+      <email>ltheussl@apache.org</email>
+      <organization>ASF</organization>
       <roles>
         <role>PMC Member</role>
       </roles>
+      <timezone>+1</timezone>
     </developer>
     <developer>
       <id>mperham</id>
