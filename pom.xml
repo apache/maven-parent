@@ -94,10 +94,23 @@ under the License.
             <arguments>-Prelease</arguments>
           </configuration>
         </plugin>
+  <!-- END SNIPPET: release-plugin-configuration -->
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-jar-plugin</artifactId>
+          <version>2.1</version>
+          <configuration>
+            <archive>
+              <manifest>
+                <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
+                <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+              </manifest>
+            </archive>
+          </configuration>
+        </plugin>
       </plugins>
     </pluginManagement>
   </build>
-  <!-- END SNIPPET: release-plugin-configuration -->
   <profiles>
     <profile>
       <id>ci</id>
