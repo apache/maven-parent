@@ -78,27 +78,29 @@ under the License.
       <url>scp://people.apache.org/www/maven.apache.org</url>
     </site>
   </distributionManagement>
-  <!-- START SNIPPET: release-plugin-configuration -->
   <build>
-    <!-- We want to package up license resources in the JARs produced -->
-    <plugin>
-      <artifactId>maven-remote-resources-plugin</artifactId>
-      <version>1.0-alpha-2</version>
-      <executions>
-        <execution>
-          <goals>
-            <goal>process</goal>
-          </goals>
-          <configuration>
-            <resourceBundles>
-              <resourceBundle>org.apache:apache-jar-resource-bundle:1.0</resourceBundle>
-            </resourceBundles>
-          </configuration>
-        </execution>
-      </executions>
-    </plugin>
+    <plugins>
+      <!-- We want to package up license resources in the JARs produced -->
+      <plugin>
+        <artifactId>maven-remote-resources-plugin</artifactId>
+        <version>1.0-alpha-2</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>process</goal>
+            </goals>
+            <configuration>
+              <resourceBundles>
+                <resourceBundle>org.apache:apache-jar-resource-bundle:1.0</resourceBundle>
+              </resourceBundles>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
     <pluginManagement>
       <plugins>
+        <!-- START SNIPPET: release-plugin-configuration -->
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-release-plugin</artifactId>
@@ -111,7 +113,7 @@ under the License.
             <arguments>-Prelease</arguments>
           </configuration>
         </plugin>
-  <!-- END SNIPPET: release-plugin-configuration -->
+        <!-- END SNIPPET: release-plugin-configuration -->
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-jar-plugin</artifactId>
