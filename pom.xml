@@ -80,6 +80,23 @@ under the License.
   </distributionManagement>
   <!-- START SNIPPET: release-plugin-configuration -->
   <build>
+    <!-- We want to package up license resources in the JARs produced -->
+    <plugin>
+      <artifactId>maven-remote-resources-plugin</artifactId>
+      <version>1.0-alpha-2</version>
+      <executions>
+        <execution>
+          <goals>
+            <goal>process</goal>
+          </goals>
+          <configuration>
+            <resourceBundles>
+              <resourceBundle>org.apache:apache-jar-resource-bundle:1.0</resourceBundle>
+            </resourceBundles>
+          </configuration>
+        </execution>
+      </executions>
+    </plugin>
     <pluginManagement>
       <plugins>
         <plugin>
@@ -214,23 +231,6 @@ under the License.
               <altDeploymentRepository>${deploy.altRepository}</altDeploymentRepository>
               <updateReleaseInfo>true</updateReleaseInfo>
             </configuration>
-          </plugin>
-          <!-- We want to package up license resources in the JARs produced -->
-          <plugin>
-            <artifactId>maven-remote-resources-plugin</artifactId>
-            <version>1.0-alpha-2</version>
-            <executions>
-              <execution>
-                <goals>
-                  <goal>process</goal>
-                </goals>
-                <configuration>
-                  <resourceBundles>
-                    <resourceBundle>org.apache:apache-jar-resource-bundle:1.0</resourceBundle>
-                  </resourceBundles>
-                </configuration>
-              </execution>
-            </executions>
           </plugin>
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
