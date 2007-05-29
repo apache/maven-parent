@@ -471,6 +471,15 @@ under the License.
       </roles>
       <timezone>-5</timezone>
     </developer>
+    <developer>
+      <id>wsmoak</id>
+      <name>Wendy Smoak</name>
+      <email>wsmoak@apache.org</email>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>-7</timezone>
+    </developer>
     <!--Committers-->
     <developer>
       <id>aramirez</id>
@@ -593,6 +602,15 @@ under the License.
       </roles>
     </developer>
     <developer>
+      <id>pschneider</id>
+      <name>Patrick Schneider</name>
+      <email>pschneider@gmail.com</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>-6</timezone>
+    </developer>
+    <developer>
       <id>rgoers</id>
       <name>Ralph Goers</name>
       <roles>
@@ -619,24 +637,6 @@ under the License.
       <roles>
         <role>Committer</role>
       </roles>
-    </developer>
-    <developer>
-      <id>wsmoak</id>
-      <name>Wendy Smoak</name>
-      <email>wsmoak@apache.org</email>
-      <roles>
-        <role>Committer</role>
-      </roles>
-      <timezone>-7</timezone>
-    </developer>
-    <developer>
-      <id>pschneider</id>
-      <name>Patrick Schneider</name>
-      <email>pschneider@gmail.com</email>
-      <roles>
-        <role>Committer</role>
-      </roles>
-      <timezone>-6</timezone>
     </developer>
     <!--End Committers-->
   </developers>
