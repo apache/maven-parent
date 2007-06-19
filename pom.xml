@@ -83,7 +83,7 @@ under the License.
       <!-- We want to package up license resources in the JARs produced -->
       <plugin>
         <artifactId>maven-remote-resources-plugin</artifactId>
-        <version>1.0-alpha-2</version>
+        <version>1.0-alpha-5</version>
         <executions>
           <execution>
             <goals>
@@ -91,7 +91,7 @@ under the License.
             </goals>
             <configuration>
               <resourceBundles>
-                <resourceBundle>org.apache:apache-jar-resource-bundle:1.0</resourceBundle>
+                <resourceBundle>org.apache:apache-jar-resource-bundle:1.2</resourceBundle>
               </resourceBundles>
             </configuration>
           </execution>
