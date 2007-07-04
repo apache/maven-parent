@@ -100,6 +100,14 @@ under the License.
     </plugins>
     <pluginManagement>
       <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <configuration>
+            <source>1.4</source>
+            <target>1.4</target>
+          </configuration>
+        </plugin>
         <!-- START SNIPPET: release-plugin-configuration -->
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
