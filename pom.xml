@@ -610,6 +610,15 @@ under the License.
       </roles>
     </developer>
     <developer>
+      <id>olamy</id>
+      <name>Olivier Lamy</name>
+      <email>olamy@apache.org</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>
+    <developer>
       <id>pschneider</id>
       <name>Patrick Schneider</name>
       <email>pschneider@gmail.com</email>
