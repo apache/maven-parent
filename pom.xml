@@ -589,6 +589,13 @@ under the License.
       <timezone>0</timezone>
     </developer>
     <developer>
+      <id>hboutemy</id>
+      <name>Herve Boutemy</name>
+      <roles>
+        <role>Committer</role>
+      </roles>
+    </developer>
+    <developer>
       <id>jjensen</id>
       <name>Jeff Jensen</name>
       <roles>
