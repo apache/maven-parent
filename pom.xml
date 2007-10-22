@@ -27,7 +27,7 @@ under the License.
   </parent>
   <groupId>org.apache.maven</groupId>
   <artifactId>maven-parent</artifactId>
-  <version>8-SNAPSHOT</version>
+  <version>7-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>Apache Maven</name>
   <description>Maven is a software project management and comprehension tool. Based on the concept of a project object model   (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.</description>
@@ -222,7 +222,7 @@ under the License.
           <!-- We want to sign the artifact, the POM, and all attached artifacts -->
           <plugin>
             <artifactId>maven-gpg-plugin</artifactId>
-            <version>1.0-alpha-3</version>
+            <version>1.0-alpha-4</version>
             <configuration>
               <passphrase>${gpg.passphrase}</passphrase>
             </configuration>
