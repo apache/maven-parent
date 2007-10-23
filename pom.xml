@@ -27,7 +27,7 @@ under the License.
   </parent>
   <groupId>org.apache.maven</groupId>
   <artifactId>maven-parent</artifactId>
-  <version>7-SNAPSHOT</version>
+  <version>            &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;</version>
   <packaging>pom</packaging>
   <name>Apache Maven</name>
   <description>Maven is a software project management and comprehension tool. Based on the concept of a project object model   (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.</description>
@@ -278,9 +278,9 @@ under the License.
     <!-- END SNIPPET: release-profile -->
   </profiles>
   <scm>
-    <connection>scm:svn:http://svn.apache.org/repos/asf/maven/pom/trunk/maven</connection>
-    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/pom/trunk/maven</developerConnection>
-    <url>http://svn.apache.org/viewvc/maven/pom/trunk/maven</url>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/maven/pom/tags/maven-parent-            &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/pom/tags/maven-parent-            &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;</developerConnection>
+    <url>http://svn.apache.org/viewvc/maven/pom/tags/maven-parent-            &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;</url>
   </scm>
   <!-- Developers listed by PMC Chair, PMC, Committers, Contributers, all alphabetical-->
   <developers>
