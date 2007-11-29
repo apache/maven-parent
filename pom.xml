@@ -143,6 +143,7 @@ under the License.
           <artifactId>maven-javadoc-plugin</artifactId>
           <version>2.3</version>
         </plugin>
+        <!-- START SNIPPET: release-plugin-configuration -->
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-release-plugin</artifactId>
@@ -155,6 +156,7 @@ under the License.
             <arguments>-Prelease</arguments>
           </configuration>
         </plugin>
+        <!-- END SNIPPET: release-plugin-configuration -->
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-remote-resources-plugin</artifactId>
