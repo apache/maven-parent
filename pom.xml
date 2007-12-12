@@ -480,16 +480,6 @@ under the License.
       <timezone>-6</timezone>
     </developer>
     <developer>
-      <id>nicolas</id>
-      <name>Nicolas De Loof</name>
-      <email>nicolas@apache.org</email>
-      <organization>Capgemini</organization>	  
-      <roles>
-        <role>Committer</role>
-      </roles>
-      <timezone>+1</timezone>
-    </developer>	
-    <developer>
       <id>snicoll</id>
       <name>Stephane Nicoll</name>
       <email>snicoll@apache.org</email>
@@ -658,6 +648,16 @@ under the License.
       <roles>
         <role>Committer</role>
       </roles>
+    </developer>
+    <developer>
+      <id>nicolas</id>
+      <name>Nicolas De Loof</name>
+      <email>nicolas@apache.org</email>
+      <organization>Capgemini</organization>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>+1</timezone>
     </developer>
     <developer>
       <id>oching</id>
