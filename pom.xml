@@ -19,23 +19,29 @@ under the License.
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
+
   <parent>
     <groupId>org.apache</groupId>
     <artifactId>apache</artifactId>
     <version>4</version>
     <relativePath>../asf/pom.xml</relativePath>
   </parent>
+
   <groupId>org.apache.maven</groupId>
   <artifactId>maven-parent</artifactId>
   <version>8-SNAPSHOT</version>
   <packaging>pom</packaging>
+
   <name>Apache Maven</name>
-  <description>Maven is a software project management and comprehension tool. Based on the concept of a project object model   (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.</description>
+  <description>Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.</description>
   <url>http://maven.apache.org/</url>
+  <inceptionYear>2002</inceptionYear>
+
   <issueManagement>
     <system>jira</system>
     <url>http://jira.codehaus.org/browse/MNG</url>
   </issueManagement>
+
   <ciManagement>
     <system>continuum</system>
     <url>http://maven.zones.apache.org/continuum</url>
@@ -48,7 +54,7 @@ under the License.
       </notifier>
     </notifiers>
   </ciManagement>
-  <inceptionYear>2002</inceptionYear>
+
   <mailingLists>
     <mailingList>
       <name>Maven Announcements List</name>
@@ -72,12 +78,14 @@ under the License.
       <archive>http://mail-archives.apache.org/mod_mbox/maven-notifications/</archive>
     </mailingList>
   </mailingLists>
+
   <distributionManagement>
     <site>
       <id>apache.website</id>
       <url>scp://people.apache.org/www/maven.apache.org</url>
     </site>
   </distributionManagement>
+
   <build>
     <plugins>
       <!-- We want to package up license resources in the JARs produced -->
@@ -180,6 +188,7 @@ under the License.
       </plugins>
     </pluginManagement>
   </build>
+
   <profiles>
     <profile>
       <id>ci</id>
@@ -314,11 +323,13 @@ under the License.
     </profile>
     <!-- END SNIPPET: release-profile -->
   </profiles>
+
   <scm>
     <connection>scm:svn:http://svn.apache.org/repos/asf/maven/pom/trunk/maven</connection>
     <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/pom/trunk/maven</developerConnection>
     <url>http://svn.apache.org/viewvc/maven/pom/trunk/maven</url>
   </scm>
+
   <!-- Developers listed by PMC Chair, PMC, Committers, Contributers, all alphabetical-->
   <developers>
     <developer>
