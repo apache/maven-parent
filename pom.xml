@@ -261,6 +261,10 @@ under the License.
               </links>
             </configuration>
           </plugin>
+          <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>clirr-maven-plugin</artifactId>
+          </plugin>
         </plugins>
       </reporting>
     </profile>
