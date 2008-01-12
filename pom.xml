@@ -700,6 +700,16 @@ under the License.
       <timezone>-6</timezone>
     </developer>
     <developer>
+      <id>rafale</id>
+      <name>Raphaël Piéroni</name>
+      <email>rafale@apache.org</email>
+      <organization>Dexem</organization>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>
+    <developer>
       <id>rgoers</id>
       <name>Ralph Goers</name>
       <roles>
