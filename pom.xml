@@ -495,6 +495,15 @@ under the License.
       <timezone>-6</timezone>
     </developer>
     <developer>
+      <id>olamy</id>
+      <name>Olivier Lamy</name>
+      <email>olamy@apache.org</email>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>    
+    <developer>
       <id>snicoll</id>
       <name>Stephane Nicoll</name>
       <email>snicoll@apache.org</email>
@@ -679,15 +688,6 @@ under the License.
       <roles>
         <role>Committer</role>
       </roles>
-    </developer>
-    <developer>
-      <id>olamy</id>
-      <name>Olivier Lamy</name>
-      <email>olamy@apache.org</email>
-      <roles>
-        <role>Committer</role>
-      </roles>
-      <timezone>+1</timezone>
     </developer>
     <developer>
       <id>pschneider</id>
