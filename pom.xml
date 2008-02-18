@@ -62,20 +62,22 @@ under the License.
       <subscribe>announce-subscribe@maven.apache.org</subscribe>
       <unsubscribe>announce-unsubscribe@maven.apache.org</unsubscribe>
       <archive>http://mail-archives.apache.org/mod_mbox/maven-announce/</archive>
-    </mailingList>
-    <mailingList>
-      <name>Maven Issues List</name>
-      <post>issues@maven.apache.org</post>
-      <subscribe>issues-subscribe@maven.apache.org</subscribe>
-      <unsubscribe>issues-unsubscribe@maven.apache.org</unsubscribe>
-      <archive>http://mail-archives.apache.org/mod_mbox/maven-issues/</archive>
+      <otherArchives>
+        <otherArchive>http://www.mail-archive.com/announce@maven.apache.org</otherArchive>
+        <otherArchive>http://www.nabble.com/Maven-Announcements-f15617.html</otherArchive>
+        <otherArchive>http://maven.announce.markmail.org/</otherArchive>
+      </otherArchives>
     </mailingList>
     <mailingList>
       <name>Maven Notifications List</name>
-      <post>notifications@maven.apache.org</post>
       <subscribe>notifications-subscribe@maven.apache.org</subscribe>
       <unsubscribe>notifications-unsubscribe@maven.apache.org</unsubscribe>
       <archive>http://mail-archives.apache.org/mod_mbox/maven-notifications/</archive>
+      <otherArchives>
+        <otherArchive>http://www.mail-archive.com/notifications@maven.apache.org</otherArchive>
+        <otherArchive>http://www.nabble.com/Maven---Notifications-f15574.html</otherArchive>
+        <otherArchive>http://maven.notifications.markmail.org/</otherArchive>
+      </otherArchives>
     </mailingList>
   </mailingLists>
 
