@@ -82,6 +82,10 @@ under the License.
   </mailingLists>
 
   <distributionManagement>
+    <repository>
+      <id>maven.staging</id>
+      <url>scp://people.apache.org/www/people.apache.org/builds/maven/${project.version}/staging-repo</url>
+    </repository>
     <site>
       <id>apache.website</id>
       <url>scp://people.apache.org/www/maven.apache.org</url>
