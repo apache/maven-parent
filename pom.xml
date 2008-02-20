@@ -563,6 +563,14 @@ under the License.
       </roles>
       <timezone>-7</timezone>
     </developer>
+    <developer>
+      <id>dfabulich</id>
+      <name>Daniel Fabulich</name>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>-8</timezone>
+    </developer>
     <!--Committers-->
     <developer>
       <id>aramirez</id>
@@ -609,13 +617,6 @@ under the License.
     <developer>
       <id>dblevins</id>
       <name>David Blevins</name>
-      <roles>
-        <role>Committer</role>
-      </roles>
-    </developer>
-    <developer>
-      <id>dfabulich</id>
-      <name>Daniel Fabulich</name>
       <roles>
         <role>Committer</role>
       </roles>
