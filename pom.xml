@@ -409,6 +409,15 @@ under the License.
       <timezone>+1</timezone>
     </developer>
     <developer>
+      <id>dfabulich</id>
+      <name>Daniel Fabulich</name>
+      <email>dfabulich@apache.org</email>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>-8</timezone>
+    </developer>
+    <developer>
       <id>evenisse</id>
       <name>Emmanuel Venisse</name>
       <email>evenisse@apache.org</email>
@@ -562,14 +571,6 @@ under the License.
         <role>PMC Member</role>
       </roles>
       <timezone>-7</timezone>
-    </developer>
-    <developer>
-      <id>dfabulich</id>
-      <name>Daniel Fabulich</name>
-      <roles>
-        <role>PMC Member</role>
-      </roles>
-      <timezone>-8</timezone>
     </developer>
     <!--Committers-->
     <developer>
