@@ -37,11 +37,6 @@ under the License.
   <url>http://maven.apache.org/</url>
   <inceptionYear>2002</inceptionYear>
 
-  <issueManagement>
-    <system>jira</system>
-    <url>http://jira.codehaus.org/browse/MNG</url>
-  </issueManagement>
-
   <ciManagement>
     <system>continuum</system>
     <url>http://maven.zones.apache.org/continuum</url>
