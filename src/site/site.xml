@@ -19,7 +19,7 @@ specific language governing permissions and limitations
 under the License.
 -->
 
-<project name="Maven">
+<project>
   <bannerLeft>
     <name>${project.name}</name>
     <src>http://maven.apache.org/images/apache-maven-project-2.png</src>
@@ -32,9 +32,10 @@ under the License.
   <skin>
     <groupId>org.apache.maven.skins</groupId>
     <artifactId>maven-stylus-skin</artifactId>
+    <version>1.0.1</version>
   </skin>
 
-  <publishDate format="yyyy-MMM-dd" position="left" />
+  <publishDate format="yyyy-MM-dd" position="left" />
   <version position="left" />
 
   <body>
