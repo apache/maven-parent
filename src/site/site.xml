@@ -34,7 +34,7 @@ under the License.
     <artifactId>maven-stylus-skin</artifactId>
   </skin>
 
-  <publishDate format="dd MMM yyyy" position="left" />
+  <publishDate format="yyyy-MMM-dd" position="left" />
   <version position="left" />
 
   <body>
