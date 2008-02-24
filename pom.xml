@@ -35,7 +35,6 @@ under the License.
   <name>Apache Maven</name>
   <description>Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.</description>
   <url>http://maven.apache.org/</url>
-  <inceptionYear>2002</inceptionYear>
 
   <ciManagement>
     <system>continuum</system>
@@ -49,6 +48,8 @@ under the License.
       </notifier>
     </notifiers>
   </ciManagement>
+
+  <inceptionYear>2002</inceptionYear>
 
   <mailingLists>
     <mailingList>
@@ -75,11 +76,6 @@ under the License.
       </otherArchives>
     </mailingList>
   </mailingLists>
-  
-  <properties>
-    <distMgmtSnapshotsName>Apache Development Snapshot Repository</distMgmtSnapshotsName>
-    <distMgmtSnapshotsUrl>scp://people.apache.org/www/people.apache.org/repo/m2-snapshot-repository</distMgmtSnapshotsUrl>
-  </properties>
 
   <distributionManagement>
     <repository>
@@ -751,4 +747,9 @@ under the License.
     </developer>
     <!--End Committers-->
   </developers>
+
+  <properties>
+    <distMgmtSnapshotsName>Apache Development Snapshot Repository</distMgmtSnapshotsName>
+    <distMgmtSnapshotsUrl>scp://people.apache.org/www/people.apache.org/repo/m2-snapshot-repository</distMgmtSnapshotsUrl>
+  </properties>
 </project>
