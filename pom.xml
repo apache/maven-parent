@@ -29,7 +29,7 @@ under the License.
 
   <groupId>org.apache.maven</groupId>
   <artifactId>maven-parent</artifactId>
-  <version>8</version>
+  <version>9-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>Apache Maven</name>
@@ -336,9 +336,9 @@ under the License.
   </profiles>
 
   <scm>
-    <connection>scm:svn:http://svn.apache.org/repos/asf/maven/pom/tags/maven-parent-8</connection>
-    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/pom/tags/maven-parent-8</developerConnection>
-    <url>http://svn.apache.org/viewvc/maven/pom/tags/maven-parent-8</url>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/maven/pom/trunk/maven</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/pom/trunk/maven</developerConnection>
+    <url>http://svn.apache.org/viewvc/maven/pom/trunk/maven</url>
   </scm>
 
   <!-- Developers listed by PMC Chair, PMC, Committers, Contributers, all alphabetical-->
