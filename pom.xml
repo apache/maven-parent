@@ -598,6 +598,15 @@ under the License.
       </roles>
     </developer>
     <developer>
+      <id>bentmann</id>
+      <name>Benjamin Bentmann</name>
+      <email>bentmann@apache.org</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>
+    <developer>
       <id>chrisjs</id>
       <name>Chris Stevenson</name>
       <roles>
