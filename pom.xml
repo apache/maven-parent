@@ -203,6 +203,7 @@ under the License.
           <version>2.4.2</version>
         </plugin>
         <!-- set versions of common reporting plugins for site reproducibility, ordered alphabetically -->
+        <!-- won't help until MNG-3385 is fixed
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-checkstyle-plugin</artifactId>
@@ -247,7 +248,7 @@ under the License.
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>taglist-maven-plugin</artifactId>
           <version>2.2</version>
-        </plugin>
+        </plugin>-->
       </plugins>
     </pluginManagement>
   </build>
