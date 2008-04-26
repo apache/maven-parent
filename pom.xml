@@ -37,8 +37,8 @@ under the License.
   <url>http://maven.apache.org/</url>
 
   <ciManagement>
-    <system>continuum</system>
-    <url>http://maven.zones.apache.org/continuum</url>
+    <system>Hudson</system>
+    <url>http://ci.sonatype.org</url>
     <notifiers>
       <notifier>
         <type>mail</type>
