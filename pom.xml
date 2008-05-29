@@ -639,6 +639,17 @@ under the License.
       </roles>
       <timezone>-7</timezone>
     </developer>
+    <developer>
+      <id>dkulp</id>
+      <name>Daniel Kulp</name>
+      <email>dkulp@apache.org</email>
+      <organization>IONA</organization>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>-5</timezone>
+    </developer>
+
     <!--Committers-->
     <developer>
       <id>aramirez</id>
@@ -697,16 +708,6 @@ under the License.
       <roles>
         <role>Committer</role>
       </roles>
-    </developer>
-    <developer>
-      <id>dkulp</id>
-      <name>Daniel Kulp</name>
-      <email>dkulp@apache.org</email>
-      <organization>IONA</organization>
-      <roles>
-        <role>Committer</role>
-      </roles>
-      <timezone>-5</timezone>
     </developer>
     <developer>
       <id>dlr</id>
