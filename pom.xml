@@ -252,7 +252,7 @@ under the License.
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>clirr-maven-plugin</artifactId>
-          <version>2.3-SNAPSHOT</version>
+          <version>2.2.1</version>
         </plugin>
       </plugins>
     </pluginManagement>
@@ -359,7 +359,7 @@ under the License.
           <plugin>
             <groupId>org.codehaus.mojo</groupId>
             <artifactId>clirr-maven-plugin</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <version>2.2.1</version>
           </plugin>
         </plugins>
       </reporting>
