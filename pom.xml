@@ -197,6 +197,9 @@ under the License.
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-resources-plugin</artifactId>
           <version>2.2</version>
+          <configuration>
+            <encoding>${project.build.sourceEncoding}</encoding>
+          </configuration>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -356,6 +359,9 @@ under the License.
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-jxr-plugin</artifactId>
             <version>2.1</version>
+            <configuration>
+              <inputEncoding>${project.build.sourceEncoding}</inputEncoding>
+            </configuration>
           </plugin>
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
@@ -805,6 +811,7 @@ under the License.
       <roles>
         <role>Committer</role>
       </roles>
+      <timezone>+1</timezone>
     </developer>
     <developer>
       <id>jjensen</id>
