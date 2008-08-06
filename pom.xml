@@ -293,8 +293,15 @@ under the License.
   </build>
 
   <profiles>
+  
     <profile>
-      <id>ci</id>
+      <id>quality-checks</id>
+      <activation>
+        <property>
+          <name>quality-checks</name>
+          <value>true</value>
+        </property>
+      </activation>
       <build>
         <plugins>
           <plugin>
@@ -303,7 +310,7 @@ under the License.
             <executions>
               <execution>
                 <id>clirr-check</id>
-                <phase>package</phase>
+                <phase>verify</phase>
                 <goals>
                   <goal>check</goal>
                 </goals>
@@ -322,6 +329,8 @@ under the License.
             </configuration>
             <executions>
               <execution>
+                <id>cpd-check</id>
+                <phase>verify</phase>
                 <goals>
                   <goal>cpd-check</goal>
                 </goals>
