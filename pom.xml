@@ -239,7 +239,7 @@ under the License.
         <plugin>
           <groupId>org.codehaus.modello</groupId>
           <artifactId>modello-maven-plugin</artifactId>
-          <version>1.0-alpha-21-SNAPSHOT</version>
+          <version>1.0-alpha-21</version>
         </plugin>
         <!-- set versions of common reporting plugins for site reproducibility, ordered alphabetically -->
         <!-- won't help until MNG-3385 is fixed
