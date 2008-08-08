@@ -944,6 +944,13 @@ under the License.
         <role>Committer</role>
       </roles>
     </developer>
+    <developer>
+      <id>ogusakov</id>
+      <name>Oleg Gusakov</name>
+      <roles>
+        <role>Committer</role>
+      </roles>
+    </developer>
     <!--End Committers-->
   </developers>
 
