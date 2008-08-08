@@ -389,6 +389,9 @@ under the License.
             <artifactId>maven-pmd-plugin</artifactId>
             <version>2.4</version>
             <configuration>
+              <rulesets>
+                <ruleset>http://svn.apache.org/repos/asf/maven/plugins/trunk/maven-pmd-plugin/src/main/resources/rulesets/maven.xml</ruleset>
+              </rulesets>
               <excludeRoots>
                 <excludeRoot>${project.build.directory}/generated-sources/modello</excludeRoot>
                 <excludeRoot>${project.build.directory}/generated-sources/plugin</excludeRoot>
