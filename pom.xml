@@ -577,11 +577,12 @@ under the License.
           <artifactId>maven-deploy-plugin</artifactId>
           <version>2.3</version>
         </plugin>
-        <plugin>
+        <!--<plugin>
+        Uncomment after alpha-4 is released...we have check or egg here doing the release that introduces the rule that is needed.
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-enforcer-plugin</artifactId>
-          <version>1.0-SNAPSHOT</version>
-        </plugin>
+          <version>1.0-alpha-4</version>
+        </plugin>-->
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-docck-plugin</artifactId>
@@ -758,7 +759,9 @@ under the License.
       </activation>
       <build>
         <plugins>
-          <plugin>
+        
+          <!--<plugin>
+          Clirr needs to be more flexble before we can force this everywhere. New releases that don't have previous artifacts to compare cause Clirr to blow up. And Clirr needs to be smart enough to only look at the previous release artifact so we can make this work during snapshot builds, otherwise it just blows up when you try to do a release.
             <groupId>org.codehaus.mojo</groupId>
             <artifactId>clirr-maven-plugin</artifactId>
             <executions>
@@ -770,7 +773,7 @@ under the License.
                 </goals>
               </execution>
             </executions>
-          </plugin>
+          </plugin>-->
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-pmd-plugin</artifactId>
