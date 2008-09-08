@@ -31,7 +31,7 @@ under the License.
 
   <groupId>org.apache.maven</groupId>
   <artifactId>maven-parent</artifactId>
-  <version>9</version>
+  <version>10-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>Apache Maven</name>
@@ -491,9 +491,9 @@ under the License.
   </mailingLists>
 
   <scm>
-    <connection>scm:svn:http://svn.apache.org/repos/asf/maven/pom/tags/maven-parent-9</connection>
-    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/pom/tags/maven-parent-9</developerConnection>
-    <url>http://svn.apache.org/viewvc/maven/pom/tags/maven-parent-9</url>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/maven/pom/trunk/maven</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/pom/trunk/maven</developerConnection>
+    <url>http://svn.apache.org/viewvc/maven/pom/trunk/maven</url>
   </scm>
   <ciManagement>
     <system>Hudson</system>
