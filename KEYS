@@ -418,10 +418,10 @@ uid                  Brian E Fox <brianf@apache.org>
 sig 3        3C062231 2007-01-09  Brian E Fox <brianf@apache.org>
 sub   2048g/D812A037 2007-01-09
 sig          3C062231 2007-01-09  Brian E Fox <brianf@apache.org>
- 
+
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v1.4.6 (MingW32)
- 
+
 mQGiBEWjofgRBACePEiXmSvjcjUgWkNAFQ/w7w2VSEqe1vuTCrta+ER9JsvhwipP
 2/BEHigFf99TlU0p1UC591LMeYP2UXfQnb3jiyEPKxA06aj1fTGGMoNMAilymvgd
 pcixjlSJBvsmyFYuUdYK20UghL7fAU1lD8Y7TVXz0XT0n1oMOwf78qB4vwCg/bIQ
@@ -1190,3 +1190,40 @@ Zrrjn9omplyZ
 =/nS0
 -----END PGP PUBLIC KEY BLOCK-----
 
+
+pub   1024D/9A25CE21 2008-10-03
+uid                  Barrie Treloar <baerrach@apache.org>
+sig 3        9A25CE21 2008-10-03  Barrie Treloar <baerrach@apache.org>
+sub   2048g/D70D652E 2008-10-03
+sig          9A25CE21 2008-10-03  Barrie Treloar <baerrach@apache.org>
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v1.4.9 (MingW32)
+
+mQGiBEjmoUQRBACv3Qi6oX2R/CNjvUqiLVcW/R+MSj4OVJZOPNu/3XC0KdhzpMU1
+/l3L3gggCEf7iRIsw7bI2wAcAYH6BzcJ/8XoDDnf+ci2sevuk3bQWl7XOiApEZ1q
+QkNIYCVXz3gf96GpesvPgqHrUHxb+YLTHy9cRSLbUCfTKYpJSVM3IMDEowCgwEry
+xC56UygSznO7NTpiCwKtlSEEAI8f9cFvlJuGiKBI3c3CrM/7PGwekBSWDKQ+mw0K
+2hhHeWuD5kINxyLvIyLllyiztMuwVIQWXb3yJPGcKjVAh7xyO246R0RMFYerJnCl
+5iGcnf64LvoDk7fbIMUyPBNqNld5yhxrUlb0vh98GIXHaE977t/skFfdDkcU37aU
+XkogBACkDTncIuBxRF9DmK3kXrHr7jjAnkmDz44ZwA9ggToHauAfsfaP2e1B1fxn
+MyV201JqQUovD9euj29WbhzOnWnmvOU0dphOsx4KNMogrnBoxplzKbVWPFoQNCeT
+lDw4rAvN51dMU9yMdAsjvB9d34YPd08w0gxMLHXUI4oi+gQSZLQkQmFycmllIFRy
+ZWxvYXIgPGJhZXJyYWNoQGFwYWNoZS5vcmc+iGAEExECACAFAkjmoUQCGwMGCwkI
+BwMCBBUCCAMEFgIDAQIeAQIXgAAKCRCorSp+miXOIZ48AJ46v75Yi09YSmGlH68r
+7Hgp24pHFQCdFWXNv6tYZCzNWe8oTXqIOk27mg65Ag0ESOahRBAIALyR8dyo4bTt
+jl+Tnb/S3qad2FES2Ax4vORrXfJ6q00TlLpFw65NTPNKa9fKOXCmqKsiOrO5VLn4
+UwXk+n8bvXQYhcJMDPK3gaXz5gCho4RQbBNsBQPPPbjQybk5kXk0e5CSwaf1G1pV
+23vJ3mEP9QB6Wigjfr6qocB3At5+qWzexRZjTGbyZJN+ZbBFENdiTlj68UpnpEk/
+jOTE/MaytwWes/WN2KexAvJ/uJEibnpyMFXqG+8ZzWojdQ/Vz5RzCtAHny0PKl0Z
+Ag8Bzyc+Rp8rIhGdur3L1YefYwUYheHEe7x2J/8JycKr+GvymxgRua7fcJKhQF6T
+Bm6BZqkMc1MAAwUH+wVHAoL6rXo/k5orUIgkmRDMjwNmXvLyQ+YvrD9PEQ8As39K
+1dNN7jF1ShjXSIYrywJB1x1K10KC/ZaeYGHqhPZMpnFECbVrE9LyOpljxSpxCEMz
+Yz9IhmsGJXwMMTBg/wQdHv3cbypvMNrCGRVaftXdR8APQedJO7SKsLfxGBVhzpeq
+dPXxai4lBmjNx5YHt1Q0PQQbkC9sUXfFsUB8s58ysFr8W9ERzdaJ5tEXn+1M1WYy
+sa3WGMxqVAsm+AKOh+aAy6D4tezP6IJ3usNwShy96SUB7oL5DS4ld1GoOSnmqxTx
+esgbu1kRvqc8LAJ9zqYIY2Plq9I3uCit2hapHyqISQQYEQIACQUCSOahRAIbDAAK
+CRCorSp+miXOIZDSAKCl+XEY3JCMOQfqbxzHNYXU1Nl0BACfc1J9pO3DSTrzErSC
+tBnmTrcYf8g=
+=Y9WU
+-----END PGP PUBLIC KEY BLOCK-----
