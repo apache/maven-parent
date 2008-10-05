@@ -132,6 +132,15 @@ under the License.
       <timezone>+1</timezone>
     </developer>
     <developer>
+      <id>hboutemy</id>
+      <name>Herve Boutemy</name>
+      <email>hboutemy@apache.org</email>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>
+    <developer>
       <id>jdcasey</id>
       <name>John Casey</name>
       <email>jdcasey@apache.org</email>
@@ -367,14 +376,6 @@ under the License.
         <role>Committer</role>
       </roles>
       <timezone>0</timezone>
-    </developer>
-    <developer>
-      <id>hboutemy</id>
-      <name>Herve Boutemy</name>
-      <roles>
-        <role>Committer</role>
-      </roles>
-      <timezone>+1</timezone>
     </developer>
     <developer>
       <id>jjensen</id>
