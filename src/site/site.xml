@@ -70,6 +70,7 @@ under the License.
       <item name="JXR"               href="http://maven.apache.org/jxr/index.html" />
       <item name="Maven 1.x"         href="http://maven.apache.org/maven-1.x/index.html" />
       <item name="Maven 2"           href="http://maven.apache.org/index.html" />
+      <item name="Mercury"           href="http://maven.apache.org/mercury/index.html" />
       <item name="Plugins"           href="http://maven.apache.org/plugins/index.html" />
       <item name="SCM"               href="http://maven.apache.org/scm/index.html" />
       <item name="Shared Components" href="http://maven.apache.org/shared/index.html" />
