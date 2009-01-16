@@ -418,6 +418,15 @@ under the License.
       <timezone>-6</timezone>
     </developer>
     <developer>
+      <id>ptahchiev</id>
+      <name>Petar Tahchiev</name>
+      <email>ptahchiev@apache.org</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>+2</timezone>
+    </developer>
+    <developer>
       <id>rafale</id>
       <name>Raphaël Piéroni</name>
       <email>rafale@apache.org</email>
