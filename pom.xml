@@ -236,6 +236,16 @@ under the License.
       <timezone>+1</timezone>
     </developer>
     <developer>
+      <id>rgoers</id>
+      <name>Ralph Goers</name>
+      <email>rgoers@apache.org</email>
+      <organization>Intuit</organization>
+      <timezone>-8</timezone>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+    </developer>
+    <developer>
       <id>snicoll</id>
       <name>Stephane Nicoll</name>
       <email>snicoll@apache.org</email>
@@ -435,13 +445,6 @@ under the License.
         <role>Committer</role>
       </roles>
       <timezone>+1</timezone>
-    </developer>
-    <developer>
-      <id>rgoers</id>
-      <name>Ralph Goers</name>
-      <roles>
-        <role>Committer</role>
-      </roles>
     </developer>
     <developer>
       <id>rinku</id>
