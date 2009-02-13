@@ -25,7 +25,7 @@ under the License.
   <parent>
     <groupId>org.apache</groupId>
     <artifactId>apache</artifactId>
-    <version>4</version>
+    <version>5-SNAPSHOT</version>
     <relativePath>../asf/pom.xml</relativePath>
   </parent>
 
@@ -510,7 +510,7 @@ under the License.
   </scm>
   <ciManagement>
     <system>Hudson</system>
-    <url>http://ci.sonatype.org</url>
+    <url>http://grid.sonatype.org/ci</url>
     <notifiers>
       <notifier>
         <type>mail</type>
@@ -521,15 +521,6 @@ under the License.
     </notifiers>
   </ciManagement>
   <distributionManagement>
-    <repository>
-      <id>maven.staging</id>
-      <url>scp://people.apache.org/www/people.apache.org/builds/maven/${project.version}/staging-repo</url>
-    </repository>
-    <snapshotRepository>
-      <id>apache.snapshots</id>
-      <name>${distMgmtSnapshotsName}</name>
-      <url>${distMgmtSnapshotsUrl}</url>
-    </snapshotRepository>
     <site>
       <id>apache.website</id>
       <url>scp://people.apache.org/www/maven.apache.org</url>
@@ -537,8 +528,6 @@ under the License.
   </distributionManagement>
 
   <properties>
-    <distMgmtSnapshotsName>Apache Development Snapshot Repository</distMgmtSnapshotsName>
-    <distMgmtSnapshotsUrl>scp://people.apache.org/www/people.apache.org/repo/m2-snapshot-repository</distMgmtSnapshotsUrl>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
