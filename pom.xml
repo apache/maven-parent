@@ -25,7 +25,7 @@ under the License.
   <parent>
     <groupId>org.apache</groupId>
     <artifactId>apache</artifactId>
-    <version>5-SNAPSHOT</version>
+    <version>5</version>
     <relativePath>../asf/pom.xml</relativePath>
   </parent>
 
