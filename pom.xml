@@ -53,7 +53,7 @@ under the License.
     </developer>
     <developer>
       <id>aheritier</id>
-      <name>Arnaud Heritier</name>
+      <name>Arnaud Héritier</name>
       <email>aheritier@apache.org</email>
       <organization>OCTO Technology</organization>
       <organizationUrl>http://www.octo.com</organizationUrl>
@@ -142,7 +142,7 @@ under the License.
     </developer>
     <developer>
       <id>hboutemy</id>
-      <name>Herve Boutemy</name>
+      <name>Hervé Boutemy</name>
       <email>hboutemy@apache.org</email>
       <roles>
         <role>PMC Member</role>
@@ -660,7 +660,7 @@ under the License.
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-site-plugin</artifactId>
-          <version>2.0-beta-7</version>
+          <version>2.0</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -685,7 +685,7 @@ under the License.
         <plugin>
           <groupId>org.codehaus.modello</groupId>
           <artifactId>modello-maven-plugin</artifactId>
-          <version>1.0-alpha-22</version>
+          <version>1.0.1</version>
         </plugin>
         <!-- set versions of common reporting plugins for site reproducibility, ordered alphabetically -->
         <!-- won't help until MNG-3385 is fixed
@@ -712,7 +712,7 @@ under the License.
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-project-info-reports-plugin</artifactId>
-          <version>2.1</version>
+          <version>2.1.1</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -742,7 +742,7 @@ under the License.
     <plugins>
       <plugin>
         <artifactId>maven-project-info-reports-plugin</artifactId>
-        <version>2.1</version>
+        <version>2.1.1</version>
       </plugin>
     </plugins>
   </reporting>
@@ -820,7 +820,7 @@ under the License.
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-project-info-reports-plugin</artifactId>
-            <version>2.1</version>
+            <version>2.1.1</version>
           </plugin>
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
