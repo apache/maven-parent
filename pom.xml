@@ -225,6 +225,13 @@ under the License.
       <timezone>+1</timezone>
     </developer>
     <developer>
+      <id>mkleint</id>
+      <name>Milos Kleint</name>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+    </developer>
+    <developer>
       <id>mperham</id>
       <name>Mike Perham</name>
       <email>mperham@gmail.com</email>
@@ -233,6 +240,13 @@ under the License.
         <role>PMC Member</role>
       </roles>
       <timezone>-6</timezone>
+    </developer>
+    <developer>
+      <id>oching</id>
+      <name>Maria Odea B. Ching</name>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
     </developer>
     <developer>
       <id>olamy</id>
@@ -393,13 +407,6 @@ under the License.
       </roles>
     </developer>
     <developer>
-      <id>mkleint</id>
-      <name>Milos Kleint</name>
-      <roles>
-        <role>Committer</role>
-      </roles>
-    </developer>
-    <developer>
       <id>nicolas</id>
       <name>Nicolas De Loof</name>
       <email>nicolas@apache.org</email>
@@ -408,13 +415,6 @@ under the License.
         <role>Committer</role>
       </roles>
       <timezone>+1</timezone>
-    </developer>
-    <developer>
-      <id>oching</id>
-      <name>Maria Odea B. Ching</name>
-      <roles>
-        <role>Committer</role>
-      </roles>
     </developer>
     <developer>
       <id>ogusakov</id>
