@@ -119,6 +119,16 @@ under the License.
       <timezone>-8</timezone>
     </developer>
     <developer>
+      <id>dkulp</id>
+      <name>Daniel Kulp</name>
+      <email>dkulp@apache.org</email>
+      <organization>IONA</organization>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>-5</timezone>
+    </developer>
+    <developer>
       <id>evenisse</id>
       <name>Emmanuel Venisse</name>
       <email>evenisse@apache.org</email>
@@ -158,6 +168,16 @@ under the License.
       <timezone>-5</timezone>
     </developer>
     <developer>
+      <id>jmcconnell</id>
+      <name>Jesse McConnell</name>
+      <email>jmcconnell@apache.org</email>
+      <organization>ASF</organization>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>-6</timezone>
+    </developer>
+    <developer>
       <id>joakime</id>
       <name>Joakim Erdfelt</name>
       <email>joakime@apache.org</email>
@@ -183,16 +203,6 @@ under the License.
         <role>PMC Member</role>
       </roles>
       <timezone>+8</timezone>
-    </developer>
-    <developer>
-      <id>jmcconnell</id>
-      <name>Jesse McConnell</name>
-      <email>jmcconnell@apache.org</email>
-      <organization>ASF</organization>
-      <roles>
-        <role>PMC Member</role>
-      </roles>
-      <timezone>-6</timezone>
     </developer>
     <developer>
       <id>kenney</id>
@@ -291,16 +301,6 @@ under the License.
         <role>PMC Member</role>
       </roles>
       <timezone>-7</timezone>
-    </developer>
-    <developer>
-      <id>dkulp</id>
-      <name>Daniel Kulp</name>
-      <email>dkulp@apache.org</email>
-      <organization>IONA</organization>
-      <roles>
-        <role>PMC Member</role>
-      </roles>
-      <timezone>-5</timezone>
     </developer>
 
     <!--Committers-->
@@ -417,6 +417,13 @@ under the License.
       </roles>
     </developer>
     <developer>
+      <id>ogusakov</id>
+      <name>Oleg Gusakov</name>
+      <roles>
+        <role>Committer</role>
+      </roles>
+    </developer>
+    <developer>
       <id>pschneider</id>
       <name>Patrick Schneider</name>
       <email>pschneider@gmail.com</email>
@@ -461,13 +468,6 @@ under the License.
     <developer>
       <id>smorgrav</id>
       <name>Torbjorn Eikli Smorgrav</name>
-      <roles>
-        <role>Committer</role>
-      </roles>
-    </developer>
-    <developer>
-      <id>ogusakov</id>
-      <name>Oleg Gusakov</name>
       <roles>
         <role>Committer</role>
       </roles>
