@@ -424,6 +424,15 @@ under the License.
       </roles>
     </developer>
     <developer>
+      <id>pgier</id>
+      <name>Paul Gier</name>
+      <email>pgier@apache.org</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>-6</timezone>
+    </developer>
+    <developer>
       <id>pschneider</id>
       <name>Patrick Schneider</name>
       <email>pschneider@gmail.com</email>
