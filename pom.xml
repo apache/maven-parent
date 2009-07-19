@@ -61,6 +61,13 @@ under the License.
       <timezone>+1</timezone>
     </developer>
     <developer>
+      <id>baerrach</id>
+      <name>Barrie Treloar</name>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+    </developer>
+    <developer>
       <id>bentmann</id>
       <name>Benjamin Bentmann</name>
       <email>bentmann@apache.org</email>
@@ -321,13 +328,6 @@ under the License.
     <developer>
       <id>aramirez</id>
       <name>Allan Q. Ramirez</name>
-      <roles>
-        <role>Committer</role>
-      </roles>
-    </developer>
-    <developer>
-      <id>baerrach</id>
-      <name>Barrie Treloar</name>
       <roles>
         <role>Committer</role>
       </roles>
