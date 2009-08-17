@@ -554,7 +554,7 @@ under the License.
             <artifactId>maven-assembly-plugin</artifactId>
             <dependencies>
               <dependency>
-                <groupId>org.apache</groupId>
+                <groupId>org.apache.apache.resources</groupId>
                 <artifactId>apache-source-release-assembly-descriptor</artifactId>
                 <version>1.0</version>
               </dependency>
