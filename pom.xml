@@ -481,6 +481,15 @@ under the License.
         <role>Committer</role>
       </roles>
     </developer>
+    <developer>
+      <id>stephenc</id>
+      <name>Stephen Connolly</name>
+      <email>stephenc@apache.org</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>0</timezone>
+    </developer>
     <!--End Committers-->
   </developers>
 
