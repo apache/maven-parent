@@ -542,7 +542,7 @@ under the License.
       <url>scp://people.apache.org/www/maven.apache.org</url>
     </site>
   </distributionManagement>
-  
+
   <build>
     <pluginManagement>
       <plugins>
@@ -660,7 +660,7 @@ under the License.
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-project-info-reports-plugin</artifactId>
-            <version>2.1.1</version>
+            <version>2.1.2</version>
           </plugin>
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
@@ -728,6 +728,9 @@ under the License.
                 <link>http://logging.apache.org/log4j/1.2/apidocs/</link>
                 <link>http://jakarta.apache.org/regexp/apidocs/</link>
                 <link>http://velocity.apache.org/engine/releases/velocity-1.5/apidocs/</link>
+                <link>http://plexus.codehaus.org/plexus-utils/apidocs/</link>
+                <link>http://plexus.codehaus.org/plexus-classworlds/apidocs/</link>
+                <link>http://plexus.codehaus.org/plexus-containers/plexus-container-default/apidocs/</link>
               </links>
             </configuration>
             <reportSets>
