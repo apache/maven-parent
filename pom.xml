@@ -42,9 +42,9 @@ under the License.
   <!-- Developers listed by PMC Chair, PMC, Committers, Contributers, all alphabetical-->
   <developers>
     <developer>
-      <id>jvanzyl</id>
-      <name>Jason van Zyl</name>
-      <email>jason@maven.org</email>
+      <id>brianf</id>
+      <name>Brian Fox</name>
+      <email>brianf@apache.org</email>
       <organization>ASF</organization>
       <roles>
         <role>PMC Chair</role>
@@ -85,16 +85,6 @@ under the License.
         <role>PMC Member</role>
       </roles>
       <timezone>+10</timezone>
-    </developer>
-    <developer>
-      <id>brianf</id>
-      <name>Brian Fox</name>
-      <email>brianf@apache.org</email>
-      <organization>ASF</organization>
-      <roles>
-        <role>PMC Member</role>
-      </roles>
-      <timezone>-5</timezone>
     </developer>
     <developer>
       <id>carlos</id>
@@ -210,6 +200,16 @@ under the License.
         <role>PMC Member</role>
       </roles>
       <timezone>+8</timezone>
+    </developer>
+    <developer>
+      <id>jvanzyl</id>
+      <name>Jason van Zyl</name>
+      <email>jason@maven.org</email>
+      <organization>ASF</organization>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>-5</timezone>
     </developer>
     <developer>
       <id>kenney</id>
