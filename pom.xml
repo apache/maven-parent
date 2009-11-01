@@ -697,6 +697,7 @@ under the License.
             </configuration>
           </plugin>
           <plugin>
+            <!-- NOTE: 2.3 or more requires java 1.5 -->
             <groupId>org.codehaus.mojo</groupId>
             <artifactId>cobertura-maven-plugin</artifactId>
             <version>2.2</version>
