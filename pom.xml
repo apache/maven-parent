@@ -25,6 +25,10 @@ under the License.
   <parent>
     <groupId>org.apache</groupId>
     <artifactId>apache</artifactId>
+    
+    <!-- NOTE: When we upgrade to version 7, we need to REMOVE the 
+         source-release-assembly execution of the assembly plugin, 
+         in the apache-release profile below. -->
     <version>6</version>
     <relativePath>../asf/pom.xml</relativePath>
   </parent>
@@ -559,6 +563,8 @@ under the License.
       <id>apache-release</id>
       <build>
         <plugins>
+          <!-- This is being moved to the ASF parent POM (for release in version 7).
+               Remove once this has been released. -->
           <plugin>
             <artifactId>maven-assembly-plugin</artifactId>
             <dependencies>
