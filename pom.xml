@@ -494,6 +494,15 @@ under the License.
       </roles>
       <timezone>0</timezone>
     </developer>
+    <developer>
+      <id>markh</id>
+      <name>Mark Hobson</name>
+      <email>markh@apache.org</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>0</timezone>
+    </developer>
     <!--End Committers-->
   </developers>
 
