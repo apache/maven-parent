@@ -243,16 +243,6 @@ under the License.
       </roles>
     </developer>
     <developer>
-      <id>mperham</id>
-      <name>Mike Perham</name>
-      <email>mperham@gmail.com</email>
-      <organization>IBM</organization>
-      <roles>
-        <role>PMC Member</role>
-      </roles>
-      <timezone>-6</timezone>
-    </developer>
-    <developer>
       <id>oching</id>
       <name>Maria Odea B. Ching</name>
       <roles>
@@ -502,6 +492,16 @@ under the License.
         <role>Committer</role>
       </roles>
       <timezone>0</timezone>
+    </developer>
+	<developer>
+      <id>mperham</id>
+      <name>Mike Perham</name>
+      <email>mperham@gmail.com</email>
+      <organization>IBM</organization>
+      <roles>
+        <role>Emeritus</role>
+      </roles>
+      <timezone>-6</timezone>
     </developer>
     <!--End Committers-->
   </developers>
