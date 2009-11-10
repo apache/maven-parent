@@ -49,7 +49,7 @@ under the License.
       <id>brianf</id>
       <name>Brian Fox</name>
       <email>brianf@apache.org</email>
-      <organization>ASF</organization>
+      <organization>Sonatype</organization>
       <roles>
         <role>PMC Chair</role>
       </roles>
@@ -297,6 +297,17 @@ under the License.
         <role>PMC Member</role>
       </roles>
       <timezone>+1</timezone>
+    </developer>
+	<developer>
+      <id>jvanzyl</id>
+      <name>Jason van Zyl</name>
+      <email>jason@maven.org</email>
+      <organization>ASF</organization>
+      <roles>
+        <role>PMC Member</role>
+		<role>Founder</role>
+      </roles>
+      <timezone>-5</timezone>
     </developer>
     <developer>
       <id>vmassol</id>
