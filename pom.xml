@@ -140,16 +140,6 @@ under the License.
       <timezone>+1</timezone>
     </developer>
     <developer>
-      <id>fgiust</id>
-      <name>Fabrizio Giustina</name>
-      <email>fgiust@apache.org</email>
-      <organization>openmind</organization>
-      <roles>
-        <role>PMC Member</role>
-      </roles>
-      <timezone>+1</timezone>
-    </developer>
-    <developer>
       <id>hboutemy</id>
       <name>Hervé Boutemy</name>
       <email>hboutemy@apache.org</email>
@@ -177,33 +167,6 @@ under the License.
         <role>PMC Member</role>
       </roles>
       <timezone>-6</timezone>
-    </developer>
-    <developer>
-      <id>joakime</id>
-      <name>Joakim Erdfelt</name>
-      <email>joakime@apache.org</email>
-      <organization>ASF</organization>
-      <roles>
-        <role>PMC Member</role>
-      </roles>
-      <timezone>-5</timezone>
-    </developer>
-    <developer>
-      <id>jstrachan</id>
-      <name>James Strachan</name>
-      <roles>
-        <role>PMC Member</role>
-      </roles>
-    </developer>
-    <developer>
-      <id>jtolentino</id>
-      <name>Ernesto Tolentino Jr.</name>
-      <email>jtolentino@apache.org</email>
-      <organization>ASF</organization>
-      <roles>
-        <role>PMC Member</role>
-      </roles>
-      <timezone>+8</timezone>
     </developer>
     <developer>
       <id>jvanzyl</id>
@@ -377,6 +340,16 @@ under the License.
       </roles>
       <timezone>-8</timezone>
     </developer>
+	<developer>
+      <id>fgiust</id>
+      <name>Fabrizio Giustina</name>
+      <email>fgiust@apache.org</email>
+      <organization>openmind</organization>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>
     <developer>
       <id>felipeal</id>
       <name>Felipe Leme</name>
@@ -492,6 +465,33 @@ under the License.
         <role>Committer</role>
       </roles>
       <timezone>0</timezone>
+    </developer>
+	   <developer>
+      <id>joakime</id>
+      <name>Joakim Erdfelt</name>
+      <email>joakime@apache.org</email>
+      <organization>ASF</organization>
+      <roles>
+        <role>Emeritus</role>
+      </roles>
+      <timezone>-5</timezone>
+    </developer>
+    <developer>
+      <id>jstrachan</id>
+      <name>James Strachan</name>
+      <roles>
+        <role>Emeritus</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>jtolentino</id>
+      <name>Ernesto Tolentino Jr.</name>
+      <email>jtolentino@apache.org</email>
+      <organization>ASF</organization>
+      <roles>
+        <role>Emeritus</role>
+      </roles>
+      <timezone>+8</timezone>
     </developer>
 	<developer>
       <id>mperham</id>
