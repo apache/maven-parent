@@ -29,7 +29,7 @@ under the License.
     <!-- NOTE: When we upgrade to version 7, we need to REMOVE the 
          source-release-assembly execution of the assembly plugin, 
          in the apache-release profile below. -->
-    <version>6</version>
+    <version>7</version>
     <relativePath>../asf/pom.xml</relativePath>
   </parent>
 
