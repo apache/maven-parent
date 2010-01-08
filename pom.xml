@@ -71,6 +71,7 @@ under the License.
       <id>bentmann</id>
       <name>Benjamin Bentmann</name>
       <email>bentmann@apache.org</email>
+      <organization>Sonatype</organization>
       <roles>
         <role>PMC Member</role>
       </roles>
@@ -490,7 +491,7 @@ under the License.
       </roles>
       <timezone>+8</timezone>
     </developer>
-  <developer>
+    <developer>
       <id>mperham</id>
       <name>Mike Perham</name>
       <email>mperham@gmail.com</email>
