@@ -339,6 +339,16 @@ under the License.
       <timezone>-8</timezone>
     </developer>
     <developer>
+      <id>ifedorenko</id>
+      <name>Igor Fedorenko</name>
+      <email>igor@ifedorenko.com</email>
+      <organization>Sonatype</organization>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>-5</timezone>
+    </developer>
+    <developer>
       <id>fgiust</id>
       <name>Fabrizio Giustina</name>
       <email>fgiust@apache.org</email>
