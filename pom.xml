@@ -402,6 +402,7 @@ under the License.
       <id>pgier</id>
       <name>Paul Gier</name>
       <email>pgier@apache.org</email>
+      <organization>Red Hat</organization>
       <roles>
         <role>Committer</role>
       </roles>
