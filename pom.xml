@@ -382,6 +382,15 @@ under the License.
       </roles>
     </developer>
     <developer>
+      <id>krosenvold</id>
+      <name>Kristian Rosenvold</name>
+      <email>krosenvold@apache.org</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>
+    <developer>
       <id>nicolas</id>
       <name>Nicolas De Loof</name>
       <email>nicolas@apache.org</email>
