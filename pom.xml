@@ -669,6 +669,7 @@ under the License.
             <version>2.4</version>
             <configuration>
               <rulesets>
+                <!-- TODO: when upgrading to the next release of PMD, this can be changed to /rulesets/maven.xml -->
                 <ruleset>http://svn.apache.org/repos/asf/maven/plugins/trunk/maven-pmd-plugin/src/main/resources/rulesets/maven.xml</ruleset>
               </rulesets>
               <excludeRoots>
