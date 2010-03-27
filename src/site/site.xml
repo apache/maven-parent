@@ -62,10 +62,7 @@ under the License.
 
     <menu name="Maven Projects" inherit="bottom">
       <item name="Ant Tasks"         href="http://maven.apache.org/ant-tasks/index.html" />
-      <!-- TODO: No site available for archetype yet,
-                 enable this when the site has been deployed
       <item name="Archetype"         href="http://maven.apache.org/archetype/index.html" />
-      -->
       <item name="Doxia"             href="http://maven.apache.org/doxia/index.html" />
       <item name="JXR"               href="http://maven.apache.org/jxr/index.html" />
       <item name="Maven 1.x"         href="http://maven.apache.org/maven-1.x/index.html" />
