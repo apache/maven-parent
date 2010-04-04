@@ -533,7 +533,7 @@ under the License.
       <archive>http://mail-archives.apache.org/mod_mbox/maven-announce/</archive>
       <otherArchives>
         <otherArchive>http://www.mail-archive.com/announce@maven.apache.org</otherArchive>
-        <otherArchive>http://www.nabble.com/Maven-Announcements-f15617.html</otherArchive>
+        <otherArchive>http://old.nabble.com/Maven-Announcements-f15617.html</otherArchive>
         <otherArchive>http://markmail.org/list/org.apache.maven.announce</otherArchive>
       </otherArchives>
     </mailingList>
@@ -544,7 +544,7 @@ under the License.
       <archive>http://mail-archives.apache.org/mod_mbox/maven-notifications/</archive>
       <otherArchives>
         <otherArchive>http://www.mail-archive.com/notifications@maven.apache.org</otherArchive>
-        <otherArchive>http://www.nabble.com/Maven---Notifications-f15574.html</otherArchive>
+        <otherArchive>http://old.nabble.com/Maven---Notifications-f15574.html</otherArchive>
         <otherArchive>http://markmail.org/list/org.apache.maven.notifications</otherArchive>
       </otherArchives>
     </mailingList>
