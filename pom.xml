@@ -220,6 +220,16 @@ under the License.
       <timezone>+1</timezone>
     </developer>
     <developer>
+      <id>pgier</id>
+      <name>Paul Gier</name>
+      <email>pgier@apache.org</email>
+      <organization>Red Hat</organization>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>-6</timezone>
+    </developer>
+    <developer>
       <id>rgoers</id>
       <name>Ralph Goers</name>
       <email>rgoers@apache.org</email>
@@ -406,16 +416,6 @@ under the License.
       <roles>
         <role>Committer</role>
       </roles>
-    </developer>
-    <developer>
-      <id>pgier</id>
-      <name>Paul Gier</name>
-      <email>pgier@apache.org</email>
-      <organization>Red Hat</organization>
-      <roles>
-        <role>Committer</role>
-      </roles>
-      <timezone>-6</timezone>
     </developer>
     <developer>
       <id>pschneider</id>
