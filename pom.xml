@@ -401,16 +401,6 @@ under the License.
       <timezone>+1</timezone>
     </developer>
     <developer>
-      <id>nicolas</id>
-      <name>Nicolas De Loof</name>
-      <email>nicolas@apache.org</email>
-      <organization>Capgemini</organization>
-      <roles>
-        <role>Committer</role>
-      </roles>
-      <timezone>+1</timezone>
-    </developer>
-    <developer>
       <id>ogusakov</id>
       <name>Oleg Gusakov</name>
       <roles>
