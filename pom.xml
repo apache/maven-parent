@@ -240,16 +240,6 @@ under the License.
       <timezone>+1</timezone>
     </developer>
     <developer>
-      <id>trygvis</id>
-      <name>Trygve Laugstol</name>
-      <email>trygvis@apache.org</email>
-      <organization>ASF</organization>
-      <roles>
-        <role>PMC Member</role>
-      </roles>
-      <timezone>+1</timezone>
-    </developer>
-    <developer>
       <id>vmassol</id>
       <name>Vincent Massol</name>
       <email>vmassol@apache.org</email>
@@ -281,15 +271,11 @@ under the License.
 
     <!--Committers-->
     <developer>
-      <id>aramirez</id>
-      <name>Allan Q. Ramirez</name>
-      <roles>
-        <role>Committer</role>
-      </roles>
-    </developer>
-    <developer>
-      <id>bayard</id>
-      <name>Henri Yandell</name>
+      <id>bdemers</id>
+      <name>Brian Demers</name>
+	  <organization>Sonatype</organization>
+	  <email>bdemers@apache.org</email>
+	  <timezone>-5</timezone>
       <roles>
         <role>Committer</role>
       </roles>
@@ -302,8 +288,11 @@ under the License.
       </roles>
     </developer>
     <developer>
-      <id>chrisjs</id>
-      <name>Chris Stevenson</name>
+      <id>cstamas</id>
+      <name>Tamas Cservanak</name>
+	  <organization>Sonatype</organization>
+	  <email>cstamas@apache.org</email>
+	  <timezone>+1</timezone>
       <roles>
         <role>Committer</role>
       </roles>
@@ -316,28 +305,15 @@ under the License.
       </roles>
     </developer>
     <developer>
-      <id>dblevins</id>
-      <name>David Blevins</name>
+      <id>dbradicich</id>
+      <name>Damian Bradicich</name>
+	  <organization>Sonatype</organization>
+	  <email>dbradicich@apache.org</email>
+	  <timezone>-5</timezone>
       <roles>
         <role>Committer</role>
       </roles>
-    </developer>
-    <developer>
-      <id>dlr</id>
-      <name>Daniel Rall</name>
-      <roles>
-        <role>Committer</role>
-      </roles>
-    </developer>
-    <developer>
-      <id>epunzalan</id>
-      <name>Edwin Punzalan</name>
-      <email>epunzalan@apache.org</email>
-      <roles>
-        <role>Committer</role>
-      </roles>
-      <timezone>-8</timezone>
-    </developer>
+    </developer>	
     <developer>
       <id>ifedorenko</id>
       <name>Igor Fedorenko</name>
@@ -357,13 +333,6 @@ under the License.
         <role>Committer</role>
       </roles>
       <timezone>+1</timezone>
-    </developer>
-    <developer>
-      <id>felipeal</id>
-      <name>Felipe Leme</name>
-      <roles>
-        <role>Committer</role>
-      </roles>
     </developer>
     <developer>
       <id>handyande</id>
@@ -391,31 +360,6 @@ under the License.
       <timezone>+1</timezone>
     </developer>
     <developer>
-      <id>ogusakov</id>
-      <name>Oleg Gusakov</name>
-      <roles>
-        <role>Committer</role>
-      </roles>
-    </developer>
-    <developer>
-      <id>pschneider</id>
-      <name>Patrick Schneider</name>
-      <email>pschneider@gmail.com</email>
-      <roles>
-        <role>Committer</role>
-      </roles>
-      <timezone>-6</timezone>
-    </developer>
-    <developer>
-      <id>ptahchiev</id>
-      <name>Petar Tahchiev</name>
-      <email>ptahchiev@apache.org</email>
-      <roles>
-        <role>Committer</role>
-      </roles>
-      <timezone>+2</timezone>
-    </developer>
-    <developer>
       <id>rafale</id>
       <name>Raphaël Piéroni</name>
       <email>rafale@apache.org</email>
@@ -426,27 +370,6 @@ under the License.
       <timezone>+1</timezone>
     </developer>
     <developer>
-      <id>rinku</id>
-      <name>Rahul Thakur</name>
-      <roles>
-        <role>Committer</role>
-      </roles>
-    </developer>
-    <developer>
-      <id>shinobu</id>
-      <name>Shinobu Kuwai</name>
-      <roles>
-        <role>Committer</role>
-      </roles>
-    </developer>
-    <developer>
-      <id>smorgrav</id>
-      <name>Torbjorn Eikli Smorgrav</name>
-      <roles>
-        <role>Committer</role>
-      </roles>
-    </developer>
-    <developer>
       <id>stephenc</id>
       <name>Stephen Connolly</name>
       <email>stephenc@apache.org</email>
@@ -455,14 +378,57 @@ under the License.
       </roles>
       <timezone>0</timezone>
     </developer>
+    <!--End Committers-->
     <developer>
-      <id>markh</id>
-      <name>Mark Hobson</name>
-      <email>markh@apache.org</email>
+      <id>aramirez</id>
+      <name>Allan Q. Ramirez</name>
       <roles>
-        <role>Committer</role>
+        <role>Emeritus</role>
       </roles>
-      <timezone>0</timezone>
+    </developer>
+    <developer>
+      <id>bayard</id>
+      <name>Henri Yandell</name>
+      <roles>
+        <role>Emeritus</role>
+      </roles>
+    </developer>
+	<developer>
+      <id>chrisjs</id>
+      <name>Chris Stevenson</name>
+      <roles>
+        <role>Emeritus</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>dblevins</id>
+      <name>David Blevins</name>
+      <roles>
+        <role>Emeritus</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>dlr</id>
+      <name>Daniel Rall</name>
+      <roles>
+        <role>Emeritus</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>epunzalan</id>
+      <name>Edwin Punzalan</name>
+      <email>epunzalan@apache.org</email>
+      <roles>
+        <role>Emeritus</role>
+      </roles>
+      <timezone>-8</timezone>
+    </developer>
+    <developer>
+      <id>felipeal</id>
+      <name>Felipe Leme</name>
+      <roles>
+        <role>Emeritus</role>
+      </roles>
     </developer>
     <developer>
       <id>jmcconnell</id>
@@ -501,6 +467,15 @@ under the License.
       </roles>
       <timezone>+8</timezone>
     </developer>
+	<developer>
+      <id>markh</id>
+      <name>Mark Hobson</name>
+      <email>markh@apache.org</email>
+      <roles>
+        <role>Emeritus</role>
+      </roles>
+      <timezone>0</timezone>
+    </developer>
     <developer>
       <id>mperham</id>
       <name>Mike Perham</name>
@@ -510,8 +485,63 @@ under the License.
         <role>Emeritus</role>
       </roles>
       <timezone>-6</timezone>
+    </developer>	
+    <developer>
+      <id>ogusakov</id>
+      <name>Oleg Gusakov</name>
+      <roles>
+        <role>Emeritus</role>
+      </roles>
     </developer>
-    <!--End Committers-->
+    <developer>
+      <id>pschneider</id>
+      <name>Patrick Schneider</name>
+      <email>pschneider@gmail.com</email>
+      <roles>
+        <role>Emeritus</role>
+      </roles>
+      <timezone>-6</timezone>
+    </developer>
+    <developer>
+      <id>ptahchiev</id>
+      <name>Petar Tahchiev</name>
+      <email>ptahchiev@apache.org</email>
+      <roles>
+        <role>Emeritus</role>
+      </roles>
+      <timezone>+2</timezone>
+    </developer>
+    <developer>
+      <id>rinku</id>
+      <name>Rahul Thakur</name>
+      <roles>
+        <role>Emeritus</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>shinobu</id>
+      <name>Shinobu Kuwai</name>
+      <roles>
+        <role>Emeritus</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>smorgrav</id>
+      <name>Torbjorn Eikli Smorgrav</name>
+      <roles>
+        <role>Emeritus</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>trygvis</id>
+      <name>Trygve Laugstol</name>
+      <email>trygvis@apache.org</email>
+      <organization>ASF</organization>
+      <roles>
+        <role>Emeritus</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>	
   </developers>
 
   <mailingLists>
