@@ -273,9 +273,9 @@ under the License.
     <developer>
       <id>bdemers</id>
       <name>Brian Demers</name>
-	  <organization>Sonatype</organization>
-	  <email>bdemers@apache.org</email>
-	  <timezone>-5</timezone>
+      <organization>Sonatype</organization>
+      <email>bdemers@apache.org</email>
+      <timezone>-5</timezone>
       <roles>
         <role>Committer</role>
       </roles>
@@ -290,9 +290,9 @@ under the License.
     <developer>
       <id>cstamas</id>
       <name>Tamas Cservanak</name>
-	  <organization>Sonatype</organization>
-	  <email>cstamas@apache.org</email>
-	  <timezone>+1</timezone>
+      <organization>Sonatype</organization>
+      <email>cstamas@apache.org</email>
+      <timezone>+1</timezone>
       <roles>
         <role>Committer</role>
       </roles>
@@ -307,13 +307,13 @@ under the License.
     <developer>
       <id>dbradicich</id>
       <name>Damian Bradicich</name>
-	  <organization>Sonatype</organization>
-	  <email>dbradicich@apache.org</email>
-	  <timezone>-5</timezone>
+      <organization>Sonatype</organization>
+      <email>dbradicich@apache.org</email>
+      <timezone>-5</timezone>
       <roles>
         <role>Committer</role>
       </roles>
-    </developer>	
+    </developer>
     <developer>
       <id>ifedorenko</id>
       <name>Igor Fedorenko</name>
@@ -393,7 +393,7 @@ under the License.
         <role>Emeritus</role>
       </roles>
     </developer>
-	<developer>
+    <developer>
       <id>chrisjs</id>
       <name>Chris Stevenson</name>
       <roles>
@@ -440,7 +440,7 @@ under the License.
       </roles>
       <timezone>-6</timezone>
     </developer>
-	 <developer>
+    <developer>
       <id>joakime</id>
       <name>Joakim Erdfelt</name>
       <email>joakime@apache.org</email>
@@ -467,7 +467,7 @@ under the License.
       </roles>
       <timezone>+8</timezone>
     </developer>
-	<developer>
+    <developer>
       <id>markh</id>
       <name>Mark Hobson</name>
       <email>markh@apache.org</email>
@@ -485,7 +485,7 @@ under the License.
         <role>Emeritus</role>
       </roles>
       <timezone>-6</timezone>
-    </developer>	
+    </developer>
     <developer>
       <id>ogusakov</id>
       <name>Oleg Gusakov</name>
@@ -541,7 +541,7 @@ under the License.
         <role>Emeritus</role>
       </roles>
       <timezone>+1</timezone>
-    </developer>	
+    </developer>
   </developers>
 
   <mailingLists>
