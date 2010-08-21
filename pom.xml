@@ -177,6 +177,15 @@ under the License.
       <timezone>+1</timezone>
     </developer>
     <developer>
+      <id>krosenvold</id>
+      <name>Kristian Rosenvold</name>
+      <email>krosenvold@apache.org</email>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>
+    <developer>
       <id>ltheussl</id>
       <name>Lukas Theussl</name>
       <email>ltheussl@apache.org</email>
@@ -349,15 +358,6 @@ under the License.
       <roles>
         <role>Committer</role>
       </roles>
-    </developer>
-    <developer>
-      <id>krosenvold</id>
-      <name>Kristian Rosenvold</name>
-      <email>krosenvold@apache.org</email>
-      <roles>
-        <role>Committer</role>
-      </roles>
-      <timezone>+1</timezone>
     </developer>
     <developer>
       <id>rafale</id>
