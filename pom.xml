@@ -249,6 +249,15 @@ under the License.
       <timezone>+1</timezone>
     </developer>
     <developer>
+      <id>stephenc</id>
+      <name>Stephen Connolly</name>
+      <email>stephenc@apache.org</email>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>0</timezone>
+    </developer>
+    <developer>
       <id>vmassol</id>
       <name>Vincent Massol</name>
       <email>vmassol@apache.org</email>
@@ -368,15 +377,6 @@ under the License.
         <role>Committer</role>
       </roles>
       <timezone>+1</timezone>
-    </developer>
-    <developer>
-      <id>stephenc</id>
-      <name>Stephen Connolly</name>
-      <email>stephenc@apache.org</email>
-      <roles>
-        <role>Committer</role>
-      </roles>
-      <timezone>0</timezone>
     </developer>
     <!--End Committers-->
     <developer>
