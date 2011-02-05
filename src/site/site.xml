@@ -50,7 +50,6 @@ under the License.
 
     <!-- Breadcrumbs that every project will inherit -->
     <breadcrumbs>
-      <item name="Apache" href="http://www.apache.org/" />
       <!-- NOTE: This only works with stylus-skin-1.3,
            remove again if reverting to 1.2
       -->
