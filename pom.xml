@@ -267,6 +267,16 @@ under the License.
       <timezone>-5</timezone>
     </developer>
     <developer>
+      <id>wfay</id>
+      <name>Wayne Fay</name>
+      <email>wfay@apache.org</email>
+      <organization>ASF</organization>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>-6</timezone>
+    </developer>
+    <developer>
       <id>wsmoak</id>
       <name>Wendy Smoak</name>
       <email>wsmoak@apache.org</email>
