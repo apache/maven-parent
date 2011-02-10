@@ -603,20 +603,6 @@ under the License.
       <url>scp://people.apache.org/www/maven.apache.org</url>
     </site>
   </distributionManagement>
-  
-  <build>
-    <pluginManagement>
-      <plugins>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-release-plugin</artifactId>
-          <configuration>
-            <arguments>-Papache-release</arguments>
-          </configuration>
-        </plugin>
-      </plugins>
-    </pluginManagement>
-  </build>
 
   <reporting>
     <plugins>
