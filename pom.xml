@@ -332,6 +332,16 @@ under the License.
       </roles>
     </developer>
     <developer>
+      <id>godin</id>
+      <name>Evgeny Mandrikov</name>
+      <organization>SonarSource</organization>
+      <email>godin@apache.org</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>+3</timezone>
+    </developer>
+    <developer>
       <id>ifedorenko</id>
       <name>Igor Fedorenko</name>
       <email>igor@ifedorenko.com</email>
