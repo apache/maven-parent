@@ -596,8 +596,8 @@ under the License.
     <url>http://svn.apache.org/viewvc/maven/pom/trunk/maven</url>
   </scm>
   <ciManagement>
-    <system>Hudson</system>
-    <url>http://grid.sonatype.org/ci</url>
+    <system>Jenkins</system>
+    <url>https://builds.apache.org/hudson/view/M-R/view/Maven</url>
     <notifiers>
       <notifier>
         <type>mail</type>
