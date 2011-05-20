@@ -378,17 +378,6 @@ under the License.
       </roles>
     </developer>
     <developer>
-      <id>jvanzyl</id>
-      <name>Jason van Zyl</name>
-      <email>jason@maven.org</email>
-      <organization>Sonatype</organization>
-      <roles>
-        <role>Founder</role>
-        <role>Committer</role>
-      </roles>
-      <timezone>-5</timezone>
-    </developer>
-    <developer>
       <id>rafale</id>
       <name>Raphaël Piéroni</name>
       <email>rafale@apache.org</email>
