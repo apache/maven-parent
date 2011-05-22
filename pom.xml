@@ -165,16 +165,6 @@ under the License.
       <timezone>+1</timezone>
     </developer>
     <developer>
-      <id>ltheussl</id>
-      <name>Lukas Theussl</name>
-      <email>ltheussl@apache.org</email>
-      <organization>ASF</organization>
-      <roles>
-        <role>PMC Member</role>
-      </roles>
-      <timezone>+1</timezone>
-    </developer>
-    <developer>
       <id>mkleint</id>
       <name>Milos Kleint</name>
       <roles>
@@ -376,6 +366,16 @@ under the License.
       <roles>
         <role>Committer</role>
       </roles>
+    </developer>
+    <developer>
+      <id>ltheussl</id>
+      <name>Lukas Theussl</name>
+      <email>ltheussl@apache.org</email>
+      <organization>ASF</organization>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>+1</timezone>
     </developer>
     <developer>
       <id>rafale</id>
