@@ -584,6 +584,11 @@ under the License.
     <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/pom/trunk/maven</developerConnection>
     <url>http://svn.apache.org/viewvc/maven/pom/trunk/maven</url>
   </scm>
+  <issueManagement>
+    <system>jira</system>
+    <url>https://issues.apache.org/browse/MPOM/component/12314371</url>
+  </issueManagement>
+
   <ciManagement>
     <system>Jenkins</system>
     <url>https://builds.apache.org/hudson/view/M-R/view/Maven</url>
@@ -622,21 +627,21 @@ under the License.
         </property>
       </activation>
       <build>
-	<pluginManagement>
-	  <plugins>
-	    <!-- The Maven universe targets Java 1.5 -->
-	    <plugin>
-	      <groupId>org.apache.maven.plugins</groupId>
-	      <artifactId>maven-compiler-plugin</artifactId>
-	      <version>2.3.2</version>
-	      <configuration>
-		<source>1.5</source>
-		<target>1.5</target>
-		<encoding>${project.build.sourceEncoding}</encoding>
-	      </configuration>
-	    </plugin>
-	  </plugins>
-	</pluginManagement>
+        <pluginManagement>
+          <plugins>
+            <!-- The Maven universe targets Java 1.5 -->
+            <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-compiler-plugin</artifactId>
+              <version>2.3.2</version>
+              <configuration>
+                <source>1.5</source>
+                <target>1.5</target>
+                <encoding>${project.build.sourceEncoding}</encoding>
+              </configuration>
+            </plugin>
+          </plugins>
+        </pluginManagement>
         <plugins>
           <!--<plugin>
           Clirr needs to be more flexble before we can force this everywhere. New releases that don't have previous artifacts to compare cause Clirr to blow up. And Clirr needs to be smart enough to only look at the previous release artifact so we can make this work during snapshot builds, otherwise it just blows up when you try to do a release.
