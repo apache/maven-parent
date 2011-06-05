@@ -586,9 +586,8 @@ under the License.
   </scm>
   <issueManagement>
     <system>jira</system>
-    <url>https://issues.apache.org/browse/MPOM/component/12314371</url>
+    <url>http://issues.apache.org/jira/browse/MPOM/component/12314371</url>
   </issueManagement>
-
   <ciManagement>
     <system>Jenkins</system>
     <url>https://builds.apache.org/hudson/view/M-R/view/Maven</url>
