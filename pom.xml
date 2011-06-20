@@ -620,6 +620,11 @@ under the License.
             <target>1.5</target>
           </configuration>
         </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-site-plugin</artifactId>
+          <version>2.3</version>
+        </plugin>
       </plugins>
     </pluginManagement>
   </build>
@@ -661,8 +666,12 @@ under the License.
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-pmd-plugin</artifactId>
-            <version>2.4</version>
+            <version>2.5</version>
             <configuration>
+              <targetJdk>1.5</targetJdk>
+              <rulesets>
+                <ruleset>rulesets/maven.xml</ruleset>
+              </rulesets>
               <excludeRoots>
                 <excludeRoot>${project.build.directory}/generated-sources/modello</excludeRoot>
                 <excludeRoot>${project.build.directory}/generated-sources/plugin</excludeRoot>
@@ -715,7 +724,7 @@ under the License.
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-checkstyle-plugin</artifactId>
-            <version>2.5</version>
+            <version>2.6</version>
             <configuration>
               <configLocation>config/maven_checks.xml</configLocation>
               <headerLocation>config/maven-header.txt</headerLocation>
@@ -724,11 +733,11 @@ under the License.
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-pmd-plugin</artifactId>
-            <version>2.4</version>
+            <version>2.5</version>
             <configuration>
+              <targetJdk>1.5</targetJdk>
               <rulesets>
-                <!-- TODO: when upgrading to the next release of PMD, this can be changed to /rulesets/maven.xml -->
-                <ruleset>http://svn.apache.org/repos/asf/maven/plugins/trunk/maven-pmd-plugin/src/main/resources/rulesets/maven.xml</ruleset>
+                <ruleset>rulesets/maven.xml</ruleset>
               </rulesets>
               <excludeRoots>
                 <excludeRoot>${project.build.directory}/generated-sources/modello</excludeRoot>
