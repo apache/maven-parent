@@ -789,19 +789,11 @@ under the License.
             <configuration>
               <links>
                 <link>http://commons.apache.org/collections/apidocs-COLLECTIONS_3_0/</link>
-                <link>http://commons.apache.org/dbcp/apidocs/</link>
-                <link>http://commons.apache.org/fileupload/apidocs/</link>
-                <link>http://commons.apache.org/httpclient/apidocs/</link>
-                <link>http://commons.apache.org/logging/apidocs/</link>
-                <link>http://commons.apache.org/pool/apidocs/</link>
                 <link>http://junit.sourceforge.net/javadoc/</link>
                 <link>http://logging.apache.org/log4j/1.2/apidocs/</link>
-                <link>http://jakarta.apache.org/regexp/apidocs/</link>
                 <link>http://velocity.apache.org/engine/releases/velocity-1.5/apidocs/</link>
-                <link>http://plexus.codehaus.org/plexus-utils/apidocs/</link>
-                <link>http://plexus.codehaus.org/plexus-classworlds/apidocs/</link>
-                <link>http://plexus.codehaus.org/plexus-containers/plexus-container-default/apidocs/</link>
               </links>
+              <detectLinks>true</detectLinks>
             </configuration>
             <reportSets>
               <reportSet>
