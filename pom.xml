@@ -833,6 +833,23 @@ under the License.
         </file>
       </activation>
       <build>
+        <!-- we need to have the ssh wagon for site deployment at ASF -->
+        <!-- TODO: move to the ASF pom -->
+        <pluginManagement>
+          <plugins>
+            <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-site-plugin</artifactId>
+              <dependencies>
+                <dependency>
+                  <groupId>org.apache.maven.wagon</groupId>
+                  <artifactId>wagon-ssh</artifactId>
+                  <version>1.0-beta-7</version>
+                </dependency>
+              </dependencies>
+            </plugin>
+          </plugins>
+        </pluginManagement>
        <!-- we need to attach the descriptor for this pom -->
         <plugins>
           <plugin>
