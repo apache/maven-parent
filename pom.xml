@@ -22,6 +22,7 @@ under the License.
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
+  <!-- for more information, see the documentation of this POM: http://maven.apache.org/pom/maven/ -->
   <parent>
     <groupId>org.apache</groupId>
     <artifactId>apache</artifactId>
@@ -579,15 +580,6 @@ under the License.
     </mailingList>
   </mailingLists>
 
-  <scm>
-    <connection>scm:svn:http://svn.apache.org/repos/asf/maven/pom/trunk/maven</connection>
-    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/pom/trunk/maven</developerConnection>
-    <url>http://svn.apache.org/viewvc/maven/pom/trunk/maven</url>
-  </scm>
-  <issueManagement>
-    <system>jira</system>
-    <url>http://issues.apache.org/jira/browse/MPOM/component/12314371</url>
-  </issueManagement>
   <ciManagement>
     <system>Jenkins</system>
     <url>https://builds.apache.org/hudson/view/M-R/view/Maven</url>

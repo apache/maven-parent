@@ -49,37 +49,12 @@ under the License.
       </script>
     </head>
 
-    <!-- Breadcrumbs that every project will inherit -->
     <breadcrumbs>
       <item name="Apache" href="http://www.apache.org/" />
-      <!-- NOTE: This only works with stylus-skin-1.3,
-           remove again if reverting to 1.2
-      -->
       <item name="Maven"  href="http://maven.apache.org/index.html" />
+      <item name="POMs"   href="http://maven.apache.org/pom/index.html" />
     </breadcrumbs>
 
-    <!-- Menus that every project will inherit -->
     <menu ref="reports" inherit="bottom" />
-
-    <menu name="Maven Projects" inherit="bottom">
-      <item name="Ant Tasks"         href="http://maven.apache.org/ant-tasks/index.html" />
-      <item name="Archetype"         href="http://maven.apache.org/archetype/index.html" />
-      <item name="Doxia"             href="http://maven.apache.org/doxia/index.html" />
-      <item name="JXR"               href="http://maven.apache.org/jxr/index.html" />
-      <item name="Maven 1.x"         href="http://maven.apache.org/maven-1.x/index.html" />
-      <item name="Maven 2"           href="http://maven.apache.org/index.html" />
-      <item name="Plugins"           href="http://maven.apache.org/plugins/index.html" />
-      <item name="SCM"               href="http://maven.apache.org/scm/index.html" />
-      <item name="Shared Components" href="http://maven.apache.org/shared/index.html" />
-      <item name="Surefire"          href="http://maven.apache.org/surefire/index.html" />
-      <item name="Wagon"             href="http://maven.apache.org/wagon/index.html" />
-    </menu>
-    <menu name="ASF">
-      <item name="How Apache Works" href="http://www.apache.org/foundation/how-it-works.html"/> 
-      <item name="Foundation" href="http://www.apache.org/foundation/"/>
-      <item name="Sponsoring Apache" href="http://www.apache.org/foundation/sponsorship.html"/>
-      <item name="Thanks" href="http://www.apache.org/foundation/thanks.html"/>
-    </menu>
-
   </body>
 </project>
