@@ -394,7 +394,7 @@ under the License.
       <roles>
         <role>Committer</role>
       </roles>
-      <timezone>-5</timezone>
+      <timezone>America/Boston</timezone>
     </developer>
     <!--End Committers-->
     <developer>
