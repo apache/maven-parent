@@ -50,6 +50,8 @@ mvn -Preporting site-deploy
 
     See {{{./plugins.html}Plugins report}} for a list of configured report plugins.
 
+    Notice that there is an {{{https://analysis.apache.org/}ASF Sonar instance}} providing continuous quality reports.
+
 The <<<apache.shapshots>>> Profile
 
     An <<<apache.shapshots>>> profile is provided to activate Apache Snapshot repository when necessary, for
