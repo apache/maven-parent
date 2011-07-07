@@ -607,6 +607,10 @@ under the License.
     </site>
   </distributionManagement>
 
+  <properties>
+    <sonar.host.url>https://analysis.apache.org/</sonar.host.url>
+  </properties>
+
   <build>
     <pluginManagement>
       <plugins>
@@ -653,6 +657,16 @@ under the License.
       </plugins>
     </pluginManagement>
   </build>
+
+  <reporting>
+    <plugins>
+    <plugin>
+      <groupId>org.codehaus.sonar-plugins</groupId>
+      <artifactId>maven-report</artifactId>
+      <version>0.1</version>
+    </plugin>
+    </plugins>
+  </reporting>
 
   <profiles>
     <profile>
