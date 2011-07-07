@@ -296,6 +296,15 @@ under the License.
       <timezone>+1</timezone>
     </developer>
     <developer>
+      <id>bimargulies</id>
+      <name>Benson Margulies</name>
+      <email>bimargulies@apache.org</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>America/New_York</timezone>
+    </developer>
+    <developer>
       <id>cstamas</id>
       <name>Tamas Cservenak</name>
       <organization>Sonatype</organization>
@@ -387,14 +396,6 @@ under the License.
         <role>Committer</role>
       </roles>
       <timezone>+1</timezone>
-    </developer>
-    <developer>
-      <name>Benson Margulies</name>
-      <email>bimargulies@apache.org</email>
-      <roles>
-        <role>Committer</role>
-      </roles>
-      <timezone>America/Boston</timezone>
     </developer>
     <!--End Committers-->
     <developer>
