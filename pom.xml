@@ -397,6 +397,15 @@ under the License.
       </roles>
       <timezone>+1</timezone>
     </developer>
+    <developer>
+      <id>rfscholte</id>
+      <name>Robert Scholte</name>
+      <email>rfscholte@apache.org</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>Europe/Amsterdam</timezone>
+    </developer>
     <!--End Committers-->
     <developer>
       <id>aramirez</id>
