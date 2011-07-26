@@ -258,15 +258,6 @@ under the License.
       </roles>
       <timezone>-6</timezone>
     </developer>
-    <developer>
-      <id>wsmoak</id>
-      <name>Wendy Smoak</name>
-      <email>wsmoak@apache.org</email>
-      <roles>
-        <role>PMC Member</role>
-      </roles>
-      <timezone>-7</timezone>
-    </developer>
 
     <!--Committers-->
     <developer>
@@ -407,6 +398,15 @@ under the License.
       <timezone>Europe/Amsterdam</timezone>
     </developer>
     <!--End Committers-->
+    <developer>
+      <id>wsmoak</id>
+      <name>Wendy Smoak</name>
+      <email>wsmoak@apache.org</email>
+      <roles>
+        <role>Emeritus</role>
+      </roles>
+      <timezone>-7</timezone>
+    </developer>
     <developer>
       <id>aramirez</id>
       <name>Allan Q. Ramirez</name>
