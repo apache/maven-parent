@@ -399,15 +399,6 @@ under the License.
     </developer>
     <!--End Committers-->
     <developer>
-      <id>wsmoak</id>
-      <name>Wendy Smoak</name>
-      <email>wsmoak@apache.org</email>
-      <roles>
-        <role>Emeritus</role>
-      </roles>
-      <timezone>-7</timezone>
-    </developer>
-    <developer>
       <id>aramirez</id>
       <name>Allan Q. Ramirez</name>
       <roles>
@@ -569,6 +560,15 @@ under the License.
         <role>Emeritus</role>
       </roles>
       <timezone>+1</timezone>
+    </developer>
+    <developer>
+      <id>wsmoak</id>
+      <name>Wendy Smoak</name>
+      <email>wsmoak@apache.org</email>
+      <roles>
+        <role>Emeritus</role>
+      </roles>
+      <timezone>-7</timezone>
     </developer>
   </developers>
 
