@@ -43,10 +43,10 @@ under the License.
   <!-- Developers listed by PMC Chair, PMC, Committers, Contributers, all alphabetical-->
   <developers>
     <developer>
-      <id>brianf</id>
-      <name>Brian Fox</name>
-      <email>brianf@apache.org</email>
-      <organization>Sonatype</organization>
+      <id>jdcasey</id>
+      <name>John Casey</name>
+      <email>jdcasey@apache.org</email>
+      <organization>ASF</organization>
       <roles>
         <role>PMC Chair</role>
       </roles>
@@ -77,6 +77,16 @@ under the License.
         <role>PMC Member</role>
       </roles>
       <timezone>+10</timezone>
+    </developer>
+    <developer>
+      <id>brianf</id>
+      <name>Brian Fox</name>
+      <email>brianf@apache.org</email>
+      <organization>Sonatype</organization>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>-5</timezone>
     </developer>
     <developer>
       <id>carlos</id>
@@ -138,16 +148,6 @@ under the License.
       <timezone>Europe/Paris</timezone>
     </developer>
     <developer>
-      <id>jdcasey</id>
-      <name>John Casey</name>
-      <email>jdcasey@apache.org</email>
-      <organization>ASF</organization>
-      <roles>
-        <role>PMC Member</role>
-      </roles>
-      <timezone>-5</timezone>
-    </developer>
-    <developer>
       <id>kenney</id>
       <name>Kenney Westerhof</name>
       <email>kenney@apache.org</email>
@@ -165,13 +165,6 @@ under the License.
         <role>PMC Member</role>
       </roles>
       <timezone>+1</timezone>
-    </developer>
-    <developer>
-      <id>mkleint</id>
-      <name>Milos Kleint</name>
-      <roles>
-        <role>PMC Member</role>
-      </roles>
     </developer>
     <developer>
       <id>oching</id>
@@ -227,6 +220,14 @@ under the License.
         <role>PMC Member</role>
       </roles>
       <timezone>0</timezone>
+    </developer>
+    <developer>
+      <id>struberg</id>
+      <name>Mark Struberg</name>
+      <email>struberg@apache.org</email>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
     </developer>
     <developer>
       <id>vmassol</id>
@@ -324,6 +325,16 @@ under the License.
       </roles>
     </developer>
     <developer>
+      <id>fgiust</id>
+      <name>Fabrizio Giustina</name>
+      <email>fgiust@apache.org</email>
+      <organization>openmind</organization>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>
+    <developer>
       <id>godin</id>
       <name>Evgeny Mandrikov</name>
       <organization>SonarSource</organization>
@@ -332,6 +343,15 @@ under the License.
         <role>Committer</role>
       </roles>
       <timezone>+3</timezone>
+    </developer>
+    <developer>
+      <id>handyande</id>
+      <name>Andrew Williams</name>
+      <email>handyande@apache.org</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>0</timezone>
     </developer>
     <developer>
       <id>ifedorenko</id>
@@ -344,30 +364,19 @@ under the License.
       <timezone>-5</timezone>
     </developer>
     <developer>
-      <id>fgiust</id>
-      <name>Fabrizio Giustina</name>
-      <email>fgiust@apache.org</email>
-      <organization>openmind</organization>
-      <roles>
-        <role>Committer</role>
-      </roles>
-      <timezone>+1</timezone>
-    </developer>
-    <developer>
-      <id>handyande</id>
-      <name>Andrew Williams</name>
-      <email>handyande@apache.org</email>
-      <roles>
-        <role>Committer</role>
-      </roles>
-      <timezone>0</timezone>
-    </developer>
-    <developer>
       <id>jjensen</id>
       <name>Jeff Jensen</name>
       <roles>
         <role>Committer</role>
       </roles>
+    </developer>
+    <developer>
+      <id>jvanzyl</id>
+      <name>Jason van Zyl</name>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>-5</timezone>
     </developer>
     <developer>
       <id>ltheussl</id>
@@ -377,6 +386,27 @@ under the License.
         <role>Committer</role>
       </roles>
       <timezone>+1</timezone>
+    </developer>
+    <developer>
+      <id>mauro</id>
+      <name>Mauro Talevi</name>
+      <roles>
+        <role>Committer</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>mkleint</id>
+      <name>Milos Kleint</name>
+      <roles>
+        <role>Committer</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>nicolas</id>
+      <name>Nicolas de Loof</name>
+      <roles>
+        <role>Committer</role>
+      </roles>
     </developer>
     <developer>
       <id>rafale</id>
@@ -397,6 +427,7 @@ under the License.
       </roles>
       <timezone>Europe/Amsterdam</timezone>
     </developer>
+    
     <!--End Committers-->
     <developer>
       <id>aramirez</id>
