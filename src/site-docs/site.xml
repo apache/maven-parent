@@ -52,9 +52,11 @@ under the License.
     <breadcrumbs>
       <item name="Apache" href="http://www.apache.org/" />
       <item name="Maven"  href="http://maven.apache.org/index.html" />
-      <item name="POMs"   href="http://maven.apache.org/pom/index.html" />
+      <item name="Parent POMs" href="http://maven.apache.org/pom/index.html" />
+      <item name="Maven"  href="http://maven.apache.org/pom/maven/index.html" />
     </breadcrumbs>
 
     <menu ref="reports" inherit="bottom" />
+
   </body>
 </project>
