@@ -61,12 +61,6 @@ under the License.
     <!-- Menus that every project will inherit -->
     <menu ref="reports" inherit="bottom" />
 
-    <menu name="ASF" inherit="bottom">
-      <item name="How Apache Works" href="http://www.apache.org/foundation/how-it-works.html"/> 
-      <item name="Foundation" href="http://www.apache.org/foundation/"/>
-      <item name="Sponsoring Apache" href="http://www.apache.org/foundation/sponsorship.html"/>
-      <item name="Thanks" href="http://www.apache.org/foundation/thanks.html"/>
-    </menu>
     <menu name="Maven Projects" inherit="bottom">
       <item name="Ant Tasks"         href="http://maven.apache.org/ant-tasks/index.html" />
       <item name="Archetype"         href="http://maven.apache.org/archetype/index.html" />
@@ -79,6 +73,12 @@ under the License.
       <item name="Shared Components" href="http://maven.apache.org/shared/index.html" />
       <item name="Surefire"          href="http://maven.apache.org/surefire/index.html" />
       <item name="Wagon"             href="http://maven.apache.org/wagon/index.html" />
+    </menu>
+    <menu name="ASF" inherit="bottom">
+      <item name="How Apache Works" href="http://www.apache.org/foundation/how-it-works.html"/> 
+      <item name="Foundation" href="http://www.apache.org/foundation/"/>
+      <item name="Sponsoring Apache" href="http://www.apache.org/foundation/sponsorship.html"/>
+      <item name="Thanks" href="http://www.apache.org/foundation/thanks.html"/>
     </menu>
 
   </body>
