@@ -29,7 +29,7 @@ under the License.
     <relativePath>./pom.xml</relativePath>
   </parent>
 
-  <artifactId>maven-parent-site</artifactId>
+  <artifactId>maven-parent.</artifactId>
   <packaging>pom</packaging>
 
   <name>Apache Maven Parent POM</name>
