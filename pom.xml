@@ -32,7 +32,7 @@ under the License.
 
   <groupId>org.apache.maven</groupId>
   <artifactId>maven-parent</artifactId>
-  <version>21-SNAPSHOT</version>
+  <version>21</version>
   <packaging>pom</packaging>
 
   <name>Apache Maven</name>
@@ -886,4 +886,10 @@ under the License.
       </reporting>
     </profile>
   </profiles>
+
+  <scm>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/maven/pom/tags/maven-parent-21</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/pom/tags/maven-parent-21</developerConnection>
+    <url>http://svn.apache.org/viewvc/maven/pom/tags/maven-parent-21</url>
+  </scm>
 </project>
