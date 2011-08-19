@@ -230,16 +230,6 @@ under the License.
       </roles>
     </developer>
     <developer>
-      <id>vmassol</id>
-      <name>Vincent Massol</name>
-      <email>vmassol@apache.org</email>
-      <organization>ASF</organization>
-      <roles>
-        <role>PMC Member</role>
-      </roles>
-      <timezone>+1</timezone>
-    </developer>
-    <developer>
       <id>vsiveton</id>
       <name>Vincent Siveton</name>
       <email>vsiveton@apache.org</email>
@@ -426,6 +416,16 @@ under the License.
         <role>Committer</role>
       </roles>
       <timezone>Europe/Amsterdam</timezone>
+    </developer>
+    <developer>
+      <id>vmassol</id>
+      <name>Vincent Massol</name>
+      <email>vmassol@apache.org</email>
+      <organization>ASF</organization>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>+1</timezone>
     </developer>
     
     <!--End Committers-->
