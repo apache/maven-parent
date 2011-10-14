@@ -385,6 +385,15 @@ under the License.
       </roles>
     </developer>
     <developer>
+      <id>markh</id>
+      <name>Mark Hobson</name>
+      <email>markh@apache.org</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>0</timezone>
+    </developer>
+    <developer>
       <id>mkleint</id>
       <name>Milos Kleint</name>
       <roles>
@@ -516,15 +525,6 @@ under the License.
         <role>Emeritus</role>
       </roles>
       <timezone>+8</timezone>
-    </developer>
-    <developer>
-      <id>markh</id>
-      <name>Mark Hobson</name>
-      <email>markh@apache.org</email>
-      <roles>
-        <role>Emeritus</role>
-      </roles>
-      <timezone>0</timezone>
     </developer>
     <developer>
       <id>mperham</id>
