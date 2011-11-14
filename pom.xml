@@ -427,6 +427,15 @@ under the License.
       <timezone>Europe/Amsterdam</timezone>
     </developer>
     <developer>
+      <id>simonetripodi</id>
+      <name>Simone Tripodi</name>
+      <email>simonetripodi@apache.org</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>
+    <developer>
       <id>vmassol</id>
       <name>Vincent Massol</name>
       <email>vmassol@apache.org</email>
