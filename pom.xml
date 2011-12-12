@@ -68,7 +68,7 @@ under the License.
         <role>PMC Member</role>
       </roles>
     </developer>
-    <developer>
+    <!-- <developer>
       <id>bimargulies</id>
       <name>Benson Margulies</name>
       <email>bimargulies@apache.org</email>
@@ -76,7 +76,7 @@ under the License.
         <role>PMC Member</role>
       </roles>
       <timezone>America/New_York</timezone>
-    </developer>
+    </developer> -->
     <developer>
       <id>brett</id>
       <name>Brett Porter</name>
@@ -286,6 +286,15 @@ under the License.
         <role>Committer</role>
       </roles>
       <timezone>+1</timezone>
+    </developer>
+    <developer>
+      <id>bimargulies</id>
+      <name>Benson Margulies</name>
+      <email>bimargulies@apache.org</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>America/New_York</timezone>
     </developer>
     <developer>
       <id>cstamas</id>
