@@ -71,6 +71,7 @@ under the License.
       <item name="Plugins"           href="http://maven.apache.org/plugins/index.html" />
       <item name="SCM"               href="http://maven.apache.org/scm/index.html" />
       <item name="Shared Components" href="http://maven.apache.org/shared/index.html" />
+      <item name="Skins"             href="http://maven.apache.org/skins/index.html" />
       <item name="Surefire"          href="http://maven.apache.org/surefire/index.html" />
       <item name="Wagon"             href="http://maven.apache.org/wagon/index.html" />
     </menu>
