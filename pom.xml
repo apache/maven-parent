@@ -202,6 +202,15 @@ under the License.
       <timezone>-6</timezone>
     </developer>
     <developer>
+      <id>rfscholte</id>
+      <name>Robert Scholte</name>
+      <email>rfscholte@apache.org</email>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>Europe/Amsterdam</timezone>
+    </developer>
+    <developer>
       <id>rgoers</id>
       <name>Ralph Goers</name>
       <email>rgoers@apache.org</email>
@@ -416,15 +425,6 @@ under the License.
         <role>Committer</role>
       </roles>
       <timezone>+1</timezone>
-    </developer>
-    <developer>
-      <id>rfscholte</id>
-      <name>Robert Scholte</name>
-      <email>rfscholte@apache.org</email>
-      <roles>
-        <role>Committer</role>
-      </roles>
-      <timezone>Europe/Amsterdam</timezone>
     </developer>
     <developer>
       <id>simonetripodi</id>
