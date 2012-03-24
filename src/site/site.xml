@@ -74,6 +74,7 @@ under the License.
       <item name="Skins"             href="http://maven.apache.org/skins/index.html" />
       <item name="Surefire"          href="http://maven.apache.org/surefire/index.html" />
       <item name="Wagon"             href="http://maven.apache.org/wagon/index.html" />
+      <item name="Skins"             href="http://maven.apache.org/skins/index.html" />
     </menu>
     <menu name="ASF" inherit="bottom">
       <item name="How Apache Works" href="http://www.apache.org/foundation/how-it-works.html"/> 
