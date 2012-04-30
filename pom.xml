@@ -267,6 +267,18 @@ under the License.
       </roles>
       <timezone>-6</timezone>
     </developer>
+    <developer>
+      <id>bimargulies</id>
+      <name>Benson Margulies</name>
+      <email>bimargulies@apache.org</email>
+      <organization>ASF</organization>
+      <roles>
+        <role>PMC Member</role>
+        <role>Committer</role>
+      </roles>
+      <timezone>-5</timezone>
+    </developer>
+
 
     <!--Committers-->
     <developer>
