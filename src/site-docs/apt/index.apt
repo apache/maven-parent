@@ -4,7 +4,7 @@
  Benson Margulies
  Hervé Boutemy
  -----
- 2011-07-03
+ 2012-05-03
  -----
 
 ~~ Licensed to the Apache Software Foundation (ASF) under one
@@ -57,6 +57,8 @@ History
 
 *--------------+------------+
 || <<Version>> || <<Release Date>> ||
+*--------------+------------+
+| {{{http://svn.apache.org/viewvc/maven/pom/trunk/maven/pom.xml?view=markup}22-SNAPSHOT}} ({{{http://svn.apache.org/viewvc/maven/pom/trunk/maven/pom.xml?r1=HEAD&r2=1157980&diff_format=h}diff}}) |  |
 *--------------+------------+
 | {{{http://svn.apache.org/viewvc/maven/pom/tags/maven-parent-21/pom.xml?view=markup}21}} ({{{http://svn.apache.org/viewvc/maven/pom/tags/maven-parent-21/pom.xml?r1=HEAD&r2=1134934&diff_format=h}diff}}) | 2011-08-18 |
 *--------------+------------+
