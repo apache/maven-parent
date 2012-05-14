@@ -610,6 +610,14 @@ under the License.
       </roles>
       <timezone>-7</timezone>
     </developer>
+    <developer>
+      <id>jruiz</id>
+      <name>Johnny Ruiz III</name>
+      <email>jruiz@apache.org</email>
+      <roles>
+        <role>Emeritus</role>
+      </roles>
+    </developer>
   </developers>
 
   <mailingLists>
