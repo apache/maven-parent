@@ -700,7 +700,7 @@ under the License.
 
   <ciManagement>
     <system>Jenkins</system>
-    <url>https://builds.apache.org/hudson/view/M-R/view/Maven</url>
+    <url>https://builds.apache.org/view/M-R/view/Maven</url>
     <notifiers>
       <notifier>
         <type>mail</type>
