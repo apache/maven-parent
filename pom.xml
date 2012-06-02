@@ -721,6 +721,16 @@ under the License.
     <sonar.host.url>https://analysis.apache.org/</sonar.host.url>
   </properties>
 
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.codehaus.plexus</groupId>
+        <artifactId>plexus-component-annotations</artifactId>
+        <version>1.5.5</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
   <repositories>
     <repository>
       <id>apache.snapshots</id>
