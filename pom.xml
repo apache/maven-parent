@@ -176,6 +176,22 @@ under the License.
       <timezone>+1</timezone>
     </developer>
     <developer>
+      <id>markh</id>
+      <name>Mark Hobson</name>
+      <email>markh@apache.org</email>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>0</timezone>
+    </developer>
+    <developer>
+      <id>mkleint</id>
+      <name>Milos Kleint</name>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+    </developer>
+    <developer>
       <id>oching</id>
       <name>Maria Odea B. Ching</name>
       <roles>
@@ -389,22 +405,6 @@ under the License.
     <developer>
       <id>mauro</id>
       <name>Mauro Talevi</name>
-      <roles>
-        <role>Committer</role>
-      </roles>
-    </developer>
-    <developer>
-      <id>markh</id>
-      <name>Mark Hobson</name>
-      <email>markh@apache.org</email>
-      <roles>
-        <role>Committer</role>
-      </roles>
-      <timezone>0</timezone>
-    </developer>
-    <developer>
-      <id>mkleint</id>
-      <name>Milos Kleint</name>
       <roles>
         <role>Committer</role>
       </roles>
