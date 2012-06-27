@@ -43,14 +43,13 @@ under the License.
   <!-- Developers listed by PMC Chair, PMC, Committers, Contributers, all alphabetical-->
   <developers>
     <developer>
-      <id>jdcasey</id>
-      <name>John Casey</name>
-      <email>jdcasey@apache.org</email>
-      <organization>ASF</organization>
+      <id>olamy</id>
+      <name>Olivier Lamy</name>
+      <email>olamy@apache.org</email>
       <roles>
         <role>PMC Chair</role>
       </roles>
-      <timezone>-5</timezone>
+      <timezone>Europe/Paris</timezone>
     </developer>
     <developer>
       <id>aheritier</id>
@@ -157,6 +156,16 @@ under the License.
       <timezone>Europe/Paris</timezone>
     </developer>
     <developer>
+      <id>jdcasey</id>
+      <name>John Casey</name>
+      <email>jdcasey@apache.org</email>
+      <organization>ASF</organization>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>-5</timezone>
+    </developer>
+    <developer>
       <id>kenney</id>
       <name>Kenney Westerhof</name>
       <email>kenney@apache.org</email>
@@ -197,15 +206,6 @@ under the License.
       <roles>
         <role>PMC Member</role>
       </roles>
-    </developer>
-    <developer>
-      <id>olamy</id>
-      <name>Olivier Lamy</name>
-      <email>olamy@apache.org</email>
-      <roles>
-        <role>PMC Member</role>
-      </roles>
-      <timezone>+1</timezone>
     </developer>
     <developer>
       <id>pgier</id>
