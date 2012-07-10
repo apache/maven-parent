@@ -436,6 +436,16 @@ under the License.
       <timezone>+1</timezone>
     </developer>
     <developer>
+      <id>tchemit</id>
+      <name>Tony Chemit</name>
+      <email>tchemit@apache.org</email>
+      <organization>CodeLutin</organization>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>Europe/Paris</timezone>
+    </developer>
+    <developer>
       <id>vmassol</id>
       <name>Vincent Massol</name>
       <email>vmassol@apache.org</email>
