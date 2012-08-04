@@ -793,7 +793,7 @@ under the License.
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>findbugs-maven-plugin</artifactId>
-          <version>2.5.1</version>
+          <version>2.5.2</version>
         </plugin>
       </plugins>
     </pluginManagement>
@@ -938,7 +938,7 @@ under the License.
                 <tagletArtifact>
                   <groupId>org.apache.maven.plugin-tools</groupId>
                   <artifactId>maven-plugin-tools-javadoc</artifactId>
-                  <version>2.5</version>
+                  <version>3.1</version>
                 </tagletArtifact>
                 <tagletArtifact>
                   <groupId>org.codehaus.plexus</groupId>
@@ -964,7 +964,7 @@ under the License.
           <plugin>
             <groupId>org.codehaus.mojo</groupId>
             <artifactId>findbugs-maven-plugin</artifactId>
-            <version>2.4.0</version>
+            <version>2.5.2</version>
           </plugin>
           <plugin>
             <groupId>org.codehaus.sonar-plugins</groupId>
