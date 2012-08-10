@@ -58,7 +58,7 @@ History
 *--------------+------------+
 || <<Version>> || <<Release Date>> ||
 *--------------+------------+
-| {{{http://svn.apache.org/viewvc/maven/pom/trunk/maven/pom.xml?view=markup}22}} ({{{http://svn.apache.org/viewvc/maven/pom/tags/maven-parent-22/pom.xml?r1=HEAD&r2=1157980&diff_format=h}diff}}) | 2012-08-08 |
+| {{{http://svn.apache.org/viewvc/maven/pom/tags/maven-parent-22/pom.xml?view=markup}22}} ({{{http://svn.apache.org/viewvc/maven/pom/tags/maven-parent-22/pom.xml?r1=HEAD&r2=1157980&diff_format=h}diff}}) | 2012-08-08 |
 *--------------+------------+
 | {{{http://svn.apache.org/viewvc/maven/pom/tags/maven-parent-21/pom.xml?view=markup}21}} ({{{http://svn.apache.org/viewvc/maven/pom/tags/maven-parent-21/pom.xml?r1=HEAD&r2=1134934&diff_format=h}diff}}) | 2011-08-18 |
 *--------------+------------+
