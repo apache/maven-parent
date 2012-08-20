@@ -340,6 +340,15 @@ under the License.
       </roles>
     </developer>
     <developer>
+      <id>andham</id>
+      <name>Anders Hammar</name>
+      <email>andham@apache.org</email>
+      <timezone>+1</timezone>
+      <roles>
+        <role>Committer</role>
+      </roles>
+    </developer>
+    <developer>
       <id>fgiust</id>
       <name>Fabrizio Giustina</name>
       <email>fgiust@apache.org</email>
