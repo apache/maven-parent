@@ -286,6 +286,15 @@ under the License.
 
     <!--Committers-->
     <developer>
+      <id>andham</id>
+      <name>Anders Hammar</name>
+      <email>andham@apache.org</email>
+      <timezone>+1</timezone>
+      <roles>
+        <role>Committer</role>
+      </roles>
+    </developer>
+    <developer>
       <id>bdemers</id>
       <name>Brian Demers</name>
       <organization>Sonatype</organization>
@@ -335,15 +344,6 @@ under the License.
       <organization>Sonatype</organization>
       <email>dbradicich@apache.org</email>
       <timezone>-5</timezone>
-      <roles>
-        <role>Committer</role>
-      </roles>
-    </developer>
-    <developer>
-      <id>andham</id>
-      <name>Anders Hammar</name>
-      <email>andham@apache.org</email>
-      <timezone>+1</timezone>
       <roles>
         <role>Committer</role>
       </roles>
