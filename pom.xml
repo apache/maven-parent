@@ -63,9 +63,11 @@ under the License.
     <developer>
       <id>baerrach</id>
       <name>Barrie Treloar</name>
+      <email>baerrach@apache.org</email>
       <roles>
         <role>PMC Member</role>
       </roles>
+      <timezone>Australia/Adelaide</timezone>
     </developer>
     <developer>
       <id>bimargulies</id>
