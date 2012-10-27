@@ -811,7 +811,7 @@ under the License.
           <artifactId>maven-release-plugin</artifactId>
           <version>2.3.2</version>
           <configuration>
-            <useReleaseProfile>true</useReleaseProfile>
+            <useReleaseProfiles>true</useReleaseProfiles>
             <releaseProfiles>apache-release,rat</releaseProfiles>
             <goals>deploy</goals>
             <arguments>${arguments}</arguments>
