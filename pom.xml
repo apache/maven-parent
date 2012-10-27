@@ -806,11 +806,42 @@ under the License.
           <artifactId>findbugs-maven-plugin</artifactId>
           <version>2.5.2</version>
         </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-release-plugin</artifactId>
+          <version>2.3.2</version>
+          <configuration>
+            <useReleaseProfile>true</useReleaseProfile>
+            <releaseProfiles>apache-release,rat</releaseProfiles>
+            <goals>deploy</goals>
+            <arguments>${arguments}</arguments>
+          </configuration>
+        </plugin>
       </plugins>
     </pluginManagement>
   </build>
 
   <profiles>
+    <profile>
+      <id>rat</id>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.rat</groupId>
+            <artifactId>apache-rat-plugin</artifactId>
+            <executions>
+              <execution>
+                <phase>verify</phase>
+                <goals>
+                  <!-- rat, not check, because we've got lots of noncomplaint stuff -->
+                  <goal>rat</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
     <profile>
       <id>quality-checks</id>
       <activation>
