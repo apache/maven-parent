@@ -1,10 +1,9 @@
 Edit this file in SVN at https://svn.apache.org/repos/asf/maven/project/KEYS
-then update in /dist/maven/KEYS by logging in to people.apache.org and
-running:
+then update in /dist/maven/KEYS by svn co https://dist.apache.org/repos/dist/release/maven dist-maven
+cd dist-maven.
 
-svn export http://svn.apache.org/repos/asf/maven/project/KEYS /dist/maven/KEYS
-
-
+svn cat https://svn.apache.org/repos/asf/maven/project/KEYS > KEYS
+then commit
 
 pub  1024D/C560DD8B 2005-09-19 Emmanuel Venisse <evenisse@apache.org>
 sub  2048g/CAD6BDC5 2005-09-19
