@@ -749,6 +749,12 @@ under the License.
         <artifactId>plexus-component-annotations</artifactId>
         <version>1.5.5</version>
       </dependency>
+      <dependency>
+        <groupId>org.apache.maven.plugin-tools</groupId>
+        <artifactId>maven-plugin-annotations</artifactId>
+        <version>3.2</version>
+        <scope>provided</scope>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 
