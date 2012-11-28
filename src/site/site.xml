@@ -67,7 +67,7 @@ under the License.
       <item name="Maven 2 &amp; 3"   href="http://maven.apache.org/index.html" />
       <item name="Parent POMs"       href="http://maven.apache.org/pom/index.html" />
       <item name="Plugins"           href="http://maven.apache.org/plugins/index.html" />
-      <item name="Plugins Tools"     href="http://maven.apache.org/plugin-tools/index.html" />
+      <item name="Plugin Tools"      href="http://maven.apache.org/plugin-tools/index.html" />
       <item name="SCM"               href="http://maven.apache.org/scm/index.html" />
       <item name="Shared Components" href="http://maven.apache.org/shared/index.html" />
       <item name="Skins"             href="http://maven.apache.org/skins/index.html" />
