@@ -942,6 +942,7 @@ under the License.
             </configuration>
             <reportSets>
               <reportSet>
+                <id>default</id>
                 <reports>
                   <report>checkstyle</report>
                 </reports>
@@ -974,6 +975,7 @@ under the License.
             <version>2.3</version>
             <reportSets>
               <reportSet>
+                <id>default</id>
                 <reports>
                   <report>jxr</report>
                   <report>test-jxr</report>
@@ -1014,6 +1016,7 @@ under the License.
             </configuration>
             <reportSets>
               <reportSet>
+                <id>default</id>
                 <reports>
                   <report>javadoc</report>
                   <report>test-javadoc</report>
