@@ -909,23 +909,6 @@ under the License.
     </profile>
     <profile>
       <id>reporting</id>
-      <build>
-        <plugins>
-          <plugin>
-            <groupId>org.codehaus.mojo</groupId>
-            <artifactId>cobertura-maven-plugin</artifactId>
-            <version>2.5.1</version>
-            <executions>
-              <execution>
-                <phase>clean</phase>
-                <goals>
-                  <goal>clean</goal>
-                </goals>
-              </execution>
-            </executions>
-          </plugin>
-        </plugins>
-      </build>
       <reporting>
         <plugins>
           <plugin>
@@ -969,11 +952,6 @@ under the License.
                 <excludeRoot>${project.build.directory}/generated-sources/plugin</excludeRoot>
               </excludeRoots>
             </configuration>
-          </plugin>
-          <plugin>
-            <groupId>org.codehaus.mojo</groupId>
-            <artifactId>cobertura-maven-plugin</artifactId>
-            <version>2.5.1</version>
           </plugin>
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
