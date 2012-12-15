@@ -978,6 +978,7 @@ under the License.
             <artifactId>maven-javadoc-plugin</artifactId>
             <version>2.9</version>
             <configuration>
+              <notimestamp>true</notimestamp>
               <links>
                 <link>http://commons.apache.org/collections/apidocs-COLLECTIONS_3_0/</link>
                 <link>http://junit.sourceforge.net/javadoc/</link>
