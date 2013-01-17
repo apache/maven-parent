@@ -168,16 +168,6 @@ under the License.
       <timezone>-5</timezone>
     </developer>
     <developer>
-      <id>kenney</id>
-      <name>Kenney Westerhof</name>
-      <email>kenney@apache.org</email>
-      <organization>Neonics</organization>
-      <roles>
-        <role>PMC Member</role>
-      </roles>
-      <timezone>+1</timezone>
-    </developer>
-    <developer>
       <id>krosenvold</id>
       <name>Kristian Rosenvold</name>
       <email>krosenvold@apache.org</email>
@@ -638,6 +628,16 @@ under the License.
       <roles>
         <role>Emeritus</role>
       </roles>
+    </developer>
+    <developer>
+      <id>kenney</id>
+      <name>Kenney Westerhof</name>
+      <email>kenney@apache.org</email>
+      <organization>Neonics</organization>
+      <roles>
+        <role>Emeritus</role>
+      </roles>
+      <timezone>+1</timezone>
     </developer>
   </developers>
 
