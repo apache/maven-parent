@@ -26,7 +26,7 @@ under the License.
   <parent>
     <groupId>org.apache</groupId>
     <artifactId>apache</artifactId>
-    <version>12</version>
+    <version>13</version>
     <relativePath>../asf/pom.xml</relativePath>
   </parent>
 
@@ -825,11 +825,6 @@ under the License.
             <goals>deploy</goals>
             <arguments>${arguments}</arguments>
           </configuration>
-        </plugin>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-scm-publish-plugin</artifactId>
-          <version>1.0-beta-2</version>
         </plugin>
       </plugins>
     </pluginManagement>
