@@ -456,6 +456,15 @@ under the License.
       </roles>
       <timezone>+1</timezone>
     </developer>
+    <developer>
+      <id>agudian</id>
+      <name>Andreas Gudian</name>
+      <email>agudian@apache.org</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>Europe/Berlin</timezone>
+    </developer>
     
     <!--End Committers-->
     <developer>
