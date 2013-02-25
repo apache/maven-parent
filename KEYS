@@ -1255,10 +1255,10 @@ qk2TG672K5OH1rxc8V4=
 -----END PGP PUBLIC KEY BLOCK-----
 
 pub   1024D/3571506F 2008-09-22
-uid                  Rapha‘l PiŽroni <rafale@apache.org>
-sig 3        3571506F 2008-09-22  Rapha‘l PiŽroni <rafale@apache.org>
+uid                  RaphaÂ‘l PiÂŽroni <rafale@apache.org>
+sig 3        3571506F 2008-09-22  RaphaÂ‘l PiÂŽroni <rafale@apache.org>
 sub   2048g/FAFAC767 2008-09-22
-sig          3571506F 2008-09-22  Rapha‘l PiŽroni <rafale@apache.org>
+sig          3571506F 2008-09-22  RaphaÂ‘l PiÂŽroni <rafale@apache.org>
 
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v1.4.6 (Darwin)
@@ -1658,10 +1658,10 @@ SISUgpbSa2ZJTWFVpETC84GWTOcaF8iIclt1PSmURW5akxuUzKa358zFKUiH0Zhh
 -----END PGP PUBLIC KEY BLOCK-----
 
 pub   4096R/2CF0CC82 2009-11-17
-uid                  Arnaud Héritier (CODE SIGNING KEY) <aheritier@apache.org>
-sig 3        2CF0CC82 2009-11-17  Arnaud Héritier (CODE SIGNING KEY) <aheritier@apache.org>
+uid                  Arnaud Hè±©tier (CODE SIGNING KEY) <aheritier@apache.org>
+sig 3        2CF0CC82 2009-11-17  Arnaud Hè±©tier (CODE SIGNING KEY) <aheritier@apache.org>
 sub   4096R/37540EAE 2009-11-17
-sig          2CF0CC82 2009-11-17  Arnaud Héritier (CODE SIGNING KEY) <aheritier@apache.org>
+sig          2CF0CC82 2009-11-17  Arnaud Hè±©tier (CODE SIGNING KEY) <aheritier@apache.org>
 
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v1.4.8 (Darwin)
@@ -2367,4 +2367,50 @@ zxbT3cBmSvHaiM8ZwssPqidkHFJdJJqtKdQtpm+zDG1ZUkh7WEMEaBY3PrrKQZ1B
 uVpWvuOPRz1WJCgYX7PNBCv3slSJxnR6oAu5meayPncxCZL64zqUD+Mt0NNzrOOL
 uJYtM7TqTv8jjovYw+EGHQ8SJ7gPNtv5U+/7ziA=
 =qRxS
+-----END PGP PUBLIC KEY BLOCK-----
+
+pub   2048D/3961DF05 2013-02-25
+uid                  Andreas Gudian <agudian@apache.org>
+sig 3        3961DF05 2013-02-25  Andreas Gudian <agudian@apache.or
+sub   2048g/FC317958 2013-02-25
+sig          3961DF05 2013-02-25  Andreas Gudian <agudian@apache.or
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v2.0.17 (MingW32)
+
+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
+mhxVXrPijzCjyEbVAenKTYA1ojd+
+=hqHs
 -----END PGP PUBLIC KEY BLOCK-----
