@@ -1255,10 +1255,10 @@ qk2TG672K5OH1rxc8V4=
 -----END PGP PUBLIC KEY BLOCK-----
 
 pub   1024D/3571506F 2008-09-22
-uid                  RaphaÂ‘l PiÂŽroni <rafale@apache.org>
-sig 3        3571506F 2008-09-22  RaphaÂ‘l PiÂŽroni <rafale@apache.org>
+uid                  Rapha‘l PiŽroni <rafale@apache.org>
+sig 3        3571506F 2008-09-22  Rapha‘l PiŽroni <rafale@apache.org>
 sub   2048g/FAFAC767 2008-09-22
-sig          3571506F 2008-09-22  RaphaÂ‘l PiÂŽroni <rafale@apache.org>
+sig          3571506F 2008-09-22  Rapha‘l PiŽroni <rafale@apache.org>
 
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v1.4.6 (Darwin)
@@ -1658,10 +1658,10 @@ SISUgpbSa2ZJTWFVpETC84GWTOcaF8iIclt1PSmURW5akxuUzKa358zFKUiH0Zhh
 -----END PGP PUBLIC KEY BLOCK-----
 
 pub   4096R/2CF0CC82 2009-11-17
-uid                  Arnaud Hè±©tier (CODE SIGNING KEY) <aheritier@apache.org>
-sig 3        2CF0CC82 2009-11-17  Arnaud Hè±©tier (CODE SIGNING KEY) <aheritier@apache.org>
+uid                  Arnaud Héritier (CODE SIGNING KEY) <aheritier@apache.org>
+sig 3        2CF0CC82 2009-11-17  Arnaud Héritier (CODE SIGNING KEY) <aheritier@apache.org>
 sub   4096R/37540EAE 2009-11-17
-sig          2CF0CC82 2009-11-17  Arnaud Hè±©tier (CODE SIGNING KEY) <aheritier@apache.org>
+sig          2CF0CC82 2009-11-17  Arnaud Héritier (CODE SIGNING KEY) <aheritier@apache.org>
 
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v1.4.8 (Darwin)
@@ -2414,3 +2414,4 @@ eQD+MhlGdSdvo2KS6oiBVuQk8G3ow/zTMWRRQum4XfIFOp4A/R82Ie4o8Wu3nYNQ
 mhxVXrPijzCjyEbVAenKTYA1ojd+
 =hqHs
 -----END PGP PUBLIC KEY BLOCK-----
+
