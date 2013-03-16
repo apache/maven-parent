@@ -278,6 +278,15 @@ under the License.
 
     <!--Committers-->
     <developer>
+      <id>agudian</id>
+      <name>Andreas Gudian</name>
+      <email>agudian@apache.org</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>Europe/Berlin</timezone>
+    </developer>
+    <developer>
       <id>andham</id>
       <name>Anders Hammar</name>
       <email>andham@apache.org</email>
@@ -411,6 +420,15 @@ under the License.
       </roles>
     </developer>
     <developer>
+      <id>michaelo</id>
+      <name>Michael Osipov</name>
+      <email>michaelo@apache.org</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>Europe/Berlin</timezone>
+    </developer>
+    <developer>
       <id>nicolas</id>
       <name>Nicolas de Loof</name>
       <roles>
@@ -455,24 +473,6 @@ under the License.
         <role>Committer</role>
       </roles>
       <timezone>+1</timezone>
-    </developer>
-    <developer>
-      <id>agudian</id>
-      <name>Andreas Gudian</name>
-      <email>agudian@apache.org</email>
-      <roles>
-        <role>Committer</role>
-      </roles>
-      <timezone>Europe/Berlin</timezone>
-    </developer>
-    <developer>
-      <id>michaelo</id>
-      <name>Michael Osipov</name>
-      <email>michaelo@apache.org</email>
-      <roles>
-        <role>Committer</role>
-      </roles>
-      <timezone>Europe/Berlin</timezone>
     </developer>
     
     <!--End Committers-->
