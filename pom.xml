@@ -465,6 +465,15 @@ under the License.
       </roles>
       <timezone>Europe/Berlin</timezone>
     </developer>
+    <developer>
+      <id>michaelo</id>
+      <name>Michael Osipov</name>
+      <email>michaelo@apache.org</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>Europe/Berlin</timezone>
+    </developer>
     
     <!--End Committers-->
     <developer>
