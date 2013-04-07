@@ -1028,7 +1028,7 @@ under the License.
             <configuration>
               <notimestamp>true</notimestamp>
               <links>
-                <link>http://commons.apache.org/collections/apidocs-COLLECTIONS_3_0/</link>
+                <link>http://commons.apache.org/proper/commons-collections/javadocs/api-release</link>
                 <link>http://junit.sourceforge.net/javadoc/</link>
                 <link>http://logging.apache.org/log4j/1.2/apidocs/</link>
                 <link>http://velocity.apache.org/engine/releases/velocity-1.5/apidocs/</link>
