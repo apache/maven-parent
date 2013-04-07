@@ -43,12 +43,80 @@ The <<<reporting>>> Profile
 
     This POM provides <<<reporting>>> profile for rendering documentation during site generation:
 
-+---
++-----+
 mvn -Preporting site
-mvn -Preporting site-deploy
-+---
++-----+
 
     See {{{./plugins.html}Plugins report}} for a list of configured report plugins.
+
+Site Publication
+
+    This POM prepares site publication to svnpubsub. Every inheriting POM needs to define <<<maven.site.path>>> property
+    with relative path to <<<$\{artifactId}-LATEST>>> publication uri, and define <<<distributionManagement>>> to avoid
+    automatic inheritance from parent:
+
++-----+
+  <distributionManagement>
+    <site>
+      <id>apache.website</id>
+      <url>scm:svn:https://svn.apache.org/repos/infra/websites/production/maven/content/${maven.site.path}</url>
+    </site>
+  </distributionManagement>
++-----+
+
+    Then configuration differs between mono- and multi-modules sites:
+
+* Mono-Module Site
+
+    Inheriting POM must configure <<<site-deploy>>> phase to publish with <<<maven-scm-publish-plugin>>>:
+
++-----+
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-site-plugin</artifactId>
+          <configuration>
+            <skipDeploy>true</skipDeploy><!-- don't deploy site with maven-site-plugin -->
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-scm-publish-plugin</artifactId>
+        <configuration>
+          <content>${project.reporting.outputDirectory}</content>
+        </configuration>
+        <executions>
+          <execution>
+            <id>scm-publish</id>
+            <phase>site-deploy</phase><!-- deploy site with maven-scm-publish-plugin -->
+            <goals>
+              <goal>publish-scm</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
++-----+
+
+    Effective site publishing is done with:
+
++-----+
+mvn -Preporting site-deploy
++-----+
+
+* Multi-Modules Site
+
+    Multi-modules sites are preconfigured and published with:
+
++-----+
+mvn -Preporting site site:stage scm-publish:publish-scm
++-----+
 
 History
 
@@ -58,7 +126,9 @@ History
 *--------------+------------+
 || <<Version>> || <<Release Date>> ||
 *--------------+------------+
-| {{{http://svn.apache.org/viewvc/maven/pom/tags/maven-parent-23/pom.xml?view=markup}23}} ({{{http://svn.apache.org/viewvc/maven/pom/tags/maven-parent-23/pom.xml?r1=HEAD&r2=1371599&diff_format=h}diff}}) |  |
+| {{{http://svn.apache.org/viewvc/maven/pom/trunk/pom.xml?view=markup}trunk}} ({{{http://svn.apache.org/viewvc/maven/pom/trunk/pom.xml?r1=HEAD&r2=1465498&diff_format=h}diff}}) |  |
+*--------------+------------+
+| {{{http://svn.apache.org/viewvc/maven/pom/tags/maven-parent-23/pom.xml?view=markup}23}} ({{{http://svn.apache.org/viewvc/maven/pom/tags/maven-parent-23/pom.xml?r1=HEAD&r2=1371599&diff_format=h}diff}}) | 2013-01-21 |
 *--------------+------------+
 | {{{http://svn.apache.org/viewvc/maven/pom/tags/maven-parent-22/pom.xml?view=markup}22}} ({{{http://svn.apache.org/viewvc/maven/pom/tags/maven-parent-22/pom.xml?r1=HEAD&r2=1157980&diff_format=h}diff}}) | 2012-08-08 |
 *--------------+------------+
