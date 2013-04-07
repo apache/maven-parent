@@ -1029,7 +1029,7 @@ under the License.
               <notimestamp>true</notimestamp>
               <links>
                 <link>http://commons.apache.org/proper/commons-collections/javadocs/api-release</link>
-                <link>http://junit.sourceforge.net/javadoc/</link>
+                <link>http://junit.org/javadoc/4.10/</link>
                 <link>http://logging.apache.org/log4j/1.2/apidocs/</link>
                 <link>http://velocity.apache.org/engine/releases/velocity-1.5/apidocs/</link>
               </links>
