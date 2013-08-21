@@ -43,13 +43,13 @@ under the License.
   <!-- Developers listed by PMC Chair, PMC, Committers, Contributers, all alphabetical-->
   <developers>
     <developer>
-      <id>olamy</id>
-      <name>Olivier Lamy</name>
-      <email>olamy@apache.org</email>
+      <id>stephenc</id>
+      <name>Stephen Connolly</name>
+      <email>stephenc@apache.org</email>
       <roles>
         <role>PMC Chair</role>
       </roles>
-      <timezone>Australia/Melbourne</timezone>
+      <timezone>0</timezone>
     </developer>
     <developer>
       <id>aheritier</id>
@@ -200,6 +200,15 @@ under the License.
       </roles>
     </developer>
     <developer>
+      <id>olamy</id>
+      <name>Olivier Lamy</name>
+      <email>olamy@apache.org</email>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>Australia/Melbourne</timezone>
+    </developer>
+    <developer>
       <id>pgier</id>
       <name>Paul Gier</name>
       <email>pgier@apache.org</email>
@@ -237,15 +246,6 @@ under the License.
         <role>PMC Member</role>
       </roles>
       <timezone>+1</timezone>
-    </developer>
-    <developer>
-      <id>stephenc</id>
-      <name>Stephen Connolly</name>
-      <email>stephenc@apache.org</email>
-      <roles>
-        <role>PMC Member</role>
-      </roles>
-      <timezone>0</timezone>
     </developer>
     <developer>
       <id>struberg</id>
