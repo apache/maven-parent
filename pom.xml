@@ -669,7 +669,7 @@ under the License.
       <otherArchives>
         <otherArchive>http://www.mail-archive.com/users@maven.apache.org/</otherArchive>
         <otherArchive>http://maven.40175.n5.nabble.com/Maven-Users-f40176.html</otherArchive>
-        <otherArchive>http://maven.users.markmail.org/</otherArchive>
+        <otherArchive>http://maven-users.markmail.org/</otherArchive>
       </otherArchives>
     </mailingList>
     <mailingList>
@@ -681,7 +681,7 @@ under the License.
       <otherArchives>
         <otherArchive>http://www.mail-archive.com/dev@maven.apache.org/</otherArchive>
         <otherArchive>http://maven.40175.n5.nabble.com/Maven-Developers-f142166.html</otherArchive>
-        <otherArchive>http://maven.dev.markmail.org/</otherArchive>
+        <otherArchive>http://maven-dev.markmail.org/</otherArchive>
       </otherArchives>
     </mailingList>
     <mailingList>
@@ -692,7 +692,7 @@ under the License.
       <otherArchives>
         <otherArchive>http://www.mail-archive.com/issues@maven.apache.org</otherArchive>
         <otherArchive>http://maven.40175.n5.nabble.com/Maven-Issues-f219593.html</otherArchive>
-        <otherArchive>http://maven.issues.markmail.org/</otherArchive>
+        <otherArchive>http://maven-issues.markmail.org/</otherArchive>
       </otherArchives>
     </mailingList>
     <mailingList>
@@ -703,7 +703,7 @@ under the License.
       <otherArchives>
         <otherArchive>http://www.mail-archive.com/commits@maven.apache.org</otherArchive>
         <otherArchive>http://maven.40175.n5.nabble.com/Maven-Commits-f277168.html</otherArchive>
-        <otherArchive>http://maven.commits.markmail.org/</otherArchive>
+        <otherArchive>http://maven-commits.markmail.org/</otherArchive>
       </otherArchives>
     </mailingList>
     <mailingList>
@@ -715,7 +715,7 @@ under the License.
       <otherArchives>
         <otherArchive>http://www.mail-archive.com/announce@maven.apache.org</otherArchive>
         <otherArchive>http://maven.40175.n5.nabble.com/Maven-Announcements-f326045.html</otherArchive>
-        <otherArchive>http://maven.announce.markmail.org/</otherArchive>
+        <otherArchive>http://maven-announce.markmail.org/</otherArchive>
       </otherArchives>
     </mailingList>
     <mailingList>
@@ -726,7 +726,7 @@ under the License.
       <otherArchives>
         <otherArchive>http://www.mail-archive.com/notifications@maven.apache.org</otherArchive>
         <otherArchive>http://maven.40175.n5.nabble.com/Maven-Notifications-f301718.html</otherArchive>
-        <otherArchive>http://maven.notifications.markmail.org/</otherArchive>
+        <otherArchive>http://maven-notifications.markmail.org/</otherArchive>
       </otherArchives>
     </mailingList>
   </mailingLists>
