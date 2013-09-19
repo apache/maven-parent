@@ -845,7 +845,7 @@ under the License.
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-release-plugin</artifactId>
-          <version>2.3.2</version>
+          <version>2.4.1</version>
           <configuration>
             <useReleaseProfiles>true</useReleaseProfiles>
             <releaseProfiles>apache-release,rat</releaseProfiles>
@@ -992,7 +992,7 @@ under the License.
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-pmd-plugin</artifactId>
-            <version>2.7.1</version>
+            <version>3.0.1</version>
             <configuration>
               <targetJdk>1.5</targetJdk>
               <rulesets>
@@ -1085,7 +1085,7 @@ under the License.
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-javadoc-plugin</artifactId>
-            <version>2.9</version>
+            <version>2.9.1</version>
             <configuration>
               <notimestamp>true</notimestamp>
               <links>
