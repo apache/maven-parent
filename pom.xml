@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+
 
 <!--
 Licensed to the Apache Software Foundation (ASF) under one
@@ -469,6 +469,15 @@ under the License.
       <name>Vincent Massol</name>
       <email>vmassol@apache.org</email>
       <organization>ASF</organization>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>
+    <developer>
+      <id>khmarbaise</id>
+      <name>Karl Heinz Marbaise</name>
+      <email>khmarbaise@apache.org</email>
       <roles>
         <role>Committer</role>
       </roles>
