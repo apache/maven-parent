@@ -52,10 +52,13 @@ mvn -Preporting site
 Site Publication
 
     This POM prepares site publication to svnpubsub. Every inheriting POM needs to define <<<maven.site.path>>> property
-    with relative path to <<<$\{artifactId}-LATEST>>> publication uri, and define <<<distributionManagement>>> to avoid
+    with relative path to <<<$\{project.artifactId}-LATEST>>> publication uri, and define <<<distributionManagement>>> to avoid
     automatic inheritance from parent:
 
 +-----+
+  <properties>
+    <maven.site.path>xxx-archives/${project.artifactId}-LATEST</maven.site.path>
+  </properties>
   <distributionManagement>
     <site>
       <id>apache.website</id>
@@ -64,59 +67,15 @@ Site Publication
   </distributionManagement>
 +-----+
 
-    Then configuration differs between mono- and multi-modules sites:
-
-* Mono-Module Site
-
-    Inheriting POM must configure <<<site-deploy>>> phase to publish with <<<maven-scm-publish-plugin>>>:
+    Once this is configured, the site is published with:
 
 +-----+
-  <build>
-    <pluginManagement>
-      <plugins>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-site-plugin</artifactId>
-          <configuration>
-            <skipDeploy>true</skipDeploy><!-- don't deploy site with maven-site-plugin -->
-          </configuration>
-        </plugin>
-      </plugins>
-    </pluginManagement>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-scm-publish-plugin</artifactId>
-        <configuration>
-          <content>${project.reporting.outputDirectory}</content>
-        </configuration>
-        <executions>
-          <execution>
-            <id>scm-publish</id>
-            <phase>site-deploy</phase><!-- deploy site with maven-scm-publish-plugin -->
-            <goals>
-              <goal>publish-scm</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
-    </plugins>
-  </build>
+mvn -Preporting site site:stage
+mvn scm-publish:publish-scm
 +-----+
 
-    Effective site publishing is done with:
-
-+-----+
-mvn -Preporting site-deploy
-+-----+
-
-* Multi-Modules Site
-
-    Multi-modules sites are preconfigured and published with:
-
-+-----+
-mvn -Preporting site site:stage scm-publish:publish-scm
-+-----+
+    See {{{/developers/website/deploy-component-reference-documentation.html}deploying Maven components reference documentation}}
+    for more information.
 
 History
 
