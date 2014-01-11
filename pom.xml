@@ -389,6 +389,15 @@ under the License.
       <timezone>-5</timezone>
     </developer>
     <developer>
+      <id>imod</id>
+      <name>Dominik Bartholdi</name>
+      <email>imod@apache.org</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>Europe/Zurich</timezone>
+    </developer>     
+    <developer>
       <id>jjensen</id>
       <name>Jeff Jensen</name>
       <roles>
@@ -402,6 +411,15 @@ under the License.
         <role>Committer</role>
       </roles>
       <timezone>-5</timezone>
+    </developer>
+    <developer>
+      <id>khmarbaise</id>
+      <name>Karl Heinz Marbaise</name>
+      <email>khmarbaise@apache.org</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>+1</timezone>
     </developer>
     <developer>
       <id>ltheussl</id>
@@ -474,26 +492,8 @@ under the License.
       </roles>
       <timezone>+1</timezone>
     </developer>
-    <developer>
-      <id>khmarbaise</id>
-      <name>Karl Heinz Marbaise</name>
-      <email>khmarbaise@apache.org</email>
-      <roles>
-        <role>Committer</role>
-      </roles>
-      <timezone>+1</timezone>
-    </developer>
-    <developer>
-      <id>imod</id>
-      <name>Dominik Bartholdi</name>
-      <email>imod@apache.org</email>
-      <roles>
-        <role>Committer</role>
-      </roles>
-      <timezone>Europe/Zurich</timezone>
-    </developer>     
-    
     <!--End Committers-->
+
     <developer>
       <id>aramirez</id>
       <name>Allan Q. Ramirez</name>
