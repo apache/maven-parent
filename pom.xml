@@ -483,6 +483,15 @@ under the License.
       </roles>
       <timezone>+1</timezone>
     </developer>
+    <developer>
+      <id>imod</id>
+      <name>Dominik Bartholdi</name>
+      <email>imod@apache.org</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>Europe/Zurich</timezone>
+    </developer>     
     
     <!--End Committers-->
     <developer>
