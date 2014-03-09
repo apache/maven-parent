@@ -814,7 +814,6 @@ under the License.
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.1</version>
           <configuration>
             <source>1.5</source>
             <target>1.5</target>
@@ -831,7 +830,7 @@ under the License.
         <plugin>
           <groupId>org.codehaus.modello</groupId>
           <artifactId>modello-maven-plugin</artifactId>
-          <version>1.7</version>
+          <version>1.8.1</version>
           <configuration>
             <useJava5>true</useJava5>
           </configuration>
@@ -858,12 +857,12 @@ under the License.
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>findbugs-maven-plugin</artifactId>
-          <version>2.5.2</version>
+          <version>2.5.3</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-release-plugin</artifactId>
-          <version>2.4.1</version>
+          <version>2.5</version>
           <configuration>
             <useReleaseProfiles>true</useReleaseProfiles>
             <releaseProfiles>apache-release,rat</releaseProfiles>
@@ -914,7 +913,7 @@ under the License.
           <dependency>
             <groupId>org.codehaus.mojo</groupId>
             <artifactId>extra-enforcer-rules</artifactId>
-            <version>1.0-alpha-4</version>
+            <version>1.0-beta-2</version>
           </dependency>
         </dependencies>
       </plugin>
@@ -1064,12 +1063,12 @@ under the License.
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-surefire-report-plugin</artifactId>
-            <version>2.14.1</version>
+            <version>2.16</version>
           </plugin>
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-checkstyle-plugin</artifactId>
-            <version>2.10</version>
+            <version>2.11</version>
             <configuration>
               <configLocation>config/maven_checks.xml</configLocation>
               <headerLocation>config/maven-header.txt</headerLocation>
@@ -1101,7 +1100,7 @@ under the License.
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-jxr-plugin</artifactId>
-            <version>2.3</version>
+            <version>2.4</version>
             <reportSets>
               <reportSet>
                 <id>default</id>
@@ -1162,7 +1161,7 @@ under the License.
           <plugin>
             <groupId>org.codehaus.mojo</groupId>
             <artifactId>findbugs-maven-plugin</artifactId>
-            <version>2.5.2</version>
+            <version>2.5.3</version>
           </plugin>
           <plugin>
             <groupId>org.codehaus.sonar-plugins</groupId>
