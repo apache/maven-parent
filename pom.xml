@@ -438,6 +438,15 @@ under the License.
       </roles>
     </developer>
     <developer>
+      <id>mfriedenhagen</id>
+      <name>Mirko Friedenhagen</name>
+      <email>mfriedenhagen@apache.org</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>
+    <developer>
       <id>michaelo</id>
       <name>Michael Osipov</name>
       <email>michaelo@apache.org</email>
