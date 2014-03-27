@@ -902,7 +902,7 @@ under the License.
             <configuration>
               <rules>
                 <enforceBytecodeVersion>
-                  <maxJdkVersion>1.5</maxJdkVersion>
+                  <maxJdkVersion>${maven.compiler.target}</maxJdkVersion>
                 </enforceBytecodeVersion>
               </rules>
               <fail>true</fail>
@@ -1047,7 +1047,7 @@ under the License.
             <artifactId>maven-pmd-plugin</artifactId>
             <version>3.1</version>
             <configuration>
-              <targetJdk>1.5</targetJdk>
+              <targetJdk>${maven.compiler.source}</targetJdk>
               <rulesets>
                 <ruleset>rulesets/maven.xml</ruleset>
               </rulesets>
@@ -1105,7 +1105,7 @@ under the License.
             <artifactId>maven-pmd-plugin</artifactId>
             <version>3.1</version>
             <configuration>
-              <targetJdk>1.5</targetJdk>
+              <targetJdk>${maven.compiler.source}</targetJdk>
               <rulesets>
                 <ruleset>rulesets/maven.xml</ruleset>
               </rulesets>
