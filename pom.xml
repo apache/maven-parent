@@ -39,7 +39,7 @@ under the License.
   <description>Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.</description>
   <url>http://maven.apache.org/</url>
   <inceptionYear>2002</inceptionYear>
-  <licenses><!-- to be removed when upgrading to ASF-15 -->
+  <licenses><!-- TODO remove when upgrading to ASF-15 -->
     <license>
       <name>Apache License, Version 2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
@@ -791,6 +791,8 @@ under the License.
   </distributionManagement>
 
   <properties>
+    <maven.compiler.source>1.5</maven.compiler.source>
+    <maven.compiler.target>1.5</maven.compiler.target>    
     <sonar.host.url>https://analysis.apache.org/</sonar.host.url>
     <maven.site.cache>${user.home}/maven-sites</maven.site.cache>
     <maven.site.path>../..</maven.site.path><!-- to be overridden -->
@@ -830,9 +832,9 @@ under the License.
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-compiler-plugin</artifactId>
-          <configuration>
-            <source>1.5</source>
-            <target>1.5</target>
+          <configuration><!-- TODO remove when upgrading to ASF-15 -->
+            <source>${maven.compiler.source}</source>
+            <target>${maven.compiler.target}</target>
           </configuration>
         </plugin>
         <plugin>
