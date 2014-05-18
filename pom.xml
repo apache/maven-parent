@@ -415,7 +415,7 @@ under the License.
       <id>jvanzyl</id>
       <name>Jason van Zyl</name>
       <roles>
-        <role>Committer</role>
+        <role>PMC Member</role>
       </roles>
       <timezone>-5</timezone>
     </developer>
@@ -943,6 +943,19 @@ under the License.
           </dependency>
         </dependencies>
       </plugin>
+      <plugin>
+        <groupId>org.apache.rat</groupId>
+        <artifactId>apache-rat-plugin</artifactId>
+        <inherited>true</inherited>
+        <executions>
+          <execution>
+            <id>check</id>
+            <goals>
+              <goal>check</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>      
     </plugins>
   </build>
 
@@ -982,50 +995,6 @@ under the License.
   </reporting>
 
   <profiles>
-    <profile>
-      <id>apache-release</id>
-      <build>
-        <plugins>
-          <plugin>
-            <groupId>org.apache.rat</groupId>
-            <artifactId>apache-rat-plugin</artifactId>
-            <inherited>true</inherited>
-            <executions>
-              <execution>
-                <id>check</id>
-                <goals>
-                  <goal>check</goal>
-                </goals>
-                <configuration>
-                  <!-- phase 1: measure the size of the issue -->
-                  <ignoreErrors>true</ignoreErrors>
-                </configuration>
-              </execution>
-            </executions>
-          </plugin>
-        </plugins>
-      </build>
-    </profile>
-    <profile>
-      <id>rat</id>
-      <build>
-        <plugins>
-          <plugin>
-            <groupId>org.apache.rat</groupId>
-            <artifactId>apache-rat-plugin</artifactId>
-            <executions>
-              <execution>
-                <phase>verify</phase>
-                <goals>
-                  <!-- rat, not check, because we've got lots of noncomplaint stuff -->
-                  <goal>rat</goal>
-                </goals>
-              </execution>
-            </executions>
-          </plugin>
-        </plugins>
-      </build>
-    </profile>
     <profile>
       <id>quality-checks</id>
       <activation>
