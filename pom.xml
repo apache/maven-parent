@@ -1118,6 +1118,7 @@ under the License.
             <version>2.9.1</version>
             <configuration>
               <notimestamp>true</notimestamp>
+              <quiet>true</quiet>
               <links>
                 <link>http://commons.apache.org/proper/commons-collections/javadocs/api-release</link>
                 <link>http://junit.org/javadoc/4.10/</link>
