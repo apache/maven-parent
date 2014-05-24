@@ -796,6 +796,7 @@ under the License.
     <sonar.host.url>https://analysis.apache.org/</sonar.host.url>
     <maven.site.cache>${user.home}/maven-sites</maven.site.cache>
     <maven.site.path>../..</maven.site.path><!-- to be overridden -->
+    <mavenPluginToolsVersion>3.3</mavenPluginToolsVersion>
   </properties>
 
   <dependencyManagement>
@@ -808,7 +809,7 @@ under the License.
       <dependency>
         <groupId>org.apache.maven.plugin-tools</groupId>
         <artifactId>maven-plugin-annotations</artifactId>
-        <version>3.2</version>
+        <version>${mavenPluginToolsVersion}</version>
         <scope>provided</scope>
       </dependency>
     </dependencies>
@@ -840,7 +841,7 @@ under the License.
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-plugin-plugin</artifactId>
-          <version>3.2</version>
+          <version>${mavenPluginToolsVersion}</version>
           <configuration>
             <useJava5>true</useJava5>
           </configuration>
@@ -1130,7 +1131,7 @@ under the License.
                 <tagletArtifact>
                   <groupId>org.apache.maven.plugin-tools</groupId>
                   <artifactId>maven-plugin-tools-javadoc</artifactId>
-                  <version>3.2</version>
+                  <version>${mavenPluginToolsVersion}</version>
                 </tagletArtifact>
                 <tagletArtifact>
                   <groupId>org.codehaus.plexus</groupId>
