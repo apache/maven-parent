@@ -50,13 +50,14 @@ under the License.
   <!-- Developers listed by PMC Chair, PMC, Committers, Contributers, all alphabetical-->
   <developers>
     <developer>
-      <id>stephenc</id>
-      <name>Stephen Connolly</name>
-      <email>stephenc@apache.org</email>
+      <id>hboutemy</id>
+      <name>Hervé Boutemy</name>
+      <email>hboutemy@apache.org</email>
+      <organization>ASF</organization>
       <roles>
         <role>PMC Chair</role>
       </roles>
-      <timezone>0</timezone>
+      <timezone>Europe/Paris</timezone>
     </developer>
     <developer>
       <id>aheritier</id>
@@ -155,16 +156,6 @@ under the License.
       <timezone>+1</timezone>
     </developer>
     <developer>
-      <id>hboutemy</id>
-      <name>Hervé Boutemy</name>
-      <email>hboutemy@apache.org</email>
-      <organization>ASF</organization>
-      <roles>
-        <role>PMC Member</role>
-      </roles>
-      <timezone>Europe/Paris</timezone>
-    </developer>
-    <developer>
       <id>jdcasey</id>
       <name>John Casey</name>
       <email>jdcasey@apache.org</email>
@@ -253,6 +244,15 @@ under the License.
         <role>PMC Member</role>
       </roles>
       <timezone>+1</timezone>
+    </developer>
+    <developer>
+      <id>stephenc</id>
+      <name>Stephen Connolly</name>
+      <email>stephenc@apache.org</email>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>0</timezone>
     </developer>
     <developer>
       <id>struberg</id>
