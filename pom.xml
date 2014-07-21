@@ -350,6 +350,8 @@ under the License.
     <developer>
       <id>dantran</id>
       <name>Dan Tran</name>
+      <email>dantran@apache.org</email>
+      <timezone>-8</timezone>      
       <roles>
         <role>Committer</role>
       </roles>
