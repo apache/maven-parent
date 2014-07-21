@@ -947,7 +947,6 @@ under the License.
       <plugin>
         <groupId>org.apache.rat</groupId>
         <artifactId>apache-rat-plugin</artifactId>
-        <inherited>true</inherited>
         <executions>
           <execution>
             <id>check</id>
