@@ -166,6 +166,14 @@ under the License.
       <timezone>-6</timezone>
     </developer>
     <developer>
+      <id>jvanzyl</id>
+      <name>Jason van Zyl</name>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>-5</timezone>
+    </developer>
+    <developer>
       <id>krosenvold</id>
       <name>Kristian Rosenvold</name>
       <email>krosenvold@apache.org</email>
@@ -410,14 +418,6 @@ under the License.
       <roles>
         <role>Committer</role>
       </roles>
-    </developer>
-    <developer>
-      <id>jvanzyl</id>
-      <name>Jason van Zyl</name>
-      <roles>
-        <role>PMC Member</role>
-      </roles>
-      <timezone>-5</timezone>
     </developer>
     <developer>
       <id>khmarbaise</id>
