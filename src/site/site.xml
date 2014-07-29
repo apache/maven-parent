@@ -63,8 +63,7 @@ under the License.
       <item name="Archetype"         href="http://maven.apache.org/archetype/index.html" />
       <item name="Doxia"             href="http://maven.apache.org/doxia/index.html" />
       <item name="JXR"               href="http://maven.apache.org/jxr/index.html" />
-      <item name="Maven 1.x"         href="http://maven.apache.org/maven-1.x/index.html" />
-      <item name="Maven 2 &amp; 3"   href="http://maven.apache.org/index.html" />
+      <item name="Maven"             href="http://maven.apache.org/index.html" />
       <item name="Parent POMs"       href="http://maven.apache.org/pom/index.html" />
       <item name="Plugins"           href="http://maven.apache.org/plugins/index.html" />
       <item name="Plugin Testing"    href="http://maven.apache.org/plugin-testing/index.html" />
