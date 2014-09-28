@@ -26,7 +26,7 @@ under the License.
   <parent>
     <groupId>org.apache</groupId>
     <artifactId>apache</artifactId>
-    <version>14</version>
+    <version>15</version>
     <relativePath>../asf/pom.xml</relativePath>
   </parent>
 
@@ -39,13 +39,6 @@ under the License.
   <description>Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.</description>
   <url>http://maven.apache.org/</url>
   <inceptionYear>2002</inceptionYear>
-  <licenses><!-- TODO remove when upgrading to ASF-15 -->
-    <license>
-      <name>Apache License, Version 2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-      <distribution>repo</distribution>
-    </license>
-  </licenses>
 
   <!-- Developers listed by PMC Chair, PMC, Committers, Contributers, all alphabetical-->
   <developers>
@@ -891,7 +884,7 @@ under the License.
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-release-plugin</artifactId>
-          <version>2.5</version>
+          <version>2.5.1</version>
           <configuration>
             <useReleaseProfiles>true</useReleaseProfiles>
             <releaseProfiles>apache-release,rat</releaseProfiles>
