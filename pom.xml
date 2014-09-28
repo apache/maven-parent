@@ -792,6 +792,8 @@ under the License.
     <maven.site.cache>${user.home}/maven-sites</maven.site.cache>
     <maven.site.path>../..</maven.site.path><!-- to be overridden -->
     <mavenPluginToolsVersion>3.3</mavenPluginToolsVersion>
+    <!-- don't fail check for some rules that are too hard to enforce (could even be told broken for some) -->
+    <checkstyle.violation.ignore>RedundantThrows,NewlineAtEndOfFile</checkstyle.violation.ignore>
   </properties>
 
   <dependencyManagement>
@@ -892,10 +894,33 @@ under the License.
             <arguments>${arguments}</arguments>
           </configuration>
         </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-checkstyle-plugin</artifactId>
+          <version>2.13</version>
+          <configuration>
+            <configLocation>config/maven_checks.xml</configLocation>
+            <headerLocation>config/maven-header.txt</headerLocation>
+            <excludes>**/HelpMojo.java</excludes>
+          </configuration>
+        </plugin>
       </plugins>
     </pluginManagement>
     <plugins>
       <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-checkstyle-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>checkstyle-check</id>
+            <goals>
+              <goal>check</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-enforcer-plugin</artifactId>
         <executions>
           <execution>
@@ -944,7 +969,7 @@ under the License.
         <artifactId>apache-rat-plugin</artifactId>
         <executions>
           <execution>
-            <id>check</id>
+            <id>rat-check</id>
             <goals>
               <goal>check</goal>
             </goals>
@@ -1058,10 +1083,6 @@ under the License.
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-checkstyle-plugin</artifactId>
             <version>2.13</version>
-            <configuration>
-              <configLocation>config/maven_checks.xml</configLocation>
-              <headerLocation>config/maven-header.txt</headerLocation>
-            </configuration>
             <reportSets>
               <reportSet>
                 <id>default</id>
