@@ -794,7 +794,6 @@ under the License.
     <mavenPluginToolsVersion>3.3</mavenPluginToolsVersion>
     <!-- don't fail check for some rules that are too hard to enforce (could even be told broken for some) -->
     <checkstyle.violation.ignore>RedundantThrows,NewlineAtEndOfFile</checkstyle.violation.ignore>
-    <checkstyle.excludes>**/HelpMojo.java</checkstyle.excludes>
   </properties>
 
   <dependencyManagement>
@@ -895,6 +894,9 @@ under the License.
           <configuration>
             <configLocation>config/maven_checks.xml</configLocation>
             <headerLocation>config/maven-header.txt</headerLocation>
+            <!-- workaround to avoid analysing generated content (Modello, plugin help mojo, ...) -->
+            <sourceDirectory>src/main/java</sourceDirectory>
+            <testSourceDirectory>src/test/java</testSourceDirectory>
           </configuration>
         </plugin>
       </plugins>
