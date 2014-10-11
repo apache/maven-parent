@@ -830,14 +830,6 @@ under the License.
         <!-- The Maven universe targets Java 1.5 -->
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-compiler-plugin</artifactId>
-          <configuration><!-- TODO remove when upgrading to ASF-15 -->
-            <source>${maven.compiler.source}</source>
-            <target>${maven.compiler.target}</target>
-          </configuration>
-        </plugin>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-plugin-plugin</artifactId>
           <version>${mavenPluginToolsVersion}</version>
           <configuration>
@@ -852,6 +844,7 @@ under the License.
             <useJava5>true</useJava5>
           </configuration>
         </plugin>
+        <!-- site publishing configuration -->
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-site-plugin</artifactId>
@@ -880,11 +873,6 @@ under the License.
           <version>1.5.5</version>
         </plugin>
         <plugin>
-          <groupId>org.codehaus.mojo</groupId>
-          <artifactId>findbugs-maven-plugin</artifactId>
-          <version>2.5.3</version>
-        </plugin>
-        <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-release-plugin</artifactId>
           <version>2.5.1</version>
@@ -894,6 +882,11 @@ under the License.
             <goals>deploy</goals>
             <arguments>${arguments}</arguments>
           </configuration>
+        </plugin>
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>findbugs-maven-plugin</artifactId>
+          <version>2.5.3</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
