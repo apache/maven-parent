@@ -295,15 +295,6 @@ under the License.
 
     <!--Committers-->
     <developer>
-      <id>tibordigana</id>
-      <name>Tibor Digaňa</name>
-      <email>tibordigana@apache.org</email>
-      <roles>
-        <role>Committer</role>
-      </roles>
-      <timezone>Europe/Bratislava</timezone>
-    </developer>
-    <developer>
       <id>agudian</id>
       <name>Andreas Gudian</name>
       <email>agudian@apache.org</email>
@@ -501,6 +492,15 @@ under the License.
         <role>Committer</role>
       </roles>
       <timezone>Europe/Paris</timezone>
+    </developer>
+    <developer>
+      <id>tibordigana</id>
+      <name>Tibor Digaňa</name>
+      <email>tibordigana@apache.org</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>Europe/Bratislava</timezone>
     </developer>
     <developer>
       <id>vmassol</id>
