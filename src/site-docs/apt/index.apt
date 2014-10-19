@@ -31,8 +31,9 @@ Maven Project Parent POM
 
     This POM is the common parent of all of the Maven components
     in the Apache Maven project. Most of its contents are
-    pinning down version numbers of plugins; it does not 
-    provide any dependencyManagement.
+    pinning down version numbers of plugins. It does 
+    provide minimal dependencyManagement for <<<org.codehaus.plexus:plexus-component-annotations>>>
+    and <<<org.apache.maven.plugin-tools:maven-plugin-annotations>>>.
 
     This POM contains Maven developers information for the {{{./team-list.html}Project Team report}},
     sorted by role and id.
@@ -84,6 +85,8 @@ History
 
 *--------------+------------+
 || <<Version>> || <<Release Date>> ||
+*--------------+------------+
+| {{{http://svn.apache.org/viewvc/maven/pom/tags/maven-parent-25/pom.xml?view=markup}25}} ({{{http://svn.apache.org/viewvc/maven/pom/tags/maven-parent-25/pom.xml?r1=HEAD&r2=1582495&diff_format=h}diff}}) | 2014-10-22 |
 *--------------+------------+
 | {{{http://svn.apache.org/viewvc/maven/pom/tags/maven-parent-24/pom.xml?view=markup}24}} ({{{http://svn.apache.org/viewvc/maven/pom/tags/maven-parent-24/pom.xml?r1=HEAD&r2=1465498&diff_format=h}diff}}) | 2014-03-27 |
 *--------------+------------+
