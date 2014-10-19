@@ -886,7 +886,7 @@ under the License.
           <version>2.5.1</version>
           <configuration>
             <useReleaseProfiles>true</useReleaseProfiles>
-            <releaseProfiles>apache-release,rat</releaseProfiles>
+            <releaseProfiles>apache-release</releaseProfiles>
             <goals>deploy</goals>
             <arguments>${arguments}</arguments>
           </configuration>
