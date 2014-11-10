@@ -81,7 +81,7 @@ mvn scm-publish:publish-scm
 History
 
 #if( $project.version.endsWith( "SNAPSHOT" ) )
-    trunk: {{{http://svn.apache.org/viewvc/maven/pom/trunk/asf/pom.xml?view=markup}26-SNAPSHOT}} ({{{http://svn.apache.org/viewvc/maven/pom/trunk/maven/pom.xml?r1=HEAD&r2=1637991&diff_format=h}diff}})
+    trunk: {{{http://svn.apache.org/viewvc/maven/pom/trunk/asf/pom.xml?view=markup}26-SNAPSHOT}} ({{{http://svn.apache.org/viewvc/maven/pom/trunk/maven/pom.xml?r1=HEAD&r2=1632923&diff_format=h}diff}})
 #end
 
     As of version 21, this POM sets the Java source and target versions to 1.5. Thus, as any plugin (or other component)
