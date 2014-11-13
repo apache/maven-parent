@@ -3,8 +3,9 @@
  -----
  Benson Margulies
  Hervé Boutemy
+ Karl Heinz Marbaise
  -----
- 2012-05-03
+ 2014-11-13
  -----
 
 ~~ Licensed to the Apache Software Foundation (ASF) under one
@@ -89,6 +90,8 @@ History
 
 *--------------+------------+
 || <<Version>> || <<Release Date>> ||
+*--------------+------------+
+| {{{http://svn.apache.org/viewvc/maven/pom/tags/maven-parent-26/pom.xml?view=markup}26}} ({{{http://svn.apache.org/viewvc/maven/pom/tags/maven-parent-26/pom.xml?r1=HEAD&r2=1632922&diff_format=h}diff}}) | 2014-11-13 |
 *--------------+------------+
 | {{{http://svn.apache.org/viewvc/maven/pom/tags/maven-parent-25/pom.xml?view=markup}25}} ({{{http://svn.apache.org/viewvc/maven/pom/tags/maven-parent-25/pom.xml?r1=HEAD&r2=1582495&diff_format=h}diff}}) | 2014-10-22 |
 *--------------+------------+
