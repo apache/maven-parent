@@ -512,6 +512,15 @@ under the License.
       </roles>
       <timezone>+1</timezone>
     </developer>
+    <developer>
+      <id>chrisgwarp</id>
+      <name>Chris Graham</name>
+      <email>chrisgwarp@apache.org</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>Australia/Melbourne</timezone>
+    </developer>
     <!--End Committers-->
 
     <developer>
