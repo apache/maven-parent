@@ -340,6 +340,15 @@ under the License.
       <timezone>+1</timezone>
     </developer>
     <developer>
+      <id>chrisgwarp</id>
+      <name>Chris Graham</name>
+      <email>chrisgwarp@apache.org</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>Australia/Melbourne</timezone>
+    </developer>
+    <developer>
       <id>cstamas</id>
       <name>Tamas Cservenak</name>
       <organization>Sonatype</organization>
@@ -512,15 +521,6 @@ under the License.
       </roles>
       <timezone>+1</timezone>
     </developer>
-    <developer>
-      <id>chrisgwarp</id>
-      <name>Chris Graham</name>
-      <email>chrisgwarp@apache.org</email>
-      <roles>
-        <role>Committer</role>
-      </roles>
-      <timezone>Australia/Melbourne</timezone>
-    </developer>
     <!--End Committers-->
 
     <developer>
@@ -595,6 +595,14 @@ under the License.
       <timezone>-5</timezone>
     </developer>
     <developer>
+      <id>jruiz</id>
+      <name>Johnny Ruiz III</name>
+      <email>jruiz@apache.org</email>
+      <roles>
+        <role>Emeritus</role>
+      </roles>
+    </developer>
+    <developer>
       <id>jstrachan</id>
       <name>James Strachan</name>
       <roles>
@@ -610,6 +618,16 @@ under the License.
         <role>Emeritus</role>
       </roles>
       <timezone>+8</timezone>
+    </developer>
+    <developer>
+      <id>kenney</id>
+      <name>Kenney Westerhof</name>
+      <email>kenney@apache.org</email>
+      <organization>Neonics</organization>
+      <roles>
+        <role>Emeritus</role>
+      </roles>
+      <timezone>+1</timezone>
     </developer>
     <developer>
       <id>mperham</id>
@@ -685,24 +703,6 @@ under the License.
         <role>Emeritus</role>
       </roles>
       <timezone>-7</timezone>
-    </developer>
-    <developer>
-      <id>jruiz</id>
-      <name>Johnny Ruiz III</name>
-      <email>jruiz@apache.org</email>
-      <roles>
-        <role>Emeritus</role>
-      </roles>
-    </developer>
-    <developer>
-      <id>kenney</id>
-      <name>Kenney Westerhof</name>
-      <email>kenney@apache.org</email>
-      <organization>Neonics</organization>
-      <roles>
-        <role>Emeritus</role>
-      </roles>
-      <timezone>+1</timezone>
     </developer>
   </developers>
 
