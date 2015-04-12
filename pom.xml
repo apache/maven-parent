@@ -26,7 +26,7 @@ under the License.
   <parent>
     <groupId>org.apache</groupId>
     <artifactId>apache</artifactId>
-    <version>16</version>
+    <version>17-SNAPSHOT</version>
     <relativePath>../asf/pom.xml</relativePath>
   </parent>
 
@@ -891,6 +891,38 @@ under the License.
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-checkstyle-plugin</artifactId>
+          <version>2.13</version>
+          <configuration>
+            <configLocation>config/maven_checks.xml</configLocation>
+            <headerLocation>config/maven-header.txt</headerLocation>
+            <!-- workaround to avoid analysing generated content (Modello, plugin help mojo, ...) -->
+            <sourceDirectory>src/main/java</sourceDirectory>
+            <testSourceDirectory>src/test/java</testSourceDirectory>
+          </configuration>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-jxr-plugin</artifactId>
+          <version>2.4</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-pmd-plugin</artifactId>
+          <version>3.1</version>
+          <configuration>
+            <targetJdk>${maven.compiler.target}</targetJdk>
+            <rulesets>
+              <ruleset>rulesets/maven.xml</ruleset>
+            </rulesets>
+            <excludeRoots>
+              <excludeRoot>${project.build.directory}/generated-sources/modello</excludeRoot>
+              <excludeRoot>${project.build.directory}/generated-sources/plugin</excludeRoot>
+            </excludeRoots>
+          </configuration>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-release-plugin</artifactId>
           <version>2.5.1</version>
           <configuration>
@@ -906,33 +938,9 @@ under the License.
           <version>2.5.5</version>
         </plugin>
         <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-checkstyle-plugin</artifactId>
-          <version>2.13</version>
-          <configuration>
-            <configLocation>config/maven_checks.xml</configLocation>
-            <headerLocation>config/maven-header.txt</headerLocation>
-            <!-- workaround to avoid analysing generated content (Modello, plugin help mojo, ...) -->
-            <sourceDirectory>src/main/java</sourceDirectory>
-            <testSourceDirectory>src/test/java</testSourceDirectory>
-          </configuration>
-        </plugin>
-        <plugin><!-- TODO remove when upgrading parent to 17 -->
-          <groupId>org.apache.rat</groupId>
-          <artifactId>apache-rat-plugin</artifactId>
-          <dependencies><!-- see https://issues.apache.org/jira/browse/RAT-158 -->
-            <dependency>
-              <groupId>org.apache.maven.doxia</groupId>
-              <artifactId>doxia-core</artifactId>
-              <version>1.2</version>
-              <exclusions>
-                <exclusion>
-                  <groupId>xerces</groupId>
-                  <artifactId>xercesImpl</artifactId>
-                </exclusion>
-              </exclusions>
-            </dependency>
-          </dependencies>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>taglist-maven-plugin</artifactId>
+          <version>2.4</version>
         </plugin>
       </plugins>
     </pluginManagement>
@@ -975,11 +983,7 @@ under the License.
             <configuration>
               <rules>
                 <requireMavenVersion>
-                  <version>(,2.1.0),(2.1.0,2.2.0),(2.2.0,)</version>
-                  <message>Maven 2.1.0 and 2.2.0 produce incorrect GPG signatures and checksums respectively.</message>
-                </requireMavenVersion>
-                <requireMavenVersion>
-                  <version>(,3.0),[3.0.4,)</version>
+                  <version>[3.0.4,)</version>
                   <message>Maven 3.0 through 3.0.3 inclusive do not pass correct settings.xml to Maven Release Plugin.</message>
                 </requireMavenVersion>
               </rules>
@@ -1025,7 +1029,6 @@ under the License.
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-project-info-reports-plugin</artifactId>
-        <version>2.8</version>
         <configuration>
           <dependencyLocationsEnabled>false</dependencyLocationsEnabled><!-- waiting for MPIR-267 -->
         </configuration>
@@ -1082,17 +1085,6 @@ under the License.
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-pmd-plugin</artifactId>
-            <version>3.1</version>
-            <configuration>
-              <targetJdk>${maven.compiler.source}</targetJdk>
-              <rulesets>
-                <ruleset>rulesets/maven.xml</ruleset>
-              </rulesets>
-              <excludeRoots>
-                <excludeRoot>${project.build.directory}/generated-sources/modello</excludeRoot>
-                <excludeRoot>${project.build.directory}/generated-sources/plugin</excludeRoot>
-              </excludeRoots>
-            </configuration>
             <executions>
               <execution>
                 <id>cpd-check</id>
@@ -1114,17 +1106,14 @@ under the License.
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-project-info-reports-plugin</artifactId>
-            <version>2.8</version>
           </plugin>
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-surefire-report-plugin</artifactId>
-            <version>2.18.1</version>
           </plugin>
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-checkstyle-plugin</artifactId>
-            <version>2.13</version>
             <reportSets>
               <reportSet>
                 <id>default</id>
@@ -1137,22 +1126,10 @@ under the License.
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-pmd-plugin</artifactId>
-            <version>3.1</version>
-            <configuration>
-              <targetJdk>${maven.compiler.source}</targetJdk>
-              <rulesets>
-                <ruleset>rulesets/maven.xml</ruleset>
-              </rulesets>
-              <excludeRoots>
-                <excludeRoot>${project.build.directory}/generated-sources/modello</excludeRoot>
-                <excludeRoot>${project.build.directory}/generated-sources/plugin</excludeRoot>
-              </excludeRoots>
-            </configuration>
           </plugin>
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-jxr-plugin</artifactId>
-            <version>2.4</version>
             <reportSets>
               <reportSet>
                 <id>default</id>
@@ -1167,7 +1144,6 @@ under the License.
           <plugin>
             <groupId>org.codehaus.mojo</groupId>
             <artifactId>taglist-maven-plugin</artifactId>
-            <version>2.4</version>
             <configuration>
               <tagListOptions>
                 <tagClasses>
@@ -1213,7 +1189,6 @@ under the License.
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-javadoc-plugin</artifactId>
-            <version>2.9.1</version>
             <configuration>
               <notimestamp>true</notimestamp>
               <quiet>true</quiet>
@@ -1255,7 +1230,6 @@ under the License.
           <plugin>
             <groupId>org.codehaus.mojo</groupId>
             <artifactId>findbugs-maven-plugin</artifactId>
-            <version>2.5.5</version>
           </plugin>
           <plugin>
             <groupId>org.codehaus.sonar-plugins</groupId>
