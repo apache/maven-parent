@@ -120,15 +120,6 @@ under the License.
       <timezone>+1</timezone>
     </developer>
     <developer>
-      <id>dfabulich</id>
-      <name>Daniel Fabulich</name>
-      <email>dfabulich@apache.org</email>
-      <roles>
-        <role>PMC Member</role>
-      </roles>
-      <timezone>-8</timezone>
-    </developer>
-    <developer>
       <id>dkulp</id>
       <name>Daniel Kulp</name>
       <email>dkulp@apache.org</email>
@@ -377,6 +368,15 @@ under the License.
       <roles>
         <role>Committer</role>
       </roles>
+    </developer>
+    <developer>
+      <id>dfabulich</id>
+      <name>Daniel Fabulich</name>
+      <email>dfabulich@apache.org</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>-8</timezone>
     </developer>
     <developer>
       <id>fgiust</id>
