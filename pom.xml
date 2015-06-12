@@ -247,14 +247,6 @@ under the License.
       <timezone>0</timezone>
     </developer>
     <developer>
-      <id>struberg</id>
-      <name>Mark Struberg</name>
-      <email>struberg@apache.org</email>
-      <roles>
-        <role>PMC Member</role>
-      </roles>
-    </developer>
-    <developer>
       <id>vsiveton</id>
       <name>Vincent Siveton</name>
       <email>vsiveton@apache.org</email>
@@ -492,6 +484,14 @@ under the License.
         <role>Committer</role>
       </roles>
       <timezone>+1</timezone>
+    </developer>
+    <developer>
+      <id>struberg</id>
+      <name>Mark Struberg</name>
+      <email>struberg@apache.org</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
     </developer>
     <developer>
       <id>tchemit</id>
