@@ -450,6 +450,15 @@ under the License.
       <timezone>Europe/Berlin</timezone>
     </developer>
     <developer>
+      <id>mmoser</id>
+      <name>Manfred Moser</name>
+      <email>mmoser@apache.org</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>-8</timezone>
+    </developer>
+    <developer>
       <id>nicolas</id>
       <name>Nicolas de Loof</name>
       <roles>
