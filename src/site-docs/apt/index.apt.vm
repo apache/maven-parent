@@ -51,6 +51,11 @@ mvn -Preporting site
 
     See {{{./plugins.html}Plugins report}} for a list of configured report plugins.
 
+The <<<jdk-toolchain>>> Profile
+
+    This POM provides <<<jdk-toolchain>>> profile to activate JDK selection as a toolchain with version
+    requirement configured as minimum java version for the project.
+
 Site Publication
 
     This POM prepares site publication to svnpubsub. Every inheriting POM needs to define <<<maven.site.path>>> property
