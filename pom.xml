@@ -935,7 +935,7 @@ under the License.
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-release-plugin</artifactId>
-          <version>2.5.1</version>
+          <version>2.5.2</version>
           <configuration>
             <useReleaseProfiles>true</useReleaseProfiles>
             <releaseProfiles>apache-release</releaseProfiles>
@@ -948,6 +948,12 @@ under the License.
           <artifactId>maven-toolchains-plugin</artifactId>
           <version>1.1</version>
         </plugin>
+        <!--remove when apache-parent updates this plugin -->
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-gpg-plugin</artifactId>
+          <version>1.6</version>
+        </plugin>        
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>findbugs-maven-plugin</artifactId>
