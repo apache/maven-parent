@@ -21,20 +21,33 @@ under the License.
 
 <project xmlns="http://maven.apache.org/DECORATION/1.3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/DECORATION/1.3.0 http://maven.apache.org/xsd/decoration-1.3.0.xsd">
+
   <bannerLeft>
     <name>${project.name}</name>
-    <src>https://maven.apache.org/images/apache-maven-project-2.png</src>
-    <href>https://maven.apache.org/</href>
+    <src>http://maven.apache.org/images/apache-maven-project.png</src>
+    <href>http://www.apache.org/</href>
   </bannerLeft>
+
   <bannerRight>
-    <src>https://maven.apache.org/images/maven-logo-2.gif</src>
+    <src>http://maven.apache.org/images/maven-logo-black-on-white.png</src>
+    <href>http://maven.apache.org/</href>
   </bannerRight>
 
   <skin>
     <groupId>org.apache.maven.skins</groupId>
-    <artifactId>maven-stylus-skin</artifactId>
-    <version>1.5</version>
+    <artifactId>maven-fluido-skin</artifactId>
+    <version>1.4</version>
   </skin>
+
+  <custom>
+    <fluidoSkin>
+      <sourceLineNumbersEnabled>true</sourceLineNumbersEnabled>
+      <googlePlusOne />
+      <googleSearch>
+        <sitesearch/>
+      </googleSearch>
+    </fluidoSkin>
+  </custom>
 
   <publishDate format="yyyy-MM-dd" position="right" />
   <version position="right" />
