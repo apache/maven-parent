@@ -91,7 +91,7 @@ History
 #end
 
     As of version 27, this POM sets the Java source and target versions to 1.6. Thus, as any plugin (or other component)
-    moved to version 27+ of this POM, it moves to requiring Java 1.6.
+    moved to version 27+ of this POM, it moves to requiring Java 1.6 (was Java 1.5 since version 21).
 
 *--------------+------------+
 || <<Version>> || <<Release Date>> ||
