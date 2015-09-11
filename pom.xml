@@ -814,7 +814,7 @@ under the License.
   </distributionManagement>
 
   <properties>
-    <javaVersion>5</javaVersion>
+    <javaVersion>6</javaVersion>
     <maven.compiler.source>1.${javaVersion}</maven.compiler.source>
     <maven.compiler.target>1.${javaVersion}</maven.compiler.target>    
     <sonar.host.url>https://analysis.apache.org/</sonar.host.url>
