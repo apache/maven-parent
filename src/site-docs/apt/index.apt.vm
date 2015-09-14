@@ -33,8 +33,8 @@ Maven Project Parent POM
     This POM is the common parent of all of the Maven components
     in the Apache Maven project. Most of its contents are
     pinning down version numbers of plugins. It does 
-    provide minimal dependencyManagement for <<<org.codehaus.plexus:plexus-component-annotations>>>
-    and <<<org.apache.maven.plugin-tools:maven-plugin-annotations>>>.
+    provide {{{./dependency-management.html}minimal dependencyManagement}} for
+    plexus-component and plugin-tools annotations.
 
     This POM contains Maven developers information for the {{{./team-list.html}Project Team report}},
     sorted by role and id.
@@ -58,13 +58,14 @@ The <<<jdk-toolchain>>> Profile
 
 Site Publication
 
-    This POM prepares site publication to svnpubsub. Every inheriting POM needs to define <<<maven.site.path>>> property
+    This POM prepares site publication to {{{/developers/website/index.html}Apache Maven's site svnpubsub}}.
+    Every inheriting POM needs to define <<<maven.site.path>>> property
     with relative path to <<<$\{project.artifactId}-LATEST>>> publication uri, and define <<<distributionManagement>>> to avoid
     automatic inheritance from parent:
 
 +-----+
   <properties>
-    <maven.site.path>xxx-archives/${project.artifactId}-LATEST</maven.site.path>
+    <maven.site.path>xxx-archives/artifactId-LATEST</maven.site.path>
   </properties>
   <distributionManagement>
     <site>
