@@ -80,16 +80,6 @@ under the License.
       <timezone>America/New_York</timezone>
     </developer>
     <developer>
-      <id>brett</id>
-      <name>Brett Porter</name>
-      <email>brett@apache.org</email>
-      <organization>ASF</organization>
-      <roles>
-        <role>PMC Member</role>
-      </roles>
-      <timezone>+10</timezone>
-    </developer>
-    <developer>
       <id>brianf</id>
       <name>Brian Fox</name>
       <email>brianf@apache.org</email>
@@ -98,16 +88,6 @@ under the License.
         <role>PMC Member</role>
       </roles>
       <timezone>-5</timezone>
-    </developer>
-    <developer>
-      <id>carlos</id>
-      <name>Carlos Sanchez</name>
-      <email>carlos@apache.org</email>
-      <organization>ASF</organization>
-      <roles>
-        <role>PMC Member</role>
-      </roles>
-      <timezone>+1</timezone>
     </developer>
     <developer>
       <id>cstamas</id>
@@ -187,24 +167,8 @@ under the License.
       <timezone>+1</timezone>
     </developer>
     <developer>
-      <id>markh</id>
-      <name>Mark Hobson</name>
-      <email>markh@apache.org</email>
-      <roles>
-        <role>PMC Member</role>
-      </roles>
-      <timezone>0</timezone>
-    </developer>
-    <developer>
       <id>mkleint</id>
       <name>Milos Kleint</name>
-      <roles>
-        <role>PMC Member</role>
-      </roles>
-    </developer>
-    <developer>
-      <id>oching</id>
-      <name>Maria Odea B. Ching</name>
       <roles>
         <role>PMC Member</role>
       </roles>
@@ -352,6 +316,16 @@ under the License.
       </roles>
     </developer>
     <developer>
+      <id>brett</id>
+      <name>Brett Porter</name>
+      <email>brett@apache.org</email>
+      <organization>ASF</organization>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>+10</timezone>
+    </developer>
+    <developer>
       <id>dfabulich</id>
       <name>Daniel Fabulich</name>
       <email>dfabulich@apache.org</email>
@@ -425,6 +399,15 @@ under the License.
       <timezone>+1</timezone>
     </developer>
     <developer>
+      <id>markh</id>
+      <name>Mark Hobson</name>
+      <email>markh@apache.org</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>0</timezone>
+    </developer>
+    <developer>
       <id>mauro</id>
       <name>Mauro Talevi</name>
       <roles>
@@ -461,6 +444,13 @@ under the License.
     <developer>
       <id>nicolas</id>
       <name>Nicolas de Loof</name>
+      <roles>
+        <role>Committer</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>oching</id>
+      <name>Maria Odea B. Ching</name>
       <roles>
         <role>Committer</role>
       </roles>
@@ -555,6 +545,16 @@ under the License.
       <roles>
         <role>Emeritus</role>
       </roles>
+    </developer>
+    <developer>
+      <id>carlos</id>
+      <name>Carlos Sanchez</name>
+      <email>carlos@apache.org</email>
+      <organization>ASF</organization>
+      <roles>
+        <role>Emeritus</role>
+      </roles>
+      <timezone>+1</timezone>
     </developer>
     <developer>
       <id>chrisjs</id>
