@@ -221,6 +221,15 @@ under the License.
       <timezone>0</timezone>
     </developer>
     <developer>
+      <id>tibordigana</id>
+      <name>Tibor Digaňa</name>
+      <email>tibordigana@apache.org</email>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>Europe/Bratislava</timezone>
+    </developer>
+    <developer>
       <id>vsiveton</id>
       <name>Vincent Siveton</name>
       <email>vsiveton@apache.org</email>
@@ -510,15 +519,6 @@ under the License.
         <role>Committer</role>
       </roles>
       <timezone>Europe/Paris</timezone>
-    </developer>
-    <developer>
-      <id>tibordigana</id>
-      <name>Tibor Digaňa</name>
-      <email>tibordigana@apache.org</email>
-      <roles>
-        <role>Committer</role>
-      </roles>
-      <timezone>Europe/Bratislava</timezone>
     </developer>
     <developer>
       <id>vmassol</id>
