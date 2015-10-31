@@ -953,7 +953,7 @@ under the License.
           <artifactId>maven-toolchains-plugin</artifactId>
           <version>1.1</version>
         </plugin>
-        <!--remove when apache-parent updates this plugin -->
+        <!--remove when apache-parent is updated to ASF-18 -->
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-gpg-plugin</artifactId>
