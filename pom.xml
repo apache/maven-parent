@@ -130,6 +130,16 @@ under the License.
       <timezone>+1</timezone>
     </developer>
     <developer>
+      <id>ifedorenko</id>
+      <name>Igor Fedorenko</name>
+      <email>igor@ifedorenko.com</email>
+      <organization>Sonatype</organization>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>-5</timezone>
+    </developer>
+    <developer>
       <id>jdcasey</id>
       <name>John Casey</name>
       <email>jdcasey@apache.org</email>
@@ -181,6 +191,15 @@ under the License.
         <role>PMC Member</role>
       </roles>
       <timezone>Australia/Melbourne</timezone>
+    </developer>
+    <developer>
+      <id>michaelo</id>
+      <name>Michael Osipov</name>
+      <email>michaelo@apache.org</email>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>Europe/Berlin</timezone>
     </developer>
     <developer>
       <id>rfscholte</id>
@@ -373,16 +392,6 @@ under the License.
       <timezone>0</timezone>
     </developer>
     <developer>
-      <id>ifedorenko</id>
-      <name>Igor Fedorenko</name>
-      <email>igor@ifedorenko.com</email>
-      <organization>Sonatype</organization>
-      <roles>
-        <role>Committer</role>
-      </roles>
-      <timezone>-5</timezone>
-    </developer>
-    <developer>
       <id>imod</id>
       <name>Dominik Bartholdi</name>
       <email>imod@apache.org</email>
@@ -431,15 +440,6 @@ under the License.
         <role>Committer</role>
       </roles>
       <timezone>+1</timezone>
-    </developer>
-    <developer>
-      <id>michaelo</id>
-      <name>Michael Osipov</name>
-      <email>michaelo@apache.org</email>
-      <roles>
-        <role>Committer</role>
-      </roles>
-      <timezone>Europe/Berlin</timezone>
     </developer>
     <developer>
       <id>mmoser</id>
