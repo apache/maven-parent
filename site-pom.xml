@@ -25,7 +25,7 @@ under the License.
   <parent>
     <groupId>org.apache.maven</groupId>
     <artifactId>maven-parent</artifactId>
-    <version>27</version>
+    <version>30-SNAPSHOT</version>
     <relativePath>./pom.xml</relativePath>
   </parent>
 
@@ -35,6 +35,11 @@ under the License.
   <name>Apache Maven Parent POM</name>
   <description>This project consists of a POM that contains settings that are likely to be useful to any Maven project that is building and releasing code with Maven 2/3.</description>
   <url>http://maven.apache.org/pom/maven/</url>
+
+  <modules>
+    <!--module>maven-archetype-bundles</module-->
+    <module>maven-skins/site-pom.xml</module>
+  </modules>
 
   <scm>
     <connection>scm:svn:http://svn.apache.org/repos/asf/maven/pom/trunk/maven</connection>
@@ -58,6 +63,8 @@ under the License.
 
   <properties>
     <maven.site.path>pom-archives/maven-LATEST</maven.site.path>
+    <rat.skip>true</rat.skip>
+    <maven.test.skip>true</maven.test.skip>
   </properties>
 
   <build>
