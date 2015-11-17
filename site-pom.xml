@@ -39,6 +39,7 @@ under the License.
   <modules>
     <!--module>maven-archetype-bundles</module-->
     <module>maven-plugins/site-pom.xml</module>
+    <module>maven-shared-components/site-pom.xml</module>
     <module>maven-skins/site-pom.xml</module>
   </modules>
 
