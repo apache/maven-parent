@@ -790,6 +790,7 @@ under the License.
 
   <modules>
     <module>maven-archetype-bundles</module>
+    <module>maven-plugins</module>
     <module>maven-skins</module>
   </modules>
 

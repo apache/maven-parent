@@ -23,49 +23,20 @@ under the License.
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-plugins</artifactId>
-    <version>28</version>
-    <relativePath>./pom.xml</relativePath>
+    <groupId>org.apache.maven</groupId>
+    <artifactId>maven-parent.</artifactId>
+    <version>30-SNAPSHOT</version>
+    <relativePath>../site-pom.xml</relativePath>
   </parent>
 
-  <artifactId>maven-plugins.</artifactId>
+  <artifactId>maven-plugins</artifactId>
   <packaging>pom</packaging>
 
   <name>Apache Maven Plugins Parent POM</name>
   <description>This project consists of a POM that contains settings that are likely to be useful to any Maven plugin that is building and releasing code with Maven 2/3.</description>
-  <url>http://maven.apache.org/${maven.site.path}</url>
 
-  <scm>
-    <connection>scm:svn:http://svn.apache.org/repos/asf/maven/plugins/trunk/maven-plugins/</connection>
-    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/plugins/trunk/maven-plugins/</developerConnection>
-    <url>http://svn.apache.org/viewvc/maven/plugins/trunk/maven-plugins/</url>
-  </scm>
   <issueManagement>
     <system>jira</system>
     <url>http://issues.apache.org/jira/browse/MPOM/component/12314501</url>
   </issueManagement>
-
-  <distributionManagement>
-    <site>
-      <id>apache.website</id>
-      <url>scm:svn:https://svn.apache.org/repos/infra/websites/production/maven/components/${maven.site.path}</url>
-    </site>
-  </distributionManagement>
-
-  <properties>
-    <maven.site.path>pom-archives/maven-plugins-LATEST</maven.site.path>
-  </properties>
-
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-site-plugin</artifactId>
-        <configuration>
-          <siteDirectory>${basedir}/src/site-docs</siteDirectory>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
 </project>

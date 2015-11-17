@@ -34,22 +34,9 @@ under the License.
 
   <name>Apache Maven Skins Parent POM</name>
   <description>This project consists of a POM that contains settings that are likely to be useful to any Maven Skin that is building and releasing code with Maven 2/3.</description>
-  <url>http://maven.apache.org/pom/skins/</url>
 
   <issueManagement>
     <system>jira</system>
     <url>http://issues.apache.org/jira/browse/MPOM/component/12317104</url>
   </issueManagement>
-
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-site-plugin</artifactId>
-        <configuration>
-          <siteDirectory>${basedir}/src/site-docs</siteDirectory>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
 </project>
