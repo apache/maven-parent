@@ -32,8 +32,8 @@ under the License.
   <artifactId>maven-shared-components</artifactId>
   <packaging>pom</packaging>
 
-  <name>Apache Maven Shared Components POM</name>
-  <description>This project consists of a POM that contains settings that are likely to be useful to any Maven Shared Component that is building and releasing code with Maven 2/3.</description>
+  <name>Apache Maven Shared Components Parent POM</name>
+  <description>This project consists of a POM that contains settings that are likely to be useful to any Maven Shared Component that is building and releasing code with Maven.</description>
 
   <issueManagement>
     <system>jira</system>

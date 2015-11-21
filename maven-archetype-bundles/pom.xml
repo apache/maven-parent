@@ -33,7 +33,7 @@ under the License.
   <artifactId>maven-archetype-bundles</artifactId>
   <packaging>pom</packaging>
 
-  <name>Maven Archetypes</name>
+  <name>Apache Maven Archetypes</name>
   <description>Archetypes provided by Maven.</description>
   <url>http://maven.apache.org/archetypes/</url>
 

@@ -33,7 +33,7 @@ under the License.
   <artifactId>doxia-tools</artifactId>
   <packaging>pom</packaging>
 
-  <name>Doxia :: Tools</name>
+  <name>Apache Maven Doxia Tools</name>
   <description>A set of tools for working with Doxia documents.</description>
   <url>http://maven.apache.org/doxia/doxia-tools/</url>
   <inceptionYear>2005</inceptionYear>

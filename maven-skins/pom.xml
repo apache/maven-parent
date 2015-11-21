@@ -33,7 +33,7 @@ under the License.
   <artifactId>maven-skins</artifactId>
   <packaging>pom</packaging>
 
-  <name>Maven Skins</name>
+  <name>Apache Maven Skins</name>
   <description>Maven Skins</description>
   <url>http://maven.apache.org/skins/</url>
 

@@ -33,7 +33,7 @@ under the License.
   <packaging>pom</packaging>
 
   <name>Apache Maven Parent POM</name>
-  <description>This project consists of a POM that contains settings that are likely to be useful to any Maven project that is building and releasing code with Maven 2/3.</description>
+  <description>This project consists of a POM that contains settings that are likely to be useful to any Maven project that is building and releasing code with Maven.</description>
   <url>http://maven.apache.org/pom/maven/</url>
 
   <modules>
