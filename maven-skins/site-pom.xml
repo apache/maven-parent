@@ -29,6 +29,7 @@ under the License.
     <relativePath>../site-pom.xml</relativePath>
   </parent>
 
+  <groupId>org.apache.maven.skins</groupId>
   <artifactId>maven-skins</artifactId>
   <packaging>pom</packaging>
 

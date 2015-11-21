@@ -29,15 +29,15 @@ under the License.
     <relativePath>../site-pom.xml</relativePath>
   </parent>
 
-  <groupId>org.apache.maven.shared</groupId>
-  <artifactId>maven-shared-components</artifactId>
+  <groupId>org.apache.maven.doxia</groupId>
+  <artifactId>doxia-tools</artifactId>
   <packaging>pom</packaging>
 
-  <name>Apache Maven Shared Components Parent POM</name>
-  <description>This project consists of a POM that contains settings that are likely to be useful to any Maven Shared Component that is building and releasing code with Maven.</description>
+  <name>Apache Maven Doxia Tools Parent POM</name>
+  <description>This project consists of a POM that contains settings that are likely to be useful to any Maven Doxia Tool that is building and releasing code with Maven.</description>
 
   <issueManagement>
     <system>jira</system>
-    <url>http://issues.apache.org/jira/browse/MPOM/component/12314801</url>
+    <url>http://issues.apache.org/jira/browse/MPOM/component/12328319</url>
   </issueManagement>
 </project>

@@ -37,11 +37,11 @@ under the License.
   <url>http://maven.apache.org/pom/maven/</url>
 
   <modules>
-    <!--module>maven-archetype-bundles/site-pom.xml</module-->
+    <module>maven-archetype-bundles/site-pom.xml</module>
     <module>maven-plugins/site-pom.xml</module>
     <module>maven-shared-components/site-pom.xml</module>
     <module>maven-skins/site-pom.xml</module>
-    <!--module>doxia-tools/site-pom.xml</module-->
+    <module>doxia-tools/site-pom.xml</module>
   </modules>
 
   <scm>

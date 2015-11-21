@@ -29,15 +29,15 @@ under the License.
     <relativePath>../site-pom.xml</relativePath>
   </parent>
 
-  <groupId>org.apache.maven.shared</groupId>
-  <artifactId>maven-shared-components</artifactId>
+  <groupId>org.apache.maven.archetypes</groupId>
+  <artifactId>maven-archetypes-bundles</artifactId>
   <packaging>pom</packaging>
 
-  <name>Apache Maven Shared Components Parent POM</name>
-  <description>This project consists of a POM that contains settings that are likely to be useful to any Maven Shared Component that is building and releasing code with Maven.</description>
+  <name>Apache Maven Archetypes Parent POM</name>
+  <description>This project consists of a POM that contains settings that are likely to be useful to any Maven Archetype that is building and releasing code with Maven.</description>
 
   <issueManagement>
     <system>jira</system>
-    <url>http://issues.apache.org/jira/browse/MPOM/component/12314801</url>
+    <url>http://issues.apache.org/jira/browse/MPOM/component/12328304</url>
   </issueManagement>
 </project>

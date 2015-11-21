@@ -23,8 +23,10 @@ under the License.
   xsi:schemaLocation="http://maven.apache.org/DECORATION/1.1.0 http://maven.apache.org/xsd/decoration-1.1.0.xsd">
   <body>
     <breadcrumbs>
-      <item name="Parent POMs" href="http://maven.apache.org/pom/index.html" />
-      <item name="Maven Plugins Parent POM" href="http://maven.apache.org/pom/maven-plugin/index.html" />
+      <item name="Maven" href="http://maven.apache.org/pom/maven/index.html" />
+      <item name="Plugins" href="http://maven.apache.org/pom/maven/maven-plugin/index.html" />
     </breadcrumbs>
+
+    <menu ref="parent" />
   </body>
 </project>

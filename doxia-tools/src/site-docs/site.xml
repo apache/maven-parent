@@ -24,7 +24,7 @@ under the License.
   <body>
     <breadcrumbs>
       <item name="Maven" href="http://maven.apache.org/pom/maven/index.html" />
-      <item name="Shared Components" href="http://maven.apache.org/pom/maven/maven-shared-components/index.html" />
+      <item name="Doxia Tools" href="http://maven.apache.org/pom/maven/doxia-tools/index.html" />
     </breadcrumbs>
 
     <menu ref="parent" />

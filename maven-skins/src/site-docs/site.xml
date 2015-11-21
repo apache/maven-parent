@@ -23,15 +23,10 @@ under the License.
   xsi:schemaLocation="http://maven.apache.org/DECORATION/1.1.0 http://maven.apache.org/xsd/decoration-1.1.0.xsd">
   <body>
     <breadcrumbs>
-      <item name="Parent POMs" href="http://maven.apache.org/pom/index.html" />
-      <item name="Maven Skins Parent POM" href="http://maven.apache.org/pom/skins/index.html" />
+      <item name="Maven" href="http://maven.apache.org/pom/maven/index.html" />
+      <item name="Skins" href="http://maven.apache.org/pom/maven/skins/index.html" />
     </breadcrumbs>
-  
-    <menu name="Overview">
-      <item name="Introduction" href="index.html"/>
-      <!-- According to http://jira.codehaus.org/browse/MNGSITE-152 -->
-      <item name="License" href="http://www.apache.org/licenses/"/>
-      <item name="Download" href="download.html"/>
-    </menu>
+
+    <menu ref="parent" />
   </body>
 </project>

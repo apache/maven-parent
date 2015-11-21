@@ -24,7 +24,7 @@ under the License.
   <body>
     <breadcrumbs>
       <item name="Maven" href="http://maven.apache.org/pom/maven/index.html" />
-      <item name="Shared Components" href="http://maven.apache.org/pom/maven/maven-shared-components/index.html" />
+      <item name="Archetypes" href="http://maven.apache.org/pom/maven/maven-archetype-bundles/index.html" />
     </breadcrumbs>
 
     <menu ref="parent" />
