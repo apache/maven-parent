@@ -53,6 +53,15 @@ under the License.
       <timezone>Europe/Paris</timezone>
     </developer>
     <developer>
+      <id>agudian</id>
+      <name>Andreas Gudian</name>
+      <email>agudian@apache.org</email>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>Europe/Berlin</timezone>
+    </developer>
+    <developer>
       <id>aheritier</id>
       <name>Arnaud Héritier</name>
       <email>aheritier@apache.org</email>
@@ -270,15 +279,6 @@ under the License.
     </developer>
 
     <!--Committers-->
-    <developer>
-      <id>agudian</id>
-      <name>Andreas Gudian</name>
-      <email>agudian@apache.org</email>
-      <roles>
-        <role>Committer</role>
-      </roles>
-      <timezone>Europe/Berlin</timezone>
-    </developer>
     <developer>
       <id>andham</id>
       <name>Anders Hammar</name>
