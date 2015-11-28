@@ -96,7 +96,7 @@ mvn scm-publish:publish-scm
   </properties>
 +-----+
 
-    Once this is configured, the site can be published in only command:
+    Once this is configured, the site can be published in only one command:
 
 +-----+
 mvn -Preporting site-deploy
