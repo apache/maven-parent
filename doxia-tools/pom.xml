@@ -63,6 +63,7 @@ under the License.
   <properties>
     <projectVersion>${project.version}</projectVersion>
     <maven.site.path>doxia-tools-archives/${project.artifactId}-LATEST</maven.site.path>
+    <maven.site.scm-deploy>true</maven.site.scm-deploy>
   </properties>
 
   <dependencyManagement>
@@ -104,13 +105,6 @@ under the License.
             </goals>
           </execution>
         </executions>
-      </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-scm-publish-plugin</artifactId>
-        <configuration>
-          <content>${project.reporting.outputDirectory}</content><!-- doxia-tools are mono-module, no real need for site:stage -->
-        </configuration>
       </plugin>
     </plugins>
   </build>

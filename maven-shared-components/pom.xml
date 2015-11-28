@@ -59,6 +59,7 @@ under the License.
 
   <properties>
     <maven.site.path>shared-archives/${project.artifactId}-LATEST</maven.site.path>
+    <maven.site.scm-deploy>true</maven.site.scm-deploy>
   </properties>
 
   <repositories>
@@ -118,14 +119,5 @@ under the License.
         </plugin>
       </plugins>
     </pluginManagement>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-scm-publish-plugin</artifactId>
-        <configuration>
-          <content>${project.reporting.outputDirectory}</content>
-        </configuration>
-      </plugin>
-    </plugins>
   </build>
 </project>

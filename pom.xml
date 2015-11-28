@@ -1299,5 +1299,38 @@ under the License.
         </plugins>
       </reporting>
     </profile>
+    <profile>
+      <id>site.scm-deploy</id>
+      <activation>
+        <property><name>maven.site.scm-deploy</name><value>deploy</value></property>
+      </activation>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-site-plugin</artifactId>
+            <configuration>
+              <skipDeploy>true</skipDeploy><!-- don't deploy site with maven-site-plugin -->
+            </configuration>
+          </plugin>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-scm-publish-plugin</artifactId>
+            <configuration>
+              <content>${project.reporting.outputDirectory}</content><!-- no need for site:stage, use target/site -->
+            </configuration>
+            <executions>
+              <execution>
+                <id>scm-publish</id>
+                <phase>site-deploy</phase><!-- deploy site with maven-scm-publish-plugin -->
+                <goals>
+                  <goal>publish-scm</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
   </profiles>
 </project>

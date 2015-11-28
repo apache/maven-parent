@@ -47,6 +47,11 @@ under the License.
     <url>https://issues.apache.org/jira/browse/MARCHETYPES</url>
   </issueManagement>
 
+  <properties>
+    <maven.site.path>archetypes-archives/${project.artifactId}-LATEST</maven.site.path>
+    <maven.site.scm-deploy>true</maven.site.scm-deploy>
+  </properties>
+
   <build>
     <extensions>
       <extension>

@@ -65,7 +65,7 @@ Site Publication
 
 +-----+
   <properties>
-    <maven.site.path>xxx-archives/artifactId-LATEST</maven.site.path>
+    <maven.site.path>xxx-archives/\${project.artifactId}-LATEST</maven.site.path>
   </properties>
   <distributionManagement>
     <site>
@@ -84,6 +84,23 @@ mvn scm-publish:publish-scm
 
     See {{{/developers/website/deploy-component-reference-documentation.html}deploying Maven components reference documentation}}
     for more information.
+
+* Mono Module: <<<site.scm-deploy>>> profile
+
+    If the build is mono module, previous 2-steps publication can be simplified by activating <<<site.scm-deploy>>> profile
+    through <<<maven.site.scm-deploy>>> property
+
++-----+
+  <properties>
+    <maven.site.scm-deploy>true</maven.site.scm-deploy>
+  </properties>
++-----+
+
+    Once this is configured, the site can be published in only command:
+
++-----+
+mvn -Preporting site-deploy
++-----+
 
 History
 

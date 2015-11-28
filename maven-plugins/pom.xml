@@ -55,6 +55,7 @@ under the License.
 
   <properties>
     <maven.site.path>plugins-archives/${project.artifactId}-LATEST</maven.site.path>
+    <maven.site.scm-deploy>true</maven.site.scm-deploy>
     <mavenInvokerPluginVersion>2.0.0</mavenInvokerPluginVersion>
   </properties>
 
@@ -150,13 +151,6 @@ under the License.
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-plugin-plugin</artifactId>
-      </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-scm-publish-plugin</artifactId>
-        <configuration>
-          <content>${project.reporting.outputDirectory}</content><!-- plugins are mono-module, no real need for site:stage -->
-        </configuration>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
