@@ -79,13 +79,6 @@ under the License.
           <siteDirectory>${basedir}/src/site-docs</siteDirectory>
         </configuration>
       </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-scm-publish-plugin</artifactId>
-        <configuration>
-          <content>${project.reporting.outputDirectory}</content>
-        </configuration>
-      </plugin>
     </plugins>
   </build>
 </project>
