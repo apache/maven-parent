@@ -105,7 +105,7 @@ mvn -Preporting site-deploy
 History
 
 #if( $project.version.endsWith( "SNAPSHOT" ) )
-    trunk: {{{http://svn.apache.org/viewvc/maven/pom/trunk/asf/pom.xml?view=markup}$project.version}} ({{{http://svn.apache.org/viewvc/maven/pom/trunk/maven/pom.xml?r1=HEAD&r2=1639456&diff_format=h}diff}})
+    trunk: {{{http://svn.apache.org/viewvc/maven/pom/trunk/asf/pom.xml?view=markup}$project.version}} ({{{http://svn.apache.org/viewvc/maven/pom/trunk/maven/pom.xml?r1=HEAD&r2=1717080&diff_format=h}diff}})
 #end
 
     As of version 27, this POM sets the Java source and target versions to 1.6. Thus, as any plugin (or other component)
