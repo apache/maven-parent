@@ -20,14 +20,9 @@ under the License.
 -->
 
 <project xmlns="http://maven.apache.org/DECORATION/1.3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/DECORATION/1.3.0 http://maven.apache.org/xsd/decoration-1.3.0.xsd">
-  <bannerLeft>
-    <name>Maven</name>
-    <src>images/apache-maven-project-2.png</src>
-    <href>http://maven.apache.org/</href>
-  </bannerLeft>
   <bannerRight>
     <name>Doxia</name>
-    <src>images/maven-logo-2.gif</src>
+    <src>images/doxia-logo.png</src>
     <href>http://maven.apache.org/doxia/</href>
   </bannerRight>
 
@@ -41,7 +36,6 @@ under the License.
       <item name="Doxia Book Maven Plugin" href="./doxia-book-maven-plugin/index.html" />
       <item name="Doxia Book Renderer" href="./doxia-book-renderer/index.html" />
       <item name="Doxia Converter" href="./doxia-converter/index.html" />
-      <item name="Doxia Integration Tools" href="./doxia-integration-tools/index.html" />
       <item name="Doxia Linkcheck" href="./doxia-linkcheck/index.html" />
     </menu>
   </body>
