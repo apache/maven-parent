@@ -494,6 +494,15 @@ under the License.
       <timezone>+1</timezone>
     </developer>
     <developer>
+      <id>schulte</id>
+      <name>Christian Schulte</name>
+      <email>schulte@apache.org</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>Europe/Berlin</timezone>
+    </developer>
+    <developer>
       <id>simonetripodi</id>
       <name>Simone Tripodi</name>
       <email>simonetripodi@apache.org</email>
