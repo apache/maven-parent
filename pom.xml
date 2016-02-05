@@ -280,6 +280,15 @@ under the License.
 
     <!--Committers-->
     <developer>
+      <id>adangel</id>
+      <name>Andreas Dangel</name>
+      <email>adangel@apache.org</email>
+      <timezone>Europe/Berlin</timezone>
+      <roles>
+        <role>Committer</role>
+      </roles>
+    </developer>
+    <developer>
       <id>andham</id>
       <name>Anders Hammar</name>
       <email>andham@apache.org</email>
