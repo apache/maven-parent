@@ -983,6 +983,11 @@ under the License.
           <artifactId>taglist-maven-plugin</artifactId>
           <version>2.4</version>
         </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-changes-plugin</artifactId>
+          <version>2.12</version>
+        </plugin>
       </plugins>
     </pluginManagement>
     <plugins>
