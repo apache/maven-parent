@@ -26,7 +26,7 @@ under the License.
   <parent>
     <groupId>org.apache</groupId>
     <artifactId>apache</artifactId>
-    <version>17</version>
+    <version>18-SNAPSHOT</version>
     <relativePath>../asf/pom.xml</relativePath>
   </parent>
 
@@ -902,23 +902,11 @@ under the License.
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-site-plugin</artifactId>
-	  <version>3.5</version>
+          <version>3.5.1</version>
           <configuration>
             <!-- for multi-modules site staging -->
             <topSiteURL>scm:svn:https://svn.apache.org/repos/infra/websites/production/maven/components/${maven.site.path}</topSiteURL>
           </configuration>
-          <dependencies>
-            <dependency><!-- TODO remove when upgrading parent pom to version 18 -->
-              <groupId>org.apache.maven.doxia</groupId>
-              <artifactId>doxia-core</artifactId>
-              <version>1.7</version>
-            </dependency>
-            <dependency><!-- TODO remove when upgrading fluido skin to 1.5 -->
-              <groupId>org.apache.velocity</groupId>
-              <artifactId>velocity</artifactId>
-              <version>1.5</version>
-            </dependency>
-          </dependencies>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -1287,7 +1275,7 @@ under the License.
                 <link>http://commons.apache.org/proper/commons-collections/javadocs/api-release</link>
                 <link>http://junit.org/javadoc/4.10/</link>
                 <link>http://logging.apache.org/log4j/1.2/apidocs/</link>
-                <link>http://velocity.apache.org/engine/releases/velocity-1.5/apidocs/</link>
+                <link>http://velocity.apache.org/engine/releases/velocity-1.7/apidocs/</link>
               </links>
               <detectLinks>true</detectLinks>
               <tagletArtifacts>
