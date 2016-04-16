@@ -1263,12 +1263,6 @@ under the License.
             <configuration>
               <notimestamp>true</notimestamp>
               <quiet>true</quiet>
-              <links>
-                <link>http://commons.apache.org/proper/commons-collections/javadocs/api-release</link>
-                <link>http://junit.org/javadoc/4.10/</link>
-                <link>http://logging.apache.org/log4j/1.2/apidocs/</link>
-                <link>http://velocity.apache.org/engine/releases/velocity-1.7/apidocs/</link>
-              </links>
               <detectLinks>true</detectLinks>
               <tagletArtifacts>
                 <tagletArtifact>
