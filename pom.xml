@@ -976,7 +976,7 @@ under the License.
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>findbugs-maven-plugin</artifactId>
-          <version>2.5.5</version>
+          <version>3.0.3</version>
         </plugin>
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
