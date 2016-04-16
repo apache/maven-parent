@@ -1173,7 +1173,6 @@ under the License.
       <id>reporting</id>
       <reporting>
         <plugins>
-        <!-- plugin versions and configuration can be moved to pluginManagement when we don't target Maven 2 any more -->
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-project-info-reports-plugin</artifactId>
