@@ -269,33 +269,6 @@ under the License.
       </reporting>
     </profile>
     <profile>
-      <id>maven-3</id>
-      <activation>
-        <file>
-          <!-- This employs that the basedir expression is only recognized by Maven 3.x (see MNG-2363) -->
-          <exists>${basedir}</exists>
-        </file>
-      </activation>
-      <build>
-        <plugins>
-          <!-- if releasing current pom with Maven 3, site descriptor must be attached -->
-          <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-site-plugin</artifactId>
-            <inherited>false</inherited>
-            <executions>
-              <execution>
-                <id>attach-descriptor</id>
-                <goals>
-                  <goal>attach-descriptor</goal>
-                </goals>
-              </execution>
-            </executions>
-          </plugin>
-        </plugins>        
-      </build>   
-    </profile>
-    <profile>
       <id>maven-2</id>
       <activation>
         <file>
