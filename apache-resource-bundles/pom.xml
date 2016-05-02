@@ -25,13 +25,12 @@
   <parent>
     <groupId>org.apache.maven</groupId>
     <artifactId>maven-parent</artifactId>
-    <version>26</version>
-    <relativePath>../../pom/maven/pom.xml</relativePath>
+    <version>30-SNAPSHOT</version>
+    <relativePath>../pom.xml</relativePath>
   </parent>
 
   <groupId>org.apache.apache.resources</groupId>
   <artifactId>apache-resource-bundles</artifactId>
-  <version>6-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>Apache Resource Bundles</name>
