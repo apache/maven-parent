@@ -97,15 +97,6 @@ under the License.
             <exclude>**/archetype-resources/**</exclude>
           </excludes>
         </configuration>
-        <executions>
-          <execution>
-            <id>rat-check</id>
-            <goals>
-              <goal>check</goal>
-            </goals>
-            <phase>verify</phase>
-          </execution>
-        </executions>
       </plugin>
     </plugins>
   </build>
