@@ -869,7 +869,7 @@ under the License.
   </dependencyManagement>
 
   <repositories>
-    <repository>
+    <repository><!-- useful to resolve parent pom when it is a SNAPSHOT -->
       <id>apache.snapshots</id>
       <name>Apache Snapshot Repository</name>
       <url>http://repository.apache.org/snapshots</url>

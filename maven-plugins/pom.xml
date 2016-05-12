@@ -59,17 +59,6 @@ under the License.
     <mavenInvokerPluginVersion>2.0.0</mavenInvokerPluginVersion>
   </properties>
 
-  <repositories>
-    <repository>
-      <id>apache.snapshots</id>
-      <name>Apache Snapshot Repository</name>
-      <url>http://repository.apache.org/snapshots</url>
-      <releases>
-        <enabled>false</enabled>
-      </releases>
-    </repository>
-  </repositories>
-
   <dependencies>
     <!-- dependencies to annotations -->
     <dependency>
