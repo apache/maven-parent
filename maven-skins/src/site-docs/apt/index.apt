@@ -24,7 +24,7 @@
 ~~ under the License.
 
 ~~ NOTE: For help with the syntax of this file, see:
-~~ http://maven.apache.org/doxia/references/apt-format.html
+~~ https://maven.apache.org/doxia/references/apt-format.html
 
 Maven Skins Parent POM
 
@@ -36,17 +36,17 @@ History
 *--------------+------------+
 || <<Version>> || <<Release Date>> ||
 *--------------+------------+
-| {{{http://svn.apache.org/viewvc/maven/skins/tags/maven-skins-10/pom.xml?view=markup}10}} ({{{http://svn.apache.org/viewvc/maven/skins/tags/maven-skins-10/pom.xml?r1=HEAD&r2=1582517&diff_format=h}diff}}) | 2014-10-22 |
+| {{{https://svn.apache.org/viewvc/maven/skins/tags/maven-skins-10/pom.xml?view=markup}10}} ({{{https://svn.apache.org/viewvc/maven/skins/tags/maven-skins-10/pom.xml?r1=HEAD&r2=1582517&diff_format=h}diff}}) | 2014-10-22 |
 *--------------+------------+
-| {{{http://svn.apache.org/viewvc/maven/skins/tags/maven-skins-9/pom.xml?view=markup}9}} ({{{http://svn.apache.org/viewvc/maven/skins/tags/maven-skins-9/pom.xml?r1=HEAD&r2=1549585&diff_format=h}diff}}) | 2014-03-27 |
+| {{{https://svn.apache.org/viewvc/maven/skins/tags/maven-skins-9/pom.xml?view=markup}9}} ({{{https://svn.apache.org/viewvc/maven/skins/tags/maven-skins-9/pom.xml?r1=HEAD&r2=1549585&diff_format=h}diff}}) | 2014-03-27 |
 *--------------+------------+
-| {{{http://svn.apache.org/viewvc/maven/skins/tags/maven-skins-8/pom.xml?view=markup}8}} ({{{http://svn.apache.org/viewvc/maven/skins/tags/maven-skins-8/pom.xml?r1=HEAD&r2=1377628&diff_format=h}diff}}) | 2013-12-09 |
+| {{{https://svn.apache.org/viewvc/maven/skins/tags/maven-skins-8/pom.xml?view=markup}8}} ({{{https://svn.apache.org/viewvc/maven/skins/tags/maven-skins-8/pom.xml?r1=HEAD&r2=1377628&diff_format=h}diff}}) | 2013-12-09 |
 *--------------+------------+
-| {{{http://svn.apache.org/viewvc/maven/skins/tags/maven-skins-7/pom.xml?view=markup}7}} ({{{http://svn.apache.org/viewvc/maven/skins/tags/maven-skins-7/pom.xml?r1=HEAD&r2=1233017&diff_format=h}diff}}) | 2012-01-18 |
+| {{{https://svn.apache.org/viewvc/maven/skins/tags/maven-skins-7/pom.xml?view=markup}7}} ({{{https://svn.apache.org/viewvc/maven/skins/tags/maven-skins-7/pom.xml?r1=HEAD&r2=1233017&diff_format=h}diff}}) | 2012-01-18 |
 *--------------+------------+
-| {{{http://svn.apache.org/viewvc/maven/skins/tags/maven-skins-6/pom.xml?view=markup}6}} ({{{http://svn.apache.org/viewvc/maven/skins/tags/maven-skins-6/pom.xml?r1=HEAD&r2=922895&diff_format=h}diff}}) | 2011-01-22 |
+| {{{https://svn.apache.org/viewvc/maven/skins/tags/maven-skins-6/pom.xml?view=markup}6}} ({{{https://svn.apache.org/viewvc/maven/skins/tags/maven-skins-6/pom.xml?r1=HEAD&r2=922895&diff_format=h}diff}}) | 2011-01-22 |
 *--------------+------------+
-| {{{http://svn.apache.org/viewvc/maven/skins/tags/maven-skins-5/pom.xml?view=markup}5}} ({{{http://svn.apache.org/viewvc/maven/skins/tags/maven-skins-5/pom.xml?r1=HEAD&r2=730790&diff_format=h}diff}}) | 2010-03-14 |
+| {{{https://svn.apache.org/viewvc/maven/skins/tags/maven-skins-5/pom.xml?view=markup}5}} ({{{https://svn.apache.org/viewvc/maven/skins/tags/maven-skins-5/pom.xml?r1=HEAD&r2=730790&diff_format=h}diff}}) | 2010-03-14 |
 *--------------+------------+
-| {{{http://svn.apache.org/viewvc/maven/skins/tags/maven-skins-4/pom.xml?view=markup}4}} ({{{http://svn.apache.org/viewvc/maven/skins/tags/maven-skins-4/pom.xml?r1=HEAD&r2=526733&diff_format=h}diff}}) | 2009-01-02 |
+| {{{https://svn.apache.org/viewvc/maven/skins/tags/maven-skins-4/pom.xml?view=markup}4}} ({{{https://svn.apache.org/viewvc/maven/skins/tags/maven-skins-4/pom.xml?r1=HEAD&r2=526733&diff_format=h}diff}}) | 2009-01-02 |
 *--------------+------------+

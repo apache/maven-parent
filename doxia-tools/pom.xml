@@ -35,13 +35,13 @@ under the License.
 
   <name>Apache Maven Doxia Tools</name>
   <description>A set of tools for working with Doxia documents.</description>
-  <url>http://maven.apache.org/doxia/doxia-tools/</url>
+  <url>https://maven.apache.org/doxia/doxia-tools/</url>
   <inceptionYear>2005</inceptionYear>
 
   <scm>
-    <connection>scm:svn:http://svn.apache.org/repos/asf/maven/doxia/doxia-tools/trunk/doxia-tools</connection>
+    <connection>scm:svn:https://svn.apache.org/repos/asf/maven/doxia/doxia-tools/trunk/doxia-tools</connection>
     <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/doxia/doxia-tools/trunk/doxia-tools</developerConnection>
-    <url>http://svn.apache.org/viewvc/maven/doxia/doxia-tools/trunk/doxia-tools</url>
+    <url>https://svn.apache.org/viewvc/maven/doxia/doxia-tools/trunk/doxia-tools</url>
   </scm>
 
   <issueManagement>

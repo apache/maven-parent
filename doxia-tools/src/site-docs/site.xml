@@ -23,8 +23,8 @@ under the License.
   xsi:schemaLocation="http://maven.apache.org/DECORATION/1.7.0 http://maven.apache.org/xsd/decoration-1.7.0.xsd">
   <body>
     <breadcrumbs>
-      <item name="Maven" href="http://maven.apache.org/pom/maven/index.html" />
-      <item name="Doxia Tools" href="http://maven.apache.org/pom/maven/doxia-tools/index.html" />
+      <item name="Maven" href="https://maven.apache.org/pom/maven/index.html" />
+      <item name="Doxia Tools" href="https://maven.apache.org/pom/maven/doxia-tools/index.html" />
     </breadcrumbs>
 
     <menu ref="parent" />

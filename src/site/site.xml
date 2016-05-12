@@ -23,13 +23,13 @@ under the License.
   xsi:schemaLocation="http://maven.apache.org/DECORATION/1.7.0 http://maven.apache.org/xsd/decoration-1.7.0.xsd">
   <bannerLeft>
     <name>${project.name}</name>
-    <src>http://maven.apache.org/images/apache-maven-project.png</src>
-    <href>http://www.apache.org/</href>
+    <src>https://maven.apache.org/images/apache-maven-project.png</src>
+    <href>https://www.apache.org/</href>
   </bannerLeft>
 
   <bannerRight>
-    <src>http://maven.apache.org/images/maven-logo-black-on-white.png</src>
-    <href>http://maven.apache.org/</href>
+    <src>https://maven.apache.org/images/maven-logo-black-on-white.png</src>
+    <href>https://maven.apache.org/</href>
   </bannerRight>
 
   <skin>
@@ -62,35 +62,35 @@ under the License.
 
     <!-- Breadcrumbs that every project will inherit -->
     <breadcrumbs>
-      <item name="Apache" href="http://www.apache.org/" />
-      <item name="Maven"  href="http://maven.apache.org/index.html" />
+      <item name="Apache" href="https://www.apache.org/" />
+      <item name="Maven"  href="https://maven.apache.org/index.html" />
     </breadcrumbs>
 
     <!-- Menus that every project will inherit -->
     <menu ref="reports" inherit="bottom" />
 
     <menu name="Maven Projects" inherit="bottom">
-      <item name="Ant Tasks"         href="http://maven.apache.org/ant-tasks/index.html" />
-      <item name="Archetype"         href="http://maven.apache.org/archetype/index.html" />
-      <item name="Doxia"             href="http://maven.apache.org/doxia/index.html" />
-      <item name="JXR"               href="http://maven.apache.org/jxr/index.html" />
-      <item name="Maven"             href="http://maven.apache.org/ref/current" />
-      <item name="Parent POMs"       href="http://maven.apache.org/pom/index.html" />
-      <item name="Plugins"           href="http://maven.apache.org/plugins/index.html" />
-      <item name="Plugin Testing"    href="http://maven.apache.org/plugin-testing/index.html" />
-      <item name="Plugin Tools"      href="http://maven.apache.org/plugin-tools/index.html" />
-      <item name="Resource Bundles"  href="http://maven.apache.org/apache-resource-bundles/index.html" />
-      <item name="SCM"               href="http://maven.apache.org/scm/index.html" />
-      <item name="Shared Components" href="http://maven.apache.org/shared/index.html" />
-      <item name="Skins"             href="http://maven.apache.org/skins/index.html" />
-      <item name="Surefire"          href="http://maven.apache.org/surefire/index.html" />
-      <item name="Wagon"             href="http://maven.apache.org/wagon/index.html" />
+      <item name="Ant Tasks"         href="https://maven.apache.org/ant-tasks/index.html" />
+      <item name="Archetype"         href="https://maven.apache.org/archetype/index.html" />
+      <item name="Doxia"             href="https://maven.apache.org/doxia/index.html" />
+      <item name="JXR"               href="https://maven.apache.org/jxr/index.html" />
+      <item name="Maven"             href="https://maven.apache.org/ref/current" />
+      <item name="Parent POMs"       href="https://maven.apache.org/pom/index.html" />
+      <item name="Plugins"           href="https://maven.apache.org/plugins/index.html" />
+      <item name="Plugin Testing"    href="https://maven.apache.org/plugin-testing/index.html" />
+      <item name="Plugin Tools"      href="https://maven.apache.org/plugin-tools/index.html" />
+      <item name="Resource Bundles"  href="https://maven.apache.org/apache-resource-bundles/index.html" />
+      <item name="SCM"               href="https://maven.apache.org/scm/index.html" />
+      <item name="Shared Components" href="https://maven.apache.org/shared/index.html" />
+      <item name="Skins"             href="https://maven.apache.org/skins/index.html" />
+      <item name="Surefire"          href="https://maven.apache.org/surefire/index.html" />
+      <item name="Wagon"             href="https://maven.apache.org/wagon/index.html" />
     </menu>
     <menu name="ASF" inherit="bottom">
-      <item name="How Apache Works" href="http://www.apache.org/foundation/how-it-works.html"/> 
-      <item name="Foundation" href="http://www.apache.org/foundation/"/>
-      <item name="Sponsoring Apache" href="http://www.apache.org/foundation/sponsorship.html"/>
-      <item name="Thanks" href="http://www.apache.org/foundation/thanks.html"/>
+      <item name="How Apache Works"  href="https://www.apache.org/foundation/how-it-works.html"/> 
+      <item name="Foundation"        href="https://www.apache.org/foundation/"/>
+      <item name="Sponsoring Apache" href="https://www.apache.org/foundation/sponsorship.html"/>
+      <item name="Thanks"            href="https://www.apache.org/foundation/thanks.html"/>
     </menu>
 
   </body>

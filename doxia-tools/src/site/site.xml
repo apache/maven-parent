@@ -24,13 +24,13 @@ under the License.
   <bannerRight>
     <name>Doxia</name>
     <src>images/doxia-logo.png</src>
-    <href>http://maven.apache.org/doxia/</href>
+    <href>https://maven.apache.org/doxia/</href>
   </bannerRight>
 
   <body>
     <breadcrumbs>
-      <item name="Doxia" href="http://maven.apache.org/doxia/index.html" />
-      <item name="Doxia Tools" href="http://maven.apache.org/doxia/doxia-tools/index.html" />
+      <item name="Doxia" href="https://maven.apache.org/doxia/index.html" />
+      <item name="Doxia Tools" href="https://maven.apache.org/doxia/doxia-tools/index.html" />
     </breadcrumbs>
 
     <menu name="Modules">

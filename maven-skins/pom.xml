@@ -19,7 +19,8 @@ specific language governing permissions and limitations
 under the License.
 -->
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
@@ -35,12 +36,12 @@ under the License.
 
   <name>Apache Maven Skins</name>
   <description>Maven Skins</description>
-  <url>http://maven.apache.org/skins/</url>
+  <url>https://maven.apache.org/skins/</url>
 
   <scm>
-    <connection>scm:svn:http://svn.apache.org/repos/asf/maven/skins/trunk/maven-skins/</connection>
+    <connection>scm:svn:https://svn.apache.org/repos/asf/maven/skins/trunk/maven-skins/</connection>
     <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/skins/trunk/maven-skins/</developerConnection>
-    <url>http://svn.apache.org/viewvc/maven/skins/trunk/maven-skins/</url>
+    <url>https://svn.apache.org/viewvc/maven/skins/trunk/maven-skins/</url>
   </scm>
   <issueManagement>
     <system>jira</system>

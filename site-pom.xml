@@ -34,7 +34,7 @@ under the License.
 
   <name>Apache Maven Parent POM</name>
   <description>This project consists of a POM that contains settings that are likely to be useful to any Maven project that is building and releasing code with Maven.</description>
-  <url>http://maven.apache.org/pom/maven/</url>
+  <url>https://maven.apache.org/pom/maven/</url>
 
   <modules>
     <module>maven-archetype-bundles/site-pom.xml</module>
@@ -45,13 +45,13 @@ under the License.
   </modules>
 
   <scm>
-    <connection>scm:svn:http://svn.apache.org/repos/asf/maven/pom/trunk/maven</connection>
+    <connection>scm:svn:https://svn.apache.org/repos/asf/maven/pom/trunk/maven</connection>
     <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/pom/trunk/maven</developerConnection>
-    <url>http://svn.apache.org/viewvc/maven/pom/trunk/maven</url>
+    <url>https://svn.apache.org/viewvc/maven/pom/trunk/maven</url>
   </scm>
   <issueManagement>
     <system>jira</system>
-    <url>http://issues.apache.org/jira/browse/MPOM/component/12314371</url>
+    <url>https://issues.apache.org/jira/browse/MPOM/component/12314371</url>
   </issueManagement>
   <ciManagement>
     <system>Jenkins</system>
