@@ -1054,17 +1054,6 @@ under the License.
             <goals>
               <goal>check</goal>
             </goals>
-            <!--
-                 The following configuration is needed otherwise 
-                 a release source package can't be built without
-                 changing it.
-                 https://issues.apache.org/jira/browse/RAT-184
-            -->
-            <configuration>
-              <excludes>
-                <exclude>DEPENDENCIES</exclude>
-              </excludes>
-            </configuration>
           </execution>
         </executions>
       </plugin>      
