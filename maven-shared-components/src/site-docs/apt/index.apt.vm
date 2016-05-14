@@ -24,7 +24,7 @@
 ~~ under the License.
 
 ~~ NOTE: For help with the syntax of this file, see:
-~~ http://maven.apache.org/doxia/references/apt-format.html
+~~ https://maven.apache.org/doxia/references/apt-format.html
 
 ${project.name}
 
@@ -39,23 +39,23 @@ ${project.name}
 *--------------+------------+
 || <<Version>> || <<Release Date>> ||
 *--------------+------------+
-| {{{http://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-22/pom.xml?view=markup}22}} ({{{http://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-22/pom.xml?r1=HEAD&r2=1632934&diff_format=h}diff}}) | 2015-10-31 |
+| {{{https://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-22/pom.xml?view=markup}22}} ({{{https://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-22/pom.xml?r1=HEAD&r2=1632934&diff_format=h}diff}}) | 2015-10-31 |
 *--------------+------------+
-| {{{http://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-21/pom.xml?view=markup}21}} ({{{http://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-21/pom.xml?r1=HEAD&r2=1582509&diff_format=h}diff}}) | 2014-10-22 |
+| {{{https://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-21/pom.xml?view=markup}21}} ({{{https://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-21/pom.xml?r1=HEAD&r2=1582509&diff_format=h}diff}}) | 2014-10-22 |
 *--------------+------------+
-| {{{http://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-20/pom.xml?view=markup}20}} ({{{http://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-20/pom.xml?r1=HEAD&r2=1440205&diff_format=h}diff}}) | 2014-03-27 |
+| {{{https://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-20/pom.xml?view=markup}20}} ({{{https://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-20/pom.xml?r1=HEAD&r2=1440205&diff_format=h}diff}}) | 2014-03-27 |
 *--------------+------------+
-| {{{http://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-19/pom.xml?view=markup}19}} ({{{http://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-19/pom.xml?r1=HEAD&r2=1371614&diff_format=h}diff}}) | 2013-02-02 |
+| {{{https://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-19/pom.xml?view=markup}19}} ({{{https://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-19/pom.xml?r1=HEAD&r2=1371614&diff_format=h}diff}}) | 2013-02-02 |
 *--------------+------------+
-| {{{http://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-18/pom.xml?view=markup}18}} ({{{http://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-18/pom.xml?r1=HEAD&r2=1158001&diff_format=h}diff}}) | 2012-08-08 |
+| {{{https://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-18/pom.xml?view=markup}18}} ({{{https://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-18/pom.xml?r1=HEAD&r2=1158001&diff_format=h}diff}}) | 2012-08-08 |
 *--------------+------------+
-| {{{http://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-17/pom.xml?view=markup}17}} ({{{http://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-17/pom.xml?r1=HEAD&r2=1069636&diff_format=h}diff}}) | 2011-08-18 |
+| {{{https://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-17/pom.xml?view=markup}17}} ({{{https://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-17/pom.xml?r1=HEAD&r2=1069636&diff_format=h}diff}}) | 2011-08-18 |
 *--------------+------------+
-| {{{http://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-16/pom.xml?view=markup}16}} ({{{http://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-16/pom.xml?r1=HEAD&r2=905061&diff_format=h}diff}}) | 2011-02-15 |
+| {{{https://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-16/pom.xml?view=markup}16}} ({{{https://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-16/pom.xml?r1=HEAD&r2=905061&diff_format=h}diff}}) | 2011-02-15 |
 *--------------+------------+
-| {{{http://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-15/pom.xml?view=markup}15}} ({{{http://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-15/pom.xml?r1=HEAD&r2=831141&diff_format=h}diff}}) | 2010-02-04 |
+| {{{https://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-15/pom.xml?view=markup}15}} ({{{https://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-15/pom.xml?r1=HEAD&r2=831141&diff_format=h}diff}}) | 2010-02-04 |
 *--------------+------------+
-| {{{http://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-14/pom.xml?view=markup}14}} ({{{http://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-14/pom.xml?r1=HEAD&r2=829596&diff_format=h}diff}}) | 2009-11-02 |
+| {{{https://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-14/pom.xml?view=markup}14}} ({{{https://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-14/pom.xml?r1=HEAD&r2=829596&diff_format=h}diff}}) | 2009-11-02 |
 *--------------+------------+
-| {{{http://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-13/pom.xml?view=markup}13}} ({{{http://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-13/pom.xml?r1=HEAD&r2=814155&diff_format=h}diff}}) | 2009-10-28 |
+| {{{https://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-13/pom.xml?view=markup}13}} ({{{https://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-13/pom.xml?r1=HEAD&r2=814155&diff_format=h}diff}}) | 2009-10-28 |
 *--------------+------------+
