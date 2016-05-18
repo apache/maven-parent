@@ -70,7 +70,6 @@ under the License.
     <menu ref="reports" inherit="bottom" />
 
     <menu name="Maven Projects" inherit="bottom">
-      <item name="Ant Tasks"         href="https://maven.apache.org/ant-tasks/index.html" />
       <item name="Archetype"         href="https://maven.apache.org/archetype/index.html" />
       <item name="Doxia"             href="https://maven.apache.org/doxia/index.html" />
       <item name="JXR"               href="https://maven.apache.org/jxr/index.html" />
