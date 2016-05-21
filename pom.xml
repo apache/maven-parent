@@ -1,4 +1,4 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
 
 <!--
 Licensed to the Apache Software Foundation (ASF) under one
@@ -148,16 +148,6 @@ under the License.
         <role>PMC Member</role>
       </roles>
       <timezone>-5</timezone>
-    </developer>
-    <developer>
-      <id>jdcasey</id>
-      <name>John Casey</name>
-      <email>jdcasey@apache.org</email>
-      <organization>ASF</organization>
-      <roles>
-        <role>PMC Member</role>
-      </roles>
-      <timezone>-6</timezone>
     </developer>
     <developer>
       <id>jvanzyl</id>
@@ -611,6 +601,16 @@ under the License.
       <roles>
         <role>Emeritus</role>
       </roles>
+    </developer>
+    <developer>
+      <id>jdcasey</id>
+      <name>John Casey</name>
+      <email>jdcasey@apache.org</email>
+      <organization>ASF</organization>
+      <roles>
+        <role>Emeritus</role>
+      </roles>
+      <timezone>-6</timezone>
     </developer>
     <developer>
       <id>jmcconnell</id>
