@@ -21,7 +21,7 @@ under the License.
 
 <project xmlns="http://maven.apache.org/DECORATION/1.7.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/DECORATION/1.7.0 http://maven.apache.org/xsd/decoration-1.7.0.xsd">
-
+<!-- Start copy/paste of src/site/site.xml: inheritance does not work here because of src/site-docs hack -->
   <bannerLeft>
     <name>${project.name}</name>
     <src>https://maven.apache.org/images/apache-maven-project.png</src>
@@ -39,6 +39,8 @@ under the License.
     <version>1.5</version>
   </skin>
 
+  <googleAnalyticsAccountId>UA-140879-1</googleAnalyticsAccountId>
+
   <custom>
     <fluidoSkin>
       <sourceLineNumbersEnabled>true</sourceLineNumbersEnabled>
@@ -51,16 +53,9 @@ under the License.
 
   <publishDate position="right" />
   <version position="right" />
+<!-- End copy/paste of src/site/site.xml -->
 
   <body>
-    <head><![CDATA[
-      <script src="https://www.google-analytics.com/urchin.js" type="text/javascript">
-      </script>
-      <script type="text/javascript">
-        _uacct = "UA-140879-1";
-        urchinTracker();
-      </script>]]>
-    </head>
 
     <breadcrumbs>
       <item name="Apache" href="https://www.apache.org/" />
