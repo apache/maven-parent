@@ -33,6 +33,10 @@ Maven Skins Parent POM
 
 History
 
+#if( $project.version.endsWith( "SNAPSHOT" ) )
+    trunk: {{{https://svn.apache.org/viewvc/maven/pom/trunk/maven/maven-skins/pom.xml?view=markup}$project.version}} ({{{https://svn.apache.org/viewvc/maven/pom/trunk/maven/maven-skins/pom.xml?r1=HEAD&r2=1632941&diff_format=h}diff}})
+#end
+
 *--------------+------------+
 || <<Version>> || <<Release Date>> ||
 *--------------+------------+
