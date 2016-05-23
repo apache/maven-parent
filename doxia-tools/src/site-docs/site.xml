@@ -27,6 +27,15 @@ under the License.
       <item name="Doxia Tools" href="https://maven.apache.org/pom/maven/doxia-tools/index.html" />
     </breadcrumbs>
 
+    <menu name="Maven Parent POMs">
+      <item name="Maven" href="../index.html"/>
+      <item name="Archetypes" href="../maven-archetypes-bundles/index.html"/>
+      <item name="Plugins" href="../maven-plugins/index.html"/>
+      <item name="Shared Components" href="../maven-shared-components/index.html"/>
+      <item name="Skins" href="../maven-skins/index.html"/>
+      <item name="Doxia Tools" href="../doxia-tools/index.html"/>
+    </menu>
+
     <menu ref="parent" />
   </body>
 </project>
