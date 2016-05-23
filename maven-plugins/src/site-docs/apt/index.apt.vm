@@ -48,11 +48,13 @@ History
     trunk: {{{https://svn.apache.org/viewvc/maven/pom/trunk/maven/maven-plugins/pom.xml?view=markup}$project.version}} ({{{https://svn.apache.org/viewvc/maven/pom/trunk/maven/maven-plugins/pom.xml?r1=HEAD&r2=1639498&diff_format=h}diff}})
 #end
 
-    As of version 22, this POM sets the Java source and target versions to 1.5. Thus any plugin
-    moved to version 22+ of this POM moves to requiring Java 1.5.
+    As of version 30, this POM sets the Java source and target versions to 1.6. Thus any plugin
+    moved to version 30+ of this POM moves to requiring Java 1.6 (was Java 1.5 since version 22).
 
 *--------------+------------+
 || <<Version>> || <<Release Date>> ||
+*--------------+------------+
+| {{{https://svn.apache.org/viewvc/maven/pom/tags/maven-30/maven-plugins/pom.xml?view=markup}30}} ({{{https://svn.apache.org/viewvc/maven/pom/tags/maven-30/maven-plugins/pom.xml?r1=HEAD&r2=1639498&diff_format=h}diff}}) | 2016-05-26  |
 *--------------+------------+
 | {{{https://svn.apache.org/viewvc/maven/plugins/tags/maven-plugins-28/pom.xml?view=markup}28}} ({{{https://svn.apache.org/viewvc/maven/plugins/tags/maven-plugins-28/pom.xml?r1=HEAD&r2=1716984&diff_format=h}diff}}) | 2015-10-13  |
 *--------------+------------+

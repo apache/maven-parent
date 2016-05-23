@@ -114,6 +114,8 @@ History
 *--------------+------------+
 || <<Version>> || <<Release Date>> ||
 *--------------+------------+
+| {{{https://svn.apache.org/viewvc/maven/pom/tags/maven-parent-30/pom.xml?view=markup}30}} ({{{https://svn.apache.org/viewvc/maven/pom/tags/maven-parent-30/pom.xml?r1=HEAD&r2=1704199&diff_format=h}diff}}) | 2016-05-26 |
+*--------------+------------+
 | {{{https://svn.apache.org/viewvc/maven/pom/tags/maven-parent-27/pom.xml?view=markup}27}} ({{{https://svn.apache.org/viewvc/maven/pom/tags/maven-parent-27/pom.xml?r1=HEAD&r2=1639456&diff_format=h}diff}}) | 2015-09-23 |
 *--------------+------------+
 | {{{https://svn.apache.org/viewvc/maven/pom/tags/maven-parent-26/pom.xml?view=markup}26}} ({{{https://svn.apache.org/viewvc/maven/pom/tags/maven-parent-26/pom.xml?r1=HEAD&r2=1632922&diff_format=h}diff}}) | 2014-11-13 |
