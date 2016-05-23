@@ -25,7 +25,7 @@ under the License.
   <parent>
     <groupId>org.apache.maven</groupId>
     <artifactId>maven-parent</artifactId>
-    <version>30-SNAPSHOT</version>
+    <version>30</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
@@ -38,9 +38,9 @@ under the License.
   <url>https://maven.apache.org/archetypes/</url>
 
   <scm>
-    <connection>scm:svn:https://svn.apache.org/repos/asf/maven/archetypes/trunk/maven-archetype-bundles/</connection>
-    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/archetypes/trunk/maven-archetype-bundles/</developerConnection>
-    <url>https://svn.apache.org/viewvc/maven/archetypes/trunk/maven-archetype-bundles/</url>
+    <connection>scm:svn:https://svn.apache.org/repos/asf/maven/archetypes/tags/maven-parent-30/maven-archetype-bundles</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/archetypes/tags/maven-parent-30/maven-archetype-bundles</developerConnection>
+    <url>https://svn.apache.org/viewvc/maven/archetypes/tags/maven-parent-30/maven-archetype-bundles</url>
   </scm>
   <issueManagement>
     <system>jira</system>

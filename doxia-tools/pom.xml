@@ -25,7 +25,7 @@ under the License.
   <parent>
     <groupId>org.apache.maven</groupId>
     <artifactId>maven-parent</artifactId>
-    <version>30-SNAPSHOT</version>
+    <version>30</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
@@ -39,9 +39,9 @@ under the License.
   <inceptionYear>2005</inceptionYear>
 
   <scm>
-    <connection>scm:svn:https://svn.apache.org/repos/asf/maven/doxia/doxia-tools/trunk/doxia-tools</connection>
-    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/doxia/doxia-tools/trunk/doxia-tools</developerConnection>
-    <url>https://svn.apache.org/viewvc/maven/doxia/doxia-tools/trunk/doxia-tools</url>
+    <connection>scm:svn:https://svn.apache.org/repos/asf/maven/doxia/doxia-tools/tags/maven-parent-30/doxia-tools</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/doxia/doxia-tools/tags/maven-parent-30/doxia-tools</developerConnection>
+    <url>https://svn.apache.org/viewvc/maven/doxia/doxia-tools/tags/maven-parent-30/doxia-tools</url>
   </scm>
 
   <issueManagement>
