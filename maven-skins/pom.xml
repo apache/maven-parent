@@ -25,7 +25,7 @@ under the License.
   <parent>
     <groupId>org.apache.maven</groupId>
     <artifactId>maven-parent</artifactId>
-    <version>30</version>
+    <version>31-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
@@ -38,9 +38,9 @@ under the License.
   <url>https://maven.apache.org/skins/</url>
 
   <scm>
-    <connection>scm:svn:https://svn.apache.org/repos/asf/maven/skins/tags/maven-parent-30/maven-skins</connection>
-    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/skins/tags/maven-parent-30/maven-skins</developerConnection>
-    <url>https://svn.apache.org/viewvc/maven/skins/tags/maven-parent-30/maven-skins</url>
+    <connection>scm:svn:https://svn.apache.org/repos/asf/maven/skins/trunk/maven-skins/</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/skins/trunk/maven-skins/</developerConnection>
+    <url>https://svn.apache.org/viewvc/maven/skins/trunk/maven-skins/</url>
   </scm>
   <issueManagement>
     <system>jira</system>
