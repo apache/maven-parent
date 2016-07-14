@@ -372,6 +372,15 @@ under the License.
       <timezone>+1</timezone>
     </developer>
     <developer>
+      <id>gboue</id>
+      <name>Guillaume Boué</name>
+      <email>gboue@apache.org</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>Europe/Paris</timezone>
+    </developer>
+    <developer>
       <id>godin</id>
       <name>Evgeny Mandrikov</name>
       <organization>SonarSource</organization>
