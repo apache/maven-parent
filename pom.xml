@@ -43,14 +43,13 @@ under the License.
   <!-- Developers listed by PMC Chair, PMC, Committers, Contributers, all alphabetical-->
   <developers>
     <developer>
-      <id>hboutemy</id>
-      <name>Hervé Boutemy</name>
-      <email>hboutemy@apache.org</email>
-      <organization>ASF</organization>
+      <id>rfscholte</id>
+      <name>Robert Scholte</name>
+      <email>rfscholte@apache.org</email>
       <roles>
         <role>PMC Chair</role>
       </roles>
-      <timezone>Europe/Paris</timezone>
+      <timezone>Europe/Amsterdam</timezone>
     </developer>
     <developer>
       <id>agudian</id>
@@ -139,6 +138,16 @@ under the License.
       <timezone>+1</timezone>
     </developer>
     <developer>
+      <id>hboutemy</id>
+      <name>Hervé Boutemy</name>
+      <email>hboutemy@apache.org</email>
+      <organization>ASF</organization>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>Europe/Paris</timezone>
+    </developer>
+    <developer>
       <id>ifedorenko</id>
       <name>Igor Fedorenko</name>
       <email>igor@ifedorenko.com</email>
@@ -199,15 +208,6 @@ under the License.
         <role>PMC Member</role>
       </roles>
       <timezone>Europe/Berlin</timezone>
-    </developer>
-    <developer>
-      <id>rfscholte</id>
-      <name>Robert Scholte</name>
-      <email>rfscholte@apache.org</email>
-      <roles>
-        <role>PMC Member</role>
-      </roles>
-      <timezone>Europe/Amsterdam</timezone>
     </developer>
     <developer>
       <id>rgoers</id>
