@@ -100,7 +100,6 @@ under the License.
     <developer>
       <id>cstamas</id>
       <name>Tamas Cservenak</name>
-      <organization>Sonatype</organization>
       <email>cstamas@apache.org</email>
       <timezone>+1</timezone>
       <roles>
