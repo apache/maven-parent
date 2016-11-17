@@ -911,6 +911,7 @@ under the License.
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-site-plugin</artifactId>
+          <version>3.6</version><!-- TODO remove when upgrading parent to 19 -->
           <configuration>
             <!-- for multi-modules site staging -->
             <topSiteURL>scm:svn:https://svn.apache.org/repos/infra/websites/production/maven/components/${maven.site.path}</topSiteURL>
