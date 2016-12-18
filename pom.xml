@@ -947,6 +947,14 @@ under the License.
             <sourceDirectory>src/main/java</sourceDirectory>
             <testSourceDirectory>src/test/java</testSourceDirectory>
           </configuration>
+          <dependencies>
+            <!-- MCHECKSTYLE-327: the maven_checks.xml was moved to a shared project -->
+            <dependency>
+              <groupId>org.apache.maven.shared</groupId>
+              <artifactId>maven-shared-resources</artifactId>
+              <version>2</version>
+            </dependency>
+          </dependencies>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
