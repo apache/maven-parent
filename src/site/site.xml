@@ -66,6 +66,7 @@ under the License.
 
     <menu name="Maven Projects" inherit="bottom">
       <item name="Archetype"         href="https://maven.apache.org/archetype/index.html" />
+      <item name="Artifact Resolver" href="https://maven.apache.org/resolver/index.html" />
       <item name="Doxia"             href="https://maven.apache.org/doxia/index.html" />
       <item name="JXR"               href="https://maven.apache.org/jxr/index.html" />
       <item name="Maven"             href="https://maven.apache.org/ref/current" />
