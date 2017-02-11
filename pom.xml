@@ -1269,6 +1269,7 @@ under the License.
               <notimestamp>true</notimestamp>
               <quiet>true</quiet>
               <detectLinks>true</detectLinks>
+              <locale>en</locale>
               <tagletArtifacts>
                 <tagletArtifact combine.id="org.codehaus.plexus:plexus-javadoc">
                   <groupId>org.codehaus.plexus</groupId>
