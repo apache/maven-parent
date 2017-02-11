@@ -1021,6 +1021,7 @@ under the License.
               </tagletArtifact>
             </tagletArtifacts>
           </configuration>
+        </plugin>
       </plugins>
     </pluginManagement>
     <plugins>
