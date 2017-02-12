@@ -944,8 +944,12 @@ under the License.
             <configLocation>config/maven_checks.xml</configLocation>
             <headerLocation>config/maven-header.txt</headerLocation>
             <!-- workaround to avoid analysing generated content (Modello, plugin help mojo, ...) -->
-            <sourceDirectory>src/main/java</sourceDirectory>
-            <testSourceDirectory>src/test/java</testSourceDirectory>
+            <sourceDirectories>
+              <sourceDirectory>src/main/java</sourceDirectory>
+            </sourceDirectories>
+            <testSourceDirectories>
+              <testSourceDirectory>src/test/java</testSourceDirectory>
+            </testSourceDirectories>
           </configuration>
           <dependencies>
             <!-- MCHECKSTYLE-327: the maven_checks.xml was moved to a shared project -->
