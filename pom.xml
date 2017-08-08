@@ -70,6 +70,15 @@ under the License.
       <timezone>+1</timezone>
     </developer>
     <developer>
+      <id>andham</id>
+      <name>Anders Hammar</name>
+      <email>andham@apache.org</email>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>
+    <developer>
       <id>baerrach</id>
       <name>Barrie Treloar</name>
       <email>baerrach@apache.org</email>
@@ -273,15 +282,6 @@ under the License.
       <name>Andreas Dangel</name>
       <email>adangel@apache.org</email>
       <timezone>Europe/Berlin</timezone>
-      <roles>
-        <role>Committer</role>
-      </roles>
-    </developer>
-    <developer>
-      <id>andham</id>
-      <name>Anders Hammar</name>
-      <email>andham@apache.org</email>
-      <timezone>+1</timezone>
       <roles>
         <role>Committer</role>
       </roles>
