@@ -1085,6 +1085,11 @@ under the License.
       <plugin>
         <groupId>org.apache.rat</groupId>
         <artifactId>apache-rat-plugin</artifactId>
+        <configuration>
+          <excludes combine.children="append">
+            <exclude>.repository/**</exclude><!-- for CI -->
+          </excludes>
+        </configuration>
         <executions>
           <execution>
             <id>rat-check</id>
