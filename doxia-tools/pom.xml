@@ -38,12 +38,6 @@ under the License.
   <url>https://maven.apache.org/doxia/doxia-tools/</url>
   <inceptionYear>2005</inceptionYear>
 
-  <scm>
-    <connection>scm:svn:https://svn.apache.org/repos/asf/maven/doxia/doxia-tools/trunk/doxia-tools</connection>
-    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/doxia/doxia-tools/trunk/doxia-tools</developerConnection>
-    <url>https://svn.apache.org/viewvc/maven/doxia/doxia-tools/trunk/doxia-tools</url>
-  </scm>
-
   <issueManagement>
     <system>jira</system>
     <url>https://issues.apache.org/jira/browse/DOXIATOOLS</url>

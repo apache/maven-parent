@@ -37,11 +37,6 @@ under the License.
   <description>Archetypes provided by Maven.</description>
   <url>https://maven.apache.org/archetypes/</url>
 
-  <scm>
-    <connection>scm:svn:https://svn.apache.org/repos/asf/maven/archetypes/trunk/maven-archetype-bundles/</connection>
-    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/archetypes/trunk/maven-archetype-bundles/</developerConnection>
-    <url>https://svn.apache.org/viewvc/maven/archetypes/trunk/maven-archetype-bundles/</url>
-  </scm>
   <issueManagement>
     <system>jira</system>
     <url>https://issues.apache.org/jira/browse/MARCHETYPES</url>

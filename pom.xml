@@ -824,9 +824,10 @@ under the License.
   </modules>
 
   <scm>
-    <connection>scm:svn:https://svn.apache.org/repos/asf/maven/pom/trunk/maven</connection>
-    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/pom/trunk/maven</developerConnection>
-    <url>https://svn.apache.org/viewvc/maven/pom/trunk/maven</url>
+    <connection>scm:git:https://gitbox.apache.org/repos/asf/maven-parent.git</connection>
+    <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/maven-parent.git</developerConnection>
+    <url>https://github.com/apache/maven-parent/tree/${project.scm.tag}</url>
+    <tag>HEAD</tag>
   </scm>
 
   <ciManagement>

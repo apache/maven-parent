@@ -36,11 +36,6 @@ under the License.
   <description>Maven Plugins</description>
   <url>https://maven.apache.org/plugins/</url>
 
-  <scm>
-    <connection>scm:svn:https://svn.apache.org/repos/asf/maven/plugins/trunk/maven-plugins/</connection>
-    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/plugins/trunk/maven-plugins/</developerConnection>
-    <url>https://svn.apache.org/viewvc/maven/plugins/trunk/maven-plugins/</url>
-  </scm>
   <ciManagement>
     <system>Jenkins</system>
     <url>https://builds.apache.org/job/maven-plugins/</url>

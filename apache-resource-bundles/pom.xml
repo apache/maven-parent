@@ -36,12 +36,6 @@
   <name>Apache Resource Bundles</name>
   <inceptionYear>2006</inceptionYear>
 
-  <scm>
-    <connection>scm:svn:https://svn.apache.org/repos/asf/maven/resources/trunk/apache-resource-bundles</connection>
-    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/resources/trunk/apache-resource-bundles</developerConnection>
-    <url>https://svn.apache.org/viewcvs.cgi/maven/resources/trunk/apache-resource-bundles</url>
-  </scm>
-
   <issueManagement>
     <system>jira</system>
     <url>https://issues.apache.org/jira/browse/MASFRES</url>
