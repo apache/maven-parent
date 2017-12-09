@@ -832,7 +832,7 @@ under the License.
 
   <ciManagement>
     <system>Jenkins</system>
-    <url>https://builds.apache.org/view/M-R/view/Maven</url>
+    <url>https://builds.apache.org/view/M-R/view/Maven/job/maven-box/job/maven-parent/</url>
     <notifiers>
       <notifier>
         <type>mail</type>
