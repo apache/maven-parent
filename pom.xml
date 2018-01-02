@@ -1133,7 +1133,7 @@ under the License.
             </goals>
           </execution>
         </executions>
-      </plugin>      
+      </plugin>
     </plugins>
   </build>
 
