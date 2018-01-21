@@ -105,7 +105,16 @@ mvn -Preporting site-deploy
 History
 
 #if( $project.version.endsWith( "SNAPSHOT" ) )
-    trunk: {{{https://svn.apache.org/viewvc/maven/pom/trunk/maven/pom.xml?view=markup}$project.version}} ({{{https://svn.apache.org/viewvc/maven/pom/trunk/maven/pom.xml?r1=HEAD&r2=1704199&diff_format=h}diff}})
+#**##set( $prev = 30 )
+  master: {{{https://github.com/apache/maven-parent/tree/master/pom.xml}$project.version}}
+  ({{{https://gitbox.apache.org/repos/asf?p=maven-parent.git;a=blobdiff;f=pom.xml;hb=master;hpb=maven-parent-$prev}diff}},
+  {{{https://github.com/apache/maven-parent/compare/maven-parent-$prev...master}commits}})
+#end
+#macro ( display $version $date )
+#**##if ( $version == 30 ) #set( $prev = 27 )#else#set( $prev = $version - 1 )#end
+|  {{{https://github.com/apache/maven-parent/tree/maven-parent-$version/pom.xml}$version}}
+| ({{{https://gitbox.apache.org/repos/asf?p=maven-parent.git;a=blobdiff;f=pom.xml;hb=maven-parent-$version;hpb=maven-parent-$prev}diff}},
+|  {{{https://github.com/apache/maven-parent/compare/maven-parent-$prev...maven-parent-$version}commits}}) | $date |
 #end
 
     As of version 27, this POM sets the Java source and target versions to 1.6. Thus, as any plugin (or other component)
@@ -114,27 +123,27 @@ History
 *--------------+------------+
 || <<Version>> || <<Release Date>> ||
 *--------------+------------+
-| {{{https://svn.apache.org/viewvc/maven/pom/tags/maven-parent-30/pom.xml?view=markup}30}} ({{{https://svn.apache.org/viewvc/maven/pom/tags/maven-parent-30/pom.xml?r1=HEAD&r2=1704199&diff_format=h}diff}}) | 2016-05-26 |
+#display( 30, '2016-05-26' )
 *--------------+------------+
-| {{{https://svn.apache.org/viewvc/maven/pom/tags/maven-parent-27/pom.xml?view=markup}27}} ({{{https://svn.apache.org/viewvc/maven/pom/tags/maven-parent-27/pom.xml?r1=HEAD&r2=1639456&diff_format=h}diff}}) | 2015-09-23 |
+#display( 27, '2015-09-23' )
 *--------------+------------+
-| {{{https://svn.apache.org/viewvc/maven/pom/tags/maven-parent-26/pom.xml?view=markup}26}} ({{{https://svn.apache.org/viewvc/maven/pom/tags/maven-parent-26/pom.xml?r1=HEAD&r2=1632922&diff_format=h}diff}}) | 2014-11-13 |
+#display( 26, '2014-11-13' )
 *--------------+------------+
-| {{{https://svn.apache.org/viewvc/maven/pom/tags/maven-parent-25/pom.xml?view=markup}25}} ({{{https://svn.apache.org/viewvc/maven/pom/tags/maven-parent-25/pom.xml?r1=HEAD&r2=1582495&diff_format=h}diff}}) | 2014-10-22 |
+#display( 25, '2014-10-22' )
 *--------------+------------+
-| {{{https://svn.apache.org/viewvc/maven/pom/tags/maven-parent-24/pom.xml?view=markup}24}} ({{{https://svn.apache.org/viewvc/maven/pom/tags/maven-parent-24/pom.xml?r1=HEAD&r2=1465498&diff_format=h}diff}}) | 2014-03-27 |
+#display( 24, '2014-03-27' )
 *--------------+------------+
-| {{{https://svn.apache.org/viewvc/maven/pom/tags/maven-parent-23/pom.xml?view=markup}23}} ({{{https://svn.apache.org/viewvc/maven/pom/tags/maven-parent-23/pom.xml?r1=HEAD&r2=1371599&diff_format=h}diff}}) | 2013-01-21 |
+#display( 23, '2013-01-21' )
 *--------------+------------+
-| {{{https://svn.apache.org/viewvc/maven/pom/tags/maven-parent-22/pom.xml?view=markup}22}} ({{{https://svn.apache.org/viewvc/maven/pom/tags/maven-parent-22/pom.xml?r1=HEAD&r2=1157980&diff_format=h}diff}}) | 2012-08-08 |
+#display( 22, '2012-08-08' )
 *--------------+------------+
-| {{{https://svn.apache.org/viewvc/maven/pom/tags/maven-parent-21/pom.xml?view=markup}21}} ({{{https://svn.apache.org/viewvc/maven/pom/tags/maven-parent-21/pom.xml?r1=HEAD&r2=1134934&diff_format=h}diff}}) | 2011-08-18 |
+#display( 21, '2011-08-18' )
 *--------------+------------+
-| {{{https://svn.apache.org/viewvc/maven/pom/tags/maven-parent-20/pom.xml?view=markup}20}} ({{{https://svn.apache.org/viewvc/maven/pom/tags/maven-parent-20/pom.xml?r1=HEAD&r2=1069626&diff_format=h}diff}}) | 2011-06-15 |
+#display( 20, '2011-06-15' )
 *--------------+------------+
-| {{{https://svn.apache.org/viewvc/maven/pom/tags/maven-parent-19/pom.xml?view=markup}19}} ({{{https://svn.apache.org/viewvc/maven/pom/tags/maven-parent-19/pom.xml?r1=HEAD&r2=1038256&diff_format=h}diff}}) | 2011-02-15 |
+#display( 19, '2011-02-15' )
 *--------------+------------+
-| {{{https://svn.apache.org/viewvc/maven/pom/tags/maven-parent-18/pom.xml?view=markup}18}} ({{{https://svn.apache.org/viewvc/maven/pom/tags/maven-parent-18/pom.xml?r1=HEAD&r2=1029850&diff_format=h}diff}}) | 2010-11-26 |
+#display( 18, '2010-11-26' )
 *--------------+------------+
-| {{{https://svn.apache.org/viewvc/maven/pom/tags/maven-parent-17/pom.xml?view=markup}17}} ({{{https://svn.apache.org/viewvc/maven/pom/tags/maven-parent-17/pom.xml?r1=HEAD&r2=905048&diff_format=h}diff}}) | 2010-11-04 |
+#display( 17, '2010-11-04' )
 *--------------+------------+
