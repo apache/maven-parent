@@ -32,7 +32,7 @@ ${project.name}
     This POM is the common parent of all of the {{{/plugins/}Maven plugins}}
     in the Apache Maven project.
 
-The <<<run-its>>> Profile
+* The <<<run-its>>> Profile
 
     This POM provides <<<run-its>>> profile for running Integration Tests to check real plugin execution.
     A default configuration for <<<maven-invoker-plugin>>> is defined, that every plugin needs to enhance
@@ -42,7 +42,18 @@ The <<<run-its>>> Profile
 mvn -Prun-its verify
 +---+
 
-History
+
+* Site Publication
+
+    Since Maven plugins are always mono-module builds, this parent POM has configured <<<maven-scm-publish-plugin>>>
+    {{{/plugins/maven-scm-publish-plugin/examples/one-module-configuration.html}mono module optimization}}
+    to ease site build & deployment in only one integrated and simplified command:
+
++-----+
+mvn -Preporting site-deploy
++-----+
+
+* History
 
 #if( $project.version.endsWith( "SNAPSHOT" ) )
     trunk: {{{https://svn.apache.org/viewvc/maven/pom/trunk/maven/maven-plugins/pom.xml?view=markup}$project.version}} ({{{https://svn.apache.org/viewvc/maven/pom/trunk/maven/maven-plugins/pom.xml?r1=HEAD&r2=1639498&diff_format=h}diff}})

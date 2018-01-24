@@ -41,7 +41,7 @@ Maven Project Parent POM
     See the LDAP extract for more accurate {{{https://people.apache.org/committers-by-project.html#maven}committers}}
     and {{{https://people.apache.org/committers-by-project.html#maven-pmc}PMC members}} lists. 
 
-The <<<reporting>>> Profile
+* The <<<reporting>>> Profile
 
     This POM provides <<<reporting>>> profile for rendering documentation during site generation:
 
@@ -51,12 +51,12 @@ mvn -Preporting site
 
     See {{{./plugins.html}Plugins report}} for a list of configured report plugins.
 
-The <<<jdk-toolchain>>> Profile
+* The <<<jdk-toolchain>>> Profile
 
     This POM provides <<<jdk-toolchain>>> profile to activate JDK selection as a toolchain with version
     requirement configured as minimum java version for the project.
 
-Site Publication
+* Site Publication
 
     This POM prepares site publication to {{{/developers/website/index.html}Apache Maven's site svnpubsub}}.
     Every inheriting POM needs to define <<<maven.site.path>>> property
@@ -75,7 +75,7 @@ Site Publication
   </distributionManagement>
 +-----+
 
-    Once this is configured, the site is published with:
+    Once this is configured, the site can be published with:
 
 +-----+
 mvn -Preporting site site:stage
@@ -85,24 +85,7 @@ mvn scm-publish:publish-scm
     See {{{/developers/website/deploy-component-reference-documentation.html}deploying Maven components reference documentation}}
     for more information.
 
-* Mono Module: <<<site.scm-deploy>>> profile
-
-    If the build is mono module, previous 2-steps publication can be simplified by activating <<<site.scm-deploy>>> profile
-    through <<<maven.site.scm-deploy>>> property
-
-+-----+
-  <properties>
-    <maven.site.scm-deploy>true</maven.site.scm-deploy>
-  </properties>
-+-----+
-
-    Once this is configured, the site can be published in only one command:
-
-+-----+
-mvn -Preporting site-deploy
-+-----+
-
-History
+* History
 
 #if( $project.version.endsWith( "SNAPSHOT" ) )
 #**##set( $prev = 30 )

@@ -30,3 +30,13 @@ ${project.name}
 
     This POM is the common parent of all of the {{{/doxia/doxia-tools/}Maven Doxia Tools}}
     in the Apache Maven project.
+
+* Site Publication
+
+    Since Doxia Tools are always mono-module builds, this parent POM has configured <<<maven-scm-publish-plugin>>>
+    {{{/plugins/maven-scm-publish-plugin/examples/one-module-configuration.html}mono module optimization}}
+    to ease site build & deployment in only one integrated and simplified command:
+
++-----+
+mvn -Preporting site-deploy
++-----+

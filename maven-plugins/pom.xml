@@ -50,7 +50,6 @@ under the License.
 
   <properties>
     <maven.site.path>plugins-archives/${project.artifactId}-LATEST</maven.site.path>
-    <maven.site.scm-deploy>true</maven.site.scm-deploy>
   </properties>
 
   <dependencies>
@@ -131,6 +130,30 @@ under the License.
               <id>generate-helpmojo</id>
               <goals>
                 <goal>helpmojo</goal>
+              </goals>
+            </execution>
+          </executions>
+        </plugin>
+        <!-- publish mono-module site with "mvn site-deploy" -->
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-site-plugin</artifactId>
+          <configuration>
+            <skipDeploy>true</skipDeploy><!-- don't deploy site with maven-site-plugin -->
+          </configuration>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-scm-publish-plugin</artifactId>
+          <configuration>
+            <content>${project.reporting.outputDirectory}</content><!-- no need for site:stage, use target/site -->
+          </configuration>
+          <executions>
+            <execution>
+              <id>scm-publish</id>
+              <phase>site-deploy</phase><!-- deploy site with maven-scm-publish-plugin -->
+              <goals>
+                <goal>publish-scm</goal>
               </goals>
             </execution>
           </executions>
