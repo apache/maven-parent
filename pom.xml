@@ -897,6 +897,11 @@ under the License.
   <build>
     <pluginManagement>
       <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.7.0</version>
+        </plugin>
         <!-- The Maven universe targets Java 5 minimum, with generics -->
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
