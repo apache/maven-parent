@@ -748,8 +748,9 @@ under the License.
       <subscribe>users-subscribe@maven.apache.org</subscribe>
       <unsubscribe>users-unsubscribe@maven.apache.org</unsubscribe>
       <post>users@maven.apache.org</post>
-      <archive>https://mail-archives.apache.org/mod_mbox/maven-users</archive>
+      <archive>https://lists.apache.org/list.html?users@maven.apache.org</archive>
       <otherArchives>
+        <otherArchive>https://mail-archives.apache.org/mod_mbox/maven-users</otherArchive>
         <otherArchive>http://www.mail-archive.com/users@maven.apache.org/</otherArchive>
         <otherArchive>http://maven.40175.n5.nabble.com/Maven-Users-f40176.html</otherArchive>
         <otherArchive>http://maven-users.markmail.org/</otherArchive>
@@ -760,8 +761,9 @@ under the License.
       <subscribe>dev-subscribe@maven.apache.org</subscribe>
       <unsubscribe>dev-unsubscribe@maven.apache.org</unsubscribe>
       <post>dev@maven.apache.org</post>
-      <archive>https://mail-archives.apache.org/mod_mbox/maven-dev</archive>
+      <archive>https://lists.apache.org/list.html?dev@maven.apache.org</archive>
       <otherArchives>
+        <otherArchive>https://mail-archives.apache.org/mod_mbox/maven-dev</otherArchive>
         <otherArchive>http://www.mail-archive.com/dev@maven.apache.org/</otherArchive>
         <otherArchive>http://maven.40175.n5.nabble.com/Maven-Developers-f142166.html</otherArchive>
         <otherArchive>http://maven-dev.markmail.org/</otherArchive>
@@ -771,8 +773,9 @@ under the License.
       <name>Maven Issues List</name>
       <subscribe>issues-subscribe@maven.apache.org</subscribe>
       <unsubscribe>issues-unsubscribe@maven.apache.org</unsubscribe>
-      <archive>https://mail-archives.apache.org/mod_mbox/maven-issues/</archive>
+      <archive>https://lists.apache.org/list.html?issues@maven.apache.org</archive>
       <otherArchives>
+        <otherArchive>https://mail-archives.apache.org/mod_mbox/maven-issues/</otherArchive>
         <otherArchive>http://www.mail-archive.com/issues@maven.apache.org</otherArchive>
         <otherArchive>http://maven.40175.n5.nabble.com/Maven-Issues-f219593.html</otherArchive>
         <otherArchive>http://maven-issues.markmail.org/</otherArchive>
@@ -782,8 +785,9 @@ under the License.
       <name>Maven Commits List</name>
       <subscribe>commits-subscribe@maven.apache.org</subscribe>
       <unsubscribe>commits-unsubscribe@maven.apache.org</unsubscribe>
-      <archive>https://mail-archives.apache.org/mod_mbox/maven-commits/</archive>
+      <archive>https://lists.apache.org/list.html?commits@maven.apache.org</archive>
       <otherArchives>
+        <otherArchive>https://mail-archives.apache.org/mod_mbox/maven-commits/</otherArchive>
         <otherArchive>http://www.mail-archive.com/commits@maven.apache.org</otherArchive>
         <otherArchive>http://maven.40175.n5.nabble.com/Maven-Commits-f277168.html</otherArchive>
         <otherArchive>http://maven-commits.markmail.org/</otherArchive>
@@ -794,8 +798,9 @@ under the License.
       <post>announce@maven.apache.org</post>
       <subscribe>announce-subscribe@maven.apache.org</subscribe>
       <unsubscribe>announce-unsubscribe@maven.apache.org</unsubscribe>
-      <archive>https://mail-archives.apache.org/mod_mbox/maven-announce/</archive>
+      <archive>https://lists.apache.org/list.html?announce@maven.apache.org</archive>
       <otherArchives>
+        <otherArchive>https://mail-archives.apache.org/mod_mbox/maven-announce/</otherArchive>
         <otherArchive>http://www.mail-archive.com/announce@maven.apache.org</otherArchive>
         <otherArchive>http://maven.40175.n5.nabble.com/Maven-Announcements-f326045.html</otherArchive>
         <otherArchive>http://maven-announce.markmail.org/</otherArchive>
@@ -805,8 +810,9 @@ under the License.
       <name>Maven Notifications List</name>
       <subscribe>notifications-subscribe@maven.apache.org</subscribe>
       <unsubscribe>notifications-unsubscribe@maven.apache.org</unsubscribe>
-      <archive>https://mail-archives.apache.org/mod_mbox/maven-notifications/</archive>
+      <archive>https://lists.apache.org/list.html?notifications@maven.apache.org</archive>
       <otherArchives>
+        <otherArchive>https://mail-archives.apache.org/mod_mbox/maven-notifications/</otherArchive>
         <otherArchive>http://www.mail-archive.com/notifications@maven.apache.org</otherArchive>
         <otherArchive>http://maven.40175.n5.nabble.com/Maven-Notifications-f301718.html</otherArchive>
         <otherArchive>http://maven-notifications.markmail.org/</otherArchive>
