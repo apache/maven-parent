@@ -914,7 +914,7 @@ under the License.
         <plugin>
           <groupId>org.codehaus.modello</groupId>
           <artifactId>modello-maven-plugin</artifactId>
-          <version>1.8.3</version>
+          <version>1.9.1</version>
           <configuration>
             <useJava5>true</useJava5>
           </configuration>
@@ -1024,6 +1024,7 @@ under the License.
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-javadoc-plugin</artifactId>
+          <version>3.0.0</version>
           <configuration>
             <notimestamp>true</notimestamp>
             <quiet>true</quiet>
