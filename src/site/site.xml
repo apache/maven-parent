@@ -49,6 +49,7 @@ under the License.
         <showUser>true</showUser>
         <showFollowers>false</showFollowers>
       </twitter>
+      <facebookLike />
       <googlePlusOne />
       <googleSearch>
         <sitesearch/>
