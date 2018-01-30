@@ -48,7 +48,7 @@ under the License.
       <twitter>
         <user>ASFMavenProject</user>
         <showUser>true</showUser>
-        <showFollowers>true</showFollowers>
+        <showFollowers>false</showFollowers>
       </twitter>
       <googlePlusOne />
       <googleSearch>
