@@ -44,7 +44,14 @@ mvn -Preporting site-deploy
 * History
 
 #if( $project.version.endsWith( "SNAPSHOT" ) )
-    trunk: {{{https://svn.apache.org/viewvc/maven/pom/trunk/maven/maven-shared-components/pom.xml?view=markup}$project.version}} ({{{https://svn.apache.org/viewvc/maven/pom/trunk/maven/maven-shared-components/pom.xml?r1=HEAD&r2=1711683&diff_format=h}diff}})
+#**##set( $prev = 30 )
+  master: {{{https://github.com/apache/maven-parent/tree/master/maven-shared-components/pom.xml}$project.version}}
+  ({{{https://gitbox.apache.org/repos/asf?p=maven-parent.git;a=blobdiff;f=maven-shared-components/pom.xml;hb=master;hpb=maven-parent-$prev}diff}})
+#end
+#macro ( display $version $date )
+#**##set( $prev = $version - 1 )
+|  {{{https://github.com/apache/maven-parent/tree/maven-parent-$version/maven-shared-components/pom.xml}$version}}
+| ({{{https://gitbox.apache.org/repos/asf?p=maven-parent.git;a=blobdiff;f=maven-shared-components/pom.xml;hb=maven-parent-$version;hpb=maven-parent-$prev}diff}}) | $date |
 #end
 
     As of version 30, this POM sets the Java source and target versions to 1.6. Thus any component
@@ -52,6 +59,8 @@ mvn -Preporting site-deploy
 
 *--------------+------------+
 || <<Version>> || <<Release Date>> ||
+*--------------+------------+
+#display( 31, '2018-02-05' )
 *--------------+------------+
 | {{{https://svn.apache.org/viewvc/maven/pom/tags/maven-parent-30/maven-shared-components/pom.xml?view=markup}30}} ({{{https://svn.apache.org/viewvc/maven/pom/tags/maven-parent-30/maven-shared-components/pom.xml?r1=HEAD&r2=1711683&diff_format=h}diff}}) | 2016-05-26  |
 *--------------+------------+

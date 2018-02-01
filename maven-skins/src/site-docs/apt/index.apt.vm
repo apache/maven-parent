@@ -34,11 +34,20 @@ Maven Skins Parent POM
 History
 
 #if( $project.version.endsWith( "SNAPSHOT" ) )
-    trunk: {{{https://svn.apache.org/viewvc/maven/pom/trunk/maven/maven-skins/pom.xml?view=markup}$project.version}} ({{{https://svn.apache.org/viewvc/maven/pom/trunk/maven/maven-skins/pom.xml?r1=HEAD&r2=1632941&diff_format=h}diff}})
+#**##set( $prev = 30 )
+  master: {{{https://github.com/apache/maven-parent/tree/master/maven-skins/pom.xml}$project.version}}
+  ({{{https://gitbox.apache.org/repos/asf?p=maven-parent.git;a=blobdiff;f=maven-skins/pom.xml;hb=master;hpb=maven-parent-$prev}diff}})
+#end
+#macro ( display $version $date )
+#**##set( $prev = $version - 1 )
+|  {{{https://github.com/apache/maven-parent/tree/maven-parent-$version/maven-skins/pom.xml}$version}}
+| ({{{https://gitbox.apache.org/repos/asf?p=maven-parent.git;a=blobdiff;f=maven-skins/pom.xml;hb=maven-parent-$version;hpb=maven-parent-$prev}diff}}) | $date |
 #end
 
 *--------------+------------+
 || <<Version>> || <<Release Date>> ||
+*--------------+------------+
+#display( 31, '2018-02-05' )
 *--------------+------------+
 | {{{https://svn.apache.org/viewvc/maven/pom/tags/maven-parent-30/maven-skins/pom.xml?view=markup}30}} ({{{https://svn.apache.org/viewvc/maven/pom/tags/maven-parent-30/maven-skins/pom.xml?r1=HEAD&r2=1632941&diff_format=h}diff}}) | 2016-05-26  |
 *--------------+------------+
