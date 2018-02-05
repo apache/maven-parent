@@ -65,12 +65,12 @@ under the License.
       <dependency>
         <groupId>org.codehaus.plexus</groupId>
         <artifactId>plexus-container-default</artifactId>
-        <version>1.0-alpha-30</version>
+        <version>1.7.1</version>
       </dependency>
       <dependency>
         <groupId>org.codehaus.plexus</groupId>
         <artifactId>plexus-utils</artifactId>
-        <version>3.0.22</version>
+        <version>3.1.0</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
