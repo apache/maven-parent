@@ -821,7 +821,6 @@ under the License.
   </mailingLists>
 
   <modules>
-    <module>maven-archetype-bundles</module>
     <module>maven-plugins</module>
     <module>maven-shared-components</module>
     <module>maven-skins</module>
