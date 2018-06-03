@@ -510,6 +510,15 @@ under the License.
       <timezone>+1</timezone>
     </developer>
     <developer>
+      <id>sor</id>
+      <name>Christian Stein</name>
+      <email>sor@apache.org</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>Europe/Berlin</timezone>
+    </developer>
+    <developer>
       <id>struberg</id>
       <name>Mark Struberg</name>
       <email>struberg@apache.org</email>
