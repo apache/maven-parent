@@ -939,7 +939,7 @@ under the License.
           <version>3.0.0</version>
           <configuration>
             <checkoutDirectory>${maven.site.cache}/${maven.site.path}</checkoutDirectory>
-            <serverId>apache.scm-site</serverId>
+            <serverId>apache.releases.https</serverId>
             <tryUpdate>true</tryUpdate>
           </configuration>
         </plugin>
