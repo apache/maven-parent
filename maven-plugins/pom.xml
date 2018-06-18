@@ -44,7 +44,7 @@ under the License.
   <distributionManagement>
     <site>
       <id>apache.website</id>
-      <url>scm:svn:https://svn.apache.org/repos/infra/websites/production/maven/components/plugins-archives/</url>
+      <url>scm:svn:https://svn.apache.org/repos/asf/maven/website/components/plugins-archives/</url>
     </site>
   </distributionManagement>
 

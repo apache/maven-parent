@@ -50,7 +50,7 @@ under the License.
   <distributionManagement>
     <site>
       <id>apache.website</id>
-      <url>scm:svn:https://svn.apache.org/repos/infra/websites/production/maven-doxia/content/doxia-tools-archives/</url>
+      <url>scm:svn:https://svn.apache.org/repos/asf/maven/website-doxia/content/doxia-tools-archives/</url>
     </site>
   </distributionManagement>
 
