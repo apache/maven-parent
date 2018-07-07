@@ -26,7 +26,7 @@ under the License.
   <parent>
     <groupId>org.apache</groupId>
     <artifactId>apache</artifactId>
-    <version>19</version>
+    <version>20</version>
     <relativePath>../asf/pom.xml</relativePath>
   </parent>
 
@@ -1170,14 +1170,14 @@ under the License.
               <report>summary</report>
               <report>dependency-info</report>
               <report>modules</report>
-              <report>project-team</report>
+              <report>team</report>
               <report>scm</report>
-              <report>issue-tracking</report>
-              <report>mailing-list</report>
+              <report>issue-management</report>
+              <report>mailing-lists</report>
               <report>dependency-management</report>
               <report>dependencies</report>
               <report>dependency-convergence</report>
-              <report>cim</report>
+              <report>ci-management</report>
               <report>plugin-management</report>
               <report>plugins</report>
               <report>distribution-management</report>
