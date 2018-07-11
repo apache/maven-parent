@@ -905,11 +905,6 @@ under the License.
   <build>
     <pluginManagement>
       <plugins>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.7.0</version>
-        </plugin>
         <!-- The Maven universe targets Java 5 minimum, with generics -->
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -936,7 +931,6 @@ under the License.
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-scm-publish-plugin</artifactId>
-          <version>3.0.0</version>
           <configuration>
             <checkoutDirectory>${maven.site.cache}/${maven.site.path}</checkoutDirectory>
             <serverId>apache.releases.https</serverId>
@@ -1030,7 +1024,6 @@ under the License.
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-javadoc-plugin</artifactId>
-          <version>3.0.0</version>
           <configuration>
             <notimestamp>true</notimestamp>
             <quiet>true</quiet>
