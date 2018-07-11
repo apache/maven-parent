@@ -999,6 +999,7 @@ under the License.
             <releaseProfiles>apache-release</releaseProfiles>
             <goals>deploy</goals>
             <arguments>${arguments}</arguments>
+            <autoVersionSubmodules>true</autoVersionSubmodules>
           </configuration>
         </plugin>
         <plugin>
