@@ -60,6 +60,8 @@ mvn -Preporting site-deploy
 *--------------+------------+
 || <<Version>> || <<Release Date>> ||
 *--------------+------------+
+#display( 32, '2018-07-18' )
+*--------------+------------+
 #display( 31, '2018-02-05' )
 *--------------+------------+
 | {{{https://svn.apache.org/viewvc/maven/pom/tags/maven-parent-30/maven-shared-components/pom.xml?view=markup}30}} ({{{https://svn.apache.org/viewvc/maven/pom/tags/maven-parent-30/maven-shared-components/pom.xml?r1=HEAD&r2=1711683&diff_format=h}diff}}) | 2016-05-26  |
