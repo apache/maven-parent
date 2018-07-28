@@ -754,9 +754,9 @@ under the License.
   <mailingLists>
     <mailingList>
       <name>Maven User List</name>
-      <subscribe>users-subscribe@maven.apache.org</subscribe>
-      <unsubscribe>users-unsubscribe@maven.apache.org</unsubscribe>
-      <post>users@maven.apache.org</post>
+      <subscribe>mailto:users-subscribe@maven.apache.org</subscribe>
+      <unsubscribe>mailto:users-unsubscribe@maven.apache.org</unsubscribe>
+      <post>mailto:users@maven.apache.org</post>
       <archive>https://lists.apache.org/list.html?users@maven.apache.org</archive>
       <otherArchives>
         <otherArchive>https://mail-archives.apache.org/mod_mbox/maven-users</otherArchive>
@@ -767,9 +767,9 @@ under the License.
     </mailingList>
     <mailingList>
       <name>Maven Developer List</name>
-      <subscribe>dev-subscribe@maven.apache.org</subscribe>
-      <unsubscribe>dev-unsubscribe@maven.apache.org</unsubscribe>
-      <post>dev@maven.apache.org</post>
+      <subscribe>mailto:dev-subscribe@maven.apache.org</subscribe>
+      <unsubscribe>mailto:dev-unsubscribe@maven.apache.org</unsubscribe>
+      <post>mailto:dev@maven.apache.org</post>
       <archive>https://lists.apache.org/list.html?dev@maven.apache.org</archive>
       <otherArchives>
         <otherArchive>https://mail-archives.apache.org/mod_mbox/maven-dev</otherArchive>
@@ -780,8 +780,8 @@ under the License.
     </mailingList>
     <mailingList>
       <name>Maven Issues List</name>
-      <subscribe>issues-subscribe@maven.apache.org</subscribe>
-      <unsubscribe>issues-unsubscribe@maven.apache.org</unsubscribe>
+      <subscribe>mailto:issues-subscribe@maven.apache.org</subscribe>
+      <unsubscribe>mailto:issues-unsubscribe@maven.apache.org</unsubscribe>
       <archive>https://lists.apache.org/list.html?issues@maven.apache.org</archive>
       <otherArchives>
         <otherArchive>https://mail-archives.apache.org/mod_mbox/maven-issues/</otherArchive>
@@ -792,8 +792,8 @@ under the License.
     </mailingList>
     <mailingList>
       <name>Maven Commits List</name>
-      <subscribe>commits-subscribe@maven.apache.org</subscribe>
-      <unsubscribe>commits-unsubscribe@maven.apache.org</unsubscribe>
+      <subscribe>mailto:commits-subscribe@maven.apache.org</subscribe>
+      <unsubscribe>mailto:commits-unsubscribe@maven.apache.org</unsubscribe>
       <archive>https://lists.apache.org/list.html?commits@maven.apache.org</archive>
       <otherArchives>
         <otherArchive>https://mail-archives.apache.org/mod_mbox/maven-commits/</otherArchive>
@@ -805,8 +805,8 @@ under the License.
     <mailingList>
       <name>Maven Announcements List</name>
       <post>announce@maven.apache.org</post>
-      <subscribe>announce-subscribe@maven.apache.org</subscribe>
-      <unsubscribe>announce-unsubscribe@maven.apache.org</unsubscribe>
+      <subscribe>mailto:announce-subscribe@maven.apache.org</subscribe>
+      <unsubscribe>mailto:announce-unsubscribe@maven.apache.org</unsubscribe>
       <archive>https://lists.apache.org/list.html?announce@maven.apache.org</archive>
       <otherArchives>
         <otherArchive>https://mail-archives.apache.org/mod_mbox/maven-announce/</otherArchive>
@@ -817,8 +817,8 @@ under the License.
     </mailingList>
     <mailingList>
       <name>Maven Notifications List</name>
-      <subscribe>notifications-subscribe@maven.apache.org</subscribe>
-      <unsubscribe>notifications-unsubscribe@maven.apache.org</unsubscribe>
+      <subscribe>mailto:notifications-subscribe@maven.apache.org</subscribe>
+      <unsubscribe>mailto:notifications-unsubscribe@maven.apache.org</unsubscribe>
       <archive>https://lists.apache.org/list.html?notifications@maven.apache.org</archive>
       <otherArchives>
         <otherArchive>https://mail-archives.apache.org/mod_mbox/maven-notifications/</otherArchive>
