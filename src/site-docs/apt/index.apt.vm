@@ -88,7 +88,7 @@ mvn scm-publish:publish-scm
 * History
 
 #if( $project.version.endsWith( "SNAPSHOT" ) )
-#**##set( $prev = 30 )
+#**##set( $prev = 32 )
   master: {{{https://github.com/apache/maven-parent/tree/master/pom.xml}$project.version}}
   ({{{https://gitbox.apache.org/repos/asf?p=maven-parent.git;a=blobdiff;f=pom.xml;hb=master;hpb=maven-parent-$prev}diff}},
   {{{https://github.com/apache/maven-parent/compare/maven-parent-$prev...master}commits}})

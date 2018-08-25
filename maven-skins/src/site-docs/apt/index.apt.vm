@@ -34,7 +34,7 @@ Maven Skins Parent POM
 History
 
 #if( $project.version.endsWith( "SNAPSHOT" ) )
-#**##set( $prev = 30 )
+#**##set( $prev = 32 )
   master: {{{https://github.com/apache/maven-parent/tree/master/maven-skins/pom.xml}$project.version}}
   ({{{https://gitbox.apache.org/repos/asf?p=maven-parent.git;a=blobdiff;f=maven-skins/pom.xml;hb=master;hpb=maven-parent-$prev}diff}})
 #end

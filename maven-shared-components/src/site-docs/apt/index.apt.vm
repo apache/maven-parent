@@ -44,7 +44,7 @@ mvn -Preporting site-deploy
 * History
 
 #if( $project.version.endsWith( "SNAPSHOT" ) )
-#**##set( $prev = 30 )
+#**##set( $prev = 32 )
   master: {{{https://github.com/apache/maven-parent/tree/master/maven-shared-components/pom.xml}$project.version}}
   ({{{https://gitbox.apache.org/repos/asf?p=maven-parent.git;a=blobdiff;f=maven-shared-components/pom.xml;hb=master;hpb=maven-parent-$prev}diff}})
 #end
