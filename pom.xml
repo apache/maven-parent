@@ -937,12 +937,6 @@ under the License.
             <tryUpdate>true</tryUpdate>
           </configuration>
         </plugin>
-        <!-- Plexus description generator is either plexus-maven-plugin or plexus-component-metadata -->
-        <plugin>
-          <groupId>org.codehaus.plexus</groupId>
-          <artifactId>plexus-maven-plugin</artifactId>
-          <version>1.3.8</version>
-        </plugin>
         <plugin>
           <groupId>org.codehaus.plexus</groupId>
           <artifactId>plexus-component-metadata</artifactId>
