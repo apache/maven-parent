@@ -56,7 +56,7 @@ mvn -Preporting site-deploy
 * History
 
 #if( $project.version.endsWith( "SNAPSHOT" ) )
-#**##set( $prev = 32 )
+#**##set( $prev = 33 )
   master: {{{https://github.com/apache/maven-parent/tree/master/maven-plugins/pom.xml}$project.version}}
   ({{{https://gitbox.apache.org/repos/asf?p=maven-parent.git;a=blobdiff;f=maven-plugins/pom.xml;hb=master;hpb=maven-parent-$prev}diff}})
 #end
@@ -71,6 +71,8 @@ mvn -Preporting site-deploy
 
 *--------------+------------+
 || <<Version>> || <<Release Date>> ||
+*--------------+------------+
+#display( 33, '2018-09-11' )
 *--------------+------------+
 #display( 32, '2018-07-18' )
 *--------------+------------+

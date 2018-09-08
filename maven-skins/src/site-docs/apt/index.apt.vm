@@ -34,7 +34,7 @@ Maven Skins Parent POM
 History
 
 #if( $project.version.endsWith( "SNAPSHOT" ) )
-#**##set( $prev = 32 )
+#**##set( $prev = 33 )
   master: {{{https://github.com/apache/maven-parent/tree/master/maven-skins/pom.xml}$project.version}}
   ({{{https://gitbox.apache.org/repos/asf?p=maven-parent.git;a=blobdiff;f=maven-skins/pom.xml;hb=master;hpb=maven-parent-$prev}diff}})
 #end
@@ -46,6 +46,8 @@ History
 
 *--------------+------------+
 || <<Version>> || <<Release Date>> ||
+*--------------+------------+
+#display( 33, '2018-09-11' )
 *--------------+------------+
 #display( 32, '2018-07-18' )
 *--------------+------------+
