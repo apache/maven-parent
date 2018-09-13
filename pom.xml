@@ -546,6 +546,15 @@ under the License.
       </roles>
       <timezone>+1</timezone>
     </developer>
+    <developer>
+      <id>slachiewicz</id>
+      <name>Sylwester Lachiewicz</name>
+      <email>slachiewicz@apache.org</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>Europe/Warsaw</timezone>
+    </developer>
     <!--End Committers-->
 
     <developer>
