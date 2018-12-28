@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 
 <!--
 Licensed to the Apache Software Foundation (ASF) under one
@@ -1153,7 +1153,7 @@ under the License.
           <dependency>
             <groupId>org.codehaus.mojo</groupId>
             <artifactId>extra-enforcer-rules</artifactId>
-            <version>1.0-beta-9</version>
+            <version>1.2</version>
           </dependency>
         </dependencies>
       </plugin>
