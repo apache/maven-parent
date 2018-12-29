@@ -361,6 +361,16 @@ under the License.
       <timezone>-8</timezone>
     </developer>
     <developer>
+      <id>eolivelli</id>
+      <name>Enrico Olivelli</name>
+      <email>eolivelli@apache.org</email>
+      <organization>Diennea</organization>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>Europe/Rome</timezone>
+    </developer>
+    <developer>
       <id>fgiust</id>
       <name>Fabrizio Giustina</name>
       <email>fgiust@apache.org</email>
