@@ -100,8 +100,8 @@ mvn scm-publish:publish-scm
 |  {{{https://github.com/apache/maven-parent/compare/maven-parent-$prev...maven-parent-$version}commits}}) | $date |
 #end
 
-    As of version 27, this POM sets the Java source and target versions to 1.6. Thus, as any plugin (or other component)
-    moved to version 27+ of this POM, it moves to requiring Java 1.6 (was Java 1.5 since version 21).
+    As of version 34, this POM sets the Java source and target versions to 1.7. Thus, as any plugin (or other component)
+    moved to version 34+ of this POM, it moves to requiring Java 1.7 (was Java 1.5 since version 21, and Java 1.6 since version 27).
 
 *--------------+------------+
 || <<Version>> || <<Release Date>> ||
