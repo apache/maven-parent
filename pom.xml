@@ -883,7 +883,7 @@ under the License.
   </distributionManagement>
 
   <properties>
-    <javaVersion>6</javaVersion>
+    <javaVersion>7</javaVersion>
     <maven.compiler.source>1.${javaVersion}</maven.compiler.source>
     <maven.compiler.target>1.${javaVersion}</maven.compiler.target>    
     <sonar.host.url>https://builds.apache.org/analysis/</sonar.host.url>
