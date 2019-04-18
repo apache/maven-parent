@@ -26,7 +26,7 @@ under the License.
   <parent>
     <groupId>org.apache</groupId>
     <artifactId>apache</artifactId>
-    <version>21</version>
+    <version>22-SNAPSHOT</version>
     <relativePath>../asf/pom.xml</relativePath>
   </parent>
 
@@ -1134,7 +1134,7 @@ under the License.
               <fail>true</fail>
             </configuration>
           </execution>
-          <execution>
+          <execution><!-- remove me, maven-apache-parent enforces Maven 3.0.5 -->
             <id>ban-known-bad-maven-versions</id>
             <goals>
               <goal>enforce</goal>
