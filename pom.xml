@@ -849,6 +849,7 @@ under the License.
   </mailingLists>
 
   <modules>
+    <module>maven-extensions</module>
     <module>maven-plugins</module>
     <module>maven-shared-components</module>
     <module>maven-skins</module>
