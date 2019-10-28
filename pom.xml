@@ -228,16 +228,6 @@ under the License.
       </roles>
     </developer>
     <developer>
-      <id>snicoll</id>
-      <name>Stephane Nicoll</name>
-      <email>snicoll@apache.org</email>
-      <organization>ASF</organization>
-      <roles>
-        <role>PMC Member</role>
-      </roles>
-      <timezone>+1</timezone>
-    </developer>
-    <developer>
       <id>stephenc</id>
       <name>Stephen Connolly</name>
       <email>stephenc@apache.org</email>
@@ -509,6 +499,15 @@ under the License.
         <role>Committer</role>
       </roles>
       <timezone>Europe/Berlin</timezone>
+    </developer>
+    <developer>
+      <id>snicoll</id>
+      <name>Stephane Nicoll</name>
+      <email>snicoll@apache.org</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>+1</timezone>
     </developer>
     <developer>
       <id>simonetripodi</id>
