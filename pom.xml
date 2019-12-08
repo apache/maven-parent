@@ -1165,6 +1165,7 @@ under the License.
             <exclude>.repository/**</exclude><!-- Jenkins job with local Maven repository -->
             <exclude>.maven/spy.log</exclude><!-- Hudson Maven3 integration log -->
             <exclude>dependency-reduced-pom.xml</exclude><!-- Maven shade plugin -->
+            <exclude>.asf.yaml</exclude><!-- GitHub Support -->
             <exclude>.java-version</exclude>
           </excludes>
         </configuration>
