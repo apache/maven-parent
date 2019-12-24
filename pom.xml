@@ -1380,19 +1380,9 @@ under the License.
               </reportSet>
             </reportSets>
           </plugin>
-          <!--plugin>
-            <groupId>org.codehaus.mojo</groupId>
-            <artifactId>clirr-maven-plugin</artifactId>
-            <version>2.2.2</version>
-          </plugin-->
           <plugin>
             <groupId>org.codehaus.mojo</groupId>
             <artifactId>findbugs-maven-plugin</artifactId>
-          </plugin>
-          <plugin>
-            <groupId>org.codehaus.sonar-plugins</groupId>
-            <artifactId>maven-report</artifactId>
-            <version>0.1</version>
           </plugin>
         </plugins>
       </reporting>
