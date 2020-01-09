@@ -1134,20 +1134,6 @@ under the License.
               <fail>true</fail>
             </configuration>
           </execution>
-          <execution><!-- remove me, maven-apache-parent enforces Maven 3.0.5 -->
-            <id>ban-known-bad-maven-versions</id>
-            <goals>
-              <goal>enforce</goal>
-            </goals>
-            <configuration>
-              <rules>
-                <requireMavenVersion>
-                  <version>[3.0.4,)</version>
-                  <message>Maven 3.0 through 3.0.3 inclusive do not pass correct settings.xml to Maven Release Plugin.</message>
-                </requireMavenVersion>
-              </rules>
-            </configuration>
-          </execution>
         </executions>
         <dependencies>
           <dependency>
