@@ -49,9 +49,7 @@ under the License.
         <user>ASFMavenProject</user>
         <showUser>true</showUser>
       </twitter>
-      <googleSearch>
-        <sitesearch/>
-      </googleSearch>
+      <googleSearch />
     </fluidoSkin>
   </custom>
 
