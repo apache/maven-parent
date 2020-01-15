@@ -892,6 +892,7 @@ under the License.
     <mavenPluginToolsVersion>3.5.2</mavenPluginToolsVersion>
     <!-- don't fail check for some rules that are too hard to enforce (could even be told broken for some) -->
     <checkstyle.violation.ignore>RedundantThrows,NewlineAtEndOfFile,ParameterNumber,MethodLength,FileLength</checkstyle.violation.ignore>
+    <project.build.outputTimestamp>2020-01-15T22:27:56Z</project.build.outputTimestamp>
   </properties>
 
   <dependencyManagement>
