@@ -237,6 +237,14 @@ under the License.
       <timezone>0</timezone>
     </developer>
     <developer>
+      <id>struberg</id>
+      <name>Mark Struberg</name>
+      <email>struberg@apache.org</email>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+    </developer>
+    <developer>
       <id>tibordigana</id>
       <name>Tibor Digaňa</name>
       <email>tibordigana@apache.org</email>
@@ -526,14 +534,6 @@ under the License.
         <role>Committer</role>
       </roles>
       <timezone>Europe/Berlin</timezone>
-    </developer>
-    <developer>
-      <id>struberg</id>
-      <name>Mark Struberg</name>
-      <email>struberg@apache.org</email>
-      <roles>
-        <role>Committer</role>
-      </roles>
     </developer>
     <developer>
       <id>tchemit</id>
