@@ -25,7 +25,7 @@ under the License.
   <body>
     <breadcrumbs>
       <item name="Maven" href="https://maven.apache.org/pom/maven/index.html" />
-      <item name="Shared Components" href="https://maven.apache.org/pom/maven/maven-shared-components/index.html" />
+      <item name="Extensions" href="https://maven.apache.org/pom/maven/maven-extensions/index.html" />
     </breadcrumbs>
 
     <menu name="Maven Parent POMs">

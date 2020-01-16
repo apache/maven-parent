@@ -32,6 +32,7 @@ under the License.
       <item name="Maven" href="../index.html"/>
       <item name="Archetypes" href="../maven-archetypes-bundles/index.html"/>
       <item name="Plugins" href="../maven-plugins/index.html"/>
+      <item name="Extensions" href="../maven-extensions/index.html"/>
       <item name="Shared Components" href="../maven-shared-components/index.html"/>
       <item name="Skins" href="../maven-skins/index.html"/>
       <item name="Doxia Tools" href="../doxia-tools/index.html"/>
