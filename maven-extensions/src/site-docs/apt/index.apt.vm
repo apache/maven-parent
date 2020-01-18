@@ -51,22 +51,3 @@ mvn -Prun-its verify
 +-----+
 mvn -Preporting site-deploy
 +-----+
-
-* History
-
-#if( $project.version.endsWith( "SNAPSHOT" ) )
-#**##set( $prev = 33 )
-  master: {{{https://github.com/apache/maven-parent/tree/master/maven-extensions/pom.xml}$project.version}}
-  ({{{https://gitbox.apache.org/repos/asf?p=maven-parent.git;a=blobdiff;f=maven-extensions/pom.xml;hb=master;hpb=maven-parent-$prev}diff}})
-#end
-#macro ( display $version $date )
-#**##set( $prev = $version - 1 )
-|  {{{https://github.com/apache/maven-parent/tree/maven-parent-$version/maven-extensions/pom.xml}$version}}
-| ({{{https://gitbox.apache.org/repos/asf?p=maven-parent.git;a=blobdiff;f=maven-extensions/pom.xml;hb=maven-parent-$version;hpb=maven-parent-$prev}diff}}) | $date |
-#end
-
-*--------------+------------+
-|| <<Version>> || <<Release Date>> ||
-*--------------+------------+
-#display( 34, '2020-01-17' )
-*--------------+------------+

@@ -58,12 +58,12 @@ mvn -Preporting site-deploy
 #if( $project.version.endsWith( "SNAPSHOT" ) )
 #**##set( $prev = 33 )
   master: {{{https://github.com/apache/maven-parent/tree/master/maven-plugins/pom.xml}$project.version}}
-  ({{{https://gitbox.apache.org/repos/asf?p=maven-parent.git;a=blobdiff;f=maven-plugins/pom.xml;hb=master;hpb=maven-parent-$prev}diff}})
+  ({{{https://github.com/apache/maven-parent/compare/maven-parent-$prev...master#diff}diff}})
 #end
 #macro ( display $version $date )
 #**##set( $prev = $version - 1 )
 |  {{{https://github.com/apache/maven-parent/tree/maven-parent-$version/maven-plugins/pom.xml}$version}}
-| ({{{https://gitbox.apache.org/repos/asf?p=maven-parent.git;a=blobdiff;f=maven-plugins/pom.xml;hb=maven-parent-$version;hpb=maven-parent-$prev}diff}}) | $date |
+| ({{{https://github.com/apache/maven-parent/compare/maven-parent-$prev...maven-parent-$version#diff}diff}}) | $date |
 #end
 
     As of version 30, this POM sets the Java source and target versions to 1.6. Thus any plugin

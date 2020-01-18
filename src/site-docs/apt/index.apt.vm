@@ -90,13 +90,13 @@ mvn scm-publish:publish-scm
 #if( $project.version.endsWith( "SNAPSHOT" ) )
 #**##set( $prev = 33 )
   master: {{{https://github.com/apache/maven-parent/tree/master/pom.xml}$project.version}}
-  ({{{https://gitbox.apache.org/repos/asf?p=maven-parent.git;a=blobdiff;f=pom.xml;hb=master;hpb=maven-parent-$prev}diff}},
+  ({{{https://github.com/apache/maven-parent/compare/maven-parent-$prev...master#diff}diff}},
   {{{https://github.com/apache/maven-parent/compare/maven-parent-$prev...master}commits}})
 #end
 #macro ( display $version $date )
 #**##if ( $version == 30 ) #set( $prev = 27 )#else#set( $prev = $version - 1 )#end
 |  {{{https://github.com/apache/maven-parent/tree/maven-parent-$version/pom.xml}$version}}
-| ({{{https://gitbox.apache.org/repos/asf?p=maven-parent.git;a=blobdiff;f=pom.xml;hb=maven-parent-$version;hpb=maven-parent-$prev}diff}},
+| ({{{https://github.com/apache/maven-parent/compare/maven-parent-$prev...maven-parent-$version#diff}diff}},
 |  {{{https://github.com/apache/maven-parent/compare/maven-parent-$prev...maven-parent-$version}commits}}) | $date |
 #end
 

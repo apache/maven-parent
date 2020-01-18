@@ -36,12 +36,12 @@ History
 #if( $project.version.endsWith( "SNAPSHOT" ) )
 #**##set( $prev = 33 )
   master: {{{https://github.com/apache/maven-parent/tree/master/maven-skins/pom.xml}$project.version}}
-  ({{{https://gitbox.apache.org/repos/asf?p=maven-parent.git;a=blobdiff;f=maven-skins/pom.xml;hb=master;hpb=maven-parent-$prev}diff}})
+  ({{{https://github.com/apache/maven-parent/compare/maven-parent-$prev...master#diff}diff}})
 #end
 #macro ( display $version $date )
 #**##set( $prev = $version - 1 )
 |  {{{https://github.com/apache/maven-parent/tree/maven-parent-$version/maven-skins/pom.xml}$version}}
-| ({{{https://gitbox.apache.org/repos/asf?p=maven-parent.git;a=blobdiff;f=maven-skins/pom.xml;hb=maven-parent-$version;hpb=maven-parent-$prev}diff}}) | $date |
+| ({{{https://github.com/apache/maven-parent/compare/maven-parent-$prev...maven-parent-$version#diff}diff}}) | $date |
 #end
 
 *--------------+------------+
