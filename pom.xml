@@ -564,6 +564,15 @@ under the License.
       </roles>
       <timezone>Europe/Warsaw</timezone>
     </developer>
+    <developer>
+      <id>elharo</id>
+      <name>Elliotte Rusty Harold</name>
+      <email>elharo@apache.org</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>America/New_York</timezone>
+    </developer>
     <!--End Committers-->
 
     <developer>
