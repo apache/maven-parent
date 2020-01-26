@@ -32,7 +32,7 @@ under the License.
 
   <groupId>org.apache.maven</groupId>
   <artifactId>maven-parent</artifactId>
-  <version>34</version>
+  <version>35-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>Apache Maven</name>
@@ -869,7 +869,7 @@ under the License.
     <connection>scm:git:https://gitbox.apache.org/repos/asf/maven-parent.git</connection>
     <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/maven-parent.git</developerConnection>
     <url>https://github.com/apache/maven-parent/tree/${project.scm.tag}</url>
-    <tag>maven-parent-34</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <ciManagement>
@@ -901,7 +901,7 @@ under the License.
     <mavenPluginToolsVersion>3.5.2</mavenPluginToolsVersion>
     <!-- don't fail check for some rules that are too hard to enforce (could even be told broken for some) -->
     <checkstyle.violation.ignore>RedundantThrows,NewlineAtEndOfFile,ParameterNumber,MethodLength,FileLength</checkstyle.violation.ignore>
-    <project.build.outputTimestamp>2020-01-26T09:03:59Z</project.build.outputTimestamp>
+    <project.build.outputTimestamp>2020-01-26T09:04:18Z</project.build.outputTimestamp>
   </properties>
 
   <dependencyManagement>
