@@ -50,6 +50,9 @@ under the License.
         <role>PMC Chair</role>
       </roles>
       <timezone>Europe/Amsterdam</timezone>
+      <properties>
+        <twitter>@rfscholte</twitter>
+      </properties>
     </developer>
     <developer>
       <id>aheritier</id>
