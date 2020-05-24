@@ -185,6 +185,9 @@ under the License.
         <role>PMC Member</role>
       </roles>
       <timezone>+1</timezone>
+      <properties>
+        <twitter>@khmarbaise</twitter>
+      </properties>
     </developer>
     <developer>
       <id>krosenvold</id>
