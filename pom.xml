@@ -212,7 +212,7 @@ under the License.
       <roles>
         <role>PMC Member</role>
       </roles>
-      <timezone>Australia/Melbourne</timezone>
+      <timezone>Australia/Brisbane</timezone>
     </developer>
     <developer>
       <id>michaelo</id>
