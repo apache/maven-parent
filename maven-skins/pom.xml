@@ -64,7 +64,6 @@ under the License.
         <plugin>
           <artifactId>maven-release-plugin</artifactId>
           <configuration>
-            <tagBase>https://svn.apache.org/repos/asf/maven/skins/tags</tagBase>
             <arguments>-Papache-release,run-its</arguments>
           </configuration>
         </plugin>

@@ -78,13 +78,6 @@ under the License.
   <build>
     <pluginManagement>
       <plugins>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-release-plugin</artifactId>
-          <configuration>
-            <tagBase>https://svn.apache.org/repos/asf/maven/doxia/doxia-tools/tags</tagBase>
-          </configuration>
-        </plugin>
         <!-- publish mono-module site with "mvn site-deploy" -->
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
