@@ -794,8 +794,6 @@ under the License.
       <otherArchives>
         <otherArchive>https://mail-archives.apache.org/mod_mbox/maven-users</otherArchive>
         <otherArchive>https://www.mail-archive.com/users@maven.apache.org/</otherArchive>
-        <otherArchive>http://maven.40175.n5.nabble.com/Maven-Users-f40176.html</otherArchive>
-        <otherArchive>https://maven-users.markmail.org/</otherArchive>
       </otherArchives>
     </mailingList>
     <mailingList>
@@ -807,8 +805,6 @@ under the License.
       <otherArchives>
         <otherArchive>https://mail-archives.apache.org/mod_mbox/maven-dev</otherArchive>
         <otherArchive>https://www.mail-archive.com/dev@maven.apache.org/</otherArchive>
-        <otherArchive>http://maven.40175.n5.nabble.com/Maven-Developers-f142166.html</otherArchive>
-        <otherArchive>https://maven-dev.markmail.org/</otherArchive>
       </otherArchives>
     </mailingList>
     <mailingList>
@@ -819,8 +815,6 @@ under the License.
       <otherArchives>
         <otherArchive>https://mail-archives.apache.org/mod_mbox/maven-issues/</otherArchive>
         <otherArchive>https://www.mail-archive.com/issues@maven.apache.org</otherArchive>
-        <otherArchive>http://maven.40175.n5.nabble.com/Maven-Issues-f219593.html</otherArchive>
-        <otherArchive>https://maven-issues.markmail.org/</otherArchive>
       </otherArchives>
     </mailingList>
     <mailingList>
@@ -831,8 +825,6 @@ under the License.
       <otherArchives>
         <otherArchive>https://mail-archives.apache.org/mod_mbox/maven-commits/</otherArchive>
         <otherArchive>https://www.mail-archive.com/commits@maven.apache.org</otherArchive>
-        <otherArchive>http://maven.40175.n5.nabble.com/Maven-Commits-f277168.html</otherArchive>
-        <otherArchive>https://maven-commits.markmail.org/</otherArchive>
       </otherArchives>
     </mailingList>
     <mailingList>
@@ -844,8 +836,6 @@ under the License.
       <otherArchives>
         <otherArchive>https://mail-archives.apache.org/mod_mbox/maven-announce/</otherArchive>
         <otherArchive>https://www.mail-archive.com/announce@maven.apache.org</otherArchive>
-        <otherArchive>http://maven.40175.n5.nabble.com/Maven-Announcements-f326045.html</otherArchive>
-        <otherArchive>https://maven-announce.markmail.org/</otherArchive>
       </otherArchives>
     </mailingList>
     <mailingList>
@@ -856,8 +846,6 @@ under the License.
       <otherArchives>
         <otherArchive>https://mail-archives.apache.org/mod_mbox/maven-notifications/</otherArchive>
         <otherArchive>https://www.mail-archive.com/notifications@maven.apache.org</otherArchive>
-        <otherArchive>http://maven.40175.n5.nabble.com/Maven-Notifications-f301718.html</otherArchive>
-        <otherArchive>https://maven-notifications.markmail.org/</otherArchive>
       </otherArchives>
     </mailingList>
   </mailingLists>
