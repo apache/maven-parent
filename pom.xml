@@ -448,6 +448,15 @@ under the License.
       <timezone>Europe/Amsterdam</timezone>
     </developer>
     <developer>
+      <id>mthmulders</id>
+      <name>Maarten Mulders</name>
+      <organization>Info Support</organization>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>Europe/Amsterdam</timezone>
+    </developer>
+    <developer>
       <id>mauro</id>
       <name>Mauro Talevi</name>
       <roles>
