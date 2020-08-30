@@ -42,7 +42,7 @@
   </issueManagement>
 
   <ciManagement>
-    <url>https://builds.apache.org/job/maven-project-resources/</url>
+    <url>https://ci-builds.apache.org/job/Maven/job/maven-box/job/maven-project-resources/</url>
     <system>Jenkins</system>
   </ciManagement>
 
