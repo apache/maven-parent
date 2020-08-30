@@ -44,7 +44,7 @@ under the License.
   </issueManagement>
   <ciManagement>
     <system>Jenkins</system>
-    <url>https://builds.apache.org/job/doxia-tools/</url>
+    <url>https://ci-builds.apache.org/job/Maven/job/maven-box/job/doxia-tools/</url>
   </ciManagement>
 
   <distributionManagement>
