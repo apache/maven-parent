@@ -1239,20 +1239,6 @@ under the License.
       </activation>
       <build>
         <plugins>
-          <!--<plugin>
-          Clirr needs to be more flexble before we can force this everywhere. New releases that don't have previous artifacts to compare cause Clirr to blow up. And Clirr needs to be smart enough to only look at the previous release artifact so we can make this work during snapshot builds, otherwise it just blows up when you try to do a release.
-            <groupId>org.codehaus.mojo</groupId>
-            <artifactId>clirr-maven-plugin</artifactId>
-            <executions>
-              <execution>
-                <id>clirr-check</id>
-                <phase>verify</phase>
-                <goals>
-                  <goal>check</goal>
-                </goals>
-              </execution>
-            </executions>
-          </plugin>-->
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-pmd-plugin</artifactId>
