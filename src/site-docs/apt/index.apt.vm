@@ -36,7 +36,7 @@ Maven Project Parent POM
     provide {{{./dependency-management.html}minimal dependencyManagement}} for
     plexus-component and plugin-tools annotations.
 
-    This POM contains Maven developers information for the {{{./team-list.html}Project Team report}},
+    This POM contains Maven developers information for the {{{./team.html}Project Team report}},
     sorted by role and id.
     See the LDAP extract for more accurate {{{https://people.apache.org/committers-by-project.html#maven}committers}}
     and {{{https://people.apache.org/committers-by-project.html#maven-pmc}PMC members}} lists. 
