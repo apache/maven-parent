@@ -98,10 +98,6 @@ under the License.
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-javadoc-plugin</artifactId>
-        </plugin>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-release-plugin</artifactId>
           <configuration>
             <releaseProfiles>apache-release,run-its</releaseProfiles>
