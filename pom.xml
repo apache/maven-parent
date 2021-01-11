@@ -1009,7 +1009,7 @@ under the License.
             <dependency>
               <groupId>org.apache.maven.shared</groupId>
               <artifactId>maven-shared-resources</artifactId>
-              <version>2</version>
+              <version>3</version>
             </dependency>
           </dependencies>
         </plugin>
