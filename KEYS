@@ -5,9 +5,6 @@ svn co https://dist.apache.org/repos/dist/release/maven dist-maven
 cd dist-maven
 svn cat https://svn.apache.org/repos/asf/maven/project/KEYS > KEYS
 
-then commit: This is a PMC activity. If you are not a PMC member then email
-private@maven.apache.org with a request to update this file for you
-
 sec   4096R/1D821345 2017-03-14 [expires: 2021-03-14]
 uid                  Karl Heinz Marbaise (Apache Key) <khmarbaise@apache.org>
 ssb   4096R/3E71052E 2017-03-14
