@@ -1383,10 +1383,10 @@ qk2TG672K5OH1rxc8V4=
 -----END PGP PUBLIC KEY BLOCK-----
 
 pub   1024D/3571506F 2008-09-22
-uid                  Rapha‘l PiŽroni <rafale@apache.org>
-sig 3        3571506F 2008-09-22  Rapha‘l PiŽroni <rafale@apache.org>
+uid                  Raphaï¿½l Piï¿½roni <rafale@apache.org>
+sig 3        3571506F 2008-09-22  Raphaï¿½l Piï¿½roni <rafale@apache.org>
 sub   2048g/FAFAC767 2008-09-22
-sig          3571506F 2008-09-22  Rapha‘l PiŽroni <rafale@apache.org>
+sig          3571506F 2008-09-22  Raphaï¿½l Piï¿½roni <rafale@apache.org>
 
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v1.4.6 (Darwin)
@@ -1786,10 +1786,10 @@ SISUgpbSa2ZJTWFVpETC84GWTOcaF8iIclt1PSmURW5akxuUzKa358zFKUiH0Zhh
 -----END PGP PUBLIC KEY BLOCK-----
 
 pub   4096R/2CF0CC82 2009-11-17
-uid                  Arnaud Héritier (CODE SIGNING KEY) <aheritier@apache.org>
-sig 3        2CF0CC82 2009-11-17  Arnaud Héritier (CODE SIGNING KEY) <aheritier@apache.org>
+uid                  Arnaud Hï¿½ritier (CODE SIGNING KEY) <aheritier@apache.org>
+sig 3        2CF0CC82 2009-11-17  Arnaud Hï¿½ritier (CODE SIGNING KEY) <aheritier@apache.org>
 sub   4096R/37540EAE 2009-11-17
-sig          2CF0CC82 2009-11-17  Arnaud Héritier (CODE SIGNING KEY) <aheritier@apache.org>
+sig          2CF0CC82 2009-11-17  Arnaud Hï¿½ritier (CODE SIGNING KEY) <aheritier@apache.org>
 
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v1.4.8 (Darwin)
@@ -2589,10 +2589,10 @@ mhxVXrPijzCjyEbVAenKTYA1ojd+
 =hqHs
 -----END PGP PUBLIC KEY BLOCK-----
 
-pub   2048R/BDE89688 2010-11-27 [verfällt: 2013-12-27]
+pub   2048R/BDE89688 2010-11-27 [verfï¿½llt: 2013-12-27]
 uid                  Michael Osipov (Java developer) <1983-01-06@gmx.net>
 sig 3        BDE89688 2012-12-27  Michael Osipov (Java developer) <1983-01-06@gmx.net>
-sub   2048R/D034A0A3 2010-11-27 [verfällt: 2013-12-27]
+sub   2048R/D034A0A3 2010-11-27 [verfï¿½llt: 2013-12-27]
 sig          BDE89688 2012-12-27  Michael Osipov (Java developer) <1983-01-06@gmx.net>
 
 -----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -3410,4 +3410,41 @@ cuq/II1ZDuRuliJqClfOuDR6UOS+SSyvSE8ji3QdDPDg7wmQmgjbbxJC30rHP41L
 unjMt3DLBzaJoE6yzf5poXaOu4gEVr4I52oIG2oLRG+HYaF+2Ee0ik0Wvcu+7vLp
 yM/tiCDNdDcO
 =Qw20
+-----END PGP PUBLIC KEY BLOCK-----
+
+pub   rsa2048 2020-07-12 [SC] [expires: 2026-04-16]
+     82C9EC0E52C47A936A849E0113D979595E6D01E1
+uid           [ultimate] Maarten Mulders <mthmulders@apache.org>
+sub   rsa2048 2020-07-12 [E] [expires: 2026-04-16]
+
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mQENBF8LXXYBCACuy3HnrpWl7boi98G4wG1ZrhBiYImyfQd1M+dvH3GF3Vqt2NYv
+Nv8vryhUkMi8uu233KrYx2/kVK0RomMYWtUrSbQIdykytd0/VsoEk82ysN21ld9P
+PfnNF7L0egnw1KEhcPzghqOsEY3ahqgTYqoiHLD/isLifMUJkJuoLlGx4XfQdpcy
+RrSyjzf4/7XUYaYZ5OkhRHCZKGy75PNwibalNMm8H3+paqbwextv3PswVXOZWR6o
+uyeiPgoemoM0T2ZcZdKIxrUZiVae8HJltyEca9hjqQF7zzofiTXW3qS3J3bPsylO
+lPLr/NZ3vyUtuGc3V7nuUIVvpjy8nAzZOtGrABEBAAG0J01hYXJ0ZW4gTXVsZGVy
+cyA8bXRobXVsZGVyc0BhcGFjaGUub3JnPokBVAQTAQgAPgIbAwULCQgHAgYVCgkI
+CwIEFgIDAQIeAQIXgBYhBILJ7A5SxHqTaoSeARPZeVlebQHhBQJgezrCBQkK1d7M
+AAoJEBPZeVlebQHhm54IAJEZYJRMu2hMeYwmbnnnJtnABkYxGiA7OzzRuC2FlLGK
+8lZ8UsZx2D4reDXDjGcK7Nrw0noadflSoiQBvYuZZNNfjnCR6C7q+i3NhaXRLxIf
+AAt5yfJ4/1rkRvjNFQdmgdow1qOHgA9JBTsW3TFlzGlHup4ELV9E2JvzhRz683ZJ
+GgTHhCjuiWeZLScKZO2ex28WIP12Al3iyJK1PVJDLd4OVxZ06wXq8kyi7xDxRa93
+6DBi0u2FoGjOVbUTJe7dVYi16diea3L5gfCLGUmfV3wTUKfB0ebMU64UDXo4IhXN
+nqfO5ObKB+cUArPw6DpCCQdXcUecMPDW4a/HmghqDnW5AQ0EXwtddgEIAKcoShcS
+rQcXOseptJuBvCxgdejytGbblL0VJkPflX316Iy0COd6ePpTfpu6HEEqIDkNtRMr
+ENNcEPZhaGcpsr+BOGJgobwUz50hWeY5JqYSiAG0+RtDuX2iuzJb5pZ69k6PH8MU
+48goNHgLSeDXzRehyspYvH8eeE/LTpvaksV2K4vgJEONvBdSlGqaZaG/STrEn5xI
+jLmni9AvUI6Al8um0uZbLUll+mXlwiGLcFTRZXY8u3vz2qzy9XMxtXeT8Asw1V1O
++rKr74qXWNJHJn/vbB7E9Gx8Qvr6ZswtHtQtigwDWiOUa1Lbpni9gANNWs8CrY6Y
+tvsX7BlIiQfDTzEAEQEAAYkBPAQYAQgAJgIbDBYhBILJ7A5SxHqTaoSeARPZeVle
+bQHhBQJgezp6BQkK1d6EAAoJEBPZeVlebQHhRo8IAKP0JJAfLPphBwmzT9eknEL2
+5w3Awo6kZikW/2FaiR1S1kmtLDhBwmsrLImpVCCeF/hTbXT8zjcH86g9TLQGs5df
+lbYvy6TihFMFihAf/Ifw8DrRSnqG6JlpclvAKu9hB5nNFjG4VXJr4toe9BvH+rxM
+EjeFcDvHrZjbuB6F9PaQaN3goB+orP8fb/YsThy3XQlpsm4ehjy3CA7xoyWfMRzU
+xZSP3Ybt4J6x6gGl0EPvW87/eWeEhuTrucNDtVvgO2lAlFRaiiSqB71bEmKdTSuV
+o6+gyYu0KoA0onZsdWmw7LomZHOY5lPBjkE2WhUG3AN3oxBXag5g64x+LRh4kkU=
+=z1Yg
 -----END PGP PUBLIC KEY BLOCK-----
