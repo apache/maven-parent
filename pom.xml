@@ -912,7 +912,7 @@ under the License.
     <sonar.host.url>https://builds.apache.org/analysis/</sonar.host.url>
     <maven.site.cache>${user.home}/maven-sites</maven.site.cache>
     <maven.site.path>../..</maven.site.path><!-- to be overridden -->
-    <mavenPluginToolsVersion>3.6.0</mavenPluginToolsVersion>
+    <mavenPluginToolsVersion>3.6.1</mavenPluginToolsVersion>
     <!-- don't fail check for some rules that are too hard to enforce (could even be told broken for some) -->
     <checkstyle.violation.ignore>RedundantThrows,NewlineAtEndOfFile,ParameterNumber,MethodLength,FileLength</checkstyle.violation.ignore>
     <project.build.outputTimestamp>2020-01-26T09:04:18Z</project.build.outputTimestamp>
