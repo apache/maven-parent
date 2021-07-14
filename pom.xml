@@ -26,7 +26,7 @@ under the License.
   <parent>
     <groupId>org.apache</groupId>
     <artifactId>apache</artifactId>
-    <version>24-SNAPSHOT</version>
+    <version>24</version>
     <relativePath>../asf/pom.xml</relativePath>
   </parent>
 
@@ -915,7 +915,7 @@ under the License.
     <mavenPluginToolsVersion>3.6.0</mavenPluginToolsVersion>
     <!-- don't fail check for some rules that are too hard to enforce (could even be told broken for some) -->
     <checkstyle.violation.ignore>RedundantThrows,NewlineAtEndOfFile,ParameterNumber,MethodLength,FileLength</checkstyle.violation.ignore>
-    <project.build.outputTimestamp>2020-01-26T09:04:18Z</project.build.outputTimestamp>
+    <!-->project.build.outputTimestamp>2020-01-26T09:04:18Z</project.build.outputTimestamp-->
   </properties>
 
   <dependencyManagement>
