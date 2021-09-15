@@ -55,7 +55,6 @@ under the License.
 
   <properties>
     <maven.site.path>skins-archives/${project.artifactId}-LATEST</maven.site.path>
-    <sitePluginVersion>3.5.1</sitePluginVersion>
   </properties>
 
   <build>
