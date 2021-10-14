@@ -1207,6 +1207,10 @@ under the License.
     <profile>
       <!-- "utility" profile allowing all downstream projects to prepare for upcoming bans: drop legacy -->
       <id>drop-legacy-dependencies</id>
+      <properties>
+        <!-- If you MUST depend on any of these, set this to "false", but we WILL come after you! -->
+        <drop-legacy-dependencies.include>true</drop-legacy-dependencies.include>
+      </properties>
       <build>
         <plugins>
           <plugin>
@@ -1222,18 +1226,19 @@ under the License.
                   <rules>
                     <bannedDependencies>
                       <excludes>
-                        <!-- Plexus -->
-                        <!-- Old Plexus -> org.eclipse.sisu:org.eclipse.sisu.plexus -->
+                        <!-- Original Plexus -> org.eclipse.sisu:org.eclipse.sisu.plexus -->
                         <exclude>org.codehaus.plexus:plexus-container-default</exclude>
-                        <!-- Legacy Shim -> org.eclipse.sisu:org.eclipse.sisu.(inject/plexus) -->
+                        <!-- Legacy Shim -> org.eclipse.sisu:org.eclipse.sisu.(inject|plexus) -->
                         <exclude>org.sonatype.sisu:sisu-inject-bean</exclude>
                         <exclude>org.sonatype.sisu:sisu-inject-plexus</exclude>
-                        <!-- Resolver: you want org.eclipse.aether OR org.apache.maven.resolver instead -->
+                        <!-- Resolver: -> org.eclipse.aether OR -> org.apache.maven.resolver instead -->
                         <exclude>org.sonatype.aether:*</exclude>
                         <!-- Various: most probably you want org.codehaus.plexus instead -->
                         <exclude>org.sonatype.plexus:*</exclude>
                         <!-- Maven: lowest version we support -->
                         <exclude>org.apache.maven:maven-plugin-api:[,3.2.5)</exclude>
+                        <exclude>org.apache.maven:maven-core:[,3.2.5)</exclude>
+                        <exclude>org.apache.maven:maven-compat:[,3.2.5)</exclude>
                       </excludes>
                       <includes>
                         <!-- This is dead API -->
@@ -1244,7 +1249,7 @@ under the License.
                       </includes>
                     </bannedDependencies>
                   </rules>
-                  <fail>true</fail>
+                  <fail>${drop-legacy-dependencies.include}</fail>
                 </configuration>
               </execution>
             </executions>
