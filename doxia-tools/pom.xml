@@ -59,22 +59,6 @@ under the License.
     <maven.site.path>doxia-tools-archives/${project.artifactId}-LATEST</maven.site.path>
   </properties>
 
-  <dependencyManagement>
-    <dependencies>
-      <!-- Plexus -->
-      <dependency>
-        <groupId>org.codehaus.plexus</groupId>
-        <artifactId>plexus-container-default</artifactId>
-        <version>2.1.0</version>
-      </dependency>
-      <dependency>
-        <groupId>org.codehaus.plexus</groupId>
-        <artifactId>plexus-utils</artifactId>
-        <version>3.3.0</version>
-      </dependency>
-    </dependencies>
-  </dependencyManagement>
-
   <build>
     <pluginManagement>
       <plugins>
