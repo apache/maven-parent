@@ -1210,6 +1210,59 @@ under the License.
 
   <profiles>
     <profile>
+      <!-- "utility" profile allowing all downstream projects to prepare for upcoming bans: drop legacy -->
+      <id>drop-legacy-dependencies</id>
+      <properties>
+        <!-- If you MUST depend on any of these, set this to "false", but we WILL come after you! -->
+        <drop-legacy-dependencies.include>true</drop-legacy-dependencies.include>
+      </properties>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-enforcer-plugin</artifactId>
+            <executions>
+              <execution>
+                <id>drop-legacy-dependencies</id>
+                <goals>
+                  <goal>enforce</goal>
+                </goals>
+                <configuration>
+                  <rules>
+                    <bannedDependencies>
+                      <excludes>
+                        <!-- Original Plexus -> org.eclipse.sisu:org.eclipse.sisu.plexus -->
+                        <exclude>org.codehaus.plexus:plexus-container-default</exclude>
+                        <!-- Legacy Shim -> org.eclipse.sisu:org.eclipse.sisu.(inject|plexus) -->
+                        <exclude>org.sonatype.sisu:sisu-inject-bean</exclude>
+                        <exclude>org.sonatype.sisu:sisu-inject-plexus</exclude>
+                        <!-- Resolver: -> org.eclipse.aether OR -> org.apache.maven.resolver instead -->
+                        <exclude>org.sonatype.aether:*</exclude>
+                        <!-- Various: most probably you want org.codehaus.plexus instead -->
+                        <exclude>org.sonatype.plexus:*</exclude>
+                        <!-- Maven: lowest version we support -->
+                        <exclude>org.apache.maven:maven-plugin-api:[,3.2.5)</exclude>
+                        <exclude>org.apache.maven:maven-core:[,3.2.5)</exclude>
+                        <exclude>org.apache.maven:maven-compat:[,3.2.5)</exclude>
+                      </excludes>
+                      <includes>
+                        <!-- This is dead API -->
+                        <include>org.sonatype.plexus:plexus-build-api</include>
+                        <!-- Not including these would make painful lives of anyone depending on maven-core < 3.8.3 -->
+                        <include>org.sonatype.plexus:plexus-sec-dispatcher</include>
+                        <include>org.sonatype.plexus:plexus-cipher</include>
+                      </includes>
+                    </bannedDependencies>
+                  </rules>
+                  <fail>${drop-legacy-dependencies.include}</fail>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+    <profile>
       <id>jdk-toolchain</id>
       <build>
         <plugins>
