@@ -913,6 +913,7 @@ under the License.
     <maven.site.cache>${user.home}/maven-sites</maven.site.cache>
     <maven.site.path>../..</maven.site.path><!-- to be overridden -->
     <mavenPluginToolsVersion>3.6.1</mavenPluginToolsVersion>
+    <sisuVersion>0.3.5</sisuVersion>
     <!-- don't fail check for some rules that are too hard to enforce (could even be told broken for some) -->
     <checkstyle.violation.ignore>RedundantThrows,NewlineAtEndOfFile,ParameterNumber,MethodLength,FileLength</checkstyle.violation.ignore>
     <project.build.outputTimestamp>2020-01-26T09:04:18Z</project.build.outputTimestamp>
@@ -920,6 +921,23 @@ under the License.
 
   <dependencyManagement>
     <dependencies>
+      <!-- Plexus Shim -->
+      <dependency>
+        <groupId>org.eclipse.sisu</groupId>
+        <artifactId>org.eclipse.sisu.inject</artifactId>
+        <version>${sisuVersion}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.sisu</groupId>
+        <artifactId>org.eclipse.sisu.plexus</artifactId>
+        <version>${sisuVersion}</version>
+      </dependency>
+      <!-- Commonly shared: last Java7 -->
+      <dependency>
+        <groupId>org.codehaus.plexus</groupId>
+        <artifactId>plexus-utils</artifactId>
+        <version>3.3.0</version>
+      </dependency>
       <dependency>
         <groupId>org.codehaus.plexus</groupId>
         <artifactId>plexus-component-annotations</artifactId>
