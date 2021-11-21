@@ -5,6 +5,9 @@ svn co https://dist.apache.org/repos/dist/release/maven dist-maven
 cd dist-maven
 svn cat https://svn.apache.org/repos/asf/maven/project/KEYS > KEYS
 
+Note: This file UTF-8 encoded.
+---
+
 sec   4096R/1D821345 2017-03-14 [expires: 2021-03-14]
 uid                  Karl Heinz Marbaise (Apache Key) <khmarbaise@apache.org>
 ssb   4096R/3E71052E 2017-03-14
@@ -1380,10 +1383,10 @@ qk2TG672K5OH1rxc8V4=
 -----END PGP PUBLIC KEY BLOCK-----
 
 pub   1024D/3571506F 2008-09-22
-uid                  Raphaël Piéroni <rafale@apache.org>
-sig 3        3571506F 2008-09-22  Raphaël Piéroni <rafale@apache.org>
+uid                  Rapha√´l Pi√©roni <rafale@apache.org>
+sig 3        3571506F 2008-09-22  Rapha√´l Pi√©roni <rafale@apache.org>
 sub   2048g/FAFAC767 2008-09-22
-sig          3571506F 2008-09-22  Raphaël Piéroni <rafale@apache.org>
+sig          3571506F 2008-09-22  Rapha√´l Pi√©roni <rafale@apache.org>
 
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v1.4.6 (Darwin)
@@ -1783,10 +1786,10 @@ SISUgpbSa2ZJTWFVpETC84GWTOcaF8iIclt1PSmURW5akxuUzKa358zFKUiH0Zhh
 -----END PGP PUBLIC KEY BLOCK-----
 
 pub   4096R/2CF0CC82 2009-11-17
-uid                  Arnaud HÈritier (CODE SIGNING KEY) <aheritier@apache.org>
-sig 3        2CF0CC82 2009-11-17  Arnaud HÈritier (CODE SIGNING KEY) <aheritier@apache.org>
+uid                  Arnaud H√©ritier (CODE SIGNING KEY) <aheritier@apache.org>
+sig 3        2CF0CC82 2009-11-17  Arnaud H√©ritier (CODE SIGNING KEY) <aheritier@apache.org>
 sub   4096R/37540EAE 2009-11-17
-sig          2CF0CC82 2009-11-17  Arnaud HÈritier (CODE SIGNING KEY) <aheritier@apache.org>
+sig          2CF0CC82 2009-11-17  Arnaud H√©ritier (CODE SIGNING KEY) <aheritier@apache.org>
 
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v1.4.8 (Darwin)
@@ -2586,10 +2589,10 @@ mhxVXrPijzCjyEbVAenKTYA1ojd+
 =hqHs
 -----END PGP PUBLIC KEY BLOCK-----
 
-pub   2048R/BDE89688 2010-11-27 [verf‰llt: 2013-12-27]
+pub   2048R/BDE89688 2010-11-27 [verf√§llt: 2013-12-27]
 uid                  Michael Osipov (Java developer) <1983-01-06@gmx.net>
 sig 3        BDE89688 2012-12-27  Michael Osipov (Java developer) <1983-01-06@gmx.net>
-sub   2048R/D034A0A3 2010-11-27 [verf‰llt: 2013-12-27]
+sub   2048R/D034A0A3 2010-11-27 [verf√§llt: 2013-12-27]
 sig          BDE89688 2012-12-27  Michael Osipov (Java developer) <1983-01-06@gmx.net>
 
 -----BEGIN PGP PUBLIC KEY BLOCK-----
