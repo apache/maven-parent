@@ -553,6 +553,15 @@ under the License.
       <timezone>+1</timezone>
     </developer>
     <developer>
+      <id>sjaranowski</id>
+      <name>Slawomir Jaranowski</name>
+      <email>sjaranowski@apache.org</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>Europe/Warsaw</timezone>
+    </developer>
+    <developer>
       <id>sor</id>
       <name>Christian Stein</name>
       <email>sor@apache.org</email>
