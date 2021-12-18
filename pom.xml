@@ -1100,7 +1100,6 @@ under the License.
           <configuration>
             <notimestamp>true</notimestamp>
             <quiet>true</quiet>
-            <detectLinks>true</detectLinks>
             <locale>en</locale>
           </configuration>
         </plugin>
