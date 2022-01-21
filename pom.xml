@@ -385,6 +385,16 @@ under the License.
       <timezone>+1</timezone>
     </developer>
     <developer>
+      <id>gnodet</id>
+      <name>Guillaume Nodet</name>
+      <email>gnodet@apache.org</email>
+      <organization>Red Hat</organization>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>Europe/Paris</timezone>
+    </developer>
+    <developer>
       <id>godin</id>
       <name>Evgeny Mandrikov</name>
       <organization>SonarSource</organization>
