@@ -26,7 +26,7 @@ under the License.
   <parent>
     <groupId>org.apache</groupId>
     <artifactId>apache</artifactId>
-    <version>24</version>
+    <version>25-SNAPSHOT</version>
     <relativePath>../asf/pom.xml</relativePath>
   </parent>
 
@@ -925,7 +925,7 @@ under the License.
   </distributionManagement>
 
   <properties>
-    <javaVersion>7</javaVersion>
+    <javaVersion>8</javaVersion>
     <maven.compiler.source>1.${javaVersion}</maven.compiler.source>
     <maven.compiler.target>1.${javaVersion}</maven.compiler.target>    
     <sonar.host.url>https://builds.apache.org/analysis/</sonar.host.url>
@@ -1038,7 +1038,7 @@ under the License.
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-checkstyle-plugin</artifactId>
-          <version>3.0.0</version>
+          <version>3.1.2</version>
           <configuration>
             <configLocation>config/maven_checks.xml</configLocation>
             <headerLocation>config/maven-header.txt</headerLocation>
@@ -1053,9 +1053,14 @@ under the License.
           <dependencies>
             <!-- MCHECKSTYLE-327: the maven_checks.xml was moved to a shared project -->
             <dependency>
+              <groupId>com.puppycrawl.tools</groupId>
+              <artifactId>checkstyle</artifactId>
+              <version>9.2.1</version>
+            </dependency>
+            <dependency>
               <groupId>org.apache.maven.shared</groupId>
               <artifactId>maven-shared-resources</artifactId>
-              <version>2</version>
+              <version>4</version>
             </dependency>
           </dependencies>
         </plugin>
@@ -1138,7 +1143,9 @@ under the License.
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-invoker-plugin</artifactId>
+          <version>3.2.2</version>
           <configuration>
+            <skipInvocation>${skipTests}</skipInvocation>
             <streamLogsOnFailures>true</streamLogsOnFailures>
             <environmentVariables>
               <JENKINS_MAVEN_AGENT_DISABLED>true</JENKINS_MAVEN_AGENT_DISABLED>
@@ -1149,13 +1156,6 @@ under the License.
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-enforcer-plugin</artifactId>
           <version>3.0.0</version>
-          <dependencies>
-            <dependency>
-              <groupId>org.codehaus.mojo</groupId>
-              <artifactId>extra-enforcer-rules</artifactId>
-              <version>1.5.1</version>
-            </dependency>
-          </dependencies>
           <executions>
             <execution>
               <id>enforce-bytecode-version</id>
@@ -1172,6 +1172,18 @@ under the License.
               </configuration>
             </execution>
           </executions>
+          <dependencies>
+            <dependency>
+              <groupId>org.codehaus.mojo</groupId>
+              <artifactId>extra-enforcer-rules</artifactId>
+              <version>1.5.1</version>
+            </dependency>
+            <dependency>
+              <groupId>org.apache.maven.shared</groupId>
+              <artifactId>maven-dependency-tree</artifactId>
+              <version>3.1.0</version>
+            </dependency>
+          </dependencies>
         </plugin>
       </plugins>
     </pluginManagement>
@@ -1202,6 +1214,7 @@ under the License.
             <exclude>dependency-reduced-pom.xml</exclude><!-- Maven shade plugin -->
             <exclude>.asf.yaml</exclude><!-- GitHub Support -->
             <exclude>.java-version</exclude>
+            <exclude>.gitmodules</exclude>
           </excludes>
         </configuration>
         <executions>

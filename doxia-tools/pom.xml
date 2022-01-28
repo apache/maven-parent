@@ -70,6 +70,11 @@ under the License.
             <skipDeploy>true</skipDeploy><!-- don't deploy site with maven-site-plugin -->
           </configuration>
         </plugin>
+        <plugin>
+          <groupId>org.codehaus.plexus</groupId>
+          <artifactId>plexus-component-metadata</artifactId>
+          <version>2.1.1</version>
+        </plugin>
       </plugins>
     </pluginManagement>
     <plugins>
