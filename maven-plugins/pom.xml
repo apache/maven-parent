@@ -106,7 +106,6 @@ under the License.
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-plugin-plugin</artifactId>
-          <version>${mavenPluginToolsVersion}</version>
           <executions>
             <execution>
               <id>default-descriptor</id>
