@@ -995,7 +995,6 @@ under the License.
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-plugin-plugin</artifactId>
-          <version>${maven.plugin.tools.version}</version>
           <configuration>
             <extractors>
               <extractor>java-annotations</extractor>
