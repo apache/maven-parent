@@ -851,7 +851,6 @@ sig 3        B3A2D3B1 2007-03-28  John Casey (Maven PMC Member) <john@maven.org>
 sub   2048g/D6CD44BD 2007-03-28
 sig          B3A2D3B1 2007-03-28  John Casey (Maven PMC Member) <john@maven.org>
 
-gpg: WARNING: unsafe enclosing directory permissions on configuration file `/home/jdcasey/.gnupg/gpg.conf'
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v1.4.3 (GNU/Linux)
 
