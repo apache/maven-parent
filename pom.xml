@@ -931,8 +931,9 @@ under the License.
     <sonar.host.url>https://builds.apache.org/analysis/</sonar.host.url>
     <maven.site.cache>${user.home}/maven-sites</maven.site.cache>
     <maven.site.path>../..</maven.site.path><!-- to be overridden -->
-    <mavenPluginToolsVersion>3.6.2</mavenPluginToolsVersion>
+    <mavenPluginToolsVersion>3.6.5-SNAPSHOT</mavenPluginToolsVersion>
     <sisuVersion>0.3.5</sisuVersion>
+    <sisuPluginVersion>0.9.0-SNAPSHOT</sisuPluginVersion>
     <!-- don't fail check for some rules that are too hard to enforce (could even be told broken for some) -->
     <checkstyle.violation.ignore>RedundantThrows,NewlineAtEndOfFile,ParameterNumber,MethodLength,FileLength</checkstyle.violation.ignore>
     <project.build.outputTimestamp>2020-01-26T09:04:18Z</project.build.outputTimestamp>
@@ -988,7 +989,7 @@ under the License.
         <plugin>
           <groupId>org.eclipse.sisu</groupId>
           <artifactId>sisu-maven-plugin</artifactId>
-          <version>${sisuVersion}</version>
+          <version>${sisuPluginVersion}</version>
           <executions>
             <execution>
               <id>index-project</id>
@@ -1012,10 +1013,22 @@ under the License.
         <plugin>
           <groupId>org.codehaus.modello</groupId>
           <artifactId>modello-maven-plugin</artifactId>
-          <version>1.11</version>
-          <configuration>
-            <useJava5>true</useJava5>
-          </configuration>
+          <version>2.0.0</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-remote-resources-plugin</artifactId>
+          <version>1.7.1-SNAPSHOT</version>
+        </plugin>
+        <plugin>
+          <groupId>org.codehaus.plexus</groupId>
+          <artifactId>plexus-component-metadata</artifactId>
+          <version>2.2.0-SNAPSHOT</version>
+        </plugin>
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>animal-sniffer-maven-plugin</artifactId>
+          <version>1.21</version>
         </plugin>
         <!-- site publishing configuration -->
         <plugin>
