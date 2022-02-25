@@ -1356,18 +1356,6 @@ under the License.
           </plugin>
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-checkstyle-plugin</artifactId>
-            <reportSets>
-              <reportSet>
-                <id>default</id>
-                <reports>
-                  <report>checkstyle</report>
-                </reports>
-              </reportSet>
-            </reportSets>
-          </plugin>
-          <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-pmd-plugin</artifactId>
           </plugin>
           <plugin>
