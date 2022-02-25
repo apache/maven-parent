@@ -216,16 +216,5 @@ under the License.
         </plugins>
       </build>
     </profile>
-    <profile>
-      <id>reporting</id>
-      <reporting>
-        <plugins>
-          <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-invoker-plugin</artifactId>
-          </plugin>
-        </plugins>
-      </reporting>
-    </profile>
   </profiles>
 </project>
