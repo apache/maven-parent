@@ -1209,9 +1209,6 @@ under the License.
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-project-info-reports-plugin</artifactId>
-        <configuration>
-          <dependencyLocationsEnabled>false</dependencyLocationsEnabled><!-- waiting for MPIR-267 -->
-        </configuration>
         <reportSets>
           <reportSet>
             <reports>
