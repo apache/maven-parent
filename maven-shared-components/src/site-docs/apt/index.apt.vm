@@ -44,7 +44,7 @@ mvn -Preporting site-deploy
 * History
 
 #if( $project.version.endsWith( "SNAPSHOT" ) )
-#**##set( $prev = 34 )
+#**##set( $prev = 35 )
   master: {{{https://github.com/apache/maven-parent/tree/master/maven-shared-components/pom.xml}$project.version}}
   ({{{https://github.com/apache/maven-parent/compare/maven-parent-$prev...master#diff}diff}})
 #end
@@ -59,6 +59,8 @@ mvn -Preporting site-deploy
 
 *--------------+------------+
 || <<Version>> || <<Release Date>> ||
+*--------------+------------+
+#display( 35, '2022-03-02' )
 *--------------+------------+
 #display( 34, '2020-01-30' )
 *--------------+------------+
