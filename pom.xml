@@ -935,6 +935,7 @@ under the License.
     <!-- don't fail check for some rules that are too hard to enforce (could even be told broken for some) -->
     <checkstyle.violation.ignore>RedundantThrows,NewlineAtEndOfFile,ParameterNumber,MethodLength,FileLength</checkstyle.violation.ignore>
     <project.build.outputTimestamp>2022-02-27T18:03:40Z</project.build.outputTimestamp>
+    <jacoco.version>0.8.7</jacoco.version>
   </properties>
 
   <dependencyManagement>
