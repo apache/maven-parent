@@ -1481,9 +1481,7 @@ under the License.
         <spotbugs.skip>false</spotbugs.skip>
         <spotbugs.onlyAnalyze>org.eclipse.jetty.*</spotbugs.onlyAnalyze>
         <invoker.writeJunitReport>true</invoker.writeJunitReport>
-        <invoker.junitPackageName>org.apache.maven.plugins.its.compiler</invoker.junitPackageName>
-        <!-- Enable recording of coverage during execution of maven-invoker-plugin -->
-        <jacoco.propertyName>invoker.mavenOpts</jacoco.propertyName>
+        <invoker.junitPackageName>org.apache.maven.plugins.its</invoker.junitPackageName>
         <jacoco.includes>org.apache.maven</jacoco.includes>
       </properties>
       <build>
@@ -1528,6 +1526,17 @@ under the License.
               <execution>
                 <id>jacoco-initialize</id>
                 <phase>initialize</phase>
+                <goals>
+                  <goal>prepare-agent</goal>
+                </goals>
+              </execution>
+              <execution>
+                <id>jacoco-setup-m-invoker-p</id>
+                <phase>initialize</phase>
+                <configuration>
+                  <!-- Enable recording of coverage during execution of maven-invoker-plugin -->
+                  <propertyName>invoker.mavenOpts</propertyName>
+                </configuration>
                 <goals>
                   <goal>prepare-agent</goal>
                 </goals>
