@@ -1484,7 +1484,7 @@ under the License.
         <invoker.junitPackageName>org.apache.maven.plugins.its.compiler</invoker.junitPackageName>
         <!-- Enable recording of coverage during execution of maven-invoker-plugin -->
         <jacoco.propertyName>invoker.mavenOpts</jacoco.propertyName>
-        <jacoco.includes>org.apache.maven.plugin.compiler</jacoco.includes>
+        <jacoco.includes>org.apache.maven</jacoco.includes>
       </properties>
       <build>
         <pluginManagement>
