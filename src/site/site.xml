@@ -40,7 +40,6 @@ under the License.
   </skin>
 
   <edit>${project.scm.url}</edit>
-  <googleAnalyticsAccountId>UA-140879-1</googleAnalyticsAccountId>
 
   <custom>
     <fluidoSkin>
@@ -63,6 +62,26 @@ under the License.
       <item name="Apache" href="https://www.apache.org/" />
       <item name="Maven"  href="https://maven.apache.org/index.html" />
     </breadcrumbs>
+
+    <head>
+      <![CDATA[<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  /* We explicitly disable cookie tracking to avoid privacy issues */
+  _paq.push(['disableCookies']);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//matomo.privacy.apache.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '3']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->]]>
+    </head>
 
     <!-- Menus that every project will inherit -->
     <menu ref="reports" inherit="bottom" />
