@@ -39,6 +39,6 @@ under the License.
 
   <issueManagement>
     <system>jira</system>
-    <url>https://issues.apache.org/jira/issues/?jql=project%20%3D%20MPOM%20AND%20component%20%3D%20maven-extensions</url>
+    <url>https://issues.apache.org/jira/projects/MPOM</url>
   </issueManagement>
 </project>
