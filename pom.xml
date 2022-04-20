@@ -234,6 +234,15 @@ under the License.
       </roles>
     </developer>
     <developer>
+      <id>sjaranowski</id>
+      <name>Slawomir Jaranowski</name>
+      <email>sjaranowski@apache.org</email>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>Europe/Warsaw</timezone>
+    </developer>
+    <developer>
       <id>stephenc</id>
       <name>Stephen Connolly</name>
       <email>stephenc@apache.org</email>
@@ -561,15 +570,6 @@ under the License.
         <role>Committer</role>
       </roles>
       <timezone>+1</timezone>
-    </developer>
-    <developer>
-      <id>sjaranowski</id>
-      <name>Slawomir Jaranowski</name>
-      <email>sjaranowski@apache.org</email>
-      <roles>
-        <role>Committer</role>
-      </roles>
-      <timezone>Europe/Warsaw</timezone>
     </developer>
     <developer>
       <id>sor</id>
