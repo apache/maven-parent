@@ -43,15 +43,15 @@ under the License.
   <!-- Developers listed by PMC Chair, PMC, Committers, Contributers, all alphabetical-->
   <developers>
     <developer>
-      <id>rfscholte</id>
-      <name>Robert Scholte</name>
-      <email>rfscholte@apache.org</email>
+      <id>khmarbaise</id>
+      <name>Karl Heinz Marbaise</name>
+      <email>khmarbaise@apache.org</email>
       <roles>
         <role>PMC Chair</role>
       </roles>
-      <timezone>Europe/Amsterdam</timezone>
+      <timezone>+1</timezone>
       <properties>
-        <twitter>@rfscholte</twitter>
+        <twitter>@khmarbaise</twitter>
       </properties>
     </developer>
     <developer>
@@ -178,18 +178,6 @@ under the License.
       <timezone>-5</timezone>
     </developer>
     <developer>
-      <id>khmarbaise</id>
-      <name>Karl Heinz Marbaise</name>
-      <email>khmarbaise@apache.org</email>
-      <roles>
-        <role>PMC Member</role>
-      </roles>
-      <timezone>+1</timezone>
-      <properties>
-        <twitter>@khmarbaise</twitter>
-      </properties>
-    </developer>
-    <developer>
       <id>krosenvold</id>
       <name>Kristian Rosenvold</name>
       <email>krosenvold@apache.org</email>
@@ -222,6 +210,18 @@ under the License.
         <role>PMC Member</role>
       </roles>
       <timezone>Europe/Berlin</timezone>
+    </developer>
+    <developer>
+      <id>rfscholte</id>
+      <name>Robert Scholte</name>
+      <email>rfscholte@apache.org</email>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>Europe/Amsterdam</timezone>
+      <properties>
+        <twitter>@rfscholte</twitter>
+      </properties>
     </developer>
     <developer>
       <id>rgoers</id>
