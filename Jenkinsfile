@@ -16,5 +16,5 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-
-asfMavenTlpStdBuild(jdks:['8'])
+// jdk 17 is used for deploy artifacts
+asfMavenTlpStdBuild(jdks:['8', '17'])
