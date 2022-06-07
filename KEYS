@@ -2682,13 +2682,23 @@ mhxVXrPijzCjyEbVAenKTYA1ojd+
 =hqHs
 -----END PGP PUBLIC KEY BLOCK-----
 
+--------------------------------------------------
 pub   rsa2048 2010-11-27 [SC] [verfällt: 2024-06-04]
       6A814B1F869C2BBEAB7CB7271A2A1C94BDE89688
 uid        [ unbekannt ] Michael Osipov (Java developer) <1983-01-06@gmx.net>
+sig 3        1A2A1C94BDE89688 2010-11-27  Michael Osipov (Java developer) <1983-01-06@gmx.net>
+sig 3        1A2A1C94BDE89688 2012-12-27  Michael Osipov (Java developer) <1983-01-06@gmx.net>
+sig 3        1A2A1C94BDE89688 2014-04-27  Michael Osipov (Java developer) <1983-01-06@gmx.net>
+sig 3        1A2A1C94BDE89688 2014-04-27  Michael Osipov (Java developer) <1983-01-06@gmx.net>
+sig 3        1A2A1C94BDE89688 2022-06-05  Michael Osipov (Java developer) <1983-01-06@gmx.net>
 uid        [ unbekannt ] Michael Osipov <michaelo@apache.org>
+sig 3        1A2A1C94BDE89688 2014-04-27  Michael Osipov (Java developer) <1983-01-06@gmx.net>
+sig 3        1A2A1C94BDE89688 2022-06-05  Michael Osipov (Java developer) <1983-01-06@gmx.net>
 sub   rsa2048 2010-11-27 [E] [verfällt: 2024-06-04]
+sig          1A2A1C94BDE89688 2022-06-05  Michael Osipov (Java developer) <1983-01-06@gmx.net>
 
 -----BEGIN PGP PUBLIC KEY BLOCK-----
+
 mQENBEzxj6sBCADGV4szLvjBwrAOKYWw3efASDI2yo5Aq4oevm9cUB4G9G/D/fuR
 XhodLaG2smZLd8sNafWTSbPHswsZtMAjHGzka9Uj4Ow0etl3+kTh0DE6Loezkj7s
 nut/6JJ8RGmLf+NqJJhxS6kCCAND8GnNIu1gGY+nZ0rVO7ZkPwtUR1H/MnoZ3cC1
