@@ -54,13 +54,6 @@ under the License.
     </matomo>
     <fluidoSkin>
       <sourceLineNumbersEnabled>true</sourceLineNumbersEnabled>
-      <twitter>
-        <user>ASFMavenProject</user>
-        <showUser>true</showUser>
-      </twitter>
-      <googleSearch>
-        <sitesearch/>
-      </googleSearch>
     </fluidoSkin>
   </custom>
 
