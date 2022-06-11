@@ -37,13 +37,21 @@ under the License.
   <skin>
     <groupId>org.apache.maven.skins</groupId>
     <artifactId>maven-fluido-skin</artifactId>
-    <version>1.10.0</version>
+    <version>${fluidoSkinVersion}</version>
   </skin>
 
   <edit>${project.scm.url}</edit>
-  <googleAnalyticsAccountId>UA-140879-1</googleAnalyticsAccountId>
 
   <custom>
+    <matomo>
+      <siteId>3</siteId>
+      <url>https://analytics.apache.org/</url>
+      <options>
+        <disableCookies/>
+        <trackPageView/>
+        <enableLinkTracking/>
+      </options>
+    </matomo>
     <fluidoSkin>
       <sourceLineNumbersEnabled>true</sourceLineNumbersEnabled>
       <twitter>
