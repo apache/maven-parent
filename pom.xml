@@ -932,7 +932,7 @@ under the License.
     <maven.site.cache>${user.home}/maven-sites</maven.site.cache>
     <maven.site.path>../..</maven.site.path><!-- to be overridden -->
     <sisuVersion>0.3.5</sisuVersion>
-    <fluidoSkinVersion>1.11.0</fluidoSkinVersion>
+    <fluidoSkinVersion>1.11.1</fluidoSkinVersion>
     <surefire.version>3.0.0-M7</surefire.version><!-- for surefire, failsafe and surefire-report -->
     <!-- don't fail check for some rules that are too hard to enforce (could even be told broken for some) -->
     <checkstyle.violation.ignore>RedundantThrows,NewlineAtEndOfFile,ParameterNumber,MethodLength,FileLength</checkstyle.violation.ignore>
