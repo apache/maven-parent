@@ -439,6 +439,16 @@ under the License.
       </roles>
     </developer>
     <developer>
+      <id>kwin</id>
+      <name>Konrad Windszus</name>
+      <email>kwin@apache.org</email>
+      <organization>Cognizant Netcentric</organization>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>Europe/Berlin</timezone>
+    </developer>
+    <developer>
       <id>ltheussl</id>
       <name>Lukas Theussl</name>
       <email>ltheussl@apache.org</email>
