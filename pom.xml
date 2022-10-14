@@ -944,8 +944,12 @@ under the License.
     <sisuVersion>0.3.5</sisuVersion>
     <fluidoSkinVersion>1.11.1</fluidoSkinVersion>
     <surefire.version>3.0.0-M7</surefire.version><!-- for surefire, failsafe and surefire-report -->
-    <!-- don't fail check for some rules that are too hard to enforce (could even be told broken for some) -->
-    <checkstyle.violation.ignore>RedundantThrows,NewlineAtEndOfFile,ParameterNumber,MethodLength,FileLength</checkstyle.violation.ignore>
+    <!-- don't fail check for some rules that are too hard to enforce (could even be told broken for some)
+         and those that are enforced by the formatting checks from spotless -->
+    <checkstyle.violation.spotless.ignore>LineLength,RegexpHeader,LeftCurly,RightCurly,OperatorWrap,ParentPad,
+      WhitespaceAfter,WhitespaceAround,GenericWhitespace</checkstyle.violation.spotless.ignore>
+    <checkstyle.violation.ignore>RedundantThrows,NewlineAtEndOfFile,ParameterNumber,MethodLength,FileLength,
+      ${checkstyle.violation.spotless.ignore}</checkstyle.violation.ignore>
     <project.build.outputTimestamp>2022-07-20T17:09:29Z</project.build.outputTimestamp>
   </properties>
 
@@ -1170,9 +1174,53 @@ under the License.
             </execution>
           </executions>
         </plugin>
+        <plugin>
+          <groupId>com.diffplug.spotless</groupId>
+          <artifactId>spotless-maven-plugin</artifactId>
+          <version>2.27.1</version>
+          <configuration>
+            <java>
+              <importOrder>
+                <file>config/maven-eclipse-importorder.txt</file>
+              </importOrder>
+              <removeUnusedImports/>
+              <palantirJavaFormat/>
+              <licenseHeader>
+                <file>config/maven-header-plain.txt</file>
+              </licenseHeader>
+            </java>
+            <pom>
+              <sortPom>
+                <expandEmptyElements>false</expandEmptyElements>
+              </sortPom>
+            </pom>
+            <upToDateChecking>
+              <enabled>true</enabled>
+            </upToDateChecking>
+          </configuration>
+          <dependencies>
+            <dependency>
+              <groupId>org.apache.maven.shared</groupId>
+              <artifactId>maven-shared-resources</artifactId>
+              <version>5-SNAPSHOT</version>
+            </dependency>
+          </dependencies>
+          <executions>
+            <execution>
+              <goals>
+                <goal>${spotless.action}</goal>
+              </goals>
+              <phase>process-sources</phase>
+            </execution>
+          </executions>
+        </plugin>
       </plugins>
     </pluginManagement>
     <plugins>
+      <plugin>
+        <groupId>com.diffplug.spotless</groupId>
+        <artifactId>spotless-maven-plugin</artifactId>
+      </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-checkstyle-plugin</artifactId>
@@ -1245,6 +1293,28 @@ under the License.
   </reporting>
 
   <profiles>
+    <profile>
+      <id>format-check</id>
+      <activation>
+        <property>
+          <name>!format</name>
+        </property>
+      </activation>
+      <properties>
+        <spotless.action>check</spotless.action>
+      </properties>
+    </profile>
+    <profile>
+      <id>format</id>
+      <activation>
+        <property>
+          <name>format</name>
+        </property>
+      </activation>
+      <properties>
+        <spotless.action>apply</spotless.action>
+      </properties>
+    </profile>
     <profile>
       <!-- "utility" profile allowing all downstream projects to prepare for upcoming bans: drop legacy -->
       <id>drop-legacy-dependencies</id>
