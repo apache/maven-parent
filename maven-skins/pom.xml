@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!--
 Licensed to the Apache Software Foundation (ASF) under one
 or more contributor license agreements.  See the NOTICE file
@@ -18,7 +17,6 @@ KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
-
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
@@ -71,7 +69,8 @@ under the License.
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-site-plugin</artifactId>
           <configuration>
-            <skipDeploy>true</skipDeploy><!-- don't deploy site with maven-site-plugin -->
+            <!-- don't deploy site with maven-site-plugin -->
+            <skipDeploy>true</skipDeploy>
           </configuration>
         </plugin>
       </plugins>
@@ -81,15 +80,17 @@ under the License.
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-scm-publish-plugin</artifactId>
         <configuration>
-          <content>${project.reporting.outputDirectory}</content><!-- no need for site:stage, use target/site -->
+          <!-- no need for site:stage, use target/site -->
+          <content>${project.reporting.outputDirectory}</content>
         </configuration>
         <executions>
           <execution>
+            <!-- deploy site with maven-scm-publish-plugin -->
             <id>scm-publish</id>
-            <phase>site-deploy</phase><!-- deploy site with maven-scm-publish-plugin -->
             <goals>
               <goal>publish-scm</goal>
             </goals>
+            <phase>site-deploy</phase>
           </execution>
         </executions>
       </plugin>

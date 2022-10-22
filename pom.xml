@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!--
 Licensed to the Apache Software Foundation (ASF) under one
 or more contributor license agreements.  See the NOTICE file
@@ -18,7 +17,6 @@ KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
-
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
@@ -104,10 +102,10 @@ under the License.
       <id>cstamas</id>
       <name>Tamas Cservenak</name>
       <email>cstamas@apache.org</email>
-      <timezone>+1</timezone>
       <roles>
         <role>PMC Member</role>
       </roles>
+      <timezone>+1</timezone>
     </developer>
     <developer>
       <id>dennisl</id>
@@ -228,10 +226,10 @@ under the License.
       <name>Ralph Goers</name>
       <email>rgoers@apache.org</email>
       <organization>Intuit</organization>
-      <timezone>-8</timezone>
       <roles>
         <role>PMC Member</role>
       </roles>
+      <timezone>-8</timezone>
     </developer>
     <developer>
       <id>sjaranowski</id>
@@ -294,20 +292,20 @@ under the License.
       <id>adangel</id>
       <name>Andreas Dangel</name>
       <email>adangel@apache.org</email>
-      <timezone>Europe/Berlin</timezone>
       <roles>
         <role>Committer</role>
       </roles>
+      <timezone>Europe/Berlin</timezone>
     </developer>
     <developer>
       <id>bdemers</id>
       <name>Brian Demers</name>
-      <organization>Sonatype</organization>
       <email>bdemers@apache.org</email>
-      <timezone>-5</timezone>
+      <organization>Sonatype</organization>
       <roles>
         <role>Committer</role>
       </roles>
+      <timezone>-5</timezone>
     </developer>
     <developer>
       <id>bellingard</id>
@@ -339,20 +337,20 @@ under the License.
       <id>dantran</id>
       <name>Dan Tran</name>
       <email>dantran@apache.org</email>
-      <timezone>-8</timezone>      
       <roles>
         <role>Committer</role>
       </roles>
+      <timezone>-8</timezone>
     </developer>
     <developer>
       <id>dbradicich</id>
       <name>Damian Bradicich</name>
-      <organization>Sonatype</organization>
       <email>dbradicich@apache.org</email>
-      <timezone>-5</timezone>
+      <organization>Sonatype</organization>
       <roles>
         <role>Committer</role>
       </roles>
+      <timezone>-5</timezone>
     </developer>
     <developer>
       <id>brett</id>
@@ -406,8 +404,8 @@ under the License.
     <developer>
       <id>godin</id>
       <name>Evgeny Mandrikov</name>
-      <organization>SonarSource</organization>
       <email>godin@apache.org</email>
+      <organization>SonarSource</organization>
       <roles>
         <role>Committer</role>
       </roles>
@@ -430,7 +428,7 @@ under the License.
         <role>Committer</role>
       </roles>
       <timezone>Europe/Zurich</timezone>
-    </developer>     
+    </developer>
     <developer>
       <id>jjensen</id>
       <name>Jeff Jensen</name>
@@ -878,9 +876,9 @@ under the License.
     </mailingList>
     <mailingList>
       <name>Maven Announcements List</name>
-      <post>announce@maven.apache.org</post>
       <subscribe>mailto:announce-subscribe@maven.apache.org</subscribe>
       <unsubscribe>mailto:announce-unsubscribe@maven.apache.org</unsubscribe>
+      <post>announce@maven.apache.org</post>
       <archive>https://lists.apache.org/list.html?announce@maven.apache.org</archive>
       <otherArchives>
         <otherArchive>https://mail-archives.apache.org/mod_mbox/maven-announce/</otherArchive>
@@ -911,8 +909,8 @@ under the License.
   <scm>
     <connection>scm:git:https://gitbox.apache.org/repos/asf/maven-parent.git</connection>
     <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/maven-parent.git</developerConnection>
-    <url>https://github.com/apache/maven-parent/tree/${project.scm.tag}</url>
     <tag>HEAD</tag>
+    <url>https://github.com/apache/maven-parent/tree/${project.scm.tag}</url>
   </scm>
 
   <ciManagement>
@@ -937,13 +935,15 @@ under the License.
   <properties>
     <javaVersion>7</javaVersion>
     <maven.compiler.source>1.${javaVersion}</maven.compiler.source>
-    <maven.compiler.target>1.${javaVersion}</maven.compiler.target>    
+    <maven.compiler.target>1.${javaVersion}</maven.compiler.target>
     <sonar.host.url>https://builds.apache.org/analysis/</sonar.host.url>
     <maven.site.cache>${user.home}/maven-sites</maven.site.cache>
-    <maven.site.path>../..</maven.site.path><!-- to be overridden -->
+    <!-- to be overridden -->
+    <maven.site.path>../..</maven.site.path>
     <sisuVersion>0.3.5</sisuVersion>
     <fluidoSkinVersion>1.11.1</fluidoSkinVersion>
-    <surefire.version>3.0.0-M7</surefire.version><!-- for surefire, failsafe and surefire-report -->
+    <!-- for surefire, failsafe and surefire-report -->
+    <surefire.version>3.0.0-M7</surefire.version>
     <!-- don't fail check for some rules that are too hard to enforce (could even be told broken for some)
          and those that are enforced by the formatting checks from spotless -->
     <checkstyle.violation.spotless.ignore>LineLength,RegexpHeader,LeftCurly,RightCurly,OperatorWrap,ParentPad,
@@ -981,13 +981,14 @@ under the License.
   </dependencyManagement>
 
   <repositories>
-    <repository><!-- useful to resolve parent pom when it is a SNAPSHOT -->
-      <id>apache.snapshots</id>
-      <name>Apache Snapshot Repository</name>
-      <url>https://repository.apache.org/snapshots</url>
+    <!-- useful to resolve parent pom when it is a SNAPSHOT -->
+    <repository>
       <releases>
         <enabled>false</enabled>
       </releases>
+      <id>apache.snapshots</id>
+      <name>Apache Snapshot Repository</name>
+      <url>https://repository.apache.org/snapshots</url>
     </repository>
   </repositories>
 
@@ -1227,10 +1228,10 @@ under the License.
         <executions>
           <execution>
             <id>checkstyle-check</id>
-            <phase>validate</phase>
             <goals>
               <goal>check</goal>
             </goals>
+            <phase>validate</phase>
           </execution>
         </executions>
       </plugin>
@@ -1243,11 +1244,15 @@ under the License.
         <artifactId>apache-rat-plugin</artifactId>
         <configuration>
           <excludes combine.children="append">
-            <exclude>.repository/**</exclude><!-- Jenkins job with local Maven repository -->
-            <exclude>.maven/spy.log</exclude><!-- Hudson Maven3 integration log -->
-            <exclude>dependency-reduced-pom.xml</exclude><!-- Maven shade plugin -->
-            <exclude>.asf.yaml</exclude><!-- GitHub Support -->
             <exclude>.java-version</exclude>
+            <!-- Jenkins job with local Maven repository -->
+            <exclude>.repository/**</exclude>
+            <!-- Hudson Maven3 integration log -->
+            <exclude>.maven/spy.log</exclude>
+            <!-- Maven shade plugin -->
+            <exclude>dependency-reduced-pom.xml</exclude>
+            <!-- GitHub Support -->
+            <exclude>.asf.yaml</exclude>
           </excludes>
         </configuration>
         <executions>
@@ -1409,10 +1414,10 @@ under the License.
             <executions>
               <execution>
                 <id>cpd-check</id>
-                <phase>verify</phase>
                 <goals>
                   <goal>cpd-check</goal>
                 </goals>
+                <phase>verify</phase>
               </execution>
             </executions>
           </plugin>
