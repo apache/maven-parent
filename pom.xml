@@ -946,7 +946,7 @@ under the License.
     <surefire.version>3.0.0-M7</surefire.version>
     <!-- don't fail check for some rules that are too hard to enforce (could even be told broken for some)
          and those that are enforced by the formatting checks from spotless -->
-    <checkstyle.violation.spotless.ignore>LineLength,RegexpHeader,LeftCurly,RightCurly,OperatorWrap,ParentPad,
+    <checkstyle.violation.spotless.ignore>LineLength,RegexpHeader,LeftCurly,RightCurly,OperatorWrap,ParenPad,
       WhitespaceAfter,WhitespaceAround,GenericWhitespace</checkstyle.violation.spotless.ignore>
     <checkstyle.violation.ignore>RedundantThrows,NewlineAtEndOfFile,ParameterNumber,MethodLength,FileLength,
       ${checkstyle.violation.spotless.ignore}</checkstyle.violation.ignore>
