@@ -966,7 +966,7 @@ under the License.
       <dependency>
         <groupId>org.codehaus.plexus</groupId>
         <artifactId>plexus-utils</artifactId>
-        <version>3.3.0</version>
+        <version>3.4.2</version>
       </dependency>
       <dependency>
         <groupId>org.codehaus.plexus</groupId>
