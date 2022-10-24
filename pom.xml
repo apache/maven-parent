@@ -962,7 +962,6 @@ under the License.
         <artifactId>org.eclipse.sisu.plexus</artifactId>
         <version>${sisuVersion}</version>
       </dependency>
-      <!-- Commonly shared: last Java7 -->
       <dependency>
         <groupId>org.codehaus.plexus</groupId>
         <artifactId>plexus-utils</artifactId>
