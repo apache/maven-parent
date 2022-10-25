@@ -1453,7 +1453,6 @@ under the License.
                 <id>default</id>
                 <reports>
                   <report>javadoc</report>
-                  <report>test-javadoc</report>
                 </reports>
               </reportSet>
             </reportSets>
