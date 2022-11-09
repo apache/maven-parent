@@ -1169,7 +1169,7 @@ under the License.
         <executions>
           <execution>
             <id>checkstyle-check</id>
-            <phase>validate</phase>
+            <phase>process-sources</phase>
             <goals>
               <goal>check</goal>
             </goals>
