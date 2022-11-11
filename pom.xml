@@ -1080,7 +1080,6 @@ under the License.
           <artifactId>maven-release-plugin</artifactId>
           <configuration>
             <autoVersionSubmodules>true</autoVersionSubmodules>
-            <releaseProfiles>apache-release,reporting</releaseProfiles>
           </configuration>
         </plugin>
         <plugin>
@@ -1213,8 +1212,21 @@ under the License.
         <reportSets>
           <reportSet>
             <reports>
-              <!-- only generate index by default, all other reports only active with profile "reporting" -->
               <report>index</report>
+              <report>summary</report>
+              <report>dependency-info</report>
+              <report>modules</report>
+              <report>team</report>
+              <report>scm</report>
+              <report>issue-management</report>
+              <report>mailing-lists</report>
+              <report>dependency-management</report>
+              <report>dependencies</report>
+              <report>dependency-convergence</report>
+              <report>ci-management</report>
+              <report>plugin-management</report>
+              <report>plugins</report>
+              <report>distribution-management</report>
             </reports>
           </reportSet>
         </reportSets>
@@ -1334,29 +1346,6 @@ under the License.
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-project-info-reports-plugin</artifactId>
-            <reportSets>
-              <reportSet>
-                <id>default</id>
-                <!-- all reports relevant -->
-                <reports>
-                  <report>index</report>
-                  <report>summary</report>
-                  <report>dependency-info</report>
-                  <report>modules</report>
-                  <report>team</report>
-                  <report>scm</report>
-                  <report>issue-management</report>
-                  <report>mailing-lists</report>
-                  <report>dependency-management</report>
-                  <report>dependencies</report>
-                  <report>dependency-convergence</report>
-                  <report>ci-management</report>
-                  <report>plugin-management</report>
-                  <report>plugins</report>
-                  <report>distribution-management</report>
-                </reports>
-              </reportSet>
-            </reportSets>
           </plugin>
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
