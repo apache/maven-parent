@@ -24,13 +24,13 @@ under the License.
   <parent>
     <groupId>org.apache</groupId>
     <artifactId>apache</artifactId>
-    <version>28-SNAPSHOT</version>
+    <version>28</version>
     <relativePath>../asf/pom.xml</relativePath>
   </parent>
 
   <groupId>org.apache.maven</groupId>
   <artifactId>maven-parent</artifactId>
-  <version>38-SNAPSHOT</version>
+  <version>38</version>
   <packaging>pom</packaging>
 
   <name>Apache Maven</name>
@@ -909,7 +909,7 @@ under the License.
   <scm>
     <connection>scm:git:https://gitbox.apache.org/repos/asf/maven-parent.git</connection>
     <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/maven-parent.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>maven-parent-38</tag>
     <url>https://github.com/apache/maven-parent/tree/${project.scm.tag}</url>
   </scm>
 
@@ -950,7 +950,7 @@ under the License.
       WhitespaceAfter,WhitespaceAround,GenericWhitespace</checkstyle.violation.spotless.ignore>
     <checkstyle.violation.ignore>RedundantThrows,NewlineAtEndOfFile,ParameterNumber,MethodLength,FileLength,
       ${checkstyle.violation.spotless.ignore}</checkstyle.violation.ignore>
-    <project.build.outputTimestamp>2022-07-20T17:09:29Z</project.build.outputTimestamp>
+    <project.build.outputTimestamp>2022-11-14T23:08:32Z</project.build.outputTimestamp>
   </properties>
 
   <dependencyManagement>
@@ -1217,10 +1217,10 @@ under the License.
         <executions>
           <execution>
             <id>checkstyle-check</id>
-            <phase>process-sources</phase>
             <goals>
               <goal>check</goal>
             </goals>
+            <phase>process-sources</phase>
           </execution>
         </executions>
       </plugin>
