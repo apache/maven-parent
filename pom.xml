@@ -30,7 +30,7 @@ under the License.
 
   <groupId>org.apache.maven</groupId>
   <artifactId>maven-parent</artifactId>
-  <version>38</version>
+  <version>39-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>Apache Maven</name>
@@ -950,7 +950,7 @@ under the License.
       WhitespaceAfter,WhitespaceAround,GenericWhitespace</checkstyle.violation.spotless.ignore>
     <checkstyle.violation.ignore>RedundantThrows,NewlineAtEndOfFile,ParameterNumber,MethodLength,FileLength,
       ${checkstyle.violation.spotless.ignore}</checkstyle.violation.ignore>
-    <project.build.outputTimestamp>2022-11-14T23:08:32Z</project.build.outputTimestamp>
+    <project.build.outputTimestamp>2022-11-14T23:11:28Z</project.build.outputTimestamp>
   </properties>
 
   <dependencyManagement>
@@ -1173,8 +1173,8 @@ under the License.
               <importOrder>
                 <file>config/maven-eclipse-importorder.txt</file>
               </importOrder>
-              <removeUnusedImports/>
-              <palantirJavaFormat/>
+              <removeUnusedImports />
+              <palantirJavaFormat />
               <licenseHeader>
                 <file>config/maven-header-plain.txt</file>
               </licenseHeader>
