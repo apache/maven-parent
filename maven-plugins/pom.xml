@@ -64,39 +64,6 @@ under the License.
       <plugins>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-changes-plugin</artifactId>
-          <configuration>
-            <issueManagementSystems>
-              <issueManagementSystem>JIRA</issueManagementSystem>
-            </issueManagementSystems>
-            <maxEntries>1000</maxEntries>
-            <runOnlyAtExecutionRoot>true</runOnlyAtExecutionRoot>
-            <!-- Used by announcement-generate goal -->
-            <templateDirectory>org/apache/maven/plugins</templateDirectory>
-            <!-- Used by announcement-mail goal -->
-            <subject>[ANN] ${project.name} ${project.version} Released</subject>
-            <toAddresses>
-              <toAddress implementation="java.lang.String">announce@maven.apache.org</toAddress>
-              <toAddress implementation="java.lang.String">users@maven.apache.org</toAddress>
-            </toAddresses>
-            <ccAddresses>
-              <ccAddress implementation="java.lang.String">dev@maven.apache.org</ccAddress>
-            </ccAddresses>
-            <!-- These values need to be specified as properties in the profile apache-release in your settings.xml -->
-            <fromDeveloperId>${apache.availid}</fromDeveloperId>
-            <smtpHost>${smtp.host}</smtpHost>
-          </configuration>
-          <dependencies>
-            <!-- Used by announcement-generate goal -->
-            <dependency>
-              <groupId>org.apache.maven.shared</groupId>
-              <artifactId>maven-shared-resources</artifactId>
-              <version>2</version>
-            </dependency>
-          </dependencies>
-        </plugin>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-release-plugin</artifactId>
           <configuration>
             <releaseProfiles>apache-release,run-its</releaseProfiles>
@@ -109,6 +76,9 @@ under the License.
             <execution>
               <id>default-descriptor</id>
               <phase>process-classes</phase>
+              <configuration>
+                <internalJavadocBaseUrl>./apidocs/</internalJavadocBaseUrl>
+              </configuration>
             </execution>
             <execution>
               <id>generate-helpmojo</id>
@@ -178,15 +148,6 @@ under the License.
     </plugins>
   </build>
 
-  <reporting>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-plugin-plugin</artifactId>
-      </plugin>
-    </plugins>
-  </reporting>
-
   <profiles>
     <profile>
       <id>quality-checks</id>
@@ -220,7 +181,6 @@ under the License.
         <!-- when testing with JDK9, change these values to 1.6 from cmdline -->
         <invoker.maven.compiler.source>${maven.compiler.source}</invoker.maven.compiler.source>
         <invoker.maven.compiler.target>${maven.compiler.target}</invoker.maven.compiler.target>
-        <maven.it.failure.ignore>false</maven.it.failure.ignore>
       </properties>
       <build>
         <plugins>
@@ -241,10 +201,7 @@ under the License.
               <properties>
                 <maven.compiler.source>${invoker.maven.compiler.source}</maven.compiler.source>
                 <maven.compiler.target>${invoker.maven.compiler.target}</maven.compiler.target>
-                <!-- e.g. ensure that Java7 picks up TLSv1.2 when connecting with Central -->
-                <https.protocols>${https.protocols}</https.protocols>
               </properties>
-              <ignoreFailures>${maven.it.failure.ignore}</ignoreFailures>
             </configuration>
             <executions>
               <execution>
@@ -264,6 +221,10 @@ under the License.
       <id>reporting</id>
       <reporting>
         <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-plugin-report-plugin</artifactId>
+          </plugin>
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-invoker-plugin</artifactId>

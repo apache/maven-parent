@@ -24,7 +24,7 @@ under the License.
   <parent>
     <groupId>org.apache</groupId>
     <artifactId>apache</artifactId>
-    <version>27</version>
+    <version>28-SNAPSHOT</version>
     <relativePath>../asf/pom.xml</relativePath>
   </parent>
 
@@ -933,7 +933,7 @@ under the License.
   </distributionManagement>
 
   <properties>
-    <javaVersion>7</javaVersion>
+    <javaVersion>8</javaVersion>
     <maven.compiler.source>1.${javaVersion}</maven.compiler.source>
     <maven.compiler.target>1.${javaVersion}</maven.compiler.target>
     <sonar.host.url>https://builds.apache.org/analysis/</sonar.host.url>
@@ -966,16 +966,10 @@ under the License.
         <artifactId>org.eclipse.sisu.plexus</artifactId>
         <version>${sisuVersion}</version>
       </dependency>
-      <!-- Commonly shared: last Java7 -->
       <dependency>
         <groupId>org.codehaus.plexus</groupId>
         <artifactId>plexus-utils</artifactId>
-        <version>3.3.0</version>
-      </dependency>
-      <dependency>
-        <groupId>org.codehaus.plexus</groupId>
-        <artifactId>plexus-component-annotations</artifactId>
-        <version>2.1.1</version>
+        <version>3.5.0</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
@@ -1068,12 +1062,12 @@ under the License.
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-jxr-plugin</artifactId>
-          <version>3.2.0</version>
+          <version>3.3.0</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-pmd-plugin</artifactId>
-          <version>3.17.0</version>
+          <version>3.19.0</version>
           <configuration>
             <targetJdk>${maven.compiler.target}</targetJdk>
             <rulesets>
@@ -1101,11 +1095,6 @@ under the License.
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>taglist-maven-plugin</artifactId>
           <version>3.0.0</version>
-        </plugin>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-changes-plugin</artifactId>
-          <version>2.12.1</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -1228,6 +1217,7 @@ under the License.
         <executions>
           <execution>
             <id>checkstyle-check</id>
+            <phase>process-sources</phase>
             <goals>
               <goal>check</goal>
             </goals>
@@ -1528,7 +1518,6 @@ under the License.
                 <id>default</id>
                 <reports>
                   <report>javadoc</report>
-                  <report>test-javadoc</report>
                 </reports>
               </reportSet>
             </reportSets>

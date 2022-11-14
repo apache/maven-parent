@@ -57,40 +57,6 @@ under the License.
   <build>
     <pluginManagement>
       <plugins>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-changes-plugin</artifactId>
-          <configuration>
-            <issueManagementSystems>
-              <issueManagementSystem>JIRA</issueManagementSystem>
-            </issueManagementSystems>
-            <maxEntries>1000</maxEntries>
-            <runOnlyAtExecutionRoot>true</runOnlyAtExecutionRoot>
-            <versionPrefix>${project.artifactId}-</versionPrefix>
-            <!-- Used by announcement-generate goal -->
-            <templateDirectory>org/apache/maven/shared</templateDirectory>
-            <!-- Used by announcement-mail goal -->
-            <subject>[ANN] ${project.name} ${project.version} Released</subject>
-            <toAddresses>
-              <toAddress implementation="java.lang.String">announce@maven.apache.org</toAddress>
-              <toAddress implementation="java.lang.String">users@maven.apache.org</toAddress>
-            </toAddresses>
-            <ccAddresses>
-              <ccAddress implementation="java.lang.String">dev@maven.apache.org</ccAddress>
-            </ccAddresses>
-            <!-- These values need to be specified as properties in the profile apache-release in your settings.xml -->
-            <fromDeveloperId>${apache.availid}</fromDeveloperId>
-            <smtpHost>${smtp.host}</smtpHost>
-          </configuration>
-          <dependencies>
-            <!-- Used by announcement-generate goal -->
-            <dependency>
-              <groupId>org.apache.maven.shared</groupId>
-              <artifactId>maven-shared-resources</artifactId>
-              <version>2</version>
-            </dependency>
-          </dependencies>
-        </plugin>
         <!-- publish mono-module site with "mvn site-deploy" -->
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
