@@ -56,7 +56,7 @@ mvn -Preporting site-deploy
 * History
 
 #if( $project.version.endsWith( "SNAPSHOT" ) )
-#**##set( $prev = 37 )
+#**##set( $prev = 38 )
   master: {{{https://github.com/apache/maven-parent/tree/master/maven-plugins/pom.xml}$project.version}}
   ({{{https://github.com/apache/maven-parent/compare/maven-parent-$prev...master#diff}diff}})
 #end
@@ -66,11 +66,14 @@ mvn -Preporting site-deploy
 | ({{{https://github.com/apache/maven-parent/compare/maven-parent-$prev...maven-parent-$version#diff}diff}}) | $date |
 #end
 
-    As of version 34, this POM sets the Java source and target versions to 1.7. Thus, as any plugin (or other component)
-    moved to version 34+ of this POM, it moves to requiring Java 1.7 (was Java 1.5 since version 21, and Java 1.6 since version 27).
+    As of version 38, this POM sets the Java source and target versions to 1.8. Thus, as any plugin (or other component)
+    moved to version 38+ of this POM, it moves to requiring Java 1.8 (was Java 1.5 since version 21, Java 1.6 since
+    version 27, and Java 1.7 since version 34).
 
 *--------------+------------+
 || <<Version>> || <<Release Date>> ||
+*--------------+------------+
+#display( 38, '2022-11-21' )
 *--------------+------------+
 #display( 37, '2022-07-20' )
 *--------------+------------+
