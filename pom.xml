@@ -1173,8 +1173,8 @@ under the License.
               <importOrder>
                 <file>config/maven-eclipse-importorder.txt</file>
               </importOrder>
-              <removeUnusedImports />
-              <palantirJavaFormat />
+              <removeUnusedImports/>
+              <palantirJavaFormat/>
               <licenseHeader>
                 <file>config/maven-header-plain.txt</file>
               </licenseHeader>
