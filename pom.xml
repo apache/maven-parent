@@ -946,10 +946,7 @@ under the License.
     <surefire.version>3.0.0-M7</surefire.version>
     <!-- don't fail check for some rules that are too hard to enforce (could even be told broken for some)
          and those that are enforced by the formatting checks from spotless -->
-    <checkstyle.violation.spotless.ignore>LineLength,RegexpHeader,LeftCurly,RightCurly,OperatorWrap,ParenPad,
-      WhitespaceAfter,WhitespaceAround,GenericWhitespace</checkstyle.violation.spotless.ignore>
-    <checkstyle.violation.ignore>RedundantThrows,NewlineAtEndOfFile,ParameterNumber,MethodLength,FileLength,
-      ${checkstyle.violation.spotless.ignore}</checkstyle.violation.ignore>
+    <checkstyle.violation.ignore>ParameterNumber,MethodLength,FileLength</checkstyle.violation.ignore>
     <project.build.outputTimestamp>2022-11-14T23:11:28Z</project.build.outputTimestamp>
   </properties>
 
@@ -1040,8 +1037,7 @@ under the License.
           <artifactId>maven-checkstyle-plugin</artifactId>
           <version>3.2.0</version>
           <configuration>
-            <configLocation>config/maven_checks.xml</configLocation>
-            <headerLocation>config/maven-header.txt</headerLocation>
+            <configLocation>config/maven_checks_nocodestyle.xml</configLocation>
             <!-- workaround to avoid analysing generated content (Modello, plugin help mojo, ...) -->
             <sourceDirectories>
               <sourceDirectory>src/main/java</sourceDirectory>
