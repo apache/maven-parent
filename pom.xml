@@ -1246,6 +1246,8 @@ under the License.
             <goals>
               <goal>check</goal>
             </goals>
+            <!-- execute after spotless-maven-plugin -->
+            <phase>process-resources</phase>
           </execution>
         </executions>
       </plugin>
