@@ -1166,11 +1166,13 @@ under the License.
           <version>2.27.1</version>
           <configuration>
             <java>
+              <!-- orders of used formatters are important MPOM-376 -->
+              <!-- eg. palantir override importOrder, so should be first -->
+              <palantirJavaFormat/>
+              <removeUnusedImports/>
               <importOrder>
                 <file>config/maven-eclipse-importorder.txt</file>
               </importOrder>
-              <removeUnusedImports/>
-              <palantirJavaFormat/>
               <licenseHeader>
                 <file>config/maven-header-plain.txt</file>
               </licenseHeader>
