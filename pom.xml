@@ -1168,8 +1168,8 @@ under the License.
             <java>
               <!-- orders of used formatters are important MPOM-376 -->
               <!-- eg. palantir override importOrder, so should be first -->
-              <palantirJavaFormat/>
-              <removeUnusedImports/>
+              <palantirJavaFormat />
+              <removeUnusedImports />
               <importOrder>
                 <file>config/maven-eclipse-importorder.txt</file>
               </importOrder>
@@ -1180,6 +1180,8 @@ under the License.
             <pom>
               <sortPom>
                 <expandEmptyElements>false</expandEmptyElements>
+                <!-- https://issues.apache.org/jira/browse/MRELEASE-1111 -->
+                <spaceBeforeCloseEmptyElement>true</spaceBeforeCloseEmptyElement>
               </sortPom>
             </pom>
             <upToDateChecking>
