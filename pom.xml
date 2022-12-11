@@ -147,6 +147,16 @@ under the License.
       <timezone>Europe/Paris</timezone>
     </developer>
     <developer>
+      <id>gnodet</id>
+      <name>Guillaume Nodet</name>
+      <email>gnodet@apache.org</email>
+      <organization>Red Hat</organization>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>Europe/Paris</timezone>
+    </developer>
+    <developer>
       <id>hboutemy</id>
       <name>Hervé Boutemy</name>
       <email>hboutemy@apache.org</email>
@@ -390,16 +400,6 @@ under the License.
         <role>Committer</role>
       </roles>
       <timezone>+1</timezone>
-    </developer>
-    <developer>
-      <id>gnodet</id>
-      <name>Guillaume Nodet</name>
-      <email>gnodet@apache.org</email>
-      <organization>Red Hat</organization>
-      <roles>
-        <role>Committer</role>
-      </roles>
-      <timezone>Europe/Paris</timezone>
     </developer>
     <developer>
       <id>godin</id>
