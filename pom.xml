@@ -30,7 +30,7 @@ under the License.
 
   <groupId>org.apache.maven</groupId>
   <artifactId>maven-parent</artifactId>
-  <version>39</version>
+  <version>40-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>Apache Maven</name>
@@ -909,7 +909,7 @@ under the License.
   <scm>
     <connection>scm:git:https://gitbox.apache.org/repos/asf/maven-parent.git</connection>
     <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/maven-parent.git</developerConnection>
-    <tag>maven-parent-39</tag>
+    <tag>maven-parent-38</tag>
     <url>https://github.com/apache/maven-parent/tree/${project.scm.tag}</url>
   </scm>
 
@@ -948,7 +948,7 @@ under the License.
     <!-- don't fail check for some rules that are too hard to enforce (could even be told broken for some)
          and those that are enforced by the formatting checks from spotless -->
     <checkstyle.violation.ignore>ParameterNumber,MethodLength,FileLength</checkstyle.violation.ignore>
-    <project.build.outputTimestamp>2022-12-11T20:07:23Z</project.build.outputTimestamp>
+    <project.build.outputTimestamp>2022-12-11T20:07:39Z</project.build.outputTimestamp>
   </properties>
 
   <dependencyManagement>
