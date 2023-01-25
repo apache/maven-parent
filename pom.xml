@@ -1036,7 +1036,7 @@ under the License.
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-checkstyle-plugin</artifactId>
-          <version>3.2.0</version>
+          <version>3.2.1</version>
           <configuration>
             <configLocation>config/maven_checks_nocodestyle.xml</configLocation>
             <!-- workaround to avoid analysing generated content (Modello, plugin help mojo, ...) -->
