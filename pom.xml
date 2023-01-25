@@ -942,7 +942,7 @@ under the License.
     <maven.site.path>../..</maven.site.path>
     <invoker.streamLogsOnFailures>true</invoker.streamLogsOnFailures>
     <sisuVersion>0.3.5</sisuVersion>
-    <fluidoSkinVersion>1.11.1</fluidoSkinVersion>
+    <fluidoSkinVersion>1.11.2</fluidoSkinVersion>
     <!-- for surefire, failsafe and surefire-report -->
     <surefire.version>3.0.0-M7</surefire.version>
     <!-- don't fail check for some rules that are too hard to enforce (could even be told broken for some)
