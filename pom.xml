@@ -903,7 +903,6 @@ under the License.
     <module>maven-shared-components</module>
     <module>maven-skins</module>
     <module>doxia-tools</module>
-    <module>apache-resource-bundles</module>
   </modules>
 
   <scm>
