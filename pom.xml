@@ -260,6 +260,15 @@ under the License.
       <timezone>0</timezone>
     </developer>
     <developer>
+      <id>slachiewicz</id>
+      <name>Sylwester Lachiewicz</name>
+      <email>slachiewicz@apache.org</email>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>Europe/Warsaw</timezone>
+    </developer>
+    <developer>
       <id>struberg</id>
       <name>Mark Struberg</name>
       <email>struberg@apache.org</email>
@@ -607,15 +616,6 @@ under the License.
         <role>Committer</role>
       </roles>
       <timezone>+1</timezone>
-    </developer>
-    <developer>
-      <id>slachiewicz</id>
-      <name>Sylwester Lachiewicz</name>
-      <email>slachiewicz@apache.org</email>
-      <roles>
-        <role>Committer</role>
-      </roles>
-      <timezone>Europe/Warsaw</timezone>
     </developer>
     <developer>
       <id>elharo</id>
