@@ -71,22 +71,26 @@ under the License.
     <menu ref="reports" inherit="bottom" />
 
     <menu name="Maven Projects" inherit="bottom">
-      <item name="Archetype"         href="https://maven.apache.org/archetype/index.html" />
-      <item name="Artifact Resolver" href="https://maven.apache.org/resolver/index.html" />
-      <item name="Doxia"             href="https://maven.apache.org/doxia/index.html" />
-      <item name="Extensions"        href="https://maven.apache.org/extensions/index.html" />
-      <item name="JXR"               href="https://maven.apache.org/jxr/index.html" />
       <item name="Maven"             href="https://maven.apache.org/ref/current" />
+      <item name="Archetypes"        href="https://maven.apache.org/archetypes/index.html" />
+      <item name="Extensions"        href="https://maven.apache.org/extensions/index.html" />
       <item name="Parent POMs"       href="https://maven.apache.org/pom/index.html" />
       <item name="Plugins"           href="https://maven.apache.org/plugins/index.html" />
-      <item name="Plugin Testing"    href="https://maven.apache.org/plugin-testing/index.html" />
-      <item name="Plugin Tools"      href="https://maven.apache.org/plugin-tools/index.html" />
-      <item name="Resource Bundles"  href="https://maven.apache.org/apache-resource-bundles/index.html" />
-      <item name="SCM"               href="https://maven.apache.org/scm/index.html" />
-      <item name="Shared Components" href="https://maven.apache.org/shared/index.html" />
       <item name="Skins"             href="https://maven.apache.org/skins/index.html" />
-      <item name="Surefire"          href="https://maven.apache.org/surefire/index.html" />
-      <item name="Wagon"             href="https://maven.apache.org/wagon/index.html" />
+      <item name="">
+        <item name="Archetype"         href="https://maven.apache.org/archetype/index.html" />
+        <item name="Artifact Resolver" href="https://maven.apache.org/resolver/index.html" />
+        <item name="Doxia"             href="https://maven.apache.org/doxia/index.html" />
+        <item name="Indexer"           href="https://maven.apache.org/maven-indexer/index.html" />
+        <item name="JXR"               href="https://maven.apache.org/jxr/index.html" />
+        <item name="Plugin Testing"    href="https://maven.apache.org/plugin-testing/index.html" />
+        <item name="Plugin Tools"      href="https://maven.apache.org/plugin-tools/index.html" />
+        <item name="Resource Bundles"  href="https://maven.apache.org/apache-resource-bundles/index.html" />
+        <item name="SCM"               href="https://maven.apache.org/scm/index.html" />
+        <item name="Shared Components" href="https://maven.apache.org/shared/index.html" />
+        <item name="Surefire"          href="https://maven.apache.org/surefire/index.html" />
+        <item name="Wagon"             href="https://maven.apache.org/wagon/index.html" />
+      </item>
     </menu>
     <menu name="ASF" inherit="bottom">
       <item name="How Apache Works"  href="https://www.apache.org/foundation/how-it-works.html"/> 
