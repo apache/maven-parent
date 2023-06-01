@@ -941,6 +941,8 @@ under the License.
     <maven.site.path>../..</maven.site.path>
     <invoker.streamLogsOnFailures>true</invoker.streamLogsOnFailures>
     <sisuVersion>0.3.5</sisuVersion>
+    <plexusUtilsVersion>4.0.0</plexusUtilsVersion>
+    <plexusXmlVersion>4.0.0</plexusXmlVersion>
     <fluidoSkinVersion>1.11.2</fluidoSkinVersion>
     <!-- don't fail check for some rules that are too hard to enforce (could even be told broken for some)
          and those that are enforced by the formatting checks from spotless -->
@@ -964,7 +966,12 @@ under the License.
       <dependency>
         <groupId>org.codehaus.plexus</groupId>
         <artifactId>plexus-utils</artifactId>
-        <version>3.5.1</version>
+        <version>${plexusUtilsVersion}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.codehaus.plexus</groupId>
+        <artifactId>plexus-xml</artifactId>
+        <version>${plexusXmlVersion}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
