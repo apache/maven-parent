@@ -61,7 +61,7 @@ under the License.
         <plugin>
           <artifactId>maven-release-plugin</artifactId>
           <configuration>
-            <releaseProfiles>apache-release,run-its</releaseProfiles>
+            <releaseProfiles>apache-release</releaseProfiles>
           </configuration>
         </plugin>
         <!-- publish mono-module site with "mvn site-deploy" -->
