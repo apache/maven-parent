@@ -941,6 +941,8 @@ under the License.
     <maven.site.path>../..</maven.site.path>
     <invoker.streamLogsOnFailures>true</invoker.streamLogsOnFailures>
     <sisuVersion>0.9.0.M2</sisuVersion>
+    <plexusUtilsVersion>4.0.0</plexusUtilsVersion>
+    <plexusXmlVersion>4.0.0</plexusXmlVersion>
     <fluidoSkinVersion>1.11.2</fluidoSkinVersion>
     <!-- don't fail check for some rules that are too hard to enforce (could even be told broken for some)
          and those that are enforced by the formatting checks from spotless -->
@@ -964,7 +966,12 @@ under the License.
       <dependency>
         <groupId>org.codehaus.plexus</groupId>
         <artifactId>plexus-utils</artifactId>
-        <version>3.5.1</version>
+        <version>${plexusUtilsVersion}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.codehaus.plexus</groupId>
+        <artifactId>plexus-xml</artifactId>
+        <version>${plexusXmlVersion}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
@@ -1033,7 +1040,7 @@ under the License.
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-checkstyle-plugin</artifactId>
-          <version>3.2.1</version>
+          <version>3.2.2</version>
           <configuration>
             <configLocation>config/maven_checks_nocodestyle.xml</configLocation>
             <!-- workaround to avoid analysing generated content (Modello, plugin help mojo, ...) -->
@@ -1161,7 +1168,7 @@ under the License.
         <plugin>
           <groupId>com.diffplug.spotless</groupId>
           <artifactId>spotless-maven-plugin</artifactId>
-          <version>2.28.0</version>
+          <version>2.37.0</version>
           <configuration>
             <java>
               <!-- orders of used formatters are important MPOM-376 -->
@@ -1206,10 +1213,6 @@ under the License.
     </pluginManagement>
 
     <plugins>
-      <plugin>
-        <groupId>com.diffplug.spotless</groupId>
-        <artifactId>spotless-maven-plugin</artifactId>
-      </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-checkstyle-plugin</artifactId>
@@ -1289,13 +1292,28 @@ under the License.
 
   <profiles>
     <profile>
+      <id>java11+</id>
+      <activation>
+        <jdk>[11,)</jdk>
+      </activation>
+      <build>
+        <!--- newer versions of plugins requires JDK 11 -->
+        <plugins>
+          <plugin>
+            <groupId>com.diffplug.spotless</groupId>
+            <artifactId>spotless-maven-plugin</artifactId>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+    <profile>
       <id>apache-release</id>
       <build>
         <plugins>
           <plugin>
             <groupId>org.cyclonedx</groupId>
             <artifactId>cyclonedx-maven-plugin</artifactId>
-            <version>2.7.8</version>
+            <version>2.7.9</version>
             <executions>
               <execution>
                 <goals>
