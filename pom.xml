@@ -1023,6 +1023,7 @@ under the License.
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-site-plugin</artifactId>
+          <version>4.0.0-M8</version>
           <configuration>
             <!-- for multi-modules site staging -->
             <topSiteURL>scm:svn:https://svn.apache.org/repos/asf/maven/website/components/${maven.site.path}</topSiteURL>
