@@ -27,7 +27,7 @@ under the License.
     <!-- we need to have a different gav for pom.xml and site-pom.xml -->
     <!-- dot at the end is on purpose -->
     <artifactId>maven-parent.</artifactId>
-    <version>40-SNAPSHOT</version>
+    <version>40</version>
     <relativePath>../site-pom.xml</relativePath>
   </parent>
 

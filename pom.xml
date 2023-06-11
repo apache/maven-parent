@@ -24,7 +24,7 @@ under the License.
   <parent>
     <groupId>org.apache</groupId>
     <artifactId>apache</artifactId>
-    <version>29</version>
+    <version>30</version>
     <relativePath>../asf/pom.xml</relativePath>
   </parent>
 
@@ -1141,7 +1141,6 @@ under the License.
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-enforcer-plugin</artifactId>
-          <version>3.3.0</version>
           <dependencies>
             <dependency>
               <groupId>org.codehaus.mojo</groupId>
