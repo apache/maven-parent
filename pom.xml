@@ -942,7 +942,7 @@ under the License.
     <invoker.streamLogsOnFailures>true</invoker.streamLogsOnFailures>
     <sisuVersion>0.9.0.M2</sisuVersion>
     <plexusUtilsVersion>4.0.0</plexusUtilsVersion>
-    <plexusXmlVersion>4.0.0</plexusXmlVersion>
+    <plexusXmlVersion>4.0.1</plexusXmlVersion>
     <fluidoSkinVersion>1.11.2</fluidoSkinVersion>
     <!-- don't fail check for some rules that are too hard to enforce (could even be told broken for some)
          and those that are enforced by the formatting checks from spotless -->
