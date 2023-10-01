@@ -37,7 +37,7 @@ under the License.
   <skin>
     <groupId>org.apache.maven.skins</groupId>
     <artifactId>maven-fluido-skin</artifactId>
-    <version>${fluidoSkinVersion}</version>
+    <version>${version.maven-fluido-skin}</version>
   </skin>
 
   <edit>${project.scm.url}</edit>
