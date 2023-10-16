@@ -150,32 +150,6 @@ under the License.
 
   <profiles>
     <profile>
-      <id>quality-checks</id>
-      <activation>
-        <property>
-          <name>quality-checks</name>
-          <value>true</value>
-        </property>
-      </activation>
-      <build>
-        <plugins>
-          <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-docck-plugin</artifactId>
-            <executions>
-              <execution>
-                <id>docck-check</id>
-                <goals>
-                  <goal>check</goal>
-                </goals>
-                <phase>verify</phase>
-              </execution>
-            </executions>
-          </plugin>
-        </plugins>
-      </build>
-    </profile>
-    <profile>
       <id>run-its</id>
       <properties>
         <!-- when testing with JDK9, change these values to 1.6 from cmdline -->
