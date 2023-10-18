@@ -89,6 +89,16 @@ under the License.
       <timezone>America/New_York</timezone>
     </developer>
     <developer>
+      <id>bmarwell</id>
+      <name>Benjamin Marwell</name>
+      <email>bmarwell@apache.org</email>
+      <organization>ASF</organization>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>Europe/Berlin</timezone>
+    </developer>
+    <developer>
       <id>brianf</id>
       <name>Brian Fox</name>
       <email>brianf@apache.org</email>
