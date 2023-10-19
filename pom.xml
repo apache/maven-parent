@@ -167,6 +167,16 @@ under the License.
       <timezone>Europe/Paris</timezone>
     </developer>
     <developer>
+      <id>henning</id>
+      <name>Henning Schmiedehausen</name>
+      <email>henning@apache.org</email>
+      <organization>ASF</organization>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>America/Los_Angeles</timezone>
+    </developer>
+    <developer>
       <id>hboutemy</id>
       <name>Hervé Boutemy</name>
       <email>hboutemy@apache.org</email>
