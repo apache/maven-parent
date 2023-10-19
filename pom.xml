@@ -212,6 +212,16 @@ under the License.
       </roles>
     </developer>
     <developer>
+      <id>mthmulders</id>
+      <name>Maarten Mulders</name>
+      <email>mthmulders@apache.org</email>
+      <organization>Info Support</organization>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>Europe/Amsterdam</timezone>
+    </developer>
+    <developer>
       <id>olamy</id>
       <name>Olivier Lamy</name>
       <email>olamy@apache.org</email>
@@ -490,16 +500,6 @@ under the License.
       <organization>JPoint</organization>
       <roles>
         <role>Committer</role>
-      </roles>
-      <timezone>Europe/Amsterdam</timezone>
-    </developer>
-    <developer>
-      <id>mthmulders</id>
-      <name>Maarten Mulders</name>
-      <email>mthmulders@apache.org</email>
-      <organization>Info Support</organization>
-      <roles>
-        <role>PMC Member</role>
       </roles>
       <timezone>Europe/Amsterdam</timezone>
     </developer>
