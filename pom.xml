@@ -205,6 +205,16 @@ under the License.
       <timezone>+1</timezone>
     </developer>
     <developer>
+      <id>kwin</id>
+      <name>Konrad Windszus</name>
+      <email>kwin@apache.org</email>
+      <organization>Cognizant Netcentric</organization>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>Europe/Berlin</timezone>
+    </developer>
+    <developer>
       <id>mkleint</id>
       <name>Milos Kleint</name>
       <roles>
@@ -464,16 +474,6 @@ under the License.
       <roles>
         <role>Committer</role>
       </roles>
-    </developer>
-    <developer>
-      <id>kwin</id>
-      <name>Konrad Windszus</name>
-      <email>kwin@apache.org</email>
-      <organization>Cognizant Netcentric</organization>
-      <roles>
-        <role>Committer</role>
-      </roles>
-      <timezone>Europe/Berlin</timezone>
     </developer>
     <developer>
       <id>ltheussl</id>
