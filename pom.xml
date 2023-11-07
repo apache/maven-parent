@@ -1486,6 +1486,10 @@ under the License.
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-surefire-report-plugin</artifactId>
+            <configuration>
+              <alwaysGenerateSurefireReport>false</alwaysGenerateSurefireReport>
+              <alwaysGenerateFailsafeReport>false</alwaysGenerateFailsafeReport>
+            </configuration>
           </plugin>
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
