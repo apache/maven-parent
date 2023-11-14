@@ -1318,6 +1318,9 @@ under the License.
       <activation>
         <jdk>[11,)</jdk>
       </activation>
+      <properties>
+        <maven.compiler.release>${javaVersion}</maven.compiler.release>
+      </properties>
       <build>
         <!--- newer versions of plugins requires JDK 11 -->
         <plugins>
