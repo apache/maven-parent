@@ -39,10 +39,6 @@ under the License.
     <system>jira</system>
     <url>https://issues.apache.org/jira/browse/DOXIATOOLS</url>
   </issueManagement>
-  <ciManagement>
-    <system>Jenkins</system>
-    <url>https://ci-builds.apache.org/job/Maven/job/maven-box/job/doxia-tools/</url>
-  </ciManagement>
 
   <distributionManagement>
     <site>
