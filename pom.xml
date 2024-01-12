@@ -905,16 +905,6 @@ under the License.
         <otherArchive>https://www.mail-archive.com/announce@maven.apache.org</otherArchive>
       </otherArchives>
     </mailingList>
-    <mailingList>
-      <name>Maven Notifications List</name>
-      <subscribe>mailto:notifications-subscribe@maven.apache.org</subscribe>
-      <unsubscribe>mailto:notifications-unsubscribe@maven.apache.org</unsubscribe>
-      <archive>https://lists.apache.org/list.html?notifications@maven.apache.org</archive>
-      <otherArchives>
-        <otherArchive>https://mail-archives.apache.org/mod_mbox/maven-notifications/</otherArchive>
-        <otherArchive>https://www.mail-archive.com/notifications@maven.apache.org</otherArchive>
-      </otherArchives>
-    </mailingList>
   </mailingLists>
 
   <modules>
