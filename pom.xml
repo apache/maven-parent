@@ -945,6 +945,8 @@ under the License.
     <javaVersion>8</javaVersion>
     <maven.compiler.source>${javaVersion}</maven.compiler.source>
     <maven.compiler.target>${javaVersion}</maven.compiler.target>
+    <!-- in order to restore default annotation processing behaviour, please override with empty value -->
+    <maven.compiler.proc>none</maven.compiler.proc>
     <sonar.host.url>https://builds.apache.org/analysis/</sonar.host.url>
     <maven.site.cache>${user.home}/maven-sites</maven.site.cache>
     <!-- to be overridden -->
@@ -1023,6 +1025,13 @@ under the License.
               </goals>
             </execution>
           </executions>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <configuration>
+            <proc>${maven.compiler.proc}</proc>
+          </configuration>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
