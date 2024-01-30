@@ -17,4 +17,4 @@
  * under the License.
  */
 // jdk 17 is used for deploy artifacts
-asfMavenTlpStdBuild(jdks:['8', '17'])
+asfMavenTlpStdBuild(jdks:['8', '21'])
