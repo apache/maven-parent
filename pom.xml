@@ -945,6 +945,7 @@ under the License.
     <javaVersion>8</javaVersion>
     <maven.compiler.source>${javaVersion}</maven.compiler.source>
     <maven.compiler.target>${javaVersion}</maven.compiler.target>
+    <maven.compiler.showDeprecation>true</maven.compiler.showDeprecation>
     <!-- in order to restore default annotation processing behaviour, please override with empty value -->
     <maven.compiler.proc>none</maven.compiler.proc>
     <sonar.host.url>https://builds.apache.org/analysis/</sonar.host.url>
@@ -1031,6 +1032,7 @@ under the License.
           <artifactId>maven-compiler-plugin</artifactId>
           <configuration>
             <proc>${maven.compiler.proc}</proc>
+            <showDeprecation>${maven.compiler.showDeprecation}</showDeprecation>
           </configuration>
         </plugin>
         <plugin>
