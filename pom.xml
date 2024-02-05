@@ -956,7 +956,7 @@ under the License.
     <version.plexus-utils>4.0.0</version.plexus-utils>
     <!-- DO NOT UPGRADE to 4: incompatible with Maven 3 -->
     <version.plexus-xml>3.0.0</version.plexus-xml>
-    <versions.junit5>5.10.1</versions.junit5>
+    <versions.junit5>5.10.2</versions.junit5>
     <version.maven-fluido-skin>1.11.2</version.maven-fluido-skin>
     <!-- don't fail check for some rules that are too hard to enforce (could even be told broken for some)
          and those that are enforced by the formatting checks from spotless -->
