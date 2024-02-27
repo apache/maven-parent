@@ -961,6 +961,7 @@ under the License.
 
   <properties>
     <javaVersion>8</javaVersion>
+    <maven.compiler.release>${javaVersion}</maven.compiler.release>
     <maven.compiler.showDeprecation>true</maven.compiler.showDeprecation>
     <checkstyle.includeTestSourceDirectory>true</checkstyle.includeTestSourceDirectory>
     <!-- in order to restore default annotation processing behaviour, please override with empty value -->
@@ -1116,7 +1117,7 @@ under the License.</licenseText>
           <artifactId>maven-pmd-plugin</artifactId>
           <version>3.28.0</version>
           <configuration>
-            <targetJdk>${javaVersion}</targetJdk>
+            <targetJdk>${maven.compiler.release}</targetJdk>
             <rulesets>
               <ruleset>rulesets/maven.xml</ruleset>
             </rulesets>
@@ -1196,7 +1197,7 @@ under the License.</licenseText>
               <configuration>
                 <rules>
                   <enforceBytecodeVersion>
-                    <maxJdkVersion>${javaVersion}</maxJdkVersion>
+                    <maxJdkVersion>${maven.compiler.release}</maxJdkVersion>
                   </enforceBytecodeVersion>
                 </rules>
                 <fail>true</fail>
@@ -1480,7 +1481,7 @@ under the License.</licenseText>
             <configuration>
               <toolchains>
                 <jdk>
-                  <version>${javaVersion}</version>
+                  <version>${maven.compiler.release}</version>
                 </jdk>
               </toolchains>
             </configuration>
