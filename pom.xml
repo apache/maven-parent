@@ -1515,6 +1515,9 @@ under the License.
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-pmd-plugin</artifactId>
+            <configuration>
+              <skipEmptyReport>true</skipEmptyReport>
+            </configuration>
             <reportSets>
               <reportSet>
                 <id>default</id>
