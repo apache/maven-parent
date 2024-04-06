@@ -43,65 +43,6 @@ mvn -Preporting site-deploy
 
 * History
 
-#if( $project.version.endsWith( "SNAPSHOT" ) )
-#**##set( $prev = 40 )
-  master: {{{https://github.com/apache/maven-parent/tree/master/maven-shared-components/pom.xml}$project.version}}
-  ({{{https://github.com/apache/maven-parent/compare/maven-parent-$prev...master#diff}diff}})
-#end
-#macro ( display $version $date )
-#**##set( $prev = $version - 1 )
-|  {{{https://github.com/apache/maven-parent/tree/maven-parent-$version/maven-shared-components/pom.xml}$version}}
-| ({{{https://github.com/apache/maven-parent/compare/maven-parent-$prev...maven-parent-$version#diff}diff}}) | $date |
-#end
-
     As of version 38, this POM sets the Java source and target versions to 1.8. Thus, as any plugin (or other component)
     moved to version 38+ of this POM, it moves to requiring Java 1.8 (was Java 1.5 since version 21, Java 1.6 since
     version 27, and Java 1.7 since version 34).
-
-*--------------+------------+
-|| <<Version>> || <<Release Date>> ||
-*--------------+------------+
-#display( 41, '2023-11-08' )
-*--------------+------------+
-#display( 40, '2023-06-12' )
-*--------------+------------+
-#display( 39, '2022-12-11' )
-*--------------+------------+
-#display( 38, '2022-11-21' )
-*--------------+------------+
-#display( 37, '2022-07-20' )
-*--------------+------------+
-#display( 36, '2022-04-18' )
-*--------------+------------+
-#display( 35, '2022-03-02' )
-*--------------+------------+
-#display( 34, '2020-01-30' )
-*--------------+------------+
-#display( 33, '2018-09-11' )
-*--------------+------------+
-#display( 32, '2018-07-18' )
-*--------------+------------+
-#display( 31, '2018-02-05' )
-*--------------+------------+
-| {{{https://svn.apache.org/viewvc/maven/pom/tags/maven-parent-30/maven-shared-components/pom.xml?view=markup}30}} ({{{https://svn.apache.org/viewvc/maven/pom/tags/maven-parent-30/maven-shared-components/pom.xml?r1=HEAD&r2=1711683&diff_format=h}diff}}) | 2016-05-26  |
-*--------------+------------+
-| {{{https://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-22/pom.xml?view=markup}22}} ({{{https://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-22/pom.xml?r1=HEAD&r2=1632934&diff_format=h}diff}}) | 2015-10-31 |
-*--------------+------------+
-| {{{https://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-21/pom.xml?view=markup}21}} ({{{https://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-21/pom.xml?r1=HEAD&r2=1582509&diff_format=h}diff}}) | 2014-10-22 |
-*--------------+------------+
-| {{{https://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-20/pom.xml?view=markup}20}} ({{{https://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-20/pom.xml?r1=HEAD&r2=1440205&diff_format=h}diff}}) | 2014-03-27 |
-*--------------+------------+
-| {{{https://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-19/pom.xml?view=markup}19}} ({{{https://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-19/pom.xml?r1=HEAD&r2=1371614&diff_format=h}diff}}) | 2013-02-02 |
-*--------------+------------+
-| {{{https://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-18/pom.xml?view=markup}18}} ({{{https://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-18/pom.xml?r1=HEAD&r2=1158001&diff_format=h}diff}}) | 2012-08-08 |
-*--------------+------------+
-| {{{https://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-17/pom.xml?view=markup}17}} ({{{https://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-17/pom.xml?r1=HEAD&r2=1069636&diff_format=h}diff}}) | 2011-08-18 |
-*--------------+------------+
-| {{{https://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-16/pom.xml?view=markup}16}} ({{{https://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-16/pom.xml?r1=HEAD&r2=905061&diff_format=h}diff}}) | 2011-02-15 |
-*--------------+------------+
-| {{{https://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-15/pom.xml?view=markup}15}} ({{{https://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-15/pom.xml?r1=HEAD&r2=831141&diff_format=h}diff}}) | 2010-02-04 |
-*--------------+------------+
-| {{{https://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-14/pom.xml?view=markup}14}} ({{{https://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-14/pom.xml?r1=HEAD&r2=829596&diff_format=h}diff}}) | 2009-11-02 |
-*--------------+------------+
-| {{{https://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-13/pom.xml?view=markup}13}} ({{{https://svn.apache.org/viewvc/maven/shared/tags/maven-shared-components-13/pom.xml?r1=HEAD&r2=814155&diff_format=h}diff}}) | 2009-10-28 |
-*--------------+------------+
