@@ -55,67 +55,6 @@ mvn -Preporting site-deploy
 
 * History
 
-#if( $project.version.endsWith( "SNAPSHOT" ) )
-#**##set( $prev = 40 )
-  master: {{{https://github.com/apache/maven-parent/tree/master/maven-plugins/pom.xml}$project.version}}
-  ({{{https://github.com/apache/maven-parent/compare/maven-parent-$prev...master#diff}diff}})
-#end
-#macro ( display $version $date )
-#**##set( $prev = $version - 1 )
-|  {{{https://github.com/apache/maven-parent/tree/maven-parent-$version/maven-plugins/pom.xml}$version}}
-| ({{{https://github.com/apache/maven-parent/compare/maven-parent-$prev...maven-parent-$version#diff}diff}}) | $date |
-#end
-
     As of version 38, this POM sets the Java source and target versions to 1.8. Thus, as any plugin (or other component)
     moved to version 38+ of this POM, it moves to requiring Java 1.8 (was Java 1.5 since version 21, Java 1.6 since
     version 27, and Java 1.7 since version 34).
-
-*--------------+------------+
-|| <<Version>> || <<Release Date>> ||
-*--------------+------------+
-#display( 41, '2023-11-08' )
-*--------------+------------+
-#display( 40, '2023-06-12' )
-*--------------+------------+
-#display( 39, '2022-12-11' )
-*--------------+------------+
-#display( 38, '2022-11-21' )
-*--------------+------------+
-#display( 37, '2022-07-20' )
-*--------------+------------+
-#display( 36, '2022-04-18' )
-*--------------+------------+
-#display( 35, '2022-03-02' )
-*--------------+------------+
-#display( 34, '2020-01-30' )
-*--------------+------------+
-#display( 33, '2018-09-11' )
-*--------------+------------+
-#display( 32, '2018-07-18' )
-*--------------+------------+
-#display( 31, '2018-02-05' )
-*--------------+------------+
-| {{{https://svn.apache.org/viewvc/maven/pom/tags/maven-parent-30/maven-plugins/pom.xml?view=markup}30}} ({{{https://svn.apache.org/viewvc/maven/pom/tags/maven-parent-30/maven-plugins/pom.xml?r1=HEAD&r2=1639498&diff_format=h}diff}}) | 2016-05-26  |
-*--------------+------------+
-| {{{https://svn.apache.org/viewvc/maven/plugins/tags/maven-plugins-28/pom.xml?view=markup}28}} ({{{https://svn.apache.org/viewvc/maven/plugins/tags/maven-plugins-28/pom.xml?r1=HEAD&r2=1716984&diff_format=h}diff}}) | 2015-10-13  |
-*--------------+------------+
-| {{{https://svn.apache.org/viewvc/maven/plugins/tags/maven-plugins-27/pom.xml?view=markup}27}} ({{{https://svn.apache.org/viewvc/maven/plugins/tags/maven-plugins-27/pom.xml?r1=HEAD&r2=1632929&diff_format=h}diff}}) | 2014-11-13  |
-*--------------+------------+
-| {{{https://svn.apache.org/viewvc/maven/plugins/tags/maven-plugins-26/pom.xml?view=markup}26}} ({{{https://svn.apache.org/viewvc/maven/plugins/tags/maven-plugins-26/pom.xml?r1=HEAD&r2=1582504&diff_format=h}diff}}) | 2014-10-22  |
-*--------------+------------+
-| {{{https://svn.apache.org/viewvc/maven/plugins/tags/maven-plugins-25/pom.xml?view=markup}25}} ({{{https://svn.apache.org/viewvc/maven/plugins/tags/maven-plugins-25/pom.xml?r1=HEAD&r2=1440196&diff_format=h}diff}}) | 2014-03-27  |
-*--------------+------------+
-| {{{https://svn.apache.org/viewvc/maven/plugins/tags/maven-plugins-24/pom.xml?view=markup}24}} ({{{https://svn.apache.org/viewvc/maven/plugins/tags/maven-plugins-24/pom.xml?r1=HEAD&r2=1371605&diff_format=h}diff}}) | 2013-02-02  |
-*--------------+------------+
-| {{{https://svn.apache.org/viewvc/maven/plugins/tags/maven-plugins-23/pom.xml?view=markup}23}} ({{{https://svn.apache.org/viewvc/maven/plugins/tags/maven-plugins-23/pom.xml?r1=HEAD&r2=1157988&diff_format=h}diff}}) | 2012-08-10  |
-*--------------+------------+
-| {{{https://svn.apache.org/viewvc/maven/plugins/tags/maven-plugins-22/pom.xml?view=markup}22}} ({{{https://svn.apache.org/viewvc/maven/plugins/tags/maven-plugins-22/pom.xml?r1=HEAD&r2=1135903&diff_format=h}diff}}) | 2011-08-18 |
-*--------------+------------+
-| {{{https://svn.apache.org/viewvc/maven/plugins/tags/maven-plugins-21/pom.xml?view=markup}21}} ({{{https://svn.apache.org/viewvc/maven/plugins/tags/maven-plugins-21/pom.xml?r1=HEAD&r2=1103416&diff_format=h}diff}}) | 2011-06-18 |
-*--------------+------------+
-| {{{https://svn.apache.org/viewvc/maven/plugins/tags/maven-plugins-20/pom.xml?view=markup}20}} ({{{https://svn.apache.org/viewvc/maven/plugins/tags/maven-plugins-20/pom.xml?r1=HEAD&r2=1069632&diff_format=h}diff}}) | 2011-05-18 |
-*--------------+------------+
-| {{{https://svn.apache.org/viewvc/maven/plugins/tags/maven-plugins-19/pom.xml?view=markup}19}} ({{{https://svn.apache.org/viewvc/maven/plugins/tags/maven-plugins-19/pom.xml?r1=HEAD&r2=940021&diff_format=h}diff}}) | 2011-02-15 |
-*--------------+------------+
-| {{{https://svn.apache.org/viewvc/maven/plugins/tags/maven-plugins-18/pom.xml?view=markup}18}} ({{{https://svn.apache.org/viewvc/maven/plugins/tags/maven-plugins-18/pom.xml?r1=HEAD&r2=905056&diff_format=h}diff}}) | 2010-05-04 |
-*--------------+------------+

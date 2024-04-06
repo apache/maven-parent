@@ -98,69 +98,6 @@ mvn scm-publish:publish-scm
 
 * History
 
-#if( $project.version.endsWith( "SNAPSHOT" ) )
-#**##set( $prev = 40 )
-  master: {{{https://github.com/apache/maven-parent/tree/master/pom.xml}$project.version}}
-  ({{{https://github.com/apache/maven-parent/compare/maven-parent-$prev...master#diff}diff}},
-  {{{https://github.com/apache/maven-parent/compare/maven-parent-$prev...master}commits}})
-#end
-#macro ( display $version $date )
-#**##if ( $version == 30 ) #set( $prev = 27 )#else#set( $prev = $version - 1 )#end
-|  {{{https://github.com/apache/maven-parent/tree/maven-parent-$version/pom.xml}$version}}
-| ({{{https://github.com/apache/maven-parent/compare/maven-parent-$prev...maven-parent-$version#diff}diff}},
-|  {{{https://github.com/apache/maven-parent/compare/maven-parent-$prev...maven-parent-$version}commits}}) | $date |
-#end
-
     As of version 38, this POM sets the Java source and target versions to 1.8. Thus, as any plugin (or other component)
     moved to version 38+ of this POM, it moves to requiring Java 1.8 (was Java 1.5 since version 21, Java 1.6 since
     version 27, and Java 1.7 since version 34).
-
-*--------------+------------+
-|| <<Version>> || <<Release Date>> ||
-*--------------+------------+
-#display( 41, '2023-11-08' )
-*--------------+------------+
-#display( 40, '2023-06-12' )
-*--------------+------------+
-#display( 39, '2022-12-11' )
-*--------------+------------+
-#display( 38, '2022-11-21' )
-*--------------+------------+
-#display( 37, '2022-07-20' )
-*--------------+------------+
-#display( 36, '2022-04-18' )
-*--------------+------------+
-#display( 35, '2022-03-02' )
-*--------------+------------+
-#display( 34, '2020-01-30' )
-*--------------+------------+
-#display( 33, '2018-09-11' )
-*--------------+------------+
-#display( 32, '2018-07-18' )
-*--------------+------------+
-#display( 31, '2018-02-05' )
-*--------------+------------+
-#display( 30, '2016-05-26' )
-*--------------+------------+
-#display( 27, '2015-09-23' )
-*--------------+------------+
-#display( 26, '2014-11-13' )
-*--------------+------------+
-#display( 25, '2014-10-22' )
-*--------------+------------+
-#display( 24, '2014-03-27' )
-*--------------+------------+
-#display( 23, '2013-01-21' )
-*--------------+------------+
-#display( 22, '2012-08-08' )
-*--------------+------------+
-#display( 21, '2011-08-18' )
-*--------------+------------+
-#display( 20, '2011-06-15' )
-*--------------+------------+
-#display( 19, '2011-02-15' )
-*--------------+------------+
-#display( 18, '2010-11-26' )
-*--------------+------------+
-#display( 17, '2010-11-04' )
-*--------------+------------+
