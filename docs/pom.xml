@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!--
 Licensed to the Apache Software Foundation (ASF) under one
 or more contributor license agreements.  See the NOTICE file
@@ -18,7 +17,6 @@ KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
-
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
@@ -26,12 +24,9 @@ under the License.
     <groupId>org.apache.maven</groupId>
     <artifactId>maven-parent</artifactId>
     <version>42-SNAPSHOT</version>
-    <relativePath>./pom.xml</relativePath>
   </parent>
 
-  <!-- we need to have a different gav for pom.xml and site-pom.xml -->
-  <!-- dot at the end is on purpose -->
-  <artifactId>maven-parent.</artifactId>
+  <artifactId>docs</artifactId>
   <packaging>pom</packaging>
 
   <name>Apache Maven Parent POM</name>
@@ -39,27 +34,27 @@ under the License.
   <url>https://maven.apache.org/pom/maven/</url>
 
   <modules>
-    <module>maven-extensions/site-pom.xml</module>
-    <module>maven-plugins/site-pom.xml</module>
-    <module>maven-shared-components/site-pom.xml</module>
-    <module>maven-skins/site-pom.xml</module>
-    <module>doxia-tools/site-pom.xml</module>
+    <module>maven-extensions</module>
+    <module>maven-plugins</module>
+    <module>maven-shared-components</module>
+    <module>maven-skins</module>
+    <module>doxia-tools</module>
   </modules>
 
   <scm>
-    <connection>scm:git:https://gitbox.apache.org/repos/asf/maven-parent.git</connection>
-    <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/maven-parent.git</developerConnection>
-    <url>https://github.com/apache/maven-parent/tree/${project.scm.tag}</url>
-    <tag>HEAD</tag>
+    <url>https://github.com/apache/maven-parent/tree/${project.scm.tag}/</url>
   </scm>
+
   <issueManagement>
     <system>jira</system>
     <url>https://issues.apache.org/jira/projects/MPOM</url>
   </issueManagement>
+
   <ciManagement>
     <system>Jenkins</system>
     <url>https://ci-maven.apache.org/job/Maven/job/maven-box/job/maven-parent/</url>
   </ciManagement>
+
   <distributionManagement>
     <site>
       <id>apache.website</id>
@@ -70,18 +65,42 @@ under the License.
   <properties>
     <maven.site.path>pom-archives/maven-LATEST</maven.site.path>
     <rat.skip>true</rat.skip>
-    <maven.test.skip>true</maven.test.skip>
+
+    <!-- modules with documentation not need to install and deploy -->
+    <maven.install.skip>true</maven.install.skip>
+    <maven.deploy.skip>true</maven.deploy.skip>
   </properties>
 
-  <build>
+  <reporting>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-site-plugin</artifactId>
-        <configuration>
-          <siteDirectory>${basedir}/src/site-docs</siteDirectory>
-        </configuration>
+        <artifactId>maven-project-info-reports-plugin</artifactId>
+        <reportSets>
+          <reportSet>
+            <!-- don't execute inherited reports, since some are useless and cannot be removed -->
+            <configuration>
+              <skip>true</skip>
+            </configuration>
+          </reportSet>
+          <reportSet>
+            <!-- execute only reports necessary for documentation site, in a dedicated reportSet -->
+            <id>site-documentation</id>
+            <reports>
+              <report>index</report>
+              <report>dependency-management</report>
+              <report>plugin-management</report>
+              <report>plugins</report>
+              <report>ci-management</report>
+              <report>issue-management</report>
+              <report>mailing-lists</report>
+              <report>scm</report>
+              <report>team</report>
+            </reports>
+          </reportSet>
+        </reportSets>
       </plugin>
     </plugins>
-  </build>
+  </reporting>
+
 </project>

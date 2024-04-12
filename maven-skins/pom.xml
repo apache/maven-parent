@@ -96,13 +96,20 @@ under the License.
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-site-plugin</artifactId>
-        <inherited>false</inherited>
         <executions>
           <execution>
             <id>attach-descriptor</id>
             <goals>
               <goal>attach-descriptor</goal>
             </goals>
+            <inherited>false</inherited>
+          </execution>
+          <execution>
+            <id>default-site</id>
+            <inherited>false</inherited>
+            <configuration>
+              <skip>true</skip>
+            </configuration>
           </execution>
         </executions>
       </plugin>

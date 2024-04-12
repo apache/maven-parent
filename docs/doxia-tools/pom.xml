@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!--
 Licensed to the Apache Software Foundation (ASF) under one
 or more contributor license agreements.  See the NOTICE file
@@ -18,29 +17,37 @@ KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
-
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
     <groupId>org.apache.maven</groupId>
-    <!-- we need to have a different gav for pom.xml and site-pom.xml -->
-    <!-- dot at the end is on purpose -->
-    <artifactId>maven-parent.</artifactId>
+    <artifactId>docs</artifactId>
     <version>42-SNAPSHOT</version>
-    <relativePath>../site-pom.xml</relativePath>
   </parent>
 
-  <groupId>org.apache.maven.plugins</groupId>
-  <artifactId>maven-plugins</artifactId>
+  <groupId>org.apache.maven.doxia</groupId>
+  <artifactId>doxia-tools-docs</artifactId>
   <packaging>pom</packaging>
 
-  <name>Apache Maven Plugins Parent POM</name>
-  <description>This project consists of a POM that contains settings that are likely to be useful to any Maven plugin that is building and releasing code with Maven.</description>
+  <name>Apache Maven Doxia Tools Parent POM</name>
+  <description>This project consists of a POM that contains settings that are likely to be useful to any Maven Doxia Tool that is building and releasing code with Maven.</description>
+  <url>https://maven.apache.org/pom/maven/doxia-tools</url>
+
+  <scm>
+    <url>https://github.com/apache/maven-parent/tree/${project.scm.tag}/doxia-tools</url>
+  </scm>
 
   <issueManagement>
     <system>jira</system>
     <url>https://issues.apache.org/jira/projects/MPOM</url>
   </issueManagement>
+
+  <distributionManagement>
+    <site>
+      <id>apache.website</id>
+      <url>scm:svn:https://svn.apache.org/repos/asf/maven/website/components/${maven.site.path}/doxia-tools</url>
+    </site>
+  </distributionManagement>
+
 </project>

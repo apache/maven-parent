@@ -25,26 +25,17 @@ under the License.
   <body>
     <breadcrumbs>
       <item name="Maven" href="https://maven.apache.org/pom/maven/index.html" />
-      <item name="Extensions" href="https://maven.apache.org/pom/maven/maven-extensions/index.html" />
+      <item name="Shared Components" href="https://maven.apache.org/pom/maven/maven-shared-components/index.html" />
     </breadcrumbs>
 
     <menu name="Maven Parent POMs">
       <item name="Maven" href="../index.html"/>
       <item name="Plugins" href="../maven-plugins/index.html"/>
       <item name="Extensions" href="../maven-extensions/index.html"/>
-      <item name="Shared Components" href="../maven-shared-components/index.html"/>
+      <item name="Shared Components" href="index.html"/>
       <item name="Skins" href="../maven-skins/index.html"/>
       <item name="Doxia Tools" href="../doxia-tools/index.html"/>
     </menu>
 
-    <menu ref="reports" />
-
-    <menu name="ASF">
-      <item name="How Apache Works"  href="https://www.apache.org/foundation/how-it-works.html"/>
-      <item name="Foundation"        href="https://www.apache.org/foundation/"/>
-      <item name="Data Privacy"      href="https://privacy.apache.org/policies/privacy-policy-public.html"/>
-      <item name="Sponsoring Apache" href="https://www.apache.org/foundation/sponsorship.html"/>
-      <item name="Thanks"            href="https://www.apache.org/foundation/thanks.html"/>
-    </menu>
   </body>
 </project>
