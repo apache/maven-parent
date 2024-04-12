@@ -20,12 +20,12 @@ under the License.
 -->
 
 <project xmlns="http://maven.apache.org/DECORATION/1.8.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/DECORATION/1.8.0 http://maven.apache.org/xsd/decoration-1.8.0.xsd">
+ xsi:schemaLocation="http://maven.apache.org/DECORATION/1.8.0 http://maven.apache.org/xsd/decoration-1.8.0.xsd">
 
   <body>
     <breadcrumbs>
       <item name="Maven" href="https://maven.apache.org/pom/maven/index.html" />
-      <item name="Shared Components" href="https://maven.apache.org/pom/maven/maven-shared-components/index.html" />
+      <item name="Skins" href="https://maven.apache.org/pom/maven/maven-skins/index.html" />
     </breadcrumbs>
 
     <menu name="Maven Parent POMs">
@@ -33,18 +33,8 @@ under the License.
       <item name="Plugins" href="../maven-plugins/index.html"/>
       <item name="Extensions" href="../maven-extensions/index.html"/>
       <item name="Shared Components" href="../maven-shared-components/index.html"/>
-      <item name="Skins" href="../maven-skins/index.html"/>
+      <item name="Skins" href="index.html"/>
       <item name="Doxia Tools" href="../doxia-tools/index.html"/>
-    </menu>
-
-    <menu ref="reports" />
-
-    <menu name="ASF">
-      <item name="How Apache Works"  href="https://www.apache.org/foundation/how-it-works.html"/>
-      <item name="Foundation"        href="https://www.apache.org/foundation/"/>
-      <item name="Data Privacy"      href="https://privacy.apache.org/policies/privacy-policy-public.html"/>
-      <item name="Sponsoring Apache" href="https://www.apache.org/foundation/sponsorship.html"/>
-      <item name="Thanks"            href="https://www.apache.org/foundation/thanks.html"/>
     </menu>
 
   </body>
