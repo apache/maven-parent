@@ -35,6 +35,7 @@ under the License.
   <url>https://maven.apache.org/pom/maven/doxia-tools</url>
 
   <scm>
+    <tag>master</tag>
     <url>https://github.com/apache/maven-parent/tree/${project.scm.tag}/doxia-tools</url>
   </scm>
 

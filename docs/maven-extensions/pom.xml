@@ -35,6 +35,7 @@ under the License.
   <url>https://maven.apache.org/pom/maven/maven-extensions</url>
 
   <scm>
+    <tag>master</tag>
     <url>https://github.com/apache/maven-parent/tree/${project.scm.tag}/maven-extensions</url>
   </scm>
 
