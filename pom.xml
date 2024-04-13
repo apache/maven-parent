@@ -24,7 +24,7 @@ under the License.
   <parent>
     <groupId>org.apache</groupId>
     <artifactId>apache</artifactId>
-    <version>32-SNAPSHOT</version>
+    <version>32</version>
     <relativePath />
   </parent>
 
@@ -949,7 +949,6 @@ under the License.
     <maven.compiler.showDeprecation>true</maven.compiler.showDeprecation>
     <!-- in order to restore default annotation processing behaviour, please override with empty value -->
     <maven.compiler.proc>none</maven.compiler.proc>
-    <sonar.host.url>https://builds.apache.org/analysis/</sonar.host.url>
     <maven.site.cache>${user.home}/maven-sites</maven.site.cache>
     <!-- to be overridden -->
     <maven.site.path>../..</maven.site.path>
@@ -1108,13 +1107,6 @@ under the License.
               <excludeRoot>${project.build.directory}/generated-sources/modello</excludeRoot>
               <excludeRoot>${project.build.directory}/generated-sources/plugin</excludeRoot>
             </excludeRoots>
-          </configuration>
-        </plugin>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-release-plugin</artifactId>
-          <configuration>
-            <autoVersionSubmodules>true</autoVersionSubmodules>
           </configuration>
         </plugin>
         <plugin>
@@ -1346,9 +1338,6 @@ under the License.
       <activation>
         <jdk>[11,)</jdk>
       </activation>
-      <properties>
-        <maven.compiler.release>${javaVersion}</maven.compiler.release>
-      </properties>
       <build>
         <!--- newer versions of plugins requires JDK 11 -->
         <plugins>
