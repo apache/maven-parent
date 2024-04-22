@@ -39,11 +39,6 @@ under the License.
     <url>https://github.com/apache/maven-parent/tree/${project.scm.tag}/maven-extensions</url>
   </scm>
 
-  <issueManagement>
-    <system>jira</system>
-    <url>https://issues.apache.org/jira/projects/MPOM</url>
-  </issueManagement>
-
   <distributionManagement>
     <site>
       <id>apache.website</id>
