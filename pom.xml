@@ -959,6 +959,7 @@ under the License.
     <version.plexus-xml>3.0.1</version.plexus-xml>
     <versions.junit5>5.10.2</versions.junit5>
     <version.maven-fluido-skin>1.11.2</version.maven-fluido-skin>
+    <version.maven-shared-resources>5</version.maven-shared-resources>
     <!-- don't fail check for some rules that are too hard to enforce (could even be told broken for some)
          and those that are enforced by the formatting checks from spotless -->
     <checkstyle.violation.ignore>ParameterNumber,MethodLength,FileLength</checkstyle.violation.ignore>
@@ -1085,7 +1086,7 @@ under the License.
             <dependency>
               <groupId>org.apache.maven.shared</groupId>
               <artifactId>maven-shared-resources</artifactId>
-              <version>5</version>
+              <version>${version.maven-shared-resources}</version>
             </dependency>
           </dependencies>
         </plugin>
@@ -1219,7 +1220,7 @@ under the License.
             <dependency>
               <groupId>org.apache.maven.shared</groupId>
               <artifactId>maven-shared-resources</artifactId>
-              <version>5</version>
+              <version>${version.maven-shared-resources}</version>
             </dependency>
           </dependencies>
           <executions>
