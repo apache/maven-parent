@@ -960,9 +960,6 @@ under the License.
     <versions.junit5>5.10.2</versions.junit5>
     <version.maven-fluido-skin>1.11.2</version.maven-fluido-skin>
     <version.maven-shared-resources>5</version.maven-shared-resources>
-    <!-- don't fail check for some rules that are too hard to enforce (could even be told broken for some)
-         and those that are enforced by the formatting checks from spotless -->
-    <checkstyle.violation.ignore>ParameterNumber,MethodLength,FileLength</checkstyle.violation.ignore>
     <project.build.outputTimestamp>2024-04-13T21:16:21Z</project.build.outputTimestamp>
   </properties>
 
