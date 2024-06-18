@@ -76,7 +76,7 @@ under the License.
       <item name="Parent POMs"       href="https://maven.apache.org/pom/index.html" />
       <item name="Plugins"           href="https://maven.apache.org/plugins/index.html" />
       <item name="Skins"             href="https://maven.apache.org/skins/index.html" />
-      <item name="">
+      <item name="Components">
         <item name="Archetype"         href="https://maven.apache.org/archetype/index.html" />
         <item name="Artifact Resolver" href="https://maven.apache.org/resolver/index.html" />
         <item name="Doxia"             href="https://maven.apache.org/doxia/index.html" />
