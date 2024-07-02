@@ -50,14 +50,6 @@ under the License.
     <maven.site.path>plugins-archives/${project.artifactId}-LATEST</maven.site.path>
   </properties>
 
-  <dependencies>
-    <!-- dependencies to annotations -->
-    <dependency>
-      <groupId>org.apache.maven.plugin-tools</groupId>
-      <artifactId>maven-plugin-annotations</artifactId>
-    </dependency>
-  </dependencies>
-
   <build>
     <pluginManagement>
       <plugins>
