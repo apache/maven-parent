@@ -24,7 +24,6 @@ under the License.
 
 <!-- Start copy/paste of src/site/site.xml: inheritance does not work here because of src/site-docs hack -->
   <bannerLeft>
-    <name>${project.name}</name>
     <src>https://maven.apache.org/images/apache-maven-project.png</src>
     <href>https://www.apache.org/</href>
   </bannerLeft>
