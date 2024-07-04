@@ -1554,6 +1554,7 @@ under the License.
             <groupId>org.codehaus.mojo</groupId>
             <artifactId>taglist-maven-plugin</artifactId>
             <configuration>
+              <skipEmptyReport>true</skipEmptyReport>
               <tagListOptions>
                 <tagClasses>
                   <tagClass>
