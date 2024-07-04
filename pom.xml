@@ -24,7 +24,7 @@ under the License.
   <parent>
     <groupId>org.apache</groupId>
     <artifactId>apache</artifactId>
-    <version>33-SNAPSHOT</version>
+    <version>33</version>
     <relativePath />
   </parent>
 
