@@ -954,7 +954,7 @@ under the License.
     <maven.site.path>../..</maven.site.path>
     <invoker.streamLogsOnFailures>true</invoker.streamLogsOnFailures>
     <version.sisu-maven-plugin>0.9.0.M3</version.sisu-maven-plugin>
-    <version.plexus-utils>4.0.1</version.plexus-utils>
+    <version.plexus-utils>4.0.2</version.plexus-utils>
     <!-- DO NOT UPGRADE to 4: incompatible with Maven 3 -->
     <version.plexus-xml>3.0.1</version.plexus-xml>
     <versions.junit5>5.10.3</versions.junit5>
