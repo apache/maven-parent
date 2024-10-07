@@ -957,7 +957,7 @@ under the License.
     <version.plexus-utils>4.0.1</version.plexus-utils>
     <!-- DO NOT UPGRADE to 4: incompatible with Maven 3 -->
     <version.plexus-xml>3.0.1</version.plexus-xml>
-    <versions.junit5>5.10.3</versions.junit5>
+    <versions.junit5>5.11.2</versions.junit5>
     <version.maven-fluido-skin>1.12.0</version.maven-fluido-skin>
     <version.maven-shared-resources>6</version.maven-shared-resources>
     <project.build.outputTimestamp>2024-07-04T20:44:45Z</project.build.outputTimestamp>
