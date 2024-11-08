@@ -963,13 +963,14 @@ under the License.
 
     <!-- Upgrade to Doxia 2, to be removed with next parent pom upgrade -->
     <version.maven-plugin-tools>3.15.0</version.maven-plugin-tools>
-    <version.maven-javadoc-plugin>3.10.1</version.maven-javadoc-plugin>
+    <version.maven-javadoc-plugin>3.11.1</version.maven-javadoc-plugin>
     <version.maven-invoker-plugin>3.8.1</version.maven-invoker-plugin>
     <version.maven-help-plugin>3.5.1</version.maven-help-plugin>
     <version.maven-site-plugin>3.21.0</version.maven-site-plugin>
     <version.maven-fluido-skin>2.0.0</version.maven-fluido-skin>
-    <surefire.version>3.5.1</surefire.version>
+    <surefire.version>3.5.2</surefire.version>
     <version.maven-project-info-reports-plugin>3.8.0</version.maven-project-info-reports-plugin>
+    <version.maven-plugin-tools>3.15.0</version.maven-plugin-tools>
   </properties>
 
   <dependencyManagement>
