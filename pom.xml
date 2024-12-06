@@ -1371,7 +1371,7 @@ under the License.
       <id>format-check</id>
       <activation>
         <property>
-          <name>!format</name>
+          <name>env.CI</name>
         </property>
       </activation>
       <properties>
@@ -1382,7 +1382,7 @@ under the License.
       <id>format</id>
       <activation>
         <property>
-          <name>format</name>
+          <name>!env.CI</name>
         </property>
       </activation>
       <properties>
