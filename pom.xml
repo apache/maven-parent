@@ -1202,6 +1202,8 @@ under the License.
                 <file>config/maven-header-plain.txt</file>
               </licenseHeader>
             </java>
+            <!-- accept all endings to support validations on top of source archives -->
+            <lineEndings>PRESERVE</lineEndings>
             <pom>
               <sortPom>
                 <expandEmptyElements>false</expandEmptyElements>
