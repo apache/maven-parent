@@ -70,7 +70,26 @@ under the License.
     <!-- modules with documentation not need to install and deploy -->
     <maven.install.skip>true</maven.install.skip>
     <maven.deploy.skip>true</maven.deploy.skip>
+
+    <downloadDirectory>pom</downloadDirectory>
+    <downloadArtifactId>maven-parent</downloadArtifactId>
   </properties>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-remote-resources-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>site-download</id>
+            <phase>pre-site</phase>
+            <inherited>false</inherited>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
 
   <reporting>
     <plugins>
