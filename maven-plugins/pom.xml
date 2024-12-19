@@ -48,6 +48,7 @@ under the License.
 
   <properties>
     <maven.site.path>plugins-archives/${project.artifactId}-LATEST</maven.site.path>
+    <enforce.dependency.declarations>false</enforce.dependency.declarations>
   </properties>
 
   <build>
@@ -139,7 +140,7 @@ under the License.
               <goal>analyze-only</goal>
             </goals>
             <configuration>
-              <failOnWarning>false</failOnWarning>
+              <failOnWarning>${enforce.dependency.declarations}</failOnWarning>
               <ignoredDependencies>org.apache.maven:maven-compat:*,org.slf4j:slf4j-simple:*</ignoredDependencies>
             </configuration>
           </execution>
