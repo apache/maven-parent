@@ -141,7 +141,10 @@ under the License.
             </goals>
             <configuration>
               <failOnWarning>${enforce.dependency.declarations}</failOnWarning>
-              <ignoredDependencies>org.apache.maven:maven-compat:*,org.slf4j:slf4j-simple:*</ignoredDependencies>
+              <ignoredDependencies>
+                <ignoredDependency>org.apache.maven:maven-compat:*</ignoredDependency>
+                <ignoredDependency>org.slf4j:slf4j-simple:*</ignoredDependency>
+              </ignoredDependencies>
             </configuration>
           </execution>
         </executions>
