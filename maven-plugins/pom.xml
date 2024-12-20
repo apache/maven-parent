@@ -48,6 +48,7 @@ under the License.
 
   <properties>
     <maven.site.path>plugins-archives/${project.artifactId}-LATEST</maven.site.path>
+    <enforce.dependency.declarations>false</enforce.dependency.declarations>
   </properties>
 
   <build>
@@ -125,6 +126,25 @@ under the License.
                 </bannedDependencies>
               </rules>
               <fail>true</fail>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-dependency-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>analyze</id>
+            <goals>
+              <goal>analyze-only</goal>
+            </goals>
+            <configuration>
+              <failOnWarning>${enforce.dependency.declarations}</failOnWarning>
+              <ignoredUnusedDeclaredDependencies>
+                <ignoredUnusedDeclaredDependency>org.apache.maven:maven-compat</ignoredUnusedDeclaredDependency>
+                <ignoredUnusedDeclaredDependency>org.slf4j:slf4j-simple</ignoredUnusedDeclaredDependency>
+              </ignoredUnusedDeclaredDependencies>
             </configuration>
           </execution>
         </executions>
