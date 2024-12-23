@@ -914,6 +914,7 @@ under the License.
     <module>maven-skins</module>
     <module>doxia-tools</module>
     <module>docs</module>
+    <module>maven-shared-doc-resource</module>
   </modules>
 
   <scm>
@@ -958,8 +959,9 @@ under the License.
     <!-- DO NOT UPGRADE to 4: incompatible with Maven 3 -->
     <version.plexus-xml>3.0.1</version.plexus-xml>
     <versions.junit5>5.11.3</versions.junit5>
-    <version.maven-fluido-skin>1.12.0</version.maven-fluido-skin>
+    <version.maven-fluido-skin>2.0.0</version.maven-fluido-skin>
     <version.maven-shared-resources>6</version.maven-shared-resources>
+    <version.maven-site-plugin>3.21.0</version.maven-site-plugin>
     <project.build.outputTimestamp>2024-07-04T20:44:45Z</project.build.outputTimestamp>
   </properties>
 
@@ -1229,6 +1231,25 @@ under the License.
                 <goal>${spotless.action}</goal>
               </goals>
               <phase>process-sources</phase>
+            </execution>
+          </executions>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-remote-resources-plugin</artifactId>
+          <executions>
+            <execution>
+              <id>site-download</id>
+              <goals>
+                <goal>process</goal>
+              </goals>
+              <phase>none</phase>
+              <configuration>
+                <resourceBundles>
+                  <bundle>org.apache.maven:maven-shared-doc-resource:44-SNAPSHOT</bundle>
+                </resourceBundles>
+                <outputDirectory>${project.build.directory}/generated-site</outputDirectory>
+              </configuration>
             </execution>
           </executions>
         </plugin>
