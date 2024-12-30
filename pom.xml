@@ -960,7 +960,7 @@ under the License.
   </distributionManagement>
 
   <properties>
-    <javaVersion>8</javaVersion>
+    <javaVersion>17</javaVersion>
     <maven.compiler.release>${javaVersion}</maven.compiler.release>
     <maven.compiler.showDeprecation>true</maven.compiler.showDeprecation>
     <checkstyle.includeTestSourceDirectory>true</checkstyle.includeTestSourceDirectory>
