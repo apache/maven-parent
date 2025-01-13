@@ -947,6 +947,7 @@ under the License.
     <maven.compiler.source>${javaVersion}</maven.compiler.source>
     <maven.compiler.target>${javaVersion}</maven.compiler.target>
     <maven.compiler.showDeprecation>true</maven.compiler.showDeprecation>
+    <checkstyle.includeTestSourceDirectory>true</checkstyle.includeTestSourceDirectory>
     <!-- in order to restore default annotation processing behaviour, please override with empty value -->
     <maven.compiler.proc>none</maven.compiler.proc>
     <maven.site.cache>${user.home}/maven-sites</maven.site.cache>
@@ -1077,6 +1078,7 @@ under the License.
             <testSourceDirectories>
               <testSourceDirectory>src/test/java</testSourceDirectory>
             </testSourceDirectories>
+            <includeTestSourceDirectory>${checkstyle.includeTestSourceDirectory}</includeTestSourceDirectory>
           </configuration>
           <dependencies>
             <!-- MCHECKSTYLE-327: the maven_checks.xml was moved to a shared project -->
