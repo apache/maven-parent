@@ -521,6 +521,15 @@ under the License.
       </roles>
     </developer>
     <developer>
+      <id>mbuenger</id>
+      <name>Matthias Bünger</name>
+      <email>mbuenger@apache.org</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>Europe/Berlin</timezone>
+    </developer>
+    <developer>
       <id>mfriedenhagen</id>
       <name>Mirko Friedenhagen</name>
       <email>mfriedenhagen@apache.org</email>
