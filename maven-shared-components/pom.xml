@@ -51,6 +51,7 @@ under the License.
 
   <properties>
     <maven.site.path>shared-archives/${project.artifactId}-LATEST</maven.site.path>
+    <maven4x.site.path>shared-archives/${project.artifactId}-LATEST-4.x</maven4x.site.path>
   </properties>
 
   <build>

@@ -70,14 +70,26 @@ mvn -Preporting site
 * Site Publication
 
     This POM prepares site publication to {{{/developers/website/index.html}Apache Maven's site svnpubsub}}.
-    Every inheriting POM needs to define <<<maven.site.path>>> property
-    with relative path to <<<$\{project.artifactId}-LATEST>>> publication uri, and define <<<distributionManagement>>> to avoid
-    automatic inheritance from parent:
+
+    There are defined <<<maven.site.path>>> properties in parent POM for each supported component type, as:
 
 +-----+
   <properties>
     <maven.site.path>xxx-archives/\${project.artifactId}-LATEST</maven.site.path>
   </properties>
++-----+
+
+    For maven-extensions, maven-plugins and maven-shared-components which target Maven 4.x there are properties in parent POM:
+
++-----+
+  <properties>
+    <maven4x.site.path>xxx-archives/\${project.artifactId}-LATEST-4.x</maven4x.site.path>
+  </properties>
++-----+
+
+    Every inherited POM needs to define <<<distributionManagement>>> to avoid automatic inheritance from parent:
+
++-----+
   <distributionManagement>
     <site>
       <id>apache.website</id>

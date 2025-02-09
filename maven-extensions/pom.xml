@@ -43,6 +43,7 @@ under the License.
 
   <properties>
     <maven.site.path>extensions-archives/${project.artifactId}-LATEST</maven.site.path>
+    <maven4x.site.path>extensions-archives/${project.artifactId}-LATEST-4.x</maven4x.site.path>
   </properties>
 
   <build>
