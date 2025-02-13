@@ -19,17 +19,15 @@ specific language governing permissions and limitations
 under the License.
 -->
 
-<project xmlns="http://maven.apache.org/DECORATION/1.8.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/DECORATION/1.8.1 https://maven.apache.org/xsd/decoration-1.8.1.xsd">
+<site xmlns="http://maven.apache.org/SITE/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://maven.apache.org/SITE/2.0.0 https://maven.apache.org/xsd/site-2.0.0.xsd">
 
-  <bannerLeft>
-    <src>https://maven.apache.org/images/apache-maven-project.png</src>
-    <href>https://www.apache.org/</href>
+  <bannerLeft href="https://www.apache.org/">
+    <image src="https://maven.apache.org/images/apache-maven-project.png" />
   </bannerLeft>
 
-  <bannerRight>
-    <src>https://maven.apache.org/images/maven-logo-black-on-white.png</src>
-    <href>https://maven.apache.org/</href>
+  <bannerRight href="https://maven.apache.org/">
+    <image src="https://maven.apache.org/images/maven-logo-black-on-white.png" />
   </bannerRight>
 
   <skin>
@@ -45,9 +43,9 @@ under the License.
       <siteId>3</siteId>
       <url>https://analytics.apache.org/</url>
       <options>
-        <disableCookies/>
-        <trackPageView/>
-        <enableLinkTracking/>
+        <disableCookies />
+        <trackPageView />
+        <enableLinkTracking />
       </options>
     </matomo>
     <fluidoSkin>
@@ -63,41 +61,41 @@ under the License.
     <!-- Breadcrumbs that every project will inherit -->
     <breadcrumbs>
       <item name="Apache" href="https://www.apache.org/" />
-      <item name="Maven"  href="https://maven.apache.org/index.html" />
+      <item name="Maven" href="https://maven.apache.org/index.html" />
     </breadcrumbs>
 
     <!-- Menus that every project will inherit -->
     <menu ref="reports" inherit="bottom" />
 
     <menu name="Maven Projects" inherit="bottom">
-      <item name="Maven"             href="https://maven.apache.org/ref/current" />
-      <item name="Archetypes"        href="https://maven.apache.org/archetypes/index.html" />
-      <item name="Extensions"        href="https://maven.apache.org/extensions/index.html" />
-      <item name="Parent POMs"       href="https://maven.apache.org/pom/index.html" />
-      <item name="Plugins"           href="https://maven.apache.org/plugins/index.html" />
-      <item name="Skins"             href="https://maven.apache.org/skins/index.html" />
+      <item name="Maven" href="https://maven.apache.org/ref/current" />
+      <item name="Archetypes" href="https://maven.apache.org/archetypes/index.html" />
+      <item name="Extensions" href="https://maven.apache.org/extensions/index.html" />
+      <item name="Parent POMs" href="https://maven.apache.org/pom/index.html" />
+      <item name="Plugins" href="https://maven.apache.org/plugins/index.html" />
+      <item name="Skins" href="https://maven.apache.org/skins/index.html" />
       <item name="Components">
-        <item name="Archetype"         href="https://maven.apache.org/archetype/index.html" />
+        <item name="Archetype" href="https://maven.apache.org/archetype/index.html" />
         <item name="Artifact Resolver" href="https://maven.apache.org/resolver/index.html" />
-        <item name="Doxia"             href="https://maven.apache.org/doxia/index.html" />
-        <item name="Indexer"           href="https://maven.apache.org/maven-indexer/index.html" />
-        <item name="JXR"               href="https://maven.apache.org/jxr/index.html" />
-        <item name="Plugin Testing"    href="https://maven.apache.org/plugin-testing/index.html" />
-        <item name="Plugin Tools"      href="https://maven.apache.org/plugin-tools/index.html" />
-        <item name="Resource Bundles"  href="https://maven.apache.org/apache-resource-bundles/index.html" />
-        <item name="SCM"               href="https://maven.apache.org/scm/index.html" />
+        <item name="Doxia" href="https://maven.apache.org/doxia/index.html" />
+        <item name="Indexer" href="https://maven.apache.org/maven-indexer/index.html" />
+        <item name="JXR" href="https://maven.apache.org/jxr/index.html" />
+        <item name="Plugin Testing" href="https://maven.apache.org/plugin-testing/index.html" />
+        <item name="Plugin Tools" href="https://maven.apache.org/plugin-tools/index.html" />
+        <item name="Resource Bundles" href="https://maven.apache.org/apache-resource-bundles/index.html" />
+        <item name="SCM" href="https://maven.apache.org/scm/index.html" />
         <item name="Shared Components" href="https://maven.apache.org/shared/index.html" />
-        <item name="Surefire"          href="https://maven.apache.org/surefire/index.html" />
-        <item name="Wagon"             href="https://maven.apache.org/wagon/index.html" />
+        <item name="Surefire" href="https://maven.apache.org/surefire/index.html" />
+        <item name="Wagon" href="https://maven.apache.org/wagon/index.html" />
       </item>
     </menu>
     <menu name="ASF" inherit="bottom">
-      <item name="How Apache Works"  href="https://www.apache.org/foundation/how-it-works.html"/>
-      <item name="Foundation"        href="https://www.apache.org/foundation/"/>
-      <item name="Data Privacy"      href="https://privacy.apache.org/policies/privacy-policy-public.html"/>
-      <item name="Sponsoring Apache" href="https://www.apache.org/foundation/sponsorship.html"/>
-      <item name="Thanks"            href="https://www.apache.org/foundation/thanks.html"/>
+      <item name="How Apache Works" href="https://www.apache.org/foundation/how-it-works.html" />
+      <item name="Foundation" href="https://www.apache.org/foundation/" />
+      <item name="Data Privacy" href="https://privacy.apache.org/policies/privacy-policy-public.html" />
+      <item name="Sponsoring Apache" href="https://www.apache.org/foundation/sponsorship.html" />
+      <item name="Thanks" href="https://www.apache.org/foundation/thanks.html" />
     </menu>
 
   </body>
-</project>
+</site>
