@@ -98,6 +98,14 @@ mvn -Preporting site
   </distributionManagement>
 +-----+
 
+    NOTE: For Maven 4.x publishing we need to override property <<<maven.site.path>>> by <<<maven4x.site.path>>>:
+
++-----+
+  <properties>
+    <maven.site.path>${maven4x.site.path}</maven.site.path>
+  </properties>
++-----+
+
     Once this is configured, the site can be published with:
 
 +-----+
