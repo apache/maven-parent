@@ -41,16 +41,14 @@ under the License.
   <!-- Developers listed by PMC Chair, PMC, Committers, Contributers, all alphabetical-->
   <developers>
     <developer>
-      <id>khmarbaise</id>
-      <name>Karl Heinz Marbaise</name>
-      <email>khmarbaise@apache.org</email>
+      <id>hboutemy</id>
+      <name>Hervé Boutemy</name>
+      <email>hboutemy@apache.org</email>
+      <organization>ASF</organization>
       <roles>
         <role>PMC Chair</role>
       </roles>
-      <timezone>+1</timezone>
-      <properties>
-        <twitter>@khmarbaise</twitter>
-      </properties>
+      <timezone>Europe/Paris</timezone>
     </developer>
     <developer>
       <id>aheritier</id>
@@ -177,16 +175,6 @@ under the License.
       <timezone>America/Los_Angeles</timezone>
     </developer>
     <developer>
-      <id>hboutemy</id>
-      <name>Hervé Boutemy</name>
-      <email>hboutemy@apache.org</email>
-      <organization>ASF</organization>
-      <roles>
-        <role>PMC Member</role>
-      </roles>
-      <timezone>Europe/Paris</timezone>
-    </developer>
-    <developer>
       <id>ifedorenko</id>
       <name>Igor Fedorenko</name>
       <email>igor@ifedorenko.com</email>
@@ -204,6 +192,18 @@ under the License.
         <role>PMC Member</role>
       </roles>
       <timezone>-5</timezone>
+    </developer>
+    <developer>
+      <id>khmarbaise</id>
+      <name>Karl Heinz Marbaise</name>
+      <email>khmarbaise@apache.org</email>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>+1</timezone>
+      <properties>
+        <twitter>@khmarbaise</twitter>
+      </properties>
     </developer>
     <developer>
       <id>krosenvold</id>
