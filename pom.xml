@@ -1079,14 +1079,8 @@ under the License.
           <artifactId>maven-checkstyle-plugin</artifactId>
           <configuration>
             <configLocation>config/maven_checks_nocodestyle.xml</configLocation>
-            <!-- workaround to avoid analysing generated content (Modello, plugin help mojo, ...) -->
-            <sourceDirectories>
-              <sourceDirectory>src/main/java</sourceDirectory>
-            </sourceDirectories>
-            <testSourceDirectories>
-              <testSourceDirectory>src/test/java</testSourceDirectory>
-            </testSourceDirectories>
             <includeTestSourceDirectory>${checkstyle.includeTestSourceDirectory}</includeTestSourceDirectory>
+            <excludeGeneratedSources>true</excludeGeneratedSources>
           </configuration>
           <dependencies>
             <!-- MCHECKSTYLE-327: the maven_checks.xml was moved to a shared project -->
