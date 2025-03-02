@@ -71,19 +71,27 @@ mvn -Preporting site
 
     This POM prepares site publication to {{{/developers/website/index.html}Apache Maven's site svnpubsub}}.
 
+    There are defined <<<maven.site.path.suffix>>> properties in parent POM, as:
+
++-----+
+  <properties>
+    <maven.site.path.suffix>LATEST</maven.site.path.suffix>
+  </properties>
++-----+
+
+    Inherited project can change it in order to publish site in other path, like as:
+
++-----+
+  <properties>
+    <maven.site.path.suffix>LATEST-4.x</maven.site.path.suffix>
+  </properties>
++-----+
+
     There are defined <<<maven.site.path>>> properties in parent POM for each supported component type, as:
 
 +-----+
   <properties>
-    <maven.site.path>xxx-archives/\${project.artifactId}-LATEST</maven.site.path>
-  </properties>
-+-----+
-
-    For maven-extensions, maven-plugins and maven-shared-components which target Maven 4.x there are properties in parent POM:
-
-+-----+
-  <properties>
-    <maven4x.site.path>xxx-archives/\${project.artifactId}-LATEST-4.x</maven4x.site.path>
+    <maven.site.path>xxx-archives/\${project.artifactId}-${maven.site.path.suffix}</maven.site.path>
   </properties>
 +-----+
 
@@ -96,14 +104,6 @@ mvn -Preporting site
       <url>scm:svn:https://svn.apache.org/repos/infra/websites/production/maven/components/${maven.site.path}</url>
     </site>
   </distributionManagement>
-+-----+
-
-    NOTE: For Maven 4.x publishing we need to override property <<<maven.site.path>>> by <<<maven4x.site.path>>>:
-
-+-----+
-  <properties>
-    <maven.site.path>${maven4x.site.path}</maven.site.path>
-  </properties>
 +-----+
 
     Once this is configured, the site can be published with:

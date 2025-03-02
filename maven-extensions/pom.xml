@@ -42,8 +42,7 @@ under the License.
   </distributionManagement>
 
   <properties>
-    <maven.site.path>extensions-archives/${project.artifactId}-LATEST</maven.site.path>
-    <maven4x.site.path>extensions-archives/${project.artifactId}-LATEST-4.x</maven4x.site.path>
+    <maven.site.path>extensions-archives/${project.artifactId}-${maven.site.path.suffix}</maven.site.path>
   </properties>
 
   <build>
