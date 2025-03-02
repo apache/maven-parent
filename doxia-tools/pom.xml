@@ -53,7 +53,7 @@ under the License.
 
   <properties>
     <projectVersion>${project.version}</projectVersion>
-    <maven.site.path>doxia-tools-archives/${project.artifactId}-LATEST</maven.site.path>
+    <maven.site.path>doxia-tools-archives/${project.artifactId}-${maven.site.path.suffix}</maven.site.path>
   </properties>
 
   <build>
