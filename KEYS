@@ -1,12 +1,15 @@
 Edit this file in SVN at https://svn.apache.org/repos/asf/maven/project/KEYS
-then update in /dist/maven/KEYS by
+
+Then publish to download area /dist/maven/KEYS by
 
 svn co https://dist.apache.org/repos/dist/release/maven dist-maven
 cd dist-maven
 svn cat https://svn.apache.org/repos/asf/maven/project/KEYS > KEYS
 
-then commit: This is a PMC activity. If you are not a PMC member then email
-private@maven.apache.org with a request to update this file for you
+then commit.
+Download area publication is a PMC activity. If you are not a PMC member
+then email private@maven.apache.org with a request to publish your
+modification.
 
 Note: This file UTF-8 encoded.
 ---
