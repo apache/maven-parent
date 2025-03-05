@@ -47,8 +47,7 @@ under the License.
   </distributionManagement>
 
   <properties>
-    <maven.site.path>plugins-archives/${project.artifactId}-LATEST</maven.site.path>
-    <maven4x.site.path>plugins-archives/${project.artifactId}-LATEST-4.x</maven4x.site.path>
+    <maven.site.path>plugins-archives/${project.artifactId}-${maven.site.path.suffix}</maven.site.path>
     <enforce.dependency.declarations>false</enforce.dependency.declarations>
   </properties>
 
