@@ -1,10 +1,10 @@
-Edit this file in SVN at https://svn.apache.org/repos/asf/maven/project/KEYS
+Edit this file in https://github.com/apache/maven-parent/
 
 Then publish to download area /dist/maven/KEYS by
 
 svn co https://dist.apache.org/repos/dist/release/maven dist-maven
 cd dist-maven
-svn cat https://svn.apache.org/repos/asf/maven/project/KEYS > KEYS
+curl https://raw.githubusercontent.com/apache/maven-parent/refs/heads/master/KEYS > KEYS
 
 then commit.
 Download area publication is a PMC activity. If you are not a PMC member
