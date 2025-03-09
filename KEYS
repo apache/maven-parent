@@ -1,6 +1,9 @@
 Edit this file in https://github.com/apache/maven-parent/
 
-Then publish to download area /dist/maven/KEYS by
+gpg --list-sigs <your key ID> >> KEYS
+gpg --armor --export <your key ID> >> KEYS
+
+Then publish to download area https://downloads.apache.org/maven/
 
 svn co https://dist.apache.org/repos/dist/release/maven dist-maven
 cd dist-maven
