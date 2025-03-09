@@ -51,7 +51,7 @@ under the License.
   </distributionManagement>
 
   <properties>
-    <maven.site.path>skins-archives/${project.artifactId}-LATEST</maven.site.path>
+    <maven.site.path>skins-archives/${project.artifactId}-${maven.site.path.suffix}</maven.site.path>
   </properties>
 
   <build>
