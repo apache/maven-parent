@@ -4767,6 +4767,13 @@ z8YMgFQAoNquOa7KV9CzsoDK3AhnYGFlAuabAKC7BdePQVb50JaTycN//selXcTD
 =kzx4
 -----END PGP PUBLIC KEY BLOCK-----
 
+pub   rsa4096 2025-03-01 [SC] [verfällt: ????-??-??]
+      0766A15E29835E00A5E0A75952B7C8248994CB15
+uid        [ ultimativ ] Matthias Bünger <mbuenger@apache.org>
+sig 3        52B7C8248994CB15 2025-03-01  [Eigenbeglaubigung]
+sub   rsa4096 2025-03-01 [E] [verfällt: ????-??-??]
+sig          52B7C8248994CB15 2025-03-01  [Eigenbeglaubigung]
+
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Comment: Benutzer-ID:	Matthias Bünger <mbuenger@apache.org>
 Comment: Fingerabdruck:	0766A15E29835E00A5E0A75952B7C8248994CB15
