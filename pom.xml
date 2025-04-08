@@ -175,16 +175,6 @@ under the License.
       <timezone>America/Los_Angeles</timezone>
     </developer>
     <developer>
-      <id>ifedorenko</id>
-      <name>Igor Fedorenko</name>
-      <email>igor@ifedorenko.com</email>
-      <organization>Sonatype</organization>
-      <roles>
-        <role>PMC Member</role>
-      </roles>
-      <timezone>-5</timezone>
-    </developer>
-    <developer>
       <id>jvanzyl</id>
       <name>Jason van Zyl</name>
       <email>jason@maven.org</email>
@@ -726,6 +716,16 @@ under the License.
       <roles>
         <role>Emeritus</role>
       </roles>
+    </developer>
+    <developer>
+      <id>ifedorenko</id>
+      <name>Igor Fedorenko</name>
+      <email>igor@ifedorenko.com</email>
+      <organization>Sonatype</organization>
+      <roles>
+        <role>Emeritus</role>
+      </roles>
+      <timezone>-5</timezone>
     </developer>
     <developer>
       <id>jdcasey</id>
