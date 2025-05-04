@@ -1120,13 +1120,6 @@ under the License.</licenseText>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-release-plugin</artifactId>
-          <configuration>
-            <tagNameFormat>v@{project.version}</tagNameFormat>
-          </configuration>
-        </plugin>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-toolchains-plugin</artifactId>
           <version>3.2.0</version>
         </plugin>
