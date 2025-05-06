@@ -20,4 +20,4 @@
 _extends: maven-gh-actions-shared
 version-template: '$MAJOR'
 name-template: '$NEXT_MAJOR_VERSION'
-tag-template: 'v$NEXT_MAJOR_VERSION'
+tag-template: 'maven-parent-$NEXT_MAJOR_VERSION'
