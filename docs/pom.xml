@@ -23,7 +23,7 @@ under the License.
   <parent>
     <groupId>org.apache.maven</groupId>
     <artifactId>maven-parent</artifactId>
-    <version>45</version>
+    <version>46-SNAPSHOT</version>
   </parent>
 
   <artifactId>docs</artifactId>
@@ -42,7 +42,7 @@ under the License.
   </modules>
 
   <scm>
-    <tag>maven-parent-45</tag>
+    <tag>master</tag>
     <url>https://github.com/apache/maven-parent/tree/${project.scm.tag}/</url>
   </scm>
 
