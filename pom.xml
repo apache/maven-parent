@@ -617,6 +617,15 @@ under the License.
       <timezone>Europe/Berlin</timezone>
     </developer>
     <developer>
+      <id>sparsick</id>
+      <name>Sandra Parsick</name>
+      <email>sparsick@apache.org</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>Europe/Berlin</timezone>
+    </developer>
+    <developer>
       <id>tchemit</id>
       <name>Tony Chemit</name>
       <email>tchemit@apache.org</email>
