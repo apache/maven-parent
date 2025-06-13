@@ -23,7 +23,7 @@ under the License.
   <parent>
     <groupId>org.apache.maven</groupId>
     <artifactId>docs</artifactId>
-    <version>46-SNAPSHOT</version>
+    <version>45-SNAPSHOT</version>
   </parent>
 
   <groupId>org.apache.maven.skins</groupId>
