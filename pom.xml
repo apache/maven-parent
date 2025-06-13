@@ -1357,7 +1357,8 @@ under the License.</licenseText>
     <profile>
       <id>java11+</id>
       <activation>
-        <jdk>[11,)</jdk>
+        <!-- TODO check support for JDK 25 after palantirJavaFormat upgraded -->
+        <jdk>[11,25)</jdk>
       </activation>
       <build>
         <!--- newer versions of plugins requires JDK 11 -->
