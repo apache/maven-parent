@@ -30,7 +30,7 @@ under the License.
 
   <groupId>org.apache.maven</groupId>
   <artifactId>maven-parent</artifactId>
-  <version>45-SNAPSHOT</version>
+  <version>45</version>
   <packaging>pom</packaging>
 
   <name>Apache Maven</name>
@@ -937,7 +937,7 @@ under the License.
   <scm>
     <connection>scm:git:https://gitbox.apache.org/repos/asf/maven-parent.git</connection>
     <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/maven-parent.git</developerConnection>
-    <tag>master</tag>
+    <tag>maven-parent-45</tag>
     <url>https://github.com/apache/maven-parent/tree/${project.scm.tag}</url>
   </scm>
 
@@ -982,7 +982,7 @@ under the License.
     <version.plexus-xml>3.0.1</version.plexus-xml>
     <versions.junit5>5.13.1</versions.junit5>
     <version.maven-shared-resources>6</version.maven-shared-resources>
-    <project.build.outputTimestamp>2025-06-13T16:42:34Z</project.build.outputTimestamp>
+    <project.build.outputTimestamp>2025-06-14T08:21:05Z</project.build.outputTimestamp>
   </properties>
 
   <dependencyManagement>
