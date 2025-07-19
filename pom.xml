@@ -976,8 +976,7 @@ under the License.
     <version.sisu-maven-plugin>0.9.0.M4</version.sisu-maven-plugin>
     <version.plexus-utils>4.0.2</version.plexus-utils>
     <version.spotless-maven-plugin>2.45.0</version.spotless-maven-plugin>
-    <!-- we use version 2.56.0 due to: https://github.com/palantir/palantir-java-format/issues/1320 -->
-    <version.palantirJavaFormat>2.56.0</version.palantirJavaFormat>
+    <version.palantirJavaFormat>2.72.0</version.palantirJavaFormat>
     <!-- DO NOT UPGRADE to 4: incompatible with Maven 3 -->
     <version.plexus-xml>3.0.1</version.plexus-xml>
     <versions.junit5>5.13.3</versions.junit5>
@@ -1364,8 +1363,7 @@ under the License.</licenseText>
     <profile>
       <id>java11+</id>
       <activation>
-        <!-- TODO check support for JDK 25 after palantirJavaFormat upgraded -->
-        <jdk>[11,25)</jdk>
+        <jdk>[11,)</jdk>
       </activation>
       <build>
         <!--- newer versions of plugins requires JDK 11 -->
