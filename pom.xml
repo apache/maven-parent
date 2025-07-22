@@ -975,7 +975,7 @@ under the License.
     <invoker.streamLogsOnFailures>true</invoker.streamLogsOnFailures>
     <version.sisu-maven-plugin>0.9.0.M4</version.sisu-maven-plugin>
     <version.plexus-utils>4.0.2</version.plexus-utils>
-    <version.spotless-maven-plugin>2.45.0</version.spotless-maven-plugin>
+    <version.spotless-maven-plugin>2.46.1</version.spotless-maven-plugin>
     <!-- we use version 2.56.0 due to: https://github.com/palantir/palantir-java-format/issues/1320 -->
     <version.palantirJavaFormat>2.56.0</version.palantirJavaFormat>
     <!-- DO NOT UPGRADE to 4: incompatible with Maven 3 -->
