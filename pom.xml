@@ -1222,6 +1222,7 @@ under the License.</licenseText>
                 <version>${version.palantirJavaFormat}</version>
               </palantirJavaFormat>
               <removeUnusedImports />
+              <removeWildcardImports />
               <importOrder>
                 <file>config/maven-eclipse-importorder.txt</file>
               </importOrder>
