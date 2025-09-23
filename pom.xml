@@ -976,6 +976,7 @@ under the License.
     <version.sisu-maven-plugin>0.9.0.M4</version.sisu-maven-plugin>
     <version.plexus-utils>4.0.2</version.plexus-utils>
     <version.spotless-maven-plugin>2.46.1</version.spotless-maven-plugin>
+    <version.rewrite-maven-plugin>6.18.0</version.rewrite-maven-plugin>
     <!-- we use version 2.56.0 due to: https://github.com/palantir/palantir-java-format/issues/1320 -->
     <version.palantirJavaFormat>2.56.0</version.palantirJavaFormat>
     <!-- DO NOT UPGRADE to 4: incompatible with Maven 3 -->
@@ -1259,6 +1260,26 @@ under the License.</licenseText>
             </execution>
           </executions>
         </plugin>
+        <plugin>
+          <groupId>org.openrewrite.maven</groupId>
+          <artifactId>rewrite-maven-plugin</artifactId>
+          <version>${version.rewrite-maven-plugin}</version>
+          <configuration>
+            <exportDatatables>true</exportDatatables>
+            <failOnDryRunResults>true</failOnDryRunResults>
+            <activeRecipes>
+              <recipe>tech.picnic.errorprone.refasterrules.StreamRulesRecipes</recipe>
+            </activeRecipes>
+          </configuration>
+          <executions>
+            <execution>
+              <goals>
+                <goal>${rewrite.action}</goal>
+              </goals>
+              <phase>process-sources</phase>
+            </execution>
+          </executions>
+        </plugin>
       </plugins>
     </pluginManagement>
 
@@ -1406,6 +1427,7 @@ under the License.</licenseText>
       </activation>
       <properties>
         <spotless.action>check</spotless.action>
+        <rewrite.action>dryRun</rewrite.action>
       </properties>
     </profile>
     <profile>
@@ -1417,6 +1439,7 @@ under the License.</licenseText>
       </activation>
       <properties>
         <spotless.action>apply</spotless.action>
+        <rewrite.action>run</rewrite.action>
       </properties>
     </profile>
     <profile>
