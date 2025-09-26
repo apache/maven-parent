@@ -1439,7 +1439,6 @@ under the License.</licenseText>
       </activation>
       <properties>
         <spotless.action>apply</spotless.action>
-        <rewrite.action>run</rewrite.action>
       </properties>
     </profile>
     <profile>
