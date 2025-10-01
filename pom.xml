@@ -980,7 +980,7 @@ under the License.
     <version.palantirJavaFormat>2.56.0</version.palantirJavaFormat>
     <!-- DO NOT UPGRADE to 4: incompatible with Maven 3 -->
     <version.plexus-xml>3.0.1</version.plexus-xml>
-    <versions.junit5>5.13.4</versions.junit5>
+    <versions.junit5>6.0.0</versions.junit5>
     <version.maven-shared-resources>6</version.maven-shared-resources>
     <project.build.outputTimestamp>2025-06-14T08:21:17Z</project.build.outputTimestamp>
   </properties>
