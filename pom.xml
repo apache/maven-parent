@@ -975,6 +975,7 @@ under the License.
     <version.sisu-maven-plugin>0.9.0.M4</version.sisu-maven-plugin>
     <version.plexus-utils>4.0.2</version.plexus-utils>
     <version.spotless-maven-plugin>3.0.0</version.spotless-maven-plugin>
+    <version.palantirJavaFormat>2.80.0</version.palantirJavaFormat>
     <!-- DO NOT UPGRADE to 4: incompatible with Maven 3 -->
     <version.plexus-xml>3.0.1</version.plexus-xml>
     <versions.junit5>5.14.0</versions.junit5>
@@ -1213,7 +1214,10 @@ under the License.</licenseText>
             <java>
               <!-- orders of used formatters are important MPOM-376 -->
               <!-- eg. palantir override importOrder, so should be first -->
-              <palantirJavaFormat />
+              <palantirJavaFormat>
+                <!-- Declare version so that spotless does not choose a version based on JDK version -->
+                <version>${version.palantirJavaFormat}</version>
+              </palantirJavaFormat>
               <removeUnusedImports />
               <importOrder>
                 <file>config/maven-eclipse-importorder.txt</file>
