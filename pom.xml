@@ -981,6 +981,45 @@ under the License.
     <versions.junit5>5.14.0</versions.junit5>
     <version.maven-shared-resources>6</version.maven-shared-resources>
     <project.build.outputTimestamp>2025-06-14T08:21:17Z</project.build.outputTimestamp>
+    <error-prone.configuration-args>
+      -Xep:AmbiguousJsonCreator:OFF
+      -Xep:AssertJNullnessAssertion:OFF
+      -Xep:AutowiredConstructor:OFF
+      -Xep:CanonicalAnnotationSyntax:OFF
+      -Xep:CollectorMutability:OFF
+      -Xep:ConstantNaming:OFF
+      -Xep:DirectReturn:OFF
+      -Xep:EmptyMethod:OFF
+      -Xep:ExplicitArgumentEnumeration:OFF
+      -Xep:ExplicitEnumOrdering:OFF
+      -Xep:FormatStringConcatenation:OFF
+      -Xep:IdentityConversion:OFF
+      -Xep:ImmutablesSortedSetComparator:OFF
+      -Xep:IsInstanceLambdaUsage:OFF
+      -Xep:LexicographicalAnnotation:OFF
+      -Xep:LexicographicalAnnotationListing:OFF
+      -Xep:MockitoMockClassReference:OFF
+      -Xep:MockitoStubbing:OFF
+      -Xep:NestedOptionals:OFF
+      -Xep:PrimitiveComparison:OFF
+      -Xep:RedundantStringConversion:OFF
+      -Xep:RedundantStringEscape:OFF
+      -Xep:SelfAssignment:OFF
+      -Xep:Slf4jLogStatement:OFF
+      -Xep:StringJoin:OFF
+      -Xep:StringJoining:OFF
+      -Xep:TimeZoneUsage:OFF
+      -Xep:Unused:OFF
+      -Xep:UnusedMethod:OFF
+      -Xep:UnusedParameters:OFF
+      -Xep:UnusedVariable:ERROR
+      -XepDisableAllChecks
+      -XepDisableWarningsInGeneratedCode
+      -XepExcludedPaths:.*/generated-sources/.*
+      -XepExcludedPaths:compat/.*
+      <!-- -XepPatchChecks:UnusedVariable-->
+      <!-- -XepPatchLocation:IN_PLACE-->
+    </error-prone.configuration-args>
   </properties>
 
   <dependencyManagement>
@@ -1039,6 +1078,23 @@ under the License.
           <configuration>
             <proc>${maven.compiler.proc}</proc>
             <showDeprecation>${maven.compiler.showDeprecation}</showDeprecation>
+            <annotationProcessorPaths>
+              <path>
+                <groupId>com.google.errorprone</groupId>
+                <artifactId>error_prone_core</artifactId>
+                <version>2.42.0</version>
+              </path>
+              <path>
+                <groupId>tech.picnic.error-prone-support</groupId>
+                <artifactId>error-prone-contrib</artifactId>
+                <version>0.25.0</version>
+              </path>
+            </annotationProcessorPaths>
+            <compilerArgs>
+              <arg>--should-stop=ifError=FLOW</arg>
+              <arg>-XDcompilePolicy=simple</arg>
+              <arg>-Xplugin:ErrorProne ${error-prone.configuration-args}</arg>
+            </compilerArgs>
           </configuration>
         </plugin>
         <plugin>
