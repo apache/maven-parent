@@ -1666,5 +1666,18 @@ under the License.</licenseText>
         </pluginRepository>
       </pluginRepositories>
     </profile>
+    <profile>
+      <!-- a profile to allow dependabot to manage palantir-java-format version -->
+      <id>palantir-javaformat-dependabot</id>
+      <dependencyManagement>
+        <dependencies>
+          <dependency>
+            <groupId>com.palantir.javaformat</groupId>
+            <artifactId>palantir-java-format</artifactId>
+            <version>${version.palantirJavaFormat}</version>
+          </dependency>
+        </dependencies>
+      </dependencyManagement>
+    </profile>
   </profiles>
 </project>
