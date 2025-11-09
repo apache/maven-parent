@@ -24,7 +24,7 @@ under the License.
   <parent>
     <groupId>org.apache</groupId>
     <artifactId>apache</artifactId>
-    <version>35</version>
+    <version>36-SNAPSHOT</version>
     <relativePath />
   </parent>
 
@@ -1256,6 +1256,33 @@ under the License.</licenseText>
             </execution>
           </executions>
         </plugin>
+        <plugin>
+          <groupId>org.apache.rat</groupId>
+          <artifactId>apache-rat-plugin</artifactId>
+          <configuration>
+            <inputExcludes>
+              <inputExclude>.java-version</inputExclude>
+              <!-- Jenkins job with local Maven repository -->
+              <inputExcludes>.repository/**</inputExcludes>
+              <!-- Hudson Maven3 integration log -->
+              <inputExcludes>.maven/spy.log</inputExcludes>
+              <!-- Maven shade plugin -->
+              <inputExcludes>dependency-reduced-pom.xml</inputExcludes>
+              <!-- GitHub Support -->
+              <inputExcludes>.asf.yaml</inputExcludes>
+            </inputExcludes>
+          </configuration>
+          <executions>
+            <execution>
+              <id>rat-check</id>
+              <goals>
+                <goal>check</goal>
+              </goals>
+              <!-- execute after spotless-maven-plugin -->
+              <phase>process-resources</phase>
+            </execution>
+          </executions>
+        </plugin>
       </plugins>
     </pluginManagement>
 
@@ -1280,29 +1307,6 @@ under the License.</licenseText>
       <plugin>
         <groupId>org.apache.rat</groupId>
         <artifactId>apache-rat-plugin</artifactId>
-        <configuration>
-          <excludes combine.children="append">
-            <exclude>.java-version</exclude>
-            <!-- Jenkins job with local Maven repository -->
-            <exclude>.repository/**</exclude>
-            <!-- Hudson Maven3 integration log -->
-            <exclude>.maven/spy.log</exclude>
-            <!-- Maven shade plugin -->
-            <exclude>dependency-reduced-pom.xml</exclude>
-            <!-- GitHub Support -->
-            <exclude>.asf.yaml</exclude>
-          </excludes>
-        </configuration>
-        <executions>
-          <execution>
-            <id>rat-check</id>
-            <goals>
-              <goal>check</goal>
-            </goals>
-            <!-- execute after spotless-maven-plugin -->
-            <phase>process-resources</phase>
-          </execution>
-        </executions>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -1364,7 +1368,7 @@ under the License.</licenseText>
         <jdk>[17,)</jdk>
       </activation>
       <build>
-        <!--- newer versions of plugins requires JDK 11 -->
+        <!--- newer versions of plugins requires JDK 17 -->
         <plugins>
           <plugin>
             <groupId>com.diffplug.spotless</groupId>
