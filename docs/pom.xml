@@ -38,7 +38,6 @@ under the License.
     <module>maven-plugins</module>
     <module>maven-shared-components</module>
     <module>maven-skins</module>
-    <module>doxia-tools</module>
   </modules>
 
   <scm>
