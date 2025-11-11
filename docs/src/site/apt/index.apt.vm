@@ -118,6 +118,15 @@ mvn scm-publish:publish-scm
 
 * History
 
+** 46
+
+  A <<GitHub ribbon>> has been added to the generated site to provide a direct link to the project's GitHub repository.
+
+  A new configuration property <<<maven.site.gitHubProjectId>>> has been introduced.
+  By default, this property is set to <<<$\{project.artifactId\}>>>, is used to resolve the <<GitHub>> repository URL for the ribbon link.
+
+** 38
+
     As of version 38, this POM sets the Java source and target versions to 1.8. Thus, as any plugin (or other component)
     moved to version 38+ of this POM, it moves to requiring Java 1.8 (was Java 1.5 since version 21, Java 1.6 since
     version 27, and Java 1.7 since version 34).

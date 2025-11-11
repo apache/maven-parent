@@ -971,6 +971,8 @@ under the License.
     <!-- to be overridden -->
     <maven.site.path>../..</maven.site.path>
     <maven.site.path.suffix>LATEST</maven.site.path.suffix>
+    <!-- used by fluido Skin GitHUb ribbon -->
+    <maven.site.gitHubProjectId>${project.artifactId}</maven.site.gitHubProjectId>
     <invoker.streamLogsOnFailures>true</invoker.streamLogsOnFailures>
     <version.sisu-maven-plugin>0.9.0.M4</version.sisu-maven-plugin>
     <version.plexus-utils>4.0.2</version.plexus-utils>
