@@ -1116,7 +1116,7 @@ under the License.</licenseText>
           <artifactId>maven-pmd-plugin</artifactId>
           <version>3.28.0</version>
           <configuration>
-            <targetJdk>${maven.pmd.jdk}</targetJdk>
+            <targetJdk>${javaVersion}</targetJdk>
             <rulesets>
               <ruleset>rulesets/maven.xml</ruleset>
             </rulesets>
@@ -1196,7 +1196,7 @@ under the License.</licenseText>
               <configuration>
                 <rules>
                   <enforceBytecodeVersion>
-                    <maxJdkVersion>${maven.enforcer.jdk}</maxJdkVersion>
+                    <maxJdkVersion>${javaVersion}</maxJdkVersion>
                   </enforceBytecodeVersion>
                 </rules>
                 <fail>true</fail>
@@ -1361,28 +1361,6 @@ under the License.</licenseText>
 
   <profiles>
     <profile>
-      <id>java8</id>
-      <activation>
-        <jdk>[,9)</jdk>
-      </activation>
-      <properties>
-        <maven.toolchains.jdk>${maven.compiler.target}</maven.toolchains.jdk>
-        <maven.enforcer.jdk>${maven.compiler.target}</maven.enforcer.jdk>
-        <maven.pmd.jdk>${maven.compiler.target}</maven.pmd.jdk>
-      </properties>
-    </profile>
-    <profile>
-      <id>java9+</id>
-      <activation>
-        <jdk>[9,)</jdk>
-      </activation>
-      <properties>
-        <maven.toolchains.jdk>${maven.compiler.release}</maven.toolchains.jdk>
-        <maven.enforcer.jdk>${maven.compiler.release}</maven.enforcer.jdk>
-        <maven.pmd.jdk>${maven.compiler.release}</maven.pmd.jdk>
-      </properties>
-    </profile>
-    <profile>
       <id>java17+</id>
       <activation>
         <jdk>[17,)</jdk>
@@ -1502,7 +1480,7 @@ under the License.</licenseText>
             <configuration>
               <toolchains>
                 <jdk>
-                  <version>${maven.toolchains.jdk}</version>
+                  <version>${javaVersion}</version>
                 </jdk>
               </toolchains>
             </configuration>
