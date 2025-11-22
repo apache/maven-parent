@@ -51,6 +51,7 @@ under the License.
     </matomo>
     <fluidoSkin>
       <sourceLineNumbersEnabled>true</sourceLineNumbersEnabled>
+      <anchorJs />
     </fluidoSkin>
   </custom>
 
