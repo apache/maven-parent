@@ -1448,10 +1448,10 @@ under the License.</licenseText>
                         <exclude>org.sonatype.aether:*</exclude>
                         <!-- Various: most probably you want org.codehaus.plexus instead -->
                         <exclude>org.sonatype.plexus:*</exclude>
-                        <!-- Maven: lowest version we support -->
-                        <exclude>org.apache.maven:maven-plugin-api:[,3.2.5)</exclude>
-                        <exclude>org.apache.maven:maven-core:[,3.2.5)</exclude>
-                        <exclude>org.apache.maven:maven-compat:[,3.2.5)</exclude>
+                        <!-- Maven: lowest version we require from our plugins -->
+                        <exclude>org.apache.maven:maven-plugin-api:[,3.6.3)</exclude>
+                        <exclude>org.apache.maven:maven-core:[,3.6.3)</exclude>
+                        <exclude>org.apache.maven:maven-compat:[,3.6.3)</exclude>
                       </excludes>
                       <includes>
                         <!-- This is dead API -->
