@@ -21,16 +21,6 @@ under the License.
 <site xmlns="http://maven.apache.org/SITE/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://maven.apache.org/SITE/2.0.0 https://maven.apache.org/xsd/site-2.0.0.xsd">
 
-  <custom>
-    <fluidoSkin>
-      <gitHub>
-        <projectId>apache/${project.artifactId}</projectId>
-        <ribbonOrientation>right</ribbonOrientation>
-        <ribbonColor>gray</ribbonColor>
-      </gitHub>
-    </fluidoSkin>
-  </custom>
-
   <body>
     <breadcrumbs>
       <item name="Plugins" href="https://maven.apache.org/plugins/index.html" />
