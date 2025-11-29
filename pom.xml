@@ -1531,26 +1531,6 @@ under the License.</licenseText>
           </plugin>
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-surefire-report-plugin</artifactId>
-            <configuration>
-              <alwaysGenerateSurefireReport>false</alwaysGenerateSurefireReport>
-              <alwaysGenerateFailsafeReport>false</alwaysGenerateFailsafeReport>
-            </configuration>
-          </plugin>
-          <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-checkstyle-plugin</artifactId>
-            <reportSets>
-              <reportSet>
-                <id>default</id>
-                <reports>
-                  <report>checkstyle</report>
-                </reports>
-              </reportSet>
-            </reportSets>
-          </plugin>
-          <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-pmd-plugin</artifactId>
             <configuration>
               <skipEmptyReport>true</skipEmptyReport>
@@ -1564,66 +1544,6 @@ under the License.</licenseText>
                 </reports>
               </reportSet>
             </reportSets>
-          </plugin>
-          <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-jxr-plugin</artifactId>
-            <reportSets>
-              <reportSet>
-                <id>default</id>
-                <reports>
-                  <report>jxr</report>
-                  <report>test-jxr</report>
-                </reports>
-              </reportSet>
-            </reportSets>
-          </plugin>
-          <!-- Taglist Plugin must be executed after JXR Plugin -->
-          <plugin>
-            <groupId>org.codehaus.mojo</groupId>
-            <artifactId>taglist-maven-plugin</artifactId>
-            <configuration>
-              <skipEmptyReport>true</skipEmptyReport>
-              <tagListOptions>
-                <tagClasses>
-                  <tagClass>
-                    <displayName>FIXME Work</displayName>
-                    <tags>
-                      <tag>
-                        <matchString>fixme</matchString>
-                        <matchType>ignoreCase</matchType>
-                      </tag>
-                      <tag>
-                        <matchString>@fixme</matchString>
-                        <matchType>ignoreCase</matchType>
-                      </tag>
-                    </tags>
-                  </tagClass>
-                  <tagClass>
-                    <displayName>Todo Work</displayName>
-                    <tags>
-                      <tag>
-                        <matchString>todo</matchString>
-                        <matchType>ignoreCase</matchType>
-                      </tag>
-                      <tag>
-                        <matchString>@todo</matchString>
-                        <matchType>ignoreCase</matchType>
-                      </tag>
-                    </tags>
-                  </tagClass>
-                  <tagClass>
-                    <displayName>Deprecated Work</displayName>
-                    <tags>
-                      <tag>
-                        <matchString>@deprecated</matchString>
-                        <matchType>ignoreCase</matchType>
-                      </tag>
-                    </tags>
-                  </tagClass>
-                </tagClasses>
-              </tagListOptions>
-            </configuration>
           </plugin>
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
