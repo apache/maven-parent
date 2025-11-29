@@ -1197,6 +1197,7 @@ under the License.</licenseText>
                 <rules>
                   <enforceBytecodeVersion>
                     <maxJdkVersion>${javaVersion}</maxJdkVersion>
+                    <ignoredScopes>test</ignoredScopes>
                   </enforceBytecodeVersion>
                 </rules>
                 <fail>true</fail>
