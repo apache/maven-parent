@@ -1243,9 +1243,8 @@ under the License.</licenseText>
                 <include>**/*.groovy</include>
               </includes>
               <licenseHeader>
-                <!--This file does not exist
-                <file>config/maven-header-plain.txt</file>-->
-                <content>//ASF licence just for test cases</content>
+                <file>config/maven-header-plain.txt</file>
+                <!-- It stills error on files that have empty package -->
                 <delimiter>((package|import|open|module|) )|(//nopackage)</delimiter>
               </licenseHeader>
             </groovy>
