@@ -1258,7 +1258,7 @@ under the License.</licenseText>
           <groupId>org.apache.rat</groupId>
           <artifactId>apache-rat-plugin</artifactId>
           <configuration>
-            <inputExcludes>
+            <inputExcludes combine.children="append">
               <inputExclude>.java-version</inputExclude>
               <!-- Jenkins job with local Maven repository -->
               <inputExcludes>.repository/**</inputExcludes>
