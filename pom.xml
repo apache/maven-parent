@@ -1258,17 +1258,17 @@ under the License.</licenseText>
           <groupId>org.apache.rat</groupId>
           <artifactId>apache-rat-plugin</artifactId>
           <configuration>
-            <inputExcludes combine.children="append">
-              <inputExclude>.java-version</inputExclude>
+            <excludes combine.children="append">
+              <exclude>.java-version</exclude>
               <!-- Jenkins job with local Maven repository -->
-              <inputExcludes>.repository/**</inputExcludes>
+              <exclude>.repository/**</exclude>
               <!-- Hudson Maven3 integration log -->
-              <inputExcludes>.maven/spy.log</inputExcludes>
+              <exclude>.maven/spy.log</exclude>
               <!-- Maven shade plugin -->
-              <inputExcludes>dependency-reduced-pom.xml</inputExcludes>
+              <exclude>dependency-reduced-pom.xml</exclude>
               <!-- GitHub Support -->
-              <inputExcludes>.asf.yaml</inputExcludes>
-            </inputExcludes>
+              <exclude>.asf.yaml</exclude>
+            </excludes>
           </configuration>
           <executions>
             <execution>
