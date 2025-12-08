@@ -1171,7 +1171,16 @@ under the License.</licenseText>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-invoker-plugin</artifactId>
           <configuration>
+            <debug>true</debug>
+            <cloneProjectsTo>${project.build.directory}/it</cloneProjectsTo>
+            <preBuildHookScript>setup</preBuildHookScript>
+            <postBuildHookScript>verify</postBuildHookScript>
+            <localRepositoryPath>${project.build.directory}/local-repo</localRepositoryPath>
+            <settingsFile>src/it/settings.xml</settingsFile>
             <streamLogsOnFailures>${invoker.streamLogsOnFailures}</streamLogsOnFailures>
+            <pomIncludes>
+              <pomInclude>*/pom.xml</pomInclude>
+            </pomIncludes>
             <environmentVariables>
               <JENKINS_MAVEN_AGENT_DISABLED>true</JENKINS_MAVEN_AGENT_DISABLED>
             </environmentVariables>
