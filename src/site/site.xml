@@ -50,6 +50,11 @@ under the License.
     </matomo>
     <fluidoSkin>
       <sourceLineNumbersEnabled>true</sourceLineNumbersEnabled>
+      <gitHub>
+        <projectId>apache/${maven.site.gitHubProjectId}</projectId>
+        <ribbonOrientation>right</ribbonOrientation>
+        <ribbonColor>gray</ribbonColor>
+      </gitHub>
     </fluidoSkin>
   </custom>
 
