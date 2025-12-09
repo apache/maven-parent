@@ -1527,26 +1527,6 @@ under the License.</licenseText>
         <plugins>
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-project-info-reports-plugin</artifactId>
-          </plugin>
-          <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-pmd-plugin</artifactId>
-            <configuration>
-              <skipEmptyReport>true</skipEmptyReport>
-            </configuration>
-            <reportSets>
-              <reportSet>
-                <id>default</id>
-                <reports>
-                  <report>cpd</report>
-                  <report>pmd</report>
-                </reports>
-              </reportSet>
-            </reportSets>
-          </plugin>
-          <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-javadoc-plugin</artifactId>
             <reportSets>
               <reportSet>
