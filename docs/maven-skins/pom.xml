@@ -23,7 +23,7 @@ under the License.
   <parent>
     <groupId>org.apache.maven</groupId>
     <artifactId>docs</artifactId>
-    <version>46</version>
+    <version>47-SNAPSHOT</version>
   </parent>
 
   <groupId>org.apache.maven.skins</groupId>
@@ -35,7 +35,7 @@ under the License.
   <url>https://maven.apache.org/pom/maven/maven-skins</url>
 
   <scm>
-    <tag>maven-parent-46</tag>
+    <tag>master</tag>
     <url>https://github.com/apache/maven-parent/tree/${project.scm.tag}/maven-skins</url>
   </scm>
 
