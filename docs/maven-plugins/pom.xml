@@ -23,7 +23,7 @@ under the License.
   <parent>
     <groupId>org.apache.maven</groupId>
     <artifactId>docs</artifactId>
-    <version>47-SNAPSHOT</version>
+    <version>47</version>
   </parent>
 
   <groupId>org.apache.maven.plugins</groupId>
@@ -35,7 +35,7 @@ under the License.
   <url>https://maven.apache.org/pom/maven/maven-plugins</url>
 
   <scm>
-    <tag>master</tag>
+    <tag>maven-parent-47</tag>
     <url>https://github.com/apache/maven-parent/tree/${project.scm.tag}/maven-plugins</url>
   </scm>
 
