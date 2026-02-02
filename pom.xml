@@ -1221,7 +1221,7 @@ under the License.</licenseText>
           <configuration>
             <java>
               <!-- orders of used formatters are important MPOM-376 -->
-              <!-- eg. palantir override importOrder, so should be first -->
+              <!-- e.g. palantir override importOrder, so should be first -->
               <palantirJavaFormat>
                 <!-- Declare version so that spotless does not choose a version based on JDK version -->
                 <version>${version.palantirJavaFormat}</version>
@@ -1244,6 +1244,20 @@ under the License.</licenseText>
                 <quiet>true</quiet>
               </sortPom>
             </pom>
+            <groovy>
+              <!-- removes semicolons at the end of lines -->
+              <removeSemicolons />
+              <includes>
+                <!--Include all groovy files, not only those in src/main[or test]/groovy/,
+                 as our IT are in different folders-->
+                <include>**/*.groovy</include>
+              </includes>
+              <licenseHeader>
+                <file>config/maven-header-plain.txt</file>
+                <!-- It stills error on files that have empty package -->
+                <delimiter>((package|import|open|module|) )|(//nopackage)</delimiter>
+              </licenseHeader>
+            </groovy>
             <upToDateChecking>
               <enabled>true</enabled>
             </upToDateChecking>
