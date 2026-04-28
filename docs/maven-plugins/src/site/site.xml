@@ -22,19 +22,12 @@ under the License.
 <site xmlns="http://maven.apache.org/SITE/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://maven.apache.org/SITE/2.0.0 https://maven.apache.org/xsd/site-2.0.0.xsd">
 
+  <!-- we need to provide url for edit as scm in docs point to root -->
+  <edit>https://github.com/apache/maven-parent/tree/${project.scm.tag}/docs/maven-plugins</edit>
+
   <body>
     <breadcrumbs>
-      <item name="Maven" href="https://maven.apache.org/pom/maven/index.html" />
       <item name="Plugins" href="https://maven.apache.org/pom/maven/maven-plugins/index.html" />
     </breadcrumbs>
-
-    <menu name="Maven Parent POMs">
-      <item name="Maven" href="../index.html" />
-      <item name="Plugins" href="index.html" />
-      <item name="Extensions" href="../maven-extensions/index.html" />
-      <item name="Shared Components" href="../maven-shared-components/index.html" />
-      <item name="Skins" href="../maven-skins/index.html" />
-    </menu>
-
   </body>
 </site>

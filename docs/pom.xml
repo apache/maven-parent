@@ -42,7 +42,7 @@ under the License.
 
   <scm>
     <tag>master</tag>
-    <url>https://github.com/apache/maven-parent/tree/${project.scm.tag}/</url>
+    <url>https://github.com/apache/maven-parent/tree/${project.scm.tag}</url>
   </scm>
 
   <issueManagement>
