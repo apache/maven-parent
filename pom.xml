@@ -215,6 +215,24 @@ under the License.
       <timezone>Europe/Berlin</timezone>
     </developer>
     <developer>
+      <id>mbuenger</id>
+      <name>Matthias Bünger</name>
+      <email>mbuenger@apache.org</email>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>Europe/Berlin</timezone>
+    </developer>
+    <developer>
+      <id>michaelo</id>
+      <name>Michael Osipov</name>
+      <email>michaelo@apache.org</email>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>Europe/Berlin</timezone>
+    </developer>
+    <developer>
       <id>mkleint</id>
       <name>Milos Kleint</name>
       <roles>
@@ -239,15 +257,6 @@ under the License.
         <role>PMC Member</role>
       </roles>
       <timezone>Australia/Brisbane</timezone>
-    </developer>
-    <developer>
-      <id>michaelo</id>
-      <name>Michael Osipov</name>
-      <email>michaelo@apache.org</email>
-      <roles>
-        <role>PMC Member</role>
-      </roles>
-      <timezone>Europe/Berlin</timezone>
     </developer>
     <developer>
       <id>rfscholte</id>
@@ -509,15 +518,6 @@ under the License.
       <roles>
         <role>Committer</role>
       </roles>
-    </developer>
-    <developer>
-      <id>mbuenger</id>
-      <name>Matthias Bünger</name>
-      <email>mbuenger@apache.org</email>
-      <roles>
-        <role>Committer</role>
-      </roles>
-      <timezone>Europe/Berlin</timezone>
     </developer>
     <developer>
       <id>mfriedenhagen</id>
