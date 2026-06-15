@@ -974,7 +974,7 @@ under the License.
     <version.sisu-maven-plugin>1.0.0</version.sisu-maven-plugin>
     <version.plexus-utils>4.0.3</version.plexus-utils>
     <version.spotless-maven-plugin>3.6.0</version.spotless-maven-plugin>
-    <version.palantirJavaFormat>2.92.0</version.palantirJavaFormat>
+    <version.palantirJavaFormat>2.93.0</version.palantirJavaFormat>
     <!-- DO NOT UPGRADE to 4: incompatible with Maven 3 -->
     <version.plexus-xml>3.0.1</version.plexus-xml>
     <versions.junit5>5.14.4</versions.junit5>
