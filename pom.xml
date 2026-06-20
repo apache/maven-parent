@@ -1282,6 +1282,11 @@ under the License.</licenseText>
               <exclude>dependency-reduced-pom.xml</exclude>
               <!-- GitHub Support -->
               <exclude>.asf.yaml</exclude>
+              <!-- Developer tooling: version managers / direnv (local, not project source) -->
+              <exclude>.sdkmanrc</exclude>
+              <exclude>.tool-versions</exclude>
+              <exclude>.envrc</exclude>
+              <exclude>.mise.toml</exclude>
             </excludes>
           </configuration>
           <executions>
