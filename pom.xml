@@ -356,6 +356,15 @@ under the License.
       <timezone>Europe/Berlin</timezone>
     </developer>
     <developer>
+      <id>ascheman</id>
+      <name>Gerd Aschemann</name>
+      <email>ascheman@apache.org</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>Europe/Berlin</timezone>
+    </developer>
+    <developer>
       <id>bdemers</id>
       <name>Brian Demers</name>
       <email>bdemers@apache.org</email>
