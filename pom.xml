@@ -980,7 +980,7 @@ under the License.
     <maven.site.path.suffix>LATEST</maven.site.path.suffix>
     <invoker.rerunFailingTestsCount>1</invoker.rerunFailingTestsCount>
     <invoker.streamLogsOnFailures>true</invoker.streamLogsOnFailures>
-    <version.sisu-maven-plugin>1.0.0</version.sisu-maven-plugin>
+    <version.sisu-maven-plugin>1.0.1</version.sisu-maven-plugin>
     <version.plexus-utils>4.0.3</version.plexus-utils>
     <version.spotless-maven-plugin>3.7.0</version.spotless-maven-plugin>
     <version.palantirJavaFormat>2.93.0</version.palantirJavaFormat>
