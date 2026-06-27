@@ -17,4 +17,4 @@
  * under the License.
  */
 // jdk 21 is used for deploy artifacts
-asfMavenTlpStdBuild(jdks:['21'])
+asfMavenTlpStdBuild(jdks:['21'], mavenArgs:'-s .github/settings.xml')
