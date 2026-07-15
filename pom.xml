@@ -982,7 +982,7 @@ under the License.
     <invoker.streamLogsOnFailures>true</invoker.streamLogsOnFailures>
     <version.sisu-maven-plugin>1.0.1</version.sisu-maven-plugin>
     <version.plexus-utils>4.0.3</version.plexus-utils>
-    <version.spotless-maven-plugin>3.7.0</version.spotless-maven-plugin>
+    <version.spotless-maven-plugin>3.8.0</version.spotless-maven-plugin>
     <version.palantirJavaFormat>2.96.0</version.palantirJavaFormat>
     <!-- DO NOT UPGRADE to 4: incompatible with Maven 3 -->
     <version.plexus-xml>3.0.1</version.plexus-xml>
