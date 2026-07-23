@@ -67,6 +67,18 @@ mvn -Preporting site
     This is automatically considered by {{{https://docs.github.com/en/repositories/working-with-files/using-files/viewing-a-file#bypassing-git-blame-ignore-revs-in-the-blame-view}GitHub}}
     and can optionally be considered with {{{https://git-scm.com/docs/git-blame#Documentation/git-blame.txt---ignore-revs-fileltfilegt}local <<<git blame>>>}}
 
+* Repository Profiles
+
+    This POM provides optional profiles for using Apache-hosted repositories:
+
+    * <<<use-apache-snapshots>>> configures Apache snapshots repository: {{{https://repository.apache.org/snapshots}https://repository.apache.org/snapshots}}.
+      Useful when a build needs dependencies or plugins published only as snapshots.
+
+    * <<<use-apache-staging>>> configures Apache staging repository: {{{https://repository.apache.org/content/repositories/staging/}https://repository.apache.org/content/repositories/staging/}}.
+      Useful when validating releases or parent changes that are still in staging.
+
+    []
+
 * Site Publication
 
     This POM prepares site publication to {{{/developers/website/index.html}Apache Maven's site svnpubsub}}.
