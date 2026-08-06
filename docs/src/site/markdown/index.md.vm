@@ -1,135 +1,107 @@
- -----
- Maven Project Parent POM
- -----
- Benson Margulies
- Hervé Boutemy
- Karl Heinz Marbaise
- -----
- 2015-09-20
- -----
+<!--
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
 
-~~ Licensed to the Apache Software Foundation (ASF) under one
-~~ or more contributor license agreements.  See the NOTICE file
-~~ distributed with this work for additional information
-~~ regarding copyright ownership.  The ASF licenses this file
-~~ to you under the Apache License, Version 2.0 (the
-~~ "License"); you may not use this file except in compliance
-~~ with the License.  You may obtain a copy of the License at
-~~
-~~   http://www.apache.org/licenses/LICENSE-2.0
-~~
-~~ Unless required by applicable law or agreed to in writing,
-~~ software distributed under the License is distributed on an
-~~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-~~ KIND, either express or implied.  See the License for the
-~~ specific language governing permissions and limitations
-~~ under the License.
+http://www.apache.org/licenses/LICENSE-2.0
 
-~~ NOTE: For help with the syntax of this file, see:
-~~ https://maven.apache.org/doxia/references/apt-format.html
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
 
-Maven Project Parent POM
+# Maven Project Parent POM
 
-    This POM is the common parent of all of the Maven components
-    in the Apache Maven project. Most of its contents are
-    pinning down version numbers of plugins. It does 
-    provide {{{./dependency-management.html}minimal dependencyManagement}} for
-    plexus-component and plugin-tools annotations.
+This POM is the common parent of all of the Maven components in the Apache Maven project. Most of its contents are pinning down version numbers of plugins. It does provide [minimal dependencyManagement](./dependency-management.html) for plexus-component and plugin-tools annotations.
 
-    This POM contains Maven developers information for the {{{./team.html}Project Team report}},
-    sorted by role and id.
-    See the LDAP extract for more accurate {{{https://people.apache.org/committers-by-project.html#maven}committers}}
-    and {{{https://people.apache.org/committers-by-project.html#maven-pmc}PMC members}} lists. 
+This POM contains Maven developers information for the [Project Team report](./team.html), sorted by role and id. See the LDAP extract for more accurate [committers](https://people.apache.org/committers-by-project.html#maven) and [PMC members](https://people.apache.org/committers-by-project.html#maven-pmc) lists. 
 
-* The <<<reporting>>> Profile
+The `reporting` Profile
+-----------------------
 
-    This POM provides <<<reporting>>> profile for rendering documentation during site generation:
+This POM provides `reporting` profile for rendering documentation during site generation:
 
-+-----+
+```shell
 mvn -Preporting site
-+-----+
+```
 
-    See {{{./plugins.html}Plugins report}} for a list of configured report plugins.
+See [Plugins report](./plugins.html) for a list of configured report plugins.
 
-* The <<<jdk-toolchain>>> Profile
+The `jdk-toolchain` Profile
+---------------------------
 
-    This POM provides <<<jdk-toolchain>>> profile to activate JDK selection as a toolchain with version
-    requirement configured as minimum java version for the project.
+This POM provides `jdk-toolchain` profile to activate JDK selection as a toolchain with version requirement configured as minimum java version for the project.
 
-* The <<<format>>> Profile
+The `format` Profile
+--------------------
 
-    Since version 38 the <<<format>>> profile can be used to explicitly format source files with
-    {{{https://github.com/diffplug/spotless/tree/main/plugin-maven}spotless-maven-plugin}} according to 
-    {{{/developers/conventions/code.html}Maven standards}}.
-    This requires the phase {{{/guides/introduction/introduction-to-the-lifecycle.html#default-lifecycle}process-sources}}.
-    After applying bigger reformatting it is recommended to add or update a <<<.git-blame-ignore-revs>>> file in the root of the repository
-    containing a line with the SHA1 of the formatting commit to ignore those changes when using <<<git blame>>> (or equivalent concepts).
-    This is automatically considered by {{{https://docs.github.com/en/repositories/working-with-files/using-files/viewing-a-file#bypassing-git-blame-ignore-revs-in-the-blame-view}GitHub}}
-    and can optionally be considered with {{{https://git-scm.com/docs/git-blame#Documentation/git-blame.txt---ignore-revs-fileltfilegt}local <<<git blame>>>}}
+Since version 38 the `format` profile can be used to explicitly format source files with [spotless-maven-plugin](https://github.com/diffplug/spotless/tree/main/plugin-maven) according to [Maven standards](/developers/conventions/code.html). This requires the phase [process-sources](/guides/introduction/introduction-to-the-lifecycle.html#default-lifecycle). After applying bigger reformatting it is recommended to add or update a `.git-blame-ignore-revs` file in the root of the repository containing a line with the SHA1 of the formatting commit to ignore those changes when using `git blame` (or equivalent concepts). This is automatically considered by [GitHub](https://docs.github.com/en/repositories/working-with-files/using-files/viewing-a-file#bypassing-git-blame-ignore-revs-in-the-blame-view) and can optionally be considered with [local `git blame`](https://git-scm.com/docs/git-blame#Documentation/git-blame.txt---ignore-revs-fileltfilegt)
 
-* Repository Profiles
+Repository Profiles
+-------------------
 
-    This POM provides optional profiles for using Apache-hosted repositories:
+This POM provides optional profiles for using Apache-hosted repositories:
 
-    * <<<use-apache-snapshots>>> configures Apache snapshots repository: {{{https://repository.apache.org/snapshots}https://repository.apache.org/snapshots}}.
-      Useful when a build needs dependencies or plugins published only as snapshots.
+- `use-apache-snapshots` configures Apache snapshots repository: [https://repository.apache.org/snapshots](https://repository.apache.org/snapshots). Useful when a build needs dependencies or plugins published only as snapshots.
+- `use-apache-staging` configures Apache staging repository: [https://repository.apache.org/content/repositories/staging/](https://repository.apache.org/content/repositories/staging/). Useful when validating releases or parent changes that are still in staging.
 
-    * <<<use-apache-staging>>> configures Apache staging repository: {{{https://repository.apache.org/content/repositories/staging/}https://repository.apache.org/content/repositories/staging/}}.
-      Useful when validating releases or parent changes that are still in staging.
+Site Publication
+----------------
 
-    []
+This POM prepares site publication to [Apache Maven's site svnpubsub](/developers/website/index.html).
 
-* Site Publication
+There are defined `maven.site.path.suffix` properties in parent POM, as:
 
-    This POM prepares site publication to {{{/developers/website/index.html}Apache Maven's site svnpubsub}}.
-
-    There are defined <<<maven.site.path.suffix>>> properties in parent POM, as:
-
-+-----+
+```xml
   <properties>
     <maven.site.path.suffix>LATEST</maven.site.path.suffix>
   </properties>
-+-----+
+```
 
-    Inherited project can change it in order to publish site in other path, like as:
+Inherited project can change it in order to publish site in other path, like as:
 
-+-----+
+```xml
   <properties>
     <maven.site.path.suffix>LATEST-4.x</maven.site.path.suffix>
   </properties>
-+-----+
+```
 
-    There are defined <<<maven.site.path>>> properties in parent POM for each supported component type, as:
+There are defined `maven.site.path` properties in parent POM for each supported component type, as:
 
-+-----+
+```xml
   <properties>
-    <maven.site.path>xxx-archives/\${project.artifactId}-${maven.site.path.suffix}</maven.site.path>
+    <maven.site.path>xxx-archives/${esc.d}{project.artifactId}-${maven.site.path.suffix}</maven.site.path>
   </properties>
-+-----+
+```
 
-    Every inherited POM needs to define <<<distributionManagement>>> to avoid automatic inheritance from parent:
+Every inherited POM needs to define `distributionManagement` to avoid automatic inheritance from parent:
 
-+-----+
+```xml
   <distributionManagement>
     <site>
       <id>apache.website</id>
       <url>scm:svn:https://svn.apache.org/repos/infra/websites/production/maven/components/${maven.site.path}</url>
     </site>
   </distributionManagement>
-+-----+
+```
 
-    Once this is configured, the site can be published with:
+Once this is configured, the site can be published with:
 
-+-----+
+```shell
 mvn -Preporting site site:stage
 mvn scm-publish:publish-scm
-+-----+
+```
 
-    See {{{/developers/website/deploy-component-reference-documentation.html}deploying Maven components reference documentation}}
-    for more information.
+See [deploying Maven components reference documentation](/developers/website/deploy-component-reference-documentation.html) for more information.
 
-* History
+History
+-------
 
-    As of version 38, this POM sets the Java source and target versions to 1.8. Thus, as any plugin (or other component)
-    moved to version 38+ of this POM, it moves to requiring Java 1.8 (was Java 1.5 since version 21, Java 1.6 since
-    version 27, and Java 1.7 since version 34).
+As of version 38, this POM sets the Java source and target versions to 1.8. Thus, as any plugin (or other component) moved to version 38+ of this POM, it moves to requiring Java 1.8 (was Java 1.5 since version 21, Java 1.6 since version 27, and Java 1.7 since version 34).
