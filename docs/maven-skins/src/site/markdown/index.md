@@ -1,3 +1,10 @@
+---
+title: Maven Skins Parent POM
+author: 
+  - Hervé Boutemy
+date: 2012-01-22
+---
+
 <!--
 Licensed to the Apache Software Foundation (ASF) under one
 or more contributor license agreements.  See the NOTICE file
