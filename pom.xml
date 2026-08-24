@@ -1388,6 +1388,23 @@ under the License.</licenseText>
   </reporting>
 
   <profiles>
+    <!-- TEMPORARY: evaluate Apache RAT 0.18 across the core projects before the
+         ASF parent adopts it (apache/maven-apache-parent#587). RAT 0.18 is Java 17
+         bytecode, so it can only run where the build JDK is 17 or newer; the
+         shared CI matrix still includes a JDK 8 cell, which keeps 0.16.1.
+         Remove this profile once the ASF parent ships 0.18 and the JDK floor is
+         settled. Do NOT migrate <excludes> to <inputExcludes> here: the two are
+         not equivalent, and the rename silently stops scanning sub-modules. -->
+    <profile>
+      <id>rat-0.18-preview</id>
+      <activation>
+        <jdk>[17,)</jdk>
+      </activation>
+      <properties>
+        <version.apache-rat-plugin>0.18</version.apache-rat-plugin>
+      </properties>
+    </profile>
+
     <profile>
       <id>java17+</id>
       <activation>
