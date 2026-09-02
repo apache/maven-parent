@@ -1281,7 +1281,7 @@ under the License.</licenseText>
           <groupId>org.apache.rat</groupId>
           <artifactId>apache-rat-plugin</artifactId>
           <configuration>
-            <excludes combine.children="append">
+            <inputExcludes combine.children="append">
               <exclude>.java-version</exclude>
               <!-- Jenkins job with local Maven repository -->
               <exclude>.repository/**</exclude>
@@ -1296,7 +1296,7 @@ under the License.</licenseText>
               <exclude>.tool-versions</exclude>
               <exclude>.envrc</exclude>
               <exclude>.mise.toml</exclude>
-            </excludes>
+            </inputExcludes>
           </configuration>
           <executions>
             <execution>
@@ -1329,10 +1329,6 @@ under the License.</licenseText>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-enforcer-plugin</artifactId>
-      </plugin>
-      <plugin>
-        <groupId>org.apache.rat</groupId>
-        <artifactId>apache-rat-plugin</artifactId>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -1399,6 +1395,10 @@ under the License.</licenseText>
           <plugin>
             <groupId>com.diffplug.spotless</groupId>
             <artifactId>spotless-maven-plugin</artifactId>
+          </plugin>
+          <plugin>
+            <groupId>org.apache.rat</groupId>
+            <artifactId>apache-rat-plugin</artifactId>
           </plugin>
         </plugins>
       </build>
