@@ -940,6 +940,7 @@ under the License.
     <module>maven-shared-components</module>
     <module>maven-skins</module>
     <module>docs</module>
+    <module>maven-shared-doc-resource</module>
   </modules>
 
   <scm>
@@ -1306,6 +1307,25 @@ under the License.</licenseText>
               </goals>
               <!-- execute after spotless-maven-plugin -->
               <phase>process-resources</phase>
+            </execution>
+          </executions>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-remote-resources-plugin</artifactId>
+          <executions>
+            <execution>
+              <id>site-download</id>
+              <goals>
+                <goal>process</goal>
+              </goals>
+              <phase>none</phase>
+              <configuration>
+                <resourceBundles>
+                  <bundle>org.apache.maven:maven-shared-doc-resource:${project.version}</bundle>
+                </resourceBundles>
+                <outputDirectory>${project.build.directory}/generated-site</outputDirectory>
+              </configuration>
             </execution>
           </executions>
         </plugin>
