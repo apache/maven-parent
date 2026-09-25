@@ -41,6 +41,7 @@ under the License.
 
     <menu name="Maven Parent POMs" inherit="top">
       <item name="Maven" href="index.html"/>
+      <item name="Upgrading to parent 50" href="migration-parent-50.html"/>
       <item name="Plugins" href="maven-plugins/index.html"/>
       <item name="Extensions" href="maven-extensions/index.html"/>
       <item name="Shared Components" href="maven-shared-components/index.html"/>
