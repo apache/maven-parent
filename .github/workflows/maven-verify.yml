@@ -26,6 +26,12 @@ jobs:
     name: Verify
     uses: apache/maven-gh-actions-shared/.github/workflows/maven-verify.yml@v5
     with:
+      maven4-enabled: true
+      # the Maven 4 jobs are excluded until #609 is resolved
+      matrix-exclude: '[{"maven": "4.0.0-rc-6"}]'
       # to be able to use staging Apache parent POM
       ff-site-goal: 'site'
-      matrix-enabled: false
+      # a POM-only project: one Maven 4 verify job next to the fail-fast build is enough (the 3.10 matrix
+      # entry on the same OS and JDK is skipped by the shared workflow as a duplicate of fail-fast)
+      os-matrix: '[ "ubuntu-latest" ]'
+      jdk-matrix: '[ "17" ]'
