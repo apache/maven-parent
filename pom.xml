@@ -989,6 +989,7 @@ under the License.
     <versions.junit5>5.14.4</versions.junit5>
     <version.maven-shared-resources>6</version.maven-shared-resources>
     <project.build.outputTimestamp>2026-09-17T20:32:40Z</project.build.outputTimestamp>
+    <version.njord>0.9.10</version.njord>
   </properties>
 
   <dependencyManagement>
@@ -1027,6 +1028,11 @@ under the License.
   <build>
     <pluginManagement>
       <plugins>
+        <plugin>
+          <groupId>eu.maveniverse.maven.plugins</groupId>
+          <artifactId>njord</artifactId>
+          <version>${version.njord}</version>
+        </plugin>
         <plugin>
           <groupId>org.eclipse.sisu</groupId>
           <artifactId>sisu-maven-plugin</artifactId>
@@ -1351,6 +1357,13 @@ under the License.</licenseText>
         </executions>
       </plugin>
     </plugins>
+    <extensions>
+      <extension>
+        <groupId>eu.maveniverse.maven.njord</groupId>
+        <artifactId>extension3</artifactId>
+        <version>${version.njord}</version>
+      </extension>
+    </extensions>
   </build>
 
   <reporting>
@@ -1641,6 +1654,31 @@ under the License.</licenseText>
           </dependency>
         </dependencies>
       </dependencyManagement>
+    </profile>
+    <profile>
+      <!-- prepare a njord bundle archive that contains output for Maven Central,
+           and upload to ATR for ATR to stage content during vote and publish to Maven Central if vote successful -->
+      <id>push-to-atr-njord</id>
+      <distributionManagement>
+        <repository>
+          <id>njord</id>
+          <url>njord:release</url>
+        </repository>
+        <snapshotRepository>
+          <id>njord</id>
+          <url>njord:snapshot</url>
+        </snapshotRepository>
+      </distributionManagement>
+      <!-- after running: mvn -Papache-release,push-to-atr-njord clean deploy
+        run: mvn njord:list
+        to get store id (maven-parent-00001 on first run)
+        then: mvn njord:export -Dnjord.path=target -Dnjord.store=maven-parent-00001
+        to get the zip as target/maven-parent-00001.ntb
+        this is the file to upload to ATR later...
+       -->
+      <!-- we probably need to write a njord publisher that creates that file and uses atr-maven-plugin to push to ATR
+        when closing Maven session
+      -->
     </profile>
   </profiles>
 </project>
