@@ -1417,6 +1417,9 @@ under the License.</licenseText>
                   <goal>makeAggregateBom</goal>
                 </goals>
                 <phase>package</phase>
+                <configuration>
+                  <outputName>${project.artifactId}-${project.version}-cyclonedx</outputName>
+                </configuration>
               </execution>
             </executions>
           </plugin>
