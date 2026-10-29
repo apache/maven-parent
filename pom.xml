@@ -950,8 +950,8 @@ under the License.
   </scm>
 
   <ciManagement>
-    <system>Jenkins</system>
-    <url>https://ci-maven.apache.org/job/Maven/job/maven-box/</url>
+    <system>GitHub</system>
+    <url>https://github.com/apache/${project.artifactId}/actions</url>
     <notifiers>
       <notifier>
         <type>mail</type>
