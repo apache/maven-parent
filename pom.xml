@@ -969,7 +969,6 @@ under the License.
   </distributionManagement>
 
   <properties>
-    <javaVersion>8</javaVersion>
     <maven.compiler.showDeprecation>true</maven.compiler.showDeprecation>
     <checkstyle.includeTestSourceDirectory>true</checkstyle.includeTestSourceDirectory>
     <!-- in order to restore default annotation processing behaviour, please override with empty value -->
