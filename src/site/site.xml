@@ -27,7 +27,7 @@ under the License.
   </bannerLeft>
 
   <bannerRight>
-    <image src="https://maven.apache.org/images/logos/MavenLogoLeaf.svg" width="340px" height="83px"/>
+    <image src="https://maven.apache.org/images/logos/MavenLogoLeaf-light-theme.svg" width="340px" height="83px"/>
   </bannerRight>
 
   <skin>
