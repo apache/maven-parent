@@ -54,7 +54,7 @@ under the License.
     </fluidoSkin>
   </custom>
 
-  <publishDate format="yyyy-MM-dd" position="right" />
+  <publishDate format="yyyy-MM-dd" position="bottom" />
   <version position="right" />
 
   <body>
