@@ -1088,6 +1088,9 @@ under the License.</licenseText>
           <configuration>
             <!-- for multi-modules site staging -->
             <topSiteURL>scm:svn:https://svn.apache.org/repos/asf/maven/website/components/${maven.site.path}</topSiteURL>
+            <!-- keep the descriptor's links to maven.apache.org absolute: relative ones (../../images/...) resolve only
+              where the site is published, not in a fork preview, a staging copy or a local render -->
+            <relativizeSiteLinks>false</relativizeSiteLinks>
           </configuration>
         </plugin>
         <plugin>
