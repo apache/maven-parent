@@ -988,8 +988,6 @@ under the License.
     <version.plexus-xml>3.1.0</version.plexus-xml>
     <!-- 5.x while Maven 3 plugins build on JDK 8; JUnit 6 needs Java 17, and a Java 17 project can set 6.x here -->
     <versions.junit>5.14.4</versions.junit>
-    <!-- deprecated: read versions.junit instead; setting this one no longer changes the JUnit version -->
-    <versions.junit5>${versions.junit}</versions.junit5>
     <version.maven-shared-resources>6</version.maven-shared-resources>
     <project.build.outputTimestamp>2026-09-17T20:32:40Z</project.build.outputTimestamp>
   </properties>
