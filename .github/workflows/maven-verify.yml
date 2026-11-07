@@ -33,5 +33,5 @@ jobs:
       ff-site-goal: 'site'
       # a POM-only project: one Maven 4 verify job next to the fail-fast build is enough (the 3.10 matrix
       # entry on the same OS and JDK is skipped by the shared workflow as a duplicate of fail-fast)
-      os-matrix: '[ "ubuntu-latest" ]'
+      os-matrix: '[ "ubuntu-26.04" ]'
       jdk-matrix: '[ "17" ]'
