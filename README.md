@@ -59,7 +59,7 @@ There are some guidelines which will make applying PRs easier for us:
   + Check for unnecessary whitespace with `git diff --check` before committing.
 + Make sure your commit messages are in the proper format. Your commit message should contain the key of the issue.
 ```
-[#issue-numebr] - Subject of the issue
+[#issue-number] - Subject of the issue
  Optional supplemental description.
 ```
 + Update the [site documentation](https://maven.apache.org/pom/maven/) accordingly in `docs` and build it via `mvn site site:stage -f docs`
@@ -81,7 +81,7 @@ Additional Resources
 + [Contributor License Agreement][cla]
 + [General GitHub documentation](https://docs.github.com/)
 + [GitHub pull request documentation](https://docs.github.com/pull-requests)
-+ [Apache Maven Twitter Account](https://twitter.com/ASFMavenProject)
++ [Apache Maven Twitter Account](https://x.com/ASFMavenProject)
 
 [license]: https://www.apache.org/licenses/LICENSE-2.0
 [ml-list]: https://maven.apache.org/mailing-lists.html
