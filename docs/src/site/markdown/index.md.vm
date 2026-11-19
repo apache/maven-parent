@@ -28,7 +28,7 @@ under the License.
 
 # Maven Project Parent POM
 
-This POM is the common parent of all of the Maven components in the Apache Maven project. Most of its contents are pinning down version numbers of plugins. It does provide [minimal dependencyManagement](./dependency-management.html) for plexus-component and plugin-tools annotations.
+This POM is the common parent of all of the Maven components in the Apache Maven project. Most of its contents are pinning down version numbers of plugins. It does provide [minimal dependencyManagement](./dependency-management.html) for the Sisu inject and plexus shims, plexus-utils, plexus-xml, and the JUnit BOM.
 
 This POM contains Maven developers information for the [Project Team report](./team.html), sorted by role and id. See the LDAP extract for more accurate [committers](https://people.apache.org/committers-by-project.html#maven) and [PMC members](https://people.apache.org/committers-by-project.html#maven-pmc) lists. 
 
