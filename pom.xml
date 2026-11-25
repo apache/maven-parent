@@ -1262,18 +1262,23 @@ under the License.</licenseText>
               </sortPom>
             </pom>
             <groovy>
-              <!-- removes semicolons at the end of lines -->
-              <removeSemicolons />
               <includes>
-                <!--Include all groovy files, not only those in src/main[or test]/groovy/,
-                 as our IT are in different folders-->
-                <include>**/*.groovy</include>
+                <!-- invoker hook scripts live next to the IT projects, not in src/main/groovy or src/test/groovy -->
+                <include>**/src/it/**/*.groovy</include>
               </includes>
-              <licenseHeader>
-                <file>config/maven-header-plain.txt</file>
-                <!-- It stills error on files that have empty package -->
-                <delimiter>((package|import|open|module|) )|(//nopackage)</delimiter>
-              </licenseHeader>
+              <excludes>
+                <!-- templates and project sources inside ITs are fixtures, not scripts -->
+                <exclude>**/archetype-resources/**</exclude>
+                <exclude>**/archetype-post-generate.groovy</exclude>
+                <exclude>**/src/it/**/src/main/**</exclude>
+                <exclude>**/src/it/**/src/test/**</exclude>
+              </excludes>
+              <greclipse>
+                <version>4.41</version>
+                <file>config/maven-groovy-eclipse.properties</file>
+              </greclipse>
+              <removeSemicolons />
+              <!-- no licenseHeader step: scripts have no package line to anchor it, and RAT checks the headers -->
             </groovy>
             <upToDateChecking>
               <enabled>true</enabled>
