@@ -1277,7 +1277,6 @@ under the License.</licenseText>
                 <version>4.41</version>
                 <file>config/maven-groovy-eclipse.properties</file>
               </greclipse>
-              <removeSemicolons />
               <!-- no licenseHeader step: scripts have no package line to anchor it, and RAT checks the headers -->
             </groovy>
             <upToDateChecking>
