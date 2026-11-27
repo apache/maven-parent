@@ -1238,7 +1238,7 @@ under the License.</licenseText>
           <configuration>
             <java>
               <!-- orders of used formatters are important MPOM-376 -->
-              <!-- eg. palantir override importOrder, so should be first -->
+              <!-- e.g. palantir override importOrder, so should be first -->
               <palantirJavaFormat>
                 <!-- Declare version so that spotless does not choose a version based on JDK version -->
                 <version>${version.palantirJavaFormat}</version>
@@ -1261,6 +1261,24 @@ under the License.</licenseText>
                 <quiet>true</quiet>
               </sortPom>
             </pom>
+            <groovy>
+              <includes>
+                <!-- invoker hook scripts live next to the IT projects, not in src/main/groovy or src/test/groovy -->
+                <include>**/src/it/**/*.groovy</include>
+              </includes>
+              <excludes>
+                <!-- templates and project sources inside ITs are fixtures, not scripts -->
+                <exclude>**/archetype-resources/**</exclude>
+                <exclude>**/archetype-post-generate.groovy</exclude>
+                <exclude>**/src/it/**/src/main/**</exclude>
+                <exclude>**/src/it/**/src/test/**</exclude>
+              </excludes>
+              <greclipse>
+                <version>4.41</version>
+                <file>config/maven-groovy-eclipse.properties</file>
+              </greclipse>
+              <!-- no licenseHeader step: scripts have no package line to anchor it, and RAT checks the headers -->
+            </groovy>
             <upToDateChecking>
               <enabled>true</enabled>
             </upToDateChecking>
